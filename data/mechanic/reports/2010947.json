@@ -1,0 +1,250 @@
+{
+  "report_id": "mechanic-2010947",
+  "acn": "2010947",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Technician reported pressure from Maintenance Control department to install incorrect part onto airplane.",
+  "narrative": "ZZZ Maintenance facility received main cabin door steps for a BeechJet 400XP. Prior to installing the steps on the aircraft the technician verified part number in the manufactures Illustrated Parts Catalog (IPC). It was found that the part number received was not effective for our serial number of aircraft. The technician notified maintenance control of this discrepancy in hopes that they had documentation from the manufacturer stating we could use the part number received. Maintenance control told the technician that we are allowed to use all the part numbers of stairs in the IPC no matter the effectivity. They could not provide any documentation showing this from the manufacturer. After phone calls from the manufacturer they stated they did not have any documentation showing all stairs were applicable to all serial number of aircraft. Maintenance control continued to try and pressure the technician into making a bad decision and install the stairs on the aircraft without documentation because they said and I quote \"We have been doing it like that for years.\" This creates a bad culture, an unsafe aircraft condition and noncompliance with the manufacturer manual. Encourage maintenance control to comply with the manufacturer maintenance manual at all cost. BeechJet 400XP was in for routine/ non-routine maintenance at ZZZ. A set of air-stair- stairs were to be replaced and a lead maintenance noticed the Parts Number (PN) on the manual did not appear in the Illustrated Parts Catalog (IPC) Quality Control was alerted. I contacted Person A and was told to contact the Person B and another person. The answer was the following from Maintenance Controller. \"The IPC doesn't list an effectivity code for these stairs. They are approved for all 400 series aircraft. \" A maintenance lead and I challenged that answer and asked for something in writing that states we can install them on the aircraft. I responded with: \"We can't force the installer to sign the release for this event. If, the end user which determines airworthiness of a part (mechanic) discovers a conflict in traceability and proper identification of the part he's doing the right thing no matter the component. \"The manual is a document that provides the installer data to determine airworthiness, in this case the installer has conflicting data.\" I/ we received the following answer from Maintenance Controller.\" I'm done with this... rob the stair assembly or whatever parts need from Aircraft Y and get us a Color X aircraft please! \" Upon inspecting the stairs on the other aircraft (donor) before removal the PN was checked. It was discovered the effectivity is incorrect for the installation on the other aircraft. Maintenance and Quality Control both were assertive with Maintenance Controller, and did not install the stairs that were to be removed and installed on the original aircraft. We still had the effectivity issue. In the meantime, Quality Control and Maintenance at ZZZ started email chains with Company explaining the issue. Maintenance and Quality Control were looking for a solution not engaging in a back and forth. I, being involved in this issue began to gather information from individuals on the floor. A conversation took place between Maintenance Controller and a maintenance lead. Paraphrasing the leads words: [Instead of finding a solution they (Maintenance Controller) became more and more agitated to the point it was bordering on a threat, it was very uncomfortable. They said we're just making stuff up cuz we don't want to fix it. Keeping this short as possible the result was an inspector in ZZZ contacted Company and sorted out the effectivity and the correct assembly that appears in the IPC was shipped and installed. My over all concern is we are creating a hazard an opportunity for a safety escape. A quick example: a young mechanic and or an unassertive one feels the pressure installs an incorrect part or something of that nature because Maintenance Controller is \"demanding it be done\". The next time it could be a navigation download or incorrect push rod for a trim tab we must address this issue. Company must update their IPC for the 400 which is the root cause for this entire situation. Mechanics and pilots have a symbiotic relationship with one goal, preserving human life, by providing a safe product. Maintenance Controller must be trained/ counseled covering what authority they have and do not. Maintenance Controller does not have the final say, nor are in any position to demand anything that is obviously outside of FAR's, company manuals and Policy. Young mechanics need to be educated on the exact role of Maintenance Controller and understand their direction and leadership come from the Maintenance manager, production managers and leads not Maintenance Controller. Maintenance Controller does not make airworthy decisions for anyone, the techs, leads, and pilots make that decision. Maintenance Controller does however, release the aircraft back into service. However, that release is 100% predicated on the signatures, paperwork, and final determination of airworthiness completed by maintenance and Quality Control pilots.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "procedure_doc_conflict",
+      "evidence": {
+        "quote": "It was found that the part number received was not effective for our serial number of aircraft.",
+        "start": 213,
+        "end": 308
+      },
+      "item_label": "위협",
+      "label_ko": "절차·문서 불일치",
+      "layer": null,
+      "agent": null,
+      "desc": "절차서, 교범, 차트, MEL의 내용이 서로 다르거나 현장과 맞지 않는 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "Prior to installing the steps on the aircraft the technician verified part number in the manufactures Illustrated Parts Catalog (IPC).",
+        "start": 78,
+        "end": 212
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Prior to installing the steps on the aircraft the technician verified part number in the manufactures Illustrated Parts Catalog (IPC).",
+        "start": 78,
+        "end": 212
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "Maintenance control told the technician that we are allowed to use all the part numbers of stairs in the IPC no matter the effectivity. They could not provide any documentation showing this from the manufacturer.",
+        "start": 479,
+        "end": 691
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "Maintenance control continued to try and pressure the technician into making a bad decision and install the stairs on the aircraft without documentation",
+        "start": 849,
+        "end": 1001
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "A maintenance lead and I challenged that answer and asked for something in writing that states we can install them on the aircraft.",
+        "start": 1785,
+        "end": 1916
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "Maintenance and Quality Control both were assertive with Maintenance Controller, and did not install the stairs that were to be removed and installed on the original aircraft.",
+        "start": 2707,
+        "end": 2882
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "Quality Control and Maintenance at ZZZ started email chains with Company explaining the issue.",
+        "start": 2936,
+        "end": 3030
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "the result was an inspector in ZZZ contacted Company and sorted out the effectivity and the correct assembly that appears in the IPC was shipped and installed",
+        "start": 3585,
+        "end": 3743
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "the correct assembly that appears in the IPC was shipped and installed",
+        "start": 3673,
+        "end": 3743
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "운항 관리 협의가 뚫린 방어이면서 동시에 작동한 방어다. 정비 통제는 근거 없이 설치를 밀어붙였고, 정비사와 품질관리가 거부하고 제작사와 직접 확인해 올바른 부품을 받았다. 마지막 차단선이 현장의 거부였던 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Work Refused"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Work Refused"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "Beechjet 400"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

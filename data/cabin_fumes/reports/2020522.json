@@ -1,0 +1,325 @@
+{
+  "report_id": "cabin_fumes-2020522",
+  "acn": "2020522",
+  "set": "cabin_fumes",
+  "synopsis": "Air Carrier flight crew reported a recurring fume event during pre-flight. As Maintenance was formulating a plan to defer the APU and/or Pack 1, the flight crew timed out resulting in the flight being rescheduled.",
+  "narrative": "On my way to the airport, I got a call from another ZZZ1 CA (Captain). He was being tail swapped out of an aircraft that had a fume event. Neither of us knew that I was about to be swapped into that very aircraft. Upon checking in, I noticed a gate change and tail swap. When I got to the aircraft, there was a lot of confusion. Incorrect FLT RLS (Release), unknown status of security search, FA’s (Flight Attendant) had just been tail swapped. Because of this, I didn't thoroughly review the logbook for some time. Upon review, I noticed that the aircraft had JUST been written up for a fume event, with a perfunctory, \"APU OPS check ok,\" as the corrective action, and I saw that the entry was made by this other ZZZ1 CA. At the same time, the Lead FA asked if I was aware that the aircraft had had a fume event and the prior crew tail swapped. I called for MX (Maintenance) and made a call to the previous CA. Maintenance indicated that they had, \"run the APU full hot and full cold,\" and that it was, \"fine.\" I spoke with the previous CA and he described the nature of the fume event and that it hadn't actually occurred to him, the aircraft still smelled like one. I spoke with a Chief Pilot. The Chief Pilot, MX, my FO (First Officer), and I all concluded that without any actual present indications of a problem, it was safe to make the flight with extra vigilance for a potential fume event. We flew to ZZZ uneventfully. Upon arrival in ZZZ, the FO and I went to get some food. Upon returning to the aircraft, I was hit with a wall of noxious, acrid fumes that were immediately irritating and obviously the classic presentation of a fume event. The APU was shut down and no external air was connected. I exited the aircraft and advised the FA contingent to do the same. We contacted Maintenance Control, Contract Maintenance came out and began troubleshooting. Maintenance Control asked me to perform an engine run and I declined. There was already a presence of noxious fumes of unknown origin and I was disinclined to continue to expose myself, my FO, or anyone else to them. Contract Maintenance said that he perceived the fumes on PACK 1 while running the APU, so the decision was made to defer the APU. I was generally OK with that, but was immediately confronted with even worse, persistent fumes after APU shutdown. I consulted with Maintenance Control and alerted them that the problem was not at all solved by deferring the APU. The FO, Contract Maintenance, Maintenance Control, a Chief Pilot, and I all consulted and agreed that based on the information we had, contamination in PACK 1 was the next logical culprit. We discussed the logic of that decision, contingencies for any further problems, and evaluated it as reasonable and safe. We all eventually timed out and were rescheduled. I was on Aircraft X and experienced a fume event. I got on Aircraft X in ZZZ1. The Captain noticed that the aircraft had just been written up for a fume event, but that it had been cleared by Maintenance without any deferral as they were not able to duplicate it. He called Maintenance and asked why nothing had been deferred, and they told him the previous crew said that only ground air was hooked up when the fumes occurred. Maintenance disconnected ground air and had run the APU and there were no fumes they could detect. The Captain also called a Chief [Pilot] to ask how that could happen if just on ground air and to get a second opinion on accepting the aircraft. Ultimately he accepted the aircraft. We operated flight from ZZZ1 to ZZZ in that aircraft without incident. After landing, we turned on the APU and let it run its required three minutes before utilizing the bleed air. We utilized bleed air while parked at the gate while the passengers were deplaning. The ground air was not hooked up to the aircraft because the ground crew believed it to be inoperative. After the parking checklist and after all passengers had deplaned, the Captain shut down the APU. The Captain and I left the airplane to find lunch in the airport. We had a fairly tight turn around, and the Captain went back to the airplane to prepare it while I waited for the fast food. I went down the jet bridge a short time later and found the Captain at the bottom of the jet bridge along with all the Flight Attendants. He said he smelled fumes on the aircraft and told me not to board. He called Maintenance Control for a fume event. Maintenance Control asked if he would do an engine run to isolate the PACK, but the Captain did not want to do that and wanted to wait for Maintenance. Once Maintenance showed up, they ran the APU, but could not isolate a smell. The Maintenance personnel then asked if we wanted to board and check for ourselves. The Captain declined. I felt like we were at an impasse because Maintenance personnel couldn't reproduce the smell and the Captain didn't seem to want to get on the aircraft to do a \"sniff test.\" I did stick my head in the aircraft cabin and I couldn't smell anything either, which I reported to the Captain. Maintenance then said they would keep trying for a little while longer to see if they could reproduce the smell. I think the Captain felt like he was in an awkward position because he felt like he was going to potentially have to board an aircraft with passengers and he was afraid we would then get a fume event. He had the idea to call Medical to see if it was advisable to board the aircraft with the potential for fumes. He did speak to Medical and reported that he was exposed. I told Medical that I had not been exposed at that time. While he was on the phone, Maintenance personnel came back out of the aircraft and said he did get a slight fume smell. The mechanic talked to Maintenance Control and they decided to defer the APU. The Captain agreed to that plan. While Maintenance was shutting down and deferring the APU, we all (the flight crew) walked up to the gate area. I had to talk to crew scheduling about getting an extension to my flight duty period, and talk to the gate agent about organizing an air start cart, while the Captain updated the passengers. All that took about 10 to 15 minutes. We thought it would be safe for the flight crew to get back on the aircraft and resume our duties after APU deferral, so we headed back down the jet bridge. Maintenance was already off the aircraft. I was the first one on the aircraft and I immediately noticed a very strong acrid smell right as I entered. [I was in the Army and had to do the CS gas chamber (tear gas) for training. The best way I can describe the smell is that it was almost the exact same smell as tear gas]. I did a quick assessment that it was strongest in the cockpit and cabin rows 1 through 4. I relayed that info to the Captain, who was just about to board. He also came on and confirmed that. We grabbed the Maintenance can and it showed the APU deferral had already been signed off. It must have been after APU shutdown again that the fumes returned. We again left the aircraft; there was no way to board the aircraft in that condition. Ramp crew got the external air working and hooked it up. The flight attendants then opened all the aircraft doors, and the Captain opened the cockpit windows. We left the aircraft, getting back on every so often to see if the smell had gone away, but it was intermittently persistent. The Captain got back on the phone with Maintenance Control to discuss further options such as deferring PACK 1. My FDP (Flight Duty Period) expired before Maintenance personnel could return to our aircraft.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "He was being tail swapped out of an aircraft that had a fume event.",
+        "start": 71,
+        "end": 138
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "the aircraft had just been written up for a fume event, but that it had been cleared by Maintenance without any deferral as they were not able to duplicate it",
+        "start": 2910,
+        "end": 3068
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "At the same time, the Lead FA asked if I was aware that the aircraft had had a fume event and the prior crew tail swapped.",
+        "start": 723,
+        "end": 845
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "At the same time, the Lead FA asked if I was aware that the aircraft had had a fume event and the prior crew tail swapped.",
+        "start": 723,
+        "end": 845
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Upon review, I noticed that the aircraft had JUST been written up for a fume event",
+        "start": 516,
+        "end": 598
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "I spoke with a Chief Pilot.",
+        "start": 1169,
+        "end": 1196
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The Chief Pilot, MX, my FO (First Officer), and I all concluded that without any actual present indications of a problem, it was safe to make the flight with extra vigilance for a potential fume event.",
+        "start": 1197,
+        "end": 1398
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "We had a fairly tight turn around",
+        "start": 4049,
+        "end": 4082
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 7,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Upon returning to the aircraft, I was hit with a wall of noxious, acrid fumes that were immediately irritating and obviously the classic presentation of a fume event.",
+        "start": 1485,
+        "end": 1651
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "I exited the aircraft and advised the FA contingent to do the same.",
+        "start": 1709,
+        "end": 1776
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "We contacted Maintenance Control, Contract Maintenance came out and began troubleshooting.",
+        "start": 1777,
+        "end": 1867
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 10,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "Maintenance Control asked me to perform an engine run and I declined.",
+        "start": 1868,
+        "end": 1937
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 11,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "I consulted with Maintenance Control and alerted them that the problem was not at all solved by deferring the APU.",
+        "start": 2330,
+        "end": 2444
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 12,
+      "item": "outcome",
+      "value": "general.flight_cancelled_delayed",
+      "evidence": {
+        "quote": "We all eventually timed out and were rescheduled.",
+        "start": 2756,
+        "end": 2805
+      },
+      "item_label": "결과 상태",
+      "label_ko": "운항 취소·지연",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Cancelled / Delayed",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "재현되지 않는다는 이유로 이월 없이 닫은 정비 기록, 그 위에서 내린 운항 가능 판단, 그리고 실제 재발까지 한 보고에 다 들어 있다. 방어 시퀀스가 두 번 돌아간 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Flight Cancelled / Delayed"
+      ],
+      "overlap": [
+        "Flight Cancelled / Delayed"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A320"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

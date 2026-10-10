@@ -1,0 +1,379 @@
+{
+  "report_id": "cabin_fumes-2055989",
+  "acn": "2055989",
+  "set": "cabin_fumes",
+  "synopsis": "B757 flight crew reported smoke was detected in the cabin and a lavatory smoke caution illuminated shortly after takeoff. One of the packs were then turned off, which dissipated the smoke. The flight crew proceeded to perform an overweight landing and air turnback.",
+  "narrative": "Shortly after takeoff from ZZZ pilots began to smell smoke or the exhaust from aircraft that departed immediately in front of us. At about 3,000 ft. the LAV SMOKE EICAS CAUTION illuminated. The FO (First Officer) continued to fly while the Captain called the flight attendants. They verified the LAV SMOKE indication and said that smoke was visible in the ceiling at the aft end of the cabin. They could not identify the source of the smoke nor find any warm panels or other indications of fire. On the flight deck the smell was increasing. The Captain turned on the flight deck overhead light, and the pilots observed a thin layer of white smoke above the cockpit door. Pilots donned oxygen masks and smoke goggles as a precaution. Pilots then noticed the high oil temperature, in red, on the left engine and ran the non-normal procedure. Reducing the thrust on the left engine to mid- position restored oil temperature to normal. The pilots agreed that level-off and delay vectors were the best course of action and coordinated such with ATC. FO suggested turning left PACK off to isolate the smoke, and Captain agreed. Dispatch and Maintenance Control were consulted via SATCOM and agreed a return to ZZZ was appropriate. Dispatch sent performance data via ACARS for an overweight landing to Runway XXR. Maintenance Control relayed our situation to ZZZ Maintenance. Flight attendants reported that the smoke rapidly dissipated from the cabin following the completion of the Flight Manual non- normal procedure. Pilots briefly discussed declaring an emergency but elected not to do so, because all aircraft indications had returned to normal. The Captain was confident in his ability to perform an overweight landing on a long runway in VMC, without advancing the left throttle above mid-position. The threat of go-around with possible lack of thrust from the left engine was mitigated by briefing the special engine out procedure for Runway XXR. Because the FO was in his first year at the airline, the Captain decided to fly the aircraft on approach and landing. A normal stabilized approach was flown to a smooth landing. At the gate, maintenance personnel examined the left engine and discovered the fuel oil cooler had failed. They sampled the engine oil and it smelled of fuel contamination. Apparently, this mechanical failure was the source of both the high oil temperature indication and the smoke in the cabin. Pilots and flight attendants filled out the required documents and returned them to maintenance personnel. High oil temperature and an overweight landing were reported to ZZZ Maintenance. The Chief Pilot was debriefed by Captain via phone. Preflight duties were uneventful. We departed from [Runway] XYR at ZZZ. Immediately after takeoff, the Captain and I noted an unidentifiable smell. We focused on deconfiguring the aircraft and then received a LAV SMOKE EICAS shortly after getting the flaps up. By then, the smell was strong, and I could see a slight haze in the cockpit. I coupled the autopilot, and we donned oxygen and goggles. At this point the Captain noted the left engine oil temperature was high in the red range. We both were on the same page that the engine was the likeliest source of smoke and the greatest threat. He accomplished the appropriate items for the high oil temperature while I flew. With his concurrence, I turned off the L PACK while he worked the engine issue in an attempt to isolate the smoke. We also got a level-off at 16,000 ft. At this point, either from reducing the engine thrust or turning off the left pack, the smoke dissipated. The engine oil indications also returned to normal, so we left the engine running. After reviewing the smoke and fumes non-normal, we determined dealing with the engine malfunction and turning the pack off had isolated the source. We then called Dispatch and Maintenance Control and determined an overweight landing was the best course of action. We briefed and the Captain flew an uneventful approach to [Runway] XXR at ZZZ.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Shortly after takeoff from ZZZ pilots began to smell smoke or the exhaust from aircraft that departed immediately in front of us.",
+        "start": 0,
+        "end": 129
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Shortly after takeoff from ZZZ pilots began to smell smoke or the exhaust from aircraft that departed immediately in front of us.",
+        "start": 0,
+        "end": 129
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "At about 3,000 ft. the LAV SMOKE EICAS CAUTION illuminated.",
+        "start": 130,
+        "end": 189
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "At about 3,000 ft. the LAV SMOKE EICAS CAUTION illuminated.",
+        "start": 130,
+        "end": 189
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "They verified the LAV SMOKE indication and said that smoke was visible in the ceiling at the aft end of the cabin.",
+        "start": 278,
+        "end": 392
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "They verified the LAV SMOKE indication and said that smoke was visible in the ceiling at the aft end of the cabin.",
+        "start": 278,
+        "end": 392
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Pilots then noticed the high oil temperature, in red, on the left engine and ran the non-normal procedure.",
+        "start": 733,
+        "end": 839
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "Pilots donned oxygen masks and smoke goggles as a precaution.",
+        "start": 671,
+        "end": 732
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Pilots then noticed the high oil temperature, in red, on the left engine and ran the non-normal procedure.",
+        "start": 733,
+        "end": 839
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "FO suggested turning left PACK off to isolate the smoke, and Captain agreed.",
+        "start": 1045,
+        "end": 1121
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.overcame_equipment_problem",
+      "evidence": {
+        "quote": "Reducing the thrust on the left engine to mid- position restored oil temperature to normal.",
+        "start": 840,
+        "end": 931
+      },
+      "item_label": "대응 행동",
+      "label_ko": "장비 문제를 극복함",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Overcame Equipment Problem",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "Dispatch and Maintenance Control were consulted via SATCOM and agreed a return to ZZZ was appropriate.",
+        "start": 1122,
+        "end": 1224
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "Dispatch and Maintenance Control were consulted via SATCOM and agreed a return to ZZZ was appropriate.",
+        "start": 1122,
+        "end": 1224
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "The threat of go-around with possible lack of thrust from the left engine was mitigated by briefing the special engine out procedure for Runway XXR.",
+        "start": 1800,
+        "end": 1948
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "At the gate, maintenance personnel examined the left engine and discovered the fuel oil cooler had failed.",
+        "start": 2127,
+        "end": 2233
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "High oil temperature and an overweight landing were reported to ZZZ Maintenance.",
+        "start": 2530,
+        "end": 2610
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "방어가 겹겹이 작동해 결과가 정비 조치로 끝난 사례다. 경고 장치, 객실 보고, 교차 확인, 운항 관리 협의, 브리핑, 정비 조치가 모두 작동했다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Aircraft Other Automation",
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Overcame Equipment Problem",
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Overcame Equipment Problem",
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Overcame Equipment Problem",
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem",
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb"
+    ],
+    "Make Model Name": [
+      "B757 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "02"
+  }
+}

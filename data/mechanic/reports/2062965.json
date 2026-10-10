@@ -1,0 +1,232 @@
+{
+  "report_id": "mechanic-2062965",
+  "acn": "2062965",
+  "set": "mechanic",
+  "synopsis": "Maintenance technicians reported that while they were working on an aircraft with a flap issue the company management was not supportive of AMT's working to find root cause of the problem.",
+  "narrative": "On the night of Day 0 going into Day 1, a few of us were assigned to work the OTS (Out of Service) aircraft for a flap lock issue. The report generated from the aircraft stated the warning message (F/CTL FLAPS LOCKED, SFCS). Failure messages included: (FLP 1 CHK LH MECH DRIVE, AND FLP 2 CHK LH MECH DRIVE). We failed to receive any kind of turnover due to the fact that morning shift was the last to touch the aircraft, and swing shift was waiting on parts, so by the time the midnight crew arrived, we had no direction on where to start besides searching through scattered paperwork in search of where to begin maintenance. We concluded that a previous shift found damage to the track 3 system and based off our manual instructions for the associated faults, we proceeded as such to inspect for more damage. By the end of the shift, we discovered more underlying damage of the flap system which included track 3 and track 4 (the outboard flap), and potential damage to the inboard flap system (track 1 and 2). Us AMTs created a copious amount of non-routine items for tracks 3 and 4, and nothing for track 1 and 2. We were told by a crew chief to hold off on writing up a potentially worn attaching link of the track 2 inboard flap, due to the fact that since track 3 was removed, it could have caused play in the inboard flap system. We were told that the next shift will check out track 1 and 2 when track 3 was reassembled. This is a failure on our behalf to write this particular item up. When the aircraft left ZZZ, we proceeded to check documentation, and did not find anything regarding inspection of the LH track 1 and 2 system, but rather a GVI (General Visual Inspection) of the LH flap system, in which we are unsure if that was included. The following night after we were assigned to the aircraft, management decided that the crew chief from the day before will no longer be able to have that aircraft, and they wanted a whole new crew to be assigned to it. Our opinion was that due to the immense amount of write ups the day prior, management felt as if it caused an operational delay in production. Mind you, this is suspected by us AMTs. As techs searching for a flap failure, we felt as if there was an unjust pressure and judgement against us by scrupulously following the approved maintenance manual references. This feeling of a \"push\" in order to have forward progress in regard to aircraft repair seemed to become overwhelming as the night progressed. This type of operational pressure and feelings of being wanted to \"look the other way\" is a dangerous work practice when attempting to make possibly consequential airworthiness decisions, especially regarding an emergency landing flight control issue with our innocent passengers onboard. Cause: Saturation of write ups for damage found, and pressure for forward progress regarding work production in order to get the aircraft out as soon as possible for revenue service. Contributing factors regarding why this happened also includes preemptive decision making by our crew chief without reference material regarding our track 2 inboard flap concern. Solution: \"Judgement free\" expectation for writing up suspected damage or confirmed damage/failures. Management pressure expectations to be reduced, due to the fact that the AMTs and Crew Chiefs have the ultimate and final say on airworthiness decisions. We are told that management expects write ups and issues throughout the night on an OTS aircraft, but in turn show the opposite by failure of their word by inducing pressure. Most of these situations when later talked about seem to be disregarded as not a big deal and expected to happen based off experience of what supervision has seen, but when it comes to the actual event occurring, this ideology changes. On the night of Day 0 working into Day 1 I was part of OTS (Out of Service) crew assigned to an A/C. After a complete lack of briefing and or turnover from anyone of the techs or crew chiefs of swing shift due to the fact they did not work the A/C and day shift was the last ones to do so and they never left a turnover for them either, at which point we had to deduce where the A/C was left off just from non routine write ups and from visually examining what was removed. Failure of the turnover had us start at the beginning thus inspecting the report and associated faults which were for a FLP1 CHK MECH DRIVE and FLP 2 CHK LH MECH DRIVE, with this information in hand we looked over the L/H wing on the aircraft and found that Track 3 was disassembled and was found to have mechanical failure in a few major parts. As we restarted all troubleshooting from scratch we performed a visual inspection of the area and found numerous discrepancies that were noted on non routine paperwork, out of which one discrepancy for a loose/worn attach link on FLAP 2 was to be left unwritten at the request of crew chief on duty due to the fact Track 3 was disassembled at the time there was no way of knowing any effects from that that would create issues/looseness to Track 2. This is a failure on us as techs to write up the issue even against the wishes of the crew chief. Upon the aircraft final sign off we reviewed the sign offs done here in ZZZ and noted that our concern was never addressed about the #2 flap even though the initial faults to the system were for Track1 and Track2. Even before the aircraft left ZZZ we had our doubts about management over involvement during the course of the aircraft’s OTS time here. The night of Day 1 we were not reassigned to the aircraft and neither was our crew chief due to managements concerns over the copious amounts of non routines generated the previous night shift, the constant pressure from management involvement towards an operational goal and not towards the actual safety was constantly felt and was observed by most everyone that had involvement in aircraft’s stay here and the ultimate reason that both techs and crew chiefs were under such ridiculous sustained pressure and scrupulous oversight was why ultimately the aircraft left without certain aspects of possibly unserviceable items to have been overlooked and thus letting an aircraft full of paying customers leave this station in questionable airworthiness and this issue has been an issue with our local management during every single OTS event. Cause: Pressure for aircraft progress at no regard to procedures, or restrictions to such procedures be it by equipment and or time, operational needs of the A/C being pushed against the airworthiness needs of the A/C, numerous crews of AMTs and crew chiefs being rotated through in hopes that they will find a crew that would comply with management requests better then the others and in hopes of bending/breaking some regulations for the operational need. Broken and/or missing equipment/tooling, improper/missing turn over paperwork from AMT and/or crew chiefs, decision making from supervision without any kind of paperwork or written approved deviation from reference material. Solution: Management pressure needs to stop, it is extremely unsafe and they especially good at inducing fear of being reprimanded into new and young AMTs during their probationary periods and they continue this trend of bullying into submission afterwards, at a time the A/C is OTS it is up to the AMTs and the Crew chiefs as to proper and correct actions as per our FAA approved reference material and any kind of deviation from such reference material with written authorization if needed. The operational needs of the A/C will and should always come in second place to safety. Technicians should not be scrutinized or looked down upon for doing their sworn duty to maintain the A/C in a airworthy condition as instructed to do so by the FAA rules and regulations and by the reference material that were agreed upon by the FAA and our company.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "The report generated from the aircraft stated the warning message (F/CTL FLAPS LOCKED, SFCS).",
+        "start": 131,
+        "end": 224
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "The report generated from the aircraft stated the warning message (F/CTL FLAPS LOCKED, SFCS).",
+        "start": 131,
+        "end": 224
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We failed to receive any kind of turnover due to the fact that morning shift was the last to touch the aircraft",
+        "start": 308,
+        "end": 419
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "By the end of the shift, we discovered more underlying damage of the flap system which included track 3 and track 4 (the outboard flap)",
+        "start": 810,
+        "end": 945
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "we performed a visual inspection of the area and found numerous discrepancies that were noted on non routine paperwork",
+        "start": 4661,
+        "end": 4779
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "Us AMTs created a copious amount of non-routine items for tracks 3 and 4",
+        "start": 1012,
+        "end": 1084
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "we felt as if there was an unjust pressure and judgement against us by scrupulously following the approved maintenance manual references",
+        "start": 2194,
+        "end": 2330
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "We were told by a crew chief to hold off on writing up a potentially worn attaching link of the track 2 inboard flap",
+        "start": 1117,
+        "end": 1233
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_breached",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "we proceeded to check documentation, and did not find anything regarding inspection of the LH track 1 and 2 system",
+        "start": 1523,
+        "end": 1637
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "운항 압박이 위협으로 서술된 보고다. 인수인계 누락, 지적 사항 미기재, 후속 점검 미확인이 줄줄이 뚫렸고 기체는 그대로 출발했다. 결과 상태 서술은 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "Commercial Fixed Wing"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

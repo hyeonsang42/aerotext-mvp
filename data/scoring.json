@@ -1,0 +1,163 @@
+{
+  "unit": "처리한 전체 집합 (2개 세트 이상 합산)",
+  "sets": [
+    "cabin_fumes",
+    "mechanic"
+  ],
+  "total": 100,
+  "scored": 98,
+  "missing": 2,
+  "missing_rate": 2,
+  "match_rate": 86,
+  "matched": 84,
+  "baseline_value": "Flight Crew",
+  "baseline_rate": 41,
+  "avg_predicted": 1.39,
+  "avg_precision": 78,
+  "mismatches": [
+    {
+      "set": "cabin_fumes",
+      "acn": "2027154",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Ground Personnel",
+        "Other Person"
+      ]
+    },
+    {
+      "set": "cabin_fumes",
+      "acn": "2021961",
+      "truth": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Other Person"
+      ]
+    },
+    {
+      "set": "cabin_fumes",
+      "acn": "2011084",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Attendant"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2061958",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2060780",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2059864",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2051190",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": []
+    },
+    {
+      "set": "mechanic",
+      "acn": "2038548",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2032488",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": []
+    },
+    {
+      "set": "mechanic",
+      "acn": "2027475",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2023427",
+      "truth": [
+        "Other Person"
+      ],
+      "predicted": [
+        "Maintenance"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2017583",
+      "truth": [
+        "Other Person"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2008352",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Aircraft Other Automation"
+      ]
+    },
+    {
+      "set": "mechanic",
+      "acn": "2005229",
+      "truth": [
+        "Flight Crew",
+        "Other Person"
+      ],
+      "predicted": [
+        "Maintenance"
+      ]
+    }
+  ],
+  "note": "일치율은 최빈값 기준선과 건당 평균 추출 개수 없이 단독으로 쓰지 않는다. 기준선은 고정값이 아니라 이 채점 집합에서 계산한 값이다.",
+  "gain": 45
+}

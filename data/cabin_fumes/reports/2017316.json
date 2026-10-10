@@ -1,0 +1,326 @@
+{
+  "report_id": "cabin_fumes-2017316",
+  "acn": "2017316",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Captain reported cabin odor and walls in the aft lavatory were extremely hot, as reported by the aft Flight Attendant. After a divert, a missed approach due to arriving too high on final and then an overweight landing, the aircraft arrived safely. The Fire Marshal and maintenance determined the aft water heater was running uncontrolled full power and overheating.",
+  "narrative": "After departure the lead FA (Flight Attendant) called up and said they had a very strong electrical smoke smell and the walls of the center aft lav was extremely hot to the touch. I asked if there was any smoke or fire. They said there wasn't but the smell was very strong and not dissipating at all. At this point I made the decision to request priority handling and divert to ZZZ. We turned around and started down and ran all of our checklist including the overweight landing checklist. The I reached out again to the FAs and said I needed to know if any smoke started appearing at all. They said they would. They were given a priority code and we prepped for landing. Unfortunately with all that was going on I failed to notice they turned us in about 5 miles closer then I expected. Due to this we ended up being much to high for the landing. Since we didn't have an actual fire at this point I felt it was safer to go around instead of forcing a bad landing. We went around and then came back for a smooth overweight landing. After landing we stopped on the high speed and I had the fire trucks position behind us and look for any signs. I had the aft FA go back into the lav to check again. The strong electrical smell and the heat continued with no reduction in intensity. I told the Airport Rescue and Firefighting to stay close and follow us in as I felt it was safer at this point to deplane normally. I told them if we got any indication of smoke we would immediately stop and evacuate. We got to the gate and again I felt it safer to remove all passengers thru the Jetway and then have the firemen inspect the lav. Upon inspection they found the water heater to be at fault and basically running away as hot as it would go. It was so hot that the hot water coming out was 130 degrees and even the cold water was 108 degrees. For reference the other lav showed 80 hot water. The end result was a safe landing with no evacuation needed. I did make the mistake of not realizing we were as close as we were so ultimately the only thing I would have done different would have been to verify how far out we were being vectored. In the future I will attempt to look at that more closely. However a very strong mitigating factor was the possibility of this turning into a fire. Ultimately it did not luckily.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "After departure the lead FA (Flight Attendant) called up and said they had a very strong electrical smoke smell and the walls of the center aft lav was extremely hot to the touch.",
+        "start": 0,
+        "end": 179
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "After departure the lead FA (Flight Attendant) called up and said they had a very strong electrical smoke smell and the walls of the center aft lav was extremely hot to the touch.",
+        "start": 0,
+        "end": 179
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "After departure the lead FA (Flight Attendant) called up and said they had a very strong electrical smoke smell and the walls of the center aft lav was extremely hot to the touch.",
+        "start": 0,
+        "end": 179
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I asked if there was any smoke or fire.",
+        "start": 180,
+        "end": 219
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "At this point I made the decision to request priority handling and divert to ZZZ.",
+        "start": 301,
+        "end": 382
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "At this point I made the decision to request priority handling and divert to ZZZ.",
+        "start": 301,
+        "end": 382
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "We turned around and started down and ran all of our checklist including the overweight landing checklist.",
+        "start": 383,
+        "end": 489
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Unfortunately with all that was going on I failed to notice they turned us in about 5 miles closer then I expected. Due to this we ended up being much to high for the landing.",
+        "start": 672,
+        "end": 847
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "fc.executed_go_around_missed_approach",
+      "evidence": {
+        "quote": "We went around and then came back for a smooth overweight landing.",
+        "start": 965,
+        "end": 1031
+      },
+      "item_label": "대응 행동",
+      "label_ko": "복행",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Executed Go Around / Missed Approach",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "After landing we stopped on the high speed and I had the fire trucks position behind us and look for any signs.",
+        "start": 1032,
+        "end": 1143
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Upon inspection they found the water heater to be at fault",
+        "start": 1628,
+        "end": 1686
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 10,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Upon inspection they found the water heater to be at fault and basically running away as hot as it would go.",
+        "start": 1628,
+        "end": 1736
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 11,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "Upon inspection they found the water heater to be at fault and basically running away as hot as it would go.",
+        "start": 1628,
+        "end": 1736
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "비상 상황 처리 중 벡터 거리를 확인하지 못해 높게 들어가 복행했다. 본인이 직접 실수로 적은 대목이라 교차 확인을 뚫린 방어로 보았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant"
+      ],
+      "predicted": [
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Executed Go Around / Missed Approach",
+        "Landed in Emergency Condition",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Executed Go Around / Missed Approach",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Diverted",
+        "Executed Go Around / Missed Approach",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Executed Go Around / Missed Approach",
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "A320"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

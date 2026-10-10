@@ -1,0 +1,148 @@
+{
+  "report_id": "mechanic-2053650",
+  "acn": "2053650",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Technician reported multiple brake rotor drive clips cracked on 737 MAX aircraft.",
+  "narrative": "During a LOSA (Line Operations Safety Assessment) observation, mechanic found a #4 brake rotor drive clip cracked. While awaiting parts I inspected the brake and found a total of seven of the rotor drive clips cracked. Got with several other technicians including the grave shift new hire trainer and was told they are seeing this problem on MAX aircraft quite common, and occasionally on new gens. Might need to address the material used for the rotor drive clips! on this particular brake, every crack was found on the last rotor disk leaving me to believe it is a heat issue.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "During a LOSA (Line Operations Safety Assessment) observation, mechanic found a #4 brake rotor drive clip cracked.",
+        "start": 0,
+        "end": 114
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "During a LOSA (Line Operations Safety Assessment) observation, mechanic found a #4 brake rotor drive clip cracked.",
+        "start": 0,
+        "end": 114
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "While awaiting parts I inspected the brake and found a total of seven of the rotor drive clips cracked.",
+        "start": 115,
+        "end": 218
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "Got with several other technicians including the grave shift new hire trainer and was told they are seeing this problem on MAX aircraft quite common",
+        "start": 219,
+        "end": 367
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B737 MAX Series Undifferentiated"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "02"
+  }
+}

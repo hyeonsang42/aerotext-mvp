@@ -1,0 +1,238 @@
+{
+  "report_id": "mechanic-2040479",
+  "acn": "2040479",
+  "set": "mechanic",
+  "synopsis": "Maintenance technicians working on an A320 aircraft reported inadvertent gear retraction causing minor injury to another technician.",
+  "narrative": "Person 2, Person 4 and I [Person 1] were assigned to Aircraft X. Landing gears doors were already in the down position. The Lead [Person 3] assigned us with removing the accumulator that was, causing a hydraulic leak. The Lead and I pulled breakers, depressurize the system, removing the head pressure. We removed the bottle placed on the table, replace the valve and packing reinstalled the bottle pressurize the system and the Lead pushed in all the breakers. then we refilled the green hydraulic reservoir. The accumulator still leaked, we received a new accumulator we replaced it, Person 2 and the Lead proceeded to go upstairs to the flight deck. The Lead was in an hurry to get the job done before night shift came on. The Lead stowed the manual gear drop and proceeded to turn on the system approx XE00 hours. At that time I was next to the green hydraulic system reservoir I went around to where the ladder that was inside the wheel well to look if the accumulator was leaking at that time before even knew it, the landing gear and ladder was lifting up and pushing me towards the landing gear wheel. My legs were caught in between the ladder. Person 4 next to me, screamed to get out of the way I wasn't quick enough. He tried radio over the radio to stop for me. I was able to get one foot out and get out of the way from the wheel, and then the ladder went up into the wheel well with the landing gear closing behind it. Suggestion: Slowing down. There were three AMTs that were farmed out from the terminal to the hangar, we arrived at XA30 and were given a task to finish 2 service on another aircraft on the west ramp at spot X. At around XC00 we were then called out over the radio by our Lead to help find the problem as to why we had an air return on Aircraft X, the original write up was that the pilots reported losing all HYD pressure in the green system after takeoff causing him to manually drop the landing gear. The landing gear pins were already installed and we were told by Lead to standby, as he was going to pressurize HYDs in order to locate where the leak was coming from. We found the leak and were then instructed to begin removing the accumulator while the Lead went to locate and order our parts, we began to pull circuit breakers and depressurizing the green system in order to take the accumulator off. This was accomplished, aside from receiving parts which then arrived around XE30, which was just the joiner and the packing, after installing and leak checking, the leak was still present and bottle needed to be changed along with the joiner and packing, which we then were met by Person A, he assisted in finding the accumulator. after install, around XG00 Person 3 and I went to the cockpit to pressurize HYDS after getting the all clear From both Person A and Lead, Person 3 then stowed the manual gear down handle and pressurized HYDs, the gear doors then came up pinching Person 1 between the ladder and the MLG inboard tire, thankfully he was able to get out in time and only resulted in minor bruises and scrapes. Suggestion: The crew working the job should be the ones touching and carrying out the tests and work. We needed to be more safe when it came to locking out the gear doors, but the configuration of the plane wouldn't have been changed if the original crew was working the problem. No matter the time crunch. Aircraft X had lost green sys hydraulic quantity after taking off flight crew accomplished a manual gear extension after an overweight uneventful landing aircraft was recovered by the ramp taken to a gate unloaded and eventually towed to the hanger MLG doors remained down and the manual extension handle still deployed sufficient hydraulic quantity remained so hydraulic power was applied to confirm source of leak I had assigned three technicians to replace the green sys hydraulic accumulator and ordered parts needed to fix the leak then my attention was on three other aircraft that were out of service including one that I had to take out for a run. I was the only qualified mechanic on shift to do so several hours later I stopped by to see how work was progressing on Aircraft X they had replaced a fitting and o ring on the accumulator serviced and re-pressurized the hydraulic system and it was still leaking we located the new accumulator and I assisted with its replacement then I went to the cockpit accidentally hit my knee on the manual gear extension handle so i cranked it to normal stowed position and with clearance applied hyd power and the gear doors came up and pinched a ladder that had been used for access causing damage to the door and to the ceiling of the MLG. Suggestion: Any time the MLG doors are down the collars / locks need to be installed and the manual maintenance access handles need to be pulled and safeties pins installed regardless of the condition or position of the doors are in when the aircraft is brought into the hanger or for that matter wherever the aircraft is because there had been three prior applications of hydraulic power prior to this event without incident and my distractions dedicated to other out of service aircraft and no prior experience on the aircraft type by the three new technicians i had assigned to this job all contributed to this very serious incident. Person 1 and I were instructed by our Lead [Person 3] to come and look for hydraulic leak while he goes up in the cockpit to turn the pumps on. We found the leak coming from the green system accumulator and asked him to shut off the hydraulic pumps. He comes down and instructed us to depressurize the green system, and remove the on nut that is holding the accumulator in place. The MLG gear doors were already opened and there was other mechanics working on a different task (overweight landing). So the accumulator was removed after depressurization, a new o ring and fitting were installed and the whole thing was put back together. We did a leak check and it was still leaking. Lead ordered a new accumulator bottle and instructed us to replace it. After doing so, he goes up in the cockpit this time and he stowed the manual gear drop handle then he turned the hydraulic pumps on which made the gear doors go up crushing the ladder. Suggestion: I think the lead was in a rush and did not provide us with enough information for the job.",
+  "narrative_count": 4,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "the original write up was that the pilots reported losing all HYD pressure in the green system after takeoff causing him to manually drop the landing gear",
+        "start": 1781,
+        "end": 1935
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "The Lead was in an hurry to get the job done before night shift came on.",
+        "start": 653,
+        "end": 725
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "I think the lead was in a rush and did not provide us with enough information for the job.",
+        "start": 6246,
+        "end": 6336
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "We needed to be more safe when it came to locking out the gear doors",
+        "start": 3164,
+        "end": 3232
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The crew working the job should be the ones touching and carrying out the tests and work.",
+        "start": 3074,
+        "end": 3163
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "Person 4 next to me, screamed to get out of the way",
+        "start": 1153,
+        "end": 1204
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "Person 4 next to me, screamed to get out of the way",
+        "start": 1153,
+        "end": 1204
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "thankfully he was able to get out in time and only resulted in minor bruises and scrapes",
+        "start": 2972,
+        "end": 3060
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "causing damage to the door and to the ceiling of the MLG",
+        "start": 4600,
+        "end": 4656
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "신고자 4명이 같은 사건을 다른 자리에서 서술했다. 리드가 혼자 조종실에서 유압을 걸었고 바퀴칸의 작업자는 몰랐다. 잠금 장치 미설치, 인수인계 부족, 작업자 외 인원의 단독 조작이 겹쳤다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Physical Injury / Incapacitation"
+      ],
+      "predicted": [
+        "Maintenance Action",
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [
+        "Physical Injury / Incapacitation"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Physical Injury / Incapacitation"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A320"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

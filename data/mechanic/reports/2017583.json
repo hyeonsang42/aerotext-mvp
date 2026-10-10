@@ -1,0 +1,125 @@
+{
+  "report_id": "mechanic-2017583",
+  "acn": "2017583",
+  "set": "mechanic",
+  "synopsis": "Air carrier Ground Personnel reported being notified of a box containing two Dangerous Goods (DG) components combined in one box. Reporter stated he was not aware of any DG in the box.",
+  "narrative": "On Day 0 I was made aware of a Dangerous Goods Discrepancy for XX-XXXX-X-XXX. When completing a cycle count I was unaware that XX-XXXX-X-XXX was located inside the box with XX-XXXX-X-XXY. And at no time was I aware that there was any hazmat and I do not recall cycle counting any hazmat.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "hazmat_loading",
+      "evidence": {
+        "quote": "On Day 0 I was made aware of a Dangerous Goods Discrepancy for XX-XXXX-X-XXX.",
+        "start": 0,
+        "end": 77
+      },
+      "item_label": "위협",
+      "label_ko": "위험물·적재",
+      "layer": null,
+      "agent": null,
+      "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.ground_personnel",
+      "evidence": {
+        "quote": "On Day 0 I was made aware of a Dangerous Goods Discrepancy for XX-XXXX-X-XXX.",
+        "start": 0,
+        "end": 77
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지상 요원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Ground Personnel",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "When completing a cycle count I was unaware that XX-XXXX-X-XXX was located inside the box with XX-XXXX-X-XXY.",
+        "start": 78,
+        "end": 187
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "287자 보고다. 재고 실사가 상자 안의 위험물을 보지 못했다.",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Other Person"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Other Person"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [],
+    "Make Model Name": [
+      "Any Unknown or Unlisted Aircraft Manufacturer"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

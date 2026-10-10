@@ -1,0 +1,185 @@
+{
+  "_설명": "화면의 발견 사항 페이지에 쓰는 글. 모든 인용문은 10_build_web.py 가 해당 보고의 내러티브에 실제로 있는지 검사하고, 없으면 빌드를 중단한다.",
+  "version": "v1",
+  "updated": "2026-09-28",
+  "findings": [
+    {
+      "id": "fuel-pump",
+      "title": "절차를 지켰는데 연료가 쏟아졌다",
+      "lead": "서로 다른 정비사가 쓴 독립된 보고 세 건이 같은 말을 한다. 교범대로 연료 펌프를 떼었는데 슬라이드 밸브가 함께 빠져 나와 연료가 날개에서 쏟아졌다.",
+      "body": [
+        "세 건 모두 교범을 어기지 않았다. 한 명은 오히려 교범이 요구하지 않는 사전 연료 이송까지 했다. 그런데도 같은 일이 났다. 뚫린 것은 사람이 아니라 문서였다.",
+        "기관 코딩 필드에는 이 구조가 남지 않는다. 세 건 모두 Result.General 이 Maintenance Action 하나로 끝나고, 절차를 지켰는지 어겼는지는 기록되지 않는다."
+      ],
+      "cases": [
+        {
+          "set": "mechanic",
+          "acn": "2069879",
+          "quote": "The Aircraft Maintenance Manual also does not caution in the removal procedures that on A321 aircraft the center fuel tank will gravity feed into the wing tanks if the center tank has less fuel.",
+          "note": "교범에 주의 문구가 없다",
+          "synopsis": "Aircraft Technician reported lack of key information in A321 aircraft maintenance manual when removing a fuel pump lead to fuel spill."
+        },
+        {
+          "set": "mechanic",
+          "acn": "2039328",
+          "quote": "Solution: Before removing the fuel pump, to transfer the fuel out of the wing and to inspect the slide valve retaining pin for damage and functionality.",
+          "note": "같은 내용을 다른 정비사가 제안",
+          "synopsis": "Aircraft technicians reported fuel spill when removing wing tank fuel pump."
+        },
+        {
+          "set": "mechanic",
+          "acn": "2021140",
+          "quote": "I ask did we have to defuel but the AMM didn’t call for a defuel.",
+          "note": "세 번째 보고",
+          "synopsis": "A320 technicians reported the Aircraft Maintenance Manual (AMM) did not clearly provide defuel instructions for a fuel pump removal procedure. After removing the pump, fuel began to leak, spilling all over on the ramp."
+        }
+      ]
+    },
+    {
+      "id": "maintenance-half",
+      "title": "정비 조치만 절반이 실패한다",
+      "lead": "방어 16종 가운데 정비 계열 셋만 뚫림 비율이 도드라진다. 정비 문서 확인 71%, 정기 점검 52%, 정비 조치 44%다. 나머지 방어는 대부분 10% 아래다.",
+      "body": [
+        "실패의 모양도 한 갈래다. 필터만 갈고 화학 물질은 거르지 못했다. 열을 올려 냄새를 태우려다 악화시켰다. 재현되지 않는다며 이월 없이 닫았고 같은 기체에서 다시 났다.",
+        "이것이 예방 층위가 45%로 뚫리고 복구 층위가 0%로 버티는 이유다. 앞단이 무너져도 뒷단이 잡기 때문에 이 100건은 사고가 아니라 준사고로 끝났다."
+      ],
+      "cases": [
+        {
+          "set": "cabin_fumes",
+          "acn": "2081885",
+          "quote": "Our event was treated differently as they changed the filters, which are not designed to remove chemical toxins from the air.",
+          "note": "필터 교체로는 화학 물질을 거르지 못한다",
+          "synopsis": "Air carrier Flight Attendant reported a chemical odor in the cabin during preflight which resulted in passenger deplaning and all crew members being assessed for medical treatment. The Captain informed the cabin crew that this aircraft had multiple fume events previously and that the APU was replaced after this event."
+        },
+        {
+          "set": "cabin_fumes",
+          "acn": "2081062",
+          "quote": "They turned up the heat to max to try to burn off the fumes, which made it all worse",
+          "note": "조치가 상태를 악화시켰다",
+          "synopsis": "Air carrier flight attendant crew reported a strong and overwhelming odor during boarding resulting in an aircraft swap and rescheduling of the flight. All flight attendants experienced physiological symptoms."
+        },
+        {
+          "set": "cabin_fumes",
+          "acn": "2020522",
+          "quote": "the aircraft had just been written up for a fume event, but that it had been cleared by Maintenance without any deferral",
+          "note": "이월 없이 닫은 뒤 재발",
+          "synopsis": "Air Carrier flight crew reported a recurring fume event during pre-flight. As Maintenance was formulating a plan to defer the APU and/or Pack 1, the flight crew timed out resulting in the flight being rescheduled."
+        }
+      ]
+    },
+    {
+      "id": "last-line-luck",
+      "title": "마지막 차단선이 우연이었던 사례",
+      "lead": "품질 검사자가 지나가다 물어본 덕분에 유효기간 없는 산소 발생기가 창고로 들어가지 않았다. 본인이 직접 그렇게 적었다.",
+      "body": [
+        "이 보고에서 작동한 방어는 교차 확인과 지상 보고다. 그러나 그 교차 확인이 시작된 계기는 절차가 아니라 우연이었다.",
+        "같은 세트에 자재 담당자가 문제를 알면서도 지적하지 않고 검사자가 걸러 내는지 지켜본 보고도 있다. 방어가 작동하는지 시험해 본 것이다."
+      ],
+      "cases": [
+        {
+          "set": "mechanic",
+          "acn": "2024499",
+          "quote": "If I did not happen to walk by those parts and asked questions, would have gone to bin without a tag with no shelf life.",
+          "note": "본인이 적은 문장",
+          "synopsis": "Aircraft Technician reported PSU units with O2 generators were not being processed as a HAZMAT part and were being improperly tagged without the proper shelf life information."
+        },
+        {
+          "set": "mechanic",
+          "acn": "2027475",
+          "quote": "The stores clerk waited to see if the inspector was going to catch the item or process it thru.",
+          "note": "방어가 작동하는지 지켜본 사례",
+          "synopsis": "Air carrier Safety Representative reported inconsistencies of aircraft hazmat components tagging during ground processing. Reporter suggested more training for stores clerks."
+        }
+      ]
+    },
+    {
+      "id": "two-sides",
+      "title": "같은 방어가 작동이면서 동시에 뚫렸다",
+      "lead": "객실 승무원 보고는 100건 중 30건에서 작동한 방어다. 그런데 한 보고에서는 같은 방어가 뚫린 방어이기도 하다.",
+      "body": [
+        "이륙 직후 여러 승무원이 동시에 인터폰을 잡는 바람에 회선이 막혀, 정작 기장이 필요한 정보를 받지 못했다. 알린 것은 작동했고 전달은 실패했다.",
+        "작동한 방어와 뚫린 방어에 같은 값 목록을 쓰기로 한 설계 결정이 여기서 값을 한다. 값이 달랐다면 이 보고는 두 개의 무관한 항목으로 흩어졌을 것이다. 16종 가운데 10종이 양쪽에 등장한다."
+      ],
+      "cases": [
+        {
+          "set": "cabin_fumes",
+          "acn": "2011084",
+          "quote": "Once airborne we were alerted by multiple Flight Attendants (FAs) that we had potential smoke/fumes in aft cabin.",
+          "note": "작동한 쪽",
+          "synopsis": "Air carrier Captain reported a blown pneumatic duct and bleed leak during takeoff which filled the passenger cabin with excessive noise and airborne particulates. Multiple flight attendants calling cockpit during event was distracting and created difficulty communicating with cabin crew on inter-phone to assess situation in cabin and to advise of planned return to field for an overweight landing aircraft."
+        },
+        {
+          "set": "cabin_fumes",
+          "acn": "2011084",
+          "quote": "the intercom was effectively blocked by multiple users so we could not communicate at a time when I needed specific information on the nature of the smoke",
+          "note": "뚫린 쪽",
+          "synopsis": "Air carrier Captain reported a blown pneumatic duct and bleed leak during takeoff which filled the passenger cabin with excessive noise and airborne particulates. Multiple flight attendants calling cockpit during event was distracting and created difficulty communicating with cabin crew on inter-phone to assess situation in cabin and to advise of planned return to field for an overweight landing aircraft."
+        }
+      ]
+    },
+    {
+      "id": "all-passed",
+      "title": "모든 방어를 통과했는데도 막지 못했다",
+      "lead": "정비사 세 명이 교범대로 작업하고 서로 확인까지 했다. 그런데 비행 중 온도 경고가 떴다.",
+      "body": [
+        "오염된 것은 작업이 아니라 주입기 자체였고, 야간이라 바닥의 이물질을 볼 수 없었다. 사람이 할 수 있는 확인은 다 했는데 확인의 대상이 잘못돼 있었다.",
+        "마지막 차단선은 비행 중 계기 경고였다. 지상의 방어가 전부 통과한 뒤 공중의 자동화가 잡은 경우다."
+      ],
+      "cases": [
+        {
+          "set": "mechanic",
+          "acn": "2038548",
+          "quote": "we all double checked the work to make sure it was serviced properly",
+          "note": "확인은 이뤄졌다",
+          "synopsis": "Maintenance technicians serviced aircraft IDG with possible contaminated fluid."
+        },
+        {
+          "set": "mechanic",
+          "acn": "2038548",
+          "quote": "We were unable to see it during the first drop before to service both IDG because we work at night the vision is not so perfect.",
+          "note": "확인의 조건이 문제였다",
+          "synopsis": "Maintenance technicians serviced aircraft IDG with possible contaminated fluid."
+        },
+        {
+          "set": "mechanic",
+          "acn": "2038548",
+          "quote": "During flight the flight crew got a message saying the IDG temperature was too high.",
+          "note": "마지막 차단선",
+          "synopsis": "Maintenance technicians serviced aircraft IDG with possible contaminated fluid."
+        }
+      ]
+    },
+    {
+      "id": "no-indication",
+      "title": "조종실에 아무 표시도 없었다",
+      "lead": "APU에 불이 붙었는데 조종실 경고는 하나도 뜨지 않았다. 탐지 경로는 바깥에서 들려온 고함이었다.",
+      "body": [
+        "자동화 방어가 뚫린 자리를 사람이 메운 경우다. 반대로 기체는 고장 메시지를 지상으로 보냈는데 조종실에는 뜨지 않아, 승무원이 도착한 뒤에야 알게 된 보고도 있다.",
+        "항공기 경고 장치는 100건에서 작동 15건 대 뚫림 4건이다. 자동화가 잡아 주는 경우가 훨씬 많지만, 뚫릴 때는 사람이 유일한 경로가 된다."
+      ],
+      "cases": [
+        {
+          "set": "cabin_fumes",
+          "acn": "2027154",
+          "quote": "We had no indications in the cockpit of an APU fire.",
+          "note": "경고가 없었다",
+          "synopsis": "Air carrier crew reported an APU fire while loading at the parked position on the ramp. The crew observed smoke at the tail of the aircraft without cockpit warning, activated fire bottles, then evacuated safely by airstairs."
+        },
+        {
+          "set": "cabin_fumes",
+          "acn": "2027154",
+          "quote": "we heard people yelling fire and then we heard someone say APU fire",
+          "note": "실제 탐지 경로",
+          "synopsis": "Air carrier crew reported an APU fire while loading at the parked position on the ramp. The crew observed smoke at the tail of the aircraft without cockpit warning, activated fire bottles, then evacuated safely by airstairs."
+        },
+        {
+          "set": "cabin_fumes",
+          "acn": "2019080",
+          "quote": "On arrival Maintenance Control stated they received a message from our aircraft that the ENG1 IDG (Integrated Drive Generator) had failed. We had not seen that message",
+          "note": "기체는 알렸으나 승무원에게 닿지 않았다",
+          "synopsis": "Airbus A320 air carrier pilot reported electrical problems while climbing to cruise altitude. The crew coordinated with the cabin crew to troubleshoot the problem, diverted, and landed safely."
+        }
+      ]
+    }
+  ]
+}

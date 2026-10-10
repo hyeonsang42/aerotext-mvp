@@ -1,0 +1,165 @@
+{
+  "report_id": "mechanic-2028067",
+  "acn": "2028067",
+  "set": "mechanic",
+  "synopsis": "Maintenance Technician reported that during preflight the flight crew found the aircraft flight crew escape ropes were not installed properly.",
+  "narrative": "Flight crew wrote up both flight deck escape rope compartments opened on their own, both ropes fell out of compartments. Mechanics found both escape ropes unattached to air-frame, and thus would not have been able to be used for their functions in the event of an emergency. Also found both ropes without cotter pins installed, thus allowing anchors to release anchor plate. Found on Aircraft X prior to departure for Flight XXXX on Day 0. Review task or task cards or work areas involving dual maintenance on flight deck escape ropes.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "Mechanics found both escape ropes unattached to air-frame, and thus would not have been able to be used for their functions in the event of an emergency.",
+        "start": 121,
+        "end": 274
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Flight crew wrote up both flight deck escape rope compartments opened on their own, both ropes fell out of compartments.",
+        "start": 0,
+        "end": 120
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "Flight crew wrote up both flight deck escape rope compartments opened on their own, both ropes fell out of compartments.",
+        "start": 0,
+        "end": 120
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Also found both ropes without cotter pins installed, thus allowing anchors to release anchor plate.",
+        "start": 275,
+        "end": 374
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Review task or task cards or work areas involving dual maintenance on flight deck escape ropes.",
+        "start": 440,
+        "end": 535
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "비상 탈출 로프가 기체에 연결돼 있지 않았다. 로프가 저절로 떨어진 덕분에 발견됐다. 비상시에만 쓰는 장비라 평소에는 작동 여부를 알 수 없는 구조다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Release Refused / Aircraft Not Accepted"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Release Refused / Aircraft Not Accepted"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Pre-flight"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B737-800"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "report_id": "mechanic-2054307",
+  "acn": "2054307",
+  "set": "mechanic",
+  "synopsis": "Maintenance Technician reported a near miss while towing an aircraft when it almost made contact with another aircraft due to tow lines in the hangar not labeled.",
+  "narrative": "While towing Aircraft X into Bay X there was a near miss with Aircraft Y which was located in bay Y. Aircraft X RH winglet almost made contact with Aircraft Y aft fuselage. The diagonal lines in Bay Y are not applicable for the Aircraft X type. They are also unlabeled. This has happened multiple times. Solution: We need to assess the towing lines in the hangar and make sure that they are labeled correctly, and they accurately represent which AC can be towed where. We also need to add new lines for pulling AC into the widebody bay straight.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "The diagonal lines in Bay Y are not applicable for the Aircraft X type. They are also unlabeled.",
+        "start": 173,
+        "end": 269
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "traffic_conflict",
+      "evidence": {
+        "quote": "While towing Aircraft X into Bay X there was a near miss with Aircraft Y which was located in bay Y.",
+        "start": 0,
+        "end": 100
+      },
+      "item_label": "위협",
+      "label_ko": "교통 근접",
+      "layer": null,
+      "agent": null,
+      "desc": "다른 항공기나 지상 이동체와의 간격이 좁아진 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "While towing Aircraft X into Bay X there was a near miss with Aircraft Y which was located in bay Y.",
+        "start": 0,
+        "end": 100
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "The diagonal lines in Bay Y are not applicable for the Aircraft X type. They are also unlabeled.",
+        "start": 173,
+        "end": 269
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "격납고 바닥 표시선이 기종에 맞지 않고 표기도 없다. 정비 문서 계열로 넣었으나 지상 표시는 기준표에 정확히 맞는 값이 없다. v1.2 검토 대상.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "Commercial Fixed Wing",
+      "Large Transport, Low Wing, 2 Turbojet Eng"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "02"
+  }
+}

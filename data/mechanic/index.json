@@ -1,0 +1,1679 @@
+[
+  {
+    "acn": "2069879",
+    "report_id": "mechanic-2069879",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician reported lack of key information in A321 aircraft maintenance manual when removing a fuel pump lead to fuel spill.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 조치·수리",
+      "정비 문서·MEL 확인",
+      "절차·체크리스트 준수",
+      "지상 요원·정비사 보고",
+      "비상 절차 수행",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 6,
+    "n_breached": 1,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 2512
+  },
+  {
+    "acn": "2062965",
+    "report_id": "mechanic-2062965",
+    "set": "mechanic",
+    "synopsis": "Maintenance technicians reported that while they were working on an aircraft with a flap issue the company management was not supportive of AMT's working to find root cause of the problem.",
+    "threats": [
+      "항공기 계통 고장",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "정비 문서·MEL 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 7881
+  },
+  {
+    "acn": "2061958",
+    "report_id": "mechanic-2061958",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported an aircraft with extensive damage to nose was approved for flight before repair.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "불일치",
+    "narrative_len": 603
+  },
+  {
+    "acn": "2061955",
+    "report_id": "mechanic-2061955",
+    "set": "mechanic",
+    "synopsis": "Air carrier maintenance personnel reported the improper shipping and handling of fire extinguisher bottles. Reporter suggests additional training of shipping and handling personnel is needed.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 960
+  },
+  {
+    "acn": "2061581",
+    "report_id": "mechanic-2061581",
+    "set": "mechanic",
+    "synopsis": "Helicopter maintenance technicians reported that after scheduled maintenance they learned a pilot discovered during preflight inspection the tail rotor gearbox oil cap was not installed.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "승무원 교차 확인",
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1719
+  },
+  {
+    "acn": "2060780",
+    "report_id": "mechanic-2060780",
+    "set": "mechanic",
+    "synopsis": "Air carrier Maintenance Lead Technician reported accepting a late arriving important parcel. The late parcel caused a departure delay in order to load in the cargo compartment and to issue a revised final load plan.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [
+      "운항 취소·지연"
+    ],
+    "worked": [
+      "지상 요원·정비사 보고",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 7,
+    "detector_status": "불일치",
+    "narrative_len": 936
+  },
+  {
+    "acn": "2059864",
+    "report_id": "mechanic-2059864",
+    "set": "mechanic",
+    "synopsis": "Air carrier Stores Personnel reported the failure to include the AWB with the Hazmat parcel which is required to close the final DG summary. Reporter stated the lack of experience in shipping hazardous material contributed to the document mishandling.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 3,
+    "detector_status": "불일치",
+    "narrative_len": 685
+  },
+  {
+    "acn": "2059860",
+    "report_id": "mechanic-2059860",
+    "set": "mechanic",
+    "synopsis": "Air carrier Storekeeper reported the improper packaging and shipment of Hazmat tools by a fellow Storekeeper.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 750
+  },
+  {
+    "acn": "2058249",
+    "report_id": "mechanic-2058249",
+    "set": "mechanic",
+    "synopsis": "B737 MAX 8 Technician reported the MEL procedure on testing the fire detection loop was vague and needs to provide more information and direction.",
+    "threats": [
+      "절차·문서 불일치",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1666
+  },
+  {
+    "acn": "2058245",
+    "report_id": "mechanic-2058245",
+    "set": "mechanic",
+    "synopsis": "A319 Mechanic reported heavy corrosion was found on components of the fuel tank.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 113
+  },
+  {
+    "acn": "2058239",
+    "report_id": "mechanic-2058239",
+    "set": "mechanic",
+    "synopsis": "Maintenance Inspector reported a connector was mistakenly removed during the replacement of an engine harness. Reporter stated time pressure was a contributing factor.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 393
+  },
+  {
+    "acn": "2054307",
+    "report_id": "mechanic-2054307",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported a near miss while towing an aircraft when it almost made contact with another aircraft due to tow lines in the hangar not labeled.",
+    "threats": [
+      "공항·지상 환경",
+      "교통 근접"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 545
+  },
+  {
+    "acn": "2053650",
+    "report_id": "mechanic-2053650",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported multiple brake rotor drive clips cracked on 737 MAX aircraft.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 0,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 578
+  },
+  {
+    "acn": "2053162",
+    "report_id": "mechanic-2053162",
+    "set": "mechanic",
+    "synopsis": "Maintenance Lead Technician reported finding opened aircraft engine oil cans on the oxygen service cart near the oxygen bottle service valves during a routine inspection.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 257
+  },
+  {
+    "acn": "2053161",
+    "report_id": "mechanic-2053161",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported that the IDG drain plug on B737 aircraft has been found to be cracked due to possible over-torquing.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 633
+  },
+  {
+    "acn": "2051190",
+    "report_id": "mechanic-2051190",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reversed hydraulic flex lines when reassembling brake valve causing brakes to lock up on landing.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "항공기 계통 고장"
+    ],
+    "detectors": [],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 조치·수리",
+      "절차·체크리스트 준수"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 3,
+    "n_items": 5,
+    "detector_status": "불일치",
+    "narrative_len": 1868
+  },
+  {
+    "acn": "2050590",
+    "report_id": "mechanic-2050590",
+    "set": "mechanic",
+    "synopsis": "B737 Aircraft Maintenance Technician reported not performing a required bird strike inspection as the reporter did not see evidence of the bird strike on the engine intake during a walkaround inspection of the fuselage.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "정비 문서·MEL 확인"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 842
+  },
+  {
+    "acn": "2050589",
+    "report_id": "mechanic-2050589",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician found missing panel on engine thrust reverser during pre-departure walk around.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [
+      "정비 정기 점검",
+      "출발 전 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1359
+  },
+  {
+    "acn": "2050585",
+    "report_id": "mechanic-2050585",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported finding corroded batteries in a B787 portable oxygen bottle.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "항공기 경고 장치"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 724
+  },
+  {
+    "acn": "2047663",
+    "report_id": "mechanic-2047663",
+    "set": "mechanic",
+    "synopsis": "Maintenance technician found un-installed engine bolt during maintenance troubleshooting due to jamb of engine twist grip.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 533
+  },
+  {
+    "acn": "2040780",
+    "report_id": "mechanic-2040780",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported missing insulation in the cargo pit causing high temperatures due to the pneumatic duct.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 482
+  },
+  {
+    "acn": "2040479",
+    "report_id": "mechanic-2040479",
+    "set": "mechanic",
+    "synopsis": "Maintenance technicians working on an A320 aircraft reported inadvertent gear retraction causing minor injury to another technician.",
+    "threats": [
+      "항공기 계통 고장",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "부상·직무 불능",
+      "정비 조치"
+    ],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 6336
+  },
+  {
+    "acn": "2039328",
+    "report_id": "mechanic-2039328",
+    "set": "mechanic",
+    "synopsis": "Aircraft technicians reported fuel spill when removing wing tank fuel pump.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "지상 요원·정비사 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 1022
+  },
+  {
+    "acn": "2038548",
+    "report_id": "mechanic-2038548",
+    "set": "mechanic",
+    "synopsis": "Maintenance technicians serviced aircraft IDG with possible contaminated fluid.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인",
+      "항공기 경고 장치",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 9,
+    "detector_status": "불일치",
+    "narrative_len": 2894
+  },
+  {
+    "acn": "2036377",
+    "report_id": "mechanic-2036377",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician incorrectly closed an MEL on a B767 item due to not reading all of the logbook updates.",
+    "threats": [
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 725
+  },
+  {
+    "acn": "2033529",
+    "report_id": "mechanic-2033529",
+    "set": "mechanic",
+    "synopsis": "Two onboard air carrier Mechanics and one Ground Marshaller reported a ground encounter with a parked aircraft during aircraft repositioning to a hangar. Marshaller stated he misjudged the lack of winglet clearance.",
+    "threats": [
+      "교통 근접"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 수동 개입",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "지상 요원·정비사 보고",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 2471
+  },
+  {
+    "acn": "2033522",
+    "report_id": "mechanic-2033522",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported a suspected design issue regarding the lack of safety wire on the main landing gear valve stem assembly.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "출발 전 점검"
+    ],
+    "breached": [
+      "정비 정기 점검",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 679
+  },
+  {
+    "acn": "2032488",
+    "report_id": "mechanic-2032488",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported aircraft had hydraulic system failure due to non- accomplishment of aircraft modification.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "운항 관리 협의"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구"
+    ],
+    "layers_breached": [
+      "복구",
+      "해소"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "불일치",
+    "narrative_len": 741
+  },
+  {
+    "acn": "2032484",
+    "report_id": "mechanic-2032484",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician towing an aircraft into the hangar struck the wing of another aircraft with the radome of the aircraft under tow.",
+    "threats": [
+      "교통 근접"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "지상 요원·정비사 보고"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1619
+  },
+  {
+    "acn": "2030501",
+    "report_id": "mechanic-2030501",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported wing access panels departed the aircraft inflight due to possible missing or damaged part.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "출발 전 점검",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 1033
+  },
+  {
+    "acn": "2030003",
+    "report_id": "mechanic-2030003",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Inspector and Technician reported incorrect sign-off of cabin door assist actuator during previous maintenance visit.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1012
+  },
+  {
+    "acn": "2028354",
+    "report_id": "mechanic-2028354",
+    "set": "mechanic",
+    "synopsis": "B787 Technician reported being marshaled into the gate when a service vehicle entered the safety area passing close by the Technician and Marshaller.",
+    "threats": [
+      "공항·지상 환경"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 0,
+    "n_items": 2,
+    "detector_status": "일치",
+    "narrative_len": 435
+  },
+  {
+    "acn": "2028082",
+    "report_id": "mechanic-2028082",
+    "set": "mechanic",
+    "synopsis": "Maintenance Supervisor reported only a nose wheel chock was used for an aircraft parked in the hangar and it was improperly positioned resulting in the aircraft rolling into a scissor lift.",
+    "threats": [
+      "공항·지상 환경",
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 768
+  },
+  {
+    "acn": "2028067",
+    "report_id": "mechanic-2028067",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported that during preflight the flight crew found the aircraft flight crew escape ropes were not installed properly.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "복구",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 535
+  },
+  {
+    "acn": "2027475",
+    "report_id": "mechanic-2027475",
+    "set": "mechanic",
+    "synopsis": "Air carrier Safety Representative reported inconsistencies of aircraft hazmat components tagging during ground processing. Reporter suggested more training for stores clerks.",
+    "threats": [
+      "위험물·적재",
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 정기 점검",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 3,
+    "n_items": 8,
+    "detector_status": "불일치",
+    "narrative_len": 1891
+  },
+  {
+    "acn": "2026576",
+    "report_id": "mechanic-2026576",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technicians reported improper removal of 737-900 aircraft wing structure protective coatings and material.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 수동 개입",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 2660
+  },
+  {
+    "acn": "2024817",
+    "report_id": "mechanic-2024817",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported incorrectly installing landing gear uplock brackets and had mistakenly installed them upside-down.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "정비 문서·MEL 확인"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "복구",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 569
+  },
+  {
+    "acn": "2024499",
+    "report_id": "mechanic-2024499",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician reported PSU units with O2 generators were not being processed as a HAZMAT part and were being improperly tagged without the proper shelf life information.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 교차 확인",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 2293
+  },
+  {
+    "acn": "2023499",
+    "report_id": "mechanic-2023499",
+    "set": "mechanic",
+    "synopsis": "Helicopter owner/pilot reported performing own maintenance due to experimental exhibition category. The helicopter experienced a loss of power during a flight and was damaged upon landing.",
+    "threats": [
+      "항공기 계통 고장",
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 569
+  },
+  {
+    "acn": "2023427",
+    "report_id": "mechanic-2023427",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician reported missing step in maintenance procedure to restore circuit breakers for VOR antenna.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "출발 전 점검"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 2,
+    "n_items": 4,
+    "detector_status": "불일치",
+    "narrative_len": 407
+  },
+  {
+    "acn": "2022066",
+    "report_id": "mechanic-2022066",
+    "set": "mechanic",
+    "synopsis": "A320 Maintenance Technician reported that the incorrect part was listed in the Illustrated Parts Catalog (IPC) and needs to be corrected and updated. The installation of the incorrect part as instructed in the current IPC could lead to possible malfunction of the aircraft’s thrust reverser system.",
+    "threats": [
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 2432
+  },
+  {
+    "acn": "2021140",
+    "report_id": "mechanic-2021140",
+    "set": "mechanic",
+    "synopsis": "A320 technicians reported the Aircraft Maintenance Manual (AMM) did not clearly provide defuel instructions for a fuel pump removal procedure. After removing the pump, fuel began to leak, spilling all over on the ramp.",
+    "threats": [
+      "시간·업무 부하",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 교차 확인",
+      "지상 요원·정비사 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 3,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 3127
+  },
+  {
+    "acn": "2020865",
+    "report_id": "mechanic-2020865",
+    "set": "mechanic",
+    "synopsis": "Maintenance Stores Personnel reported he mistakenly advanced a hazmat parcel as a \"No hazmat on board NOTOC\". This mistake resulted in the undocumented air transport of hazmat.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "절차·체크리스트 준수",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 3,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1506
+  },
+  {
+    "acn": "2017583",
+    "report_id": "mechanic-2017583",
+    "set": "mechanic",
+    "synopsis": "Air carrier Ground Personnel reported being notified of a box containing two Dangerous Goods (DG) components combined in one box. Reporter stated he was not aware of any DG in the box.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 3,
+    "detector_status": "불일치",
+    "narrative_len": 287
+  },
+  {
+    "acn": "2017070",
+    "report_id": "mechanic-2017070",
+    "set": "mechanic",
+    "synopsis": "B737 Technician reported that an EA (Engineering Authorization) does not have a sufficient fuel nozzle leak check process after fuel nozzle post-replacement work is completed. If the leak test is not performed and a potential problem goes undetected, the reporter states that it can lead to in-service engine fires.",
+    "threats": [
+      "절차·문서 불일치",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1637
+  },
+  {
+    "acn": "2010947",
+    "report_id": "mechanic-2010947",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported pressure from Maintenance Control department to install incorrect part onto airplane.",
+    "threats": [
+      "절차·문서 불일치",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인",
+      "운항 중단 판단",
+      "운항 관리 협의",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "운항 관리 협의"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "해소"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 5178
+  },
+  {
+    "acn": "2008358",
+    "report_id": "mechanic-2008358",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported an inadvertent discharge of the cargo pit fire extinguisher bottle during a maintenance check.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "절차·체크리스트 준수"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 511
+  },
+  {
+    "acn": "2008352",
+    "report_id": "mechanic-2008352",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technicians reported missing a procedural step when deferring a thrust reverser while the aircraft was at the gate prior to departure.",
+    "threats": [
+      "항공기 계통 고장",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "운항 관리 협의",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 3,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "불일치",
+    "narrative_len": 4305
+  },
+  {
+    "acn": "2005229",
+    "report_id": "mechanic-2005229",
+    "set": "mechanic",
+    "synopsis": "Maintenance Manager reported non compliance with MEL procedure and incorrect maintenance practices led to water leaking into the Lower avionics compartment, causing system failures on a B747 aircraft.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "운항 관리 협의",
+      "정비 조치·수리",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구",
+      "예방",
+      "해소"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 2,
+    "n_breached": 3,
+    "n_items": 8,
+    "detector_status": "불일치",
+    "narrative_len": 1780
+  },
+  {
+    "acn": "2000321",
+    "report_id": "mechanic-2000321",
+    "set": "mechanic",
+    "synopsis": "Technician reported concerns over trouble shooting and the correct application of an MEL while working in a B777-200.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "정비 문서·MEL 확인"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 177
+  }
+]

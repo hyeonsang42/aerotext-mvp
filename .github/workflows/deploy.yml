@@ -1,0 +1,63 @@
+# 소스를 밀어 넣으면 GitHub 가 빌드해서 Pages 로 내보낸다.
+# 빌드 결과물을 저장소에 커밋하지 않는다. out/ 은 여기서만 만들어져 바로 배포된다.
+name: 빌드와 배포
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# 배포에 필요한 최소 권한만 준다.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 배포가 겹치면 뒤엣것을 기다리게 한다. 중간에 끊지 않는다.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 패키지 설치
+        run: npm ci
+
+      - name: 정적 내보내기
+        # 주소가 /aerotext-mvp/ 로 시작하므로 basePath 를 준다.
+        # 이것이 없으면 내부 링크와 이미지가 전부 404 가 된다.
+        env:
+          NEXT_PUBLIC_BASE_PATH: /aerotext-mvp
+        run: npm run build
+
+      - name: 결과물 점검
+        # 링크와 이미지에 basePath 가 실제로 붙었는지 확인한다. 아니면 배포하지 않는다.
+        run: |
+          test -f out/index.html || { echo "out/index.html 이 없다"; exit 1; }
+          grep -q 'href="/aerotext-mvp/set/' out/index.html || { echo "내부 링크에 basePath 가 없다"; exit 1; }
+          grep -q '/aerotext-mvp/img' out/index.html || { echo "이미지 경로에 basePath 가 없다"; exit 1; }
+          echo "HTML $(find out -name '*.html' | wc -l) 개 생성"
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

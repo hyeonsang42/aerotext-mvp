@@ -1,0 +1,149 @@
+{
+  "report_id": "mechanic-2036377",
+  "acn": "2036377",
+  "set": "mechanic",
+  "synopsis": "Maintenance Technician incorrectly closed an MEL on a B767 item due to not reading all of the logbook updates.",
+  "narrative": "#1 eng was deactivated and placed on MEL (XXXXXX) due to #1 eng High Pressure Shut- Off Valve being on MEL XXXXXXY). There was an item that was deferred (XXXXXZ) that had to be fixed and required reactivating engine for sheet metal to gain access. After reactivating #1 eng and deploying. realized that engine was working. When I saw that the original report was Thrust REV 1 did not deploy; figured it was OK to close log as operations checking normally both deploying and stowing. It was brought to my attention the next day that the log should never have been closed because it was tied to the High Pressure Shut-Off Valve being on MEL. I closed the MEL due to the original PIREP and did not notice the updates on the log.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "procedure_doc_conflict",
+      "evidence": {
+        "quote": "There was an item that was deferred (XXXXXZ) that had to be fixed and required reactivating engine for sheet metal to gain access.",
+        "start": 117,
+        "end": 247
+      },
+      "item_label": "위협",
+      "label_ko": "절차·문서 불일치",
+      "layer": null,
+      "agent": null,
+      "desc": "절차서, 교범, 차트, MEL의 내용이 서로 다르거나 현장과 맞지 않는 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "After reactivating #1 eng and deploying. realized that engine was working.",
+        "start": 248,
+        "end": 322
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "I closed the MEL due to the original PIREP and did not notice the updates on the log.",
+        "start": 640,
+        "end": 725
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "It was brought to my attention the next day that the log should never have been closed because it was tied to the High Pressure Shut-Off Valve being on MEL.",
+        "start": 483,
+        "end": 639
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B767 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

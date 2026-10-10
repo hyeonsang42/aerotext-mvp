@@ -1,0 +1,180 @@
+{
+  "report_id": "mechanic-2020865",
+  "acn": "2020865",
+  "set": "mechanic",
+  "synopsis": "Maintenance Stores Personnel reported he mistakenly advanced a hazmat parcel as a \"No hazmat on board NOTOC\". This mistake resulted in the undocumented air transport of hazmat.",
+  "narrative": "AWB (Airway Bill) XXX-XXXXXXXX was booked at cargo desk from ZZZ to ZZZ1 and on to ZZZ1 to ZZZZ. The 14-piece trek bicycle with 2 dg batteries was accepted by employee Person A. Then the piece was relocated to the DG rack in ZZZ by employee. The 14 piece with 2 DG was planned by Person B for flight Aircraft X in Cart X. The cart was then relocated to XX where the flight gate changed, and the ramp failed to relocate the freight and it was refused in the emergency response system at gate XXX. The cart was then transferred to back to ZZZ warehouse where Person C was tasked with replanning. When I replanned, it I looked in the cart compared the AWB and went to input the data. When manifesting the trip for Aircraft Y I pushed NOTOC the system read NO DG so I proceeded to plan the flight for on time departure. That flight then went to ZZZ1 were all 14 pieces was loaded into a cargo container by another employee where the undeclared DG went international to ZZZZ. Cause: When replanning a cart that the is being reused for a same destination the flight and different flight number the process is drag and drop. When a NOTOC is refused it then shows in the system as NO DG. indicating that NO DGs are on the flight. The manager showed me that there are 2 little window Icon the click on that opens new windows to show DGs. I asked why was this never covered in training for this position and she replied I will get back to you on this issue! Suggestions: Training on rebooking DG in new cargo system.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "hazmat_loading",
+      "evidence": {
+        "quote": "The 14-piece trek bicycle with 2 dg batteries was accepted by employee Person A.",
+        "start": 97,
+        "end": 177
+      },
+      "item_label": "위협",
+      "label_ko": "위험물·적재",
+      "layer": null,
+      "agent": null,
+      "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "When a NOTOC is refused it then shows in the system as NO DG. indicating that NO DGs are on the flight.",
+        "start": 1118,
+        "end": 1221
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "so I proceeded to plan the flight for on time departure",
+        "start": 759,
+        "end": 814
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "When manifesting the trip for Aircraft Y I pushed NOTOC the system read NO DG so I proceeded to plan the flight for on time departure.",
+        "start": 681,
+        "end": 815
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "I asked why was this never covered in training for this position",
+        "start": 1329,
+        "end": 1393
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "detector",
+      "value": "person.ground_personnel",
+      "evidence": {
+        "quote": "The manager showed me that there are 2 little window Icon the click on that opens new windows to show DGs.",
+        "start": 1222,
+        "end": 1328
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지상 요원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Ground Personnel",
+      "scoring": "자동 채점"
+    }
+  ],
+  "notes": "전산 시스템이 거부된 위험물 신고를 위험물 없음으로 표시했다. 사람이 아니라 시스템 표시가 방어를 무력화한 사례다. 미신고 위험물이 국제선으로 실려 나간 결과에 해당하는 값이 기준표에 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Ground Personnel"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ],
+      "overlap": [
+        "Ground Personnel"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Ground Personnel"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B737-800"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

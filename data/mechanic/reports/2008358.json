@@ -1,0 +1,129 @@
+{
+  "report_id": "mechanic-2008358",
+  "acn": "2008358",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Technician reported an inadvertent discharge of the cargo pit fire extinguisher bottle during a maintenance check.",
+  "narrative": "While helping preform a job card ( Aileron Servo Controls), I was in the cockpit when I noticed what appeared to be broken snap wire on the guarded switch to the agent discharge for the cargo compartment fire extinguisher. When I pulled on the guarded switch to check if the snap wire was indeed broken I accidentally discharged the #1 fire extinguisher bottle to the forward pit. I should have pulled the circuit breaker before checking the guard switch to prevent to fire extinguisher bottle from discharging.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "I noticed what appeared to be broken snap wire on the guarded switch to the agent discharge for the cargo compartment fire extinguisher",
+        "start": 86,
+        "end": 221
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "I noticed what appeared to be broken snap wire on the guarded switch to the agent discharge for the cargo compartment fire extinguisher",
+        "start": 86,
+        "end": 221
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "I should have pulled the circuit breaker before checking the guard switch to prevent to fire extinguisher bottle from discharging.",
+        "start": 381,
+        "end": 511
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "결함을 확인하려다 소화 병을 방출시켰다. 점검 행위 자체가 새 사건을 만든 사례다. 결과 상태 서술이 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A300"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

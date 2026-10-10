@@ -1,0 +1,267 @@
+{
+  "report_id": "cabin_fumes-2059473",
+  "acn": "2059473",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier flight attendants reported a fume event during initial descent in which the flight crew and passengers experienced physiological symptoms. Upon arrival the aircraft was removed from service and after an extensive delay the flight attendants were attended by a medical doctor.",
+  "narrative": "During final descent, we started to smell a strong continuous toxic fume odor that did not dissipate. Before, we could call flight deck, they already called to alert us and to ask if we were alright. In the moment, I started to become light headed and continued out for final compliance. The DH (Dead Head) pilots let us know we needed to put masks on for protection from the scent and advised us it was really bad and unsafe. Shortly after, I took my jump seat for landing. Once we landed, let the crew and pilots know how I was feeling. After we deplaned, I still felt light headed and my throat started to burn. I then decided to take a walk to see if I would feel better during the security check. Once I returned, I felt extremely hot and removed part of my clothing and the crew provided ice packs to cool down all while they also were not in the best conditions and didn't feel well. The pilots including DHs made the decision to call medical services on our behalf's because they saw how bad we all looked. While maintenance did an initial test, he told us he did smell what we experience. After several test, they continued to smell it, and concluded that the toxic fumes were indeed unsafe and advised the flight deck not to operate and took it out of service and ferried to ZZZ. I continued to follow the appropriate steps and spoke to medical services and shared my symptoms. They told me my symptoms were minor and to drink lots of fluids, take pain medication and to get fresh air. They recorded that I was not fit to fly. Also I was unsure what that meant, I proceeded to get direction from a duty lead and she advised us that we needed to be seen by a doctor. I was finally seen by a doctor that made sure I was fit to fly after several hours. Weeks later, my crew and I are being bullied and intimidated by our company. We have been reprimanded and penalized for reporting this event. Upon Final Decent, I (was picking up trash. As I approached row XX, I turned to see if I could locate the funky smell; I was smelling. At the same time, the Captain was calling Inflight. I continued, picking up trash. I finished trash in the Aft, were my fellow crewmembers advised me that we experienced a fume event, they (the pilots) put on their oxygen mask and advised us to put on a mask and take our Jump-seat. Upon deplaning, maintenance boarded and upon initial test and subsequent test the odor/fumes persisted.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "During final descent, we started to smell a strong continuous toxic fume odor that did not dissipate.",
+        "start": 0,
+        "end": 101
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "During final descent, we started to smell a strong continuous toxic fume odor that did not dissipate.",
+        "start": 0,
+        "end": 101
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Before, we could call flight deck, they already called to alert us and to ask if we were alright.",
+        "start": 102,
+        "end": 199
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Before, we could call flight deck, they already called to alert us and to ask if we were alright.",
+        "start": 102,
+        "end": 199
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.other_person",
+      "evidence": {
+        "quote": "The DH (Dead Head) pilots let us know we needed to put masks on for protection from the scent and advised us it was really bad and unsafe.",
+        "start": 288,
+        "end": 426
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "그 밖의 사람",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Other Person",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "we needed to put masks on for protection from the scent",
+        "start": 326,
+        "end": 381
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "After several test, they continued to smell it, and concluded that the toxic fumes were indeed unsafe and advised the flight deck not to operate and took it out of service",
+        "start": 1098,
+        "end": 1269
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "advised the flight deck not to operate and took it out of service",
+        "start": 1204,
+        "end": 1269
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "took it out of service and ferried to ZZZ",
+        "start": 1247,
+        "end": 1288
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "They recorded that I was not fit to fly.",
+        "start": 1496,
+        "end": 1536
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "보고 후 회사로부터 불이익을 받았다는 서술(reprimanded and penalized for reporting this event)이 있으나 보고 문화에 해당하는 방어 값이 기준표에 없다. 드물게 나올 항목이라 값을 늘리지 않고 여기 적어 둔다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant",
+        "Flight Crew",
+        "Other Person"
+      ],
+      "overlap": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action",
+        "Physical Injury / Incapacitation"
+      ],
+      "predicted": [
+        "Maintenance Action",
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [
+        "Maintenance Action",
+        "Physical Injury / Incapacitation"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action",
+      "Physical Injury / Incapacitation"
+    ],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Descent"
+    ],
+    "Make Model Name": [
+      "A320"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "02"
+  }
+}

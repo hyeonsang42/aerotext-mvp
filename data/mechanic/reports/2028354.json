@@ -1,0 +1,112 @@
+{
+  "report_id": "mechanic-2028354",
+  "acn": "2028354",
+  "set": "mechanic",
+  "synopsis": "B787 Technician reported being marshaled into the gate when a service vehicle entered the safety area passing close by the Technician and Marshaller.",
+  "narrative": "My partner and I were bringing up an aircraft into gate X, Person A was marshalling me into the gate when a Company maintenance pick up come from my right, goes into the safety area, goes behind my partner (real close) goes under the cab part of the jet way, back into the safety area to go park into what I believe are their offices, all of those while we are moving a 787 into the gate. This happened at around XA:15pm at gate X ZZZ.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "a Company maintenance pick up come from my right, goes into the safety area, goes behind my partner (real close)",
+        "start": 106,
+        "end": 218
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "a Company maintenance pick up come from my right, goes into the safety area, goes behind my partner (real close)",
+        "start": 106,
+        "end": 218
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    }
+  ],
+  "notes": "787 을 게이트로 넣는 중에 회사 차량이 안전구역을 가로질렀다. 지상 안전구역 통제에 해당하는 방어 값이 기준표에 없어 위협과 탐지만 넣었다. v1.2 검토 대상.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "B787 Dreamliner Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

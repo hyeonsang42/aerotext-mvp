@@ -1,0 +1,186 @@
+{
+  "report_id": "cabin_fumes-2031193",
+  "acn": "2031193",
+  "set": "cabin_fumes",
+  "synopsis": "B-777 Captain reported a burning odor while taxiing into the gate after starting the APU. Upon parking and shutdown maintenance discovered burned electrical components in the lower electrical compartment.",
+  "narrative": "Upon taxi into the gate, and selection of the APU switch to On and Start, a burning odor was detected by both the First Officer and myself. The electric page showed all normal indications and the APU started normally. The Status page was referenced and it showed two Status messages: Main Battery Status and Main Battery Charger Status. The First Officer contacted station maintenance on taxi in and maintenance met the aircraft at the gate. Upon parking and the gate and deplaning the passengers a maintenance write up was accomplished and, maintenance accessed the compartment. They discovered soot and charring on the battery box and connector. Smoke was observed as well. The battery was disconnected and the airplane de-powered.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Upon taxi into the gate, and selection of the APU switch to On and Start, a burning odor was detected by both the First Officer and myself.",
+        "start": 0,
+        "end": 139
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "a burning odor was detected by both the First Officer and myself",
+        "start": 74,
+        "end": 138
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "The Status page was referenced and it showed two Status messages: Main Battery Status and Main Battery Charger Status.",
+        "start": 218,
+        "end": 336
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "The First Officer contacted station maintenance on taxi in and maintenance met the aircraft at the gate.",
+        "start": 337,
+        "end": 441
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "They discovered soot and charring on the battery box and connector.",
+        "start": 580,
+        "end": 647
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "The battery was disconnected and the airplane de-powered.",
+        "start": 676,
+        "end": 733
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "냄새만으로는 위치를 몰랐고 상태 메시지가 배터리를 가리켰다. 경고 장치가 탐지가 아니라 위치 특정에 쓰인 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Taxi"
+    ],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "B777 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

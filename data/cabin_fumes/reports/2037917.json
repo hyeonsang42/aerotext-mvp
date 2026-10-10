@@ -1,0 +1,189 @@
+{
+  "report_id": "cabin_fumes-2037917",
+  "acn": "2037917",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Flight Attendant reported a fume event of unknown source during preflight prior to boarding. Maintenance removed aircraft from service and Flight Attendant was removed from trip.",
+  "narrative": "We had a fume event after we boarded the aircraft before boarding passengers. Maintenance was called and aircraft was removed . I went to ER as i experienced watery eyes, sore throat and felt light headed and got removed from the trip",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "We had a fume event after we boarded the aircraft before boarding passengers.",
+        "start": 0,
+        "end": 77
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "We had a fume event after we boarded the aircraft before boarding passengers.",
+        "start": 0,
+        "end": 77
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Maintenance was called and aircraft was removed",
+        "start": 78,
+        "end": 125
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "Maintenance was called and aircraft was removed",
+        "start": 78,
+        "end": 125
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "Maintenance was called and aircraft was removed",
+        "start": 78,
+        "end": 125
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "I went to ER as i experienced watery eyes, sore throat and felt light headed and got removed from the trip",
+        "start": 128,
+        "end": 234
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "234자짜리 최단 보고다. 방어 시퀀스가 짧게라도 복원된다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant"
+      ],
+      "predicted": [
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action",
+        "Release Refused / Aircraft Not Accepted",
+        "Work Refused"
+      ],
+      "predicted": [
+        "Maintenance Action",
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action",
+      "Release Refused / Aircraft Not Accepted",
+      "Work Refused"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B787-900"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

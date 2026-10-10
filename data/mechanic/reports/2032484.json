@@ -1,0 +1,160 @@
+{
+  "report_id": "mechanic-2032484",
+  "acn": "2032484",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Technician towing an aircraft into the hangar struck the wing of another aircraft with the radome of the aircraft under tow.",
+  "narrative": "Aircraft X was moved into [the] center hangar to be set up for RON (Routine Overnight) work. The Aircraft was to be moved in deep so that two narrow body aircraft could be parked behind Aircraft X. Aircraft Y was moved out of the south hanger so that Aircraft X could be moved into the hangar. Lead Technician and crew held a huddle prior to moving Aircraft Y out of the hangar and they reviewed the move of Aircraft Y out of the hangar, the move of Aircraft X into the hangar, followed by the move of Aircraft Y back into the south hanger. After hookup of the tow tractor, the crew members took their positions and the Lead Technician went to the marshal in position. I joined the Lead Technician at that position. The Lead Technician marshalled in the tug driver and the wing walkers moved in with the aircraft. As Aircraft X got close to the parking spot, I moved to the front of Aircraft Z to observe the distance between the #1 engine nose cowl on Aircraft X and the radome on Aircraft Z. The Lead Technician slowed the movement of Aircraft X as it approached the parking spot and a popping sound then occurred. I turned and walked back to see the radome of Aircraft X resting on the leading edge of Aircraft Z left wing. The Lead Technician then motioned the driver to push Aircraft X back. The crew then gathered to place chocks under wheels, disconnect tow bar, hook up power, and position the entry stand. While parking Aircraft X in the hanger, as guide man I did not pay enough attention to clearance on nose of Aircraft X and leading edge of Aircraft Z causing impact damage of radome and leading edge slat.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "traffic_conflict",
+      "evidence": {
+        "quote": "I turned and walked back to see the radome of Aircraft X resting on the leading edge of Aircraft Z left wing.",
+        "start": 1117,
+        "end": 1226
+      },
+      "item_label": "위협",
+      "label_ko": "교통 근접",
+      "layer": null,
+      "agent": null,
+      "desc": "다른 항공기나 지상 이동체와의 간격이 좁아진 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "Lead Technician and crew held a huddle prior to moving Aircraft Y out of the hangar and they reviewed the move of Aircraft Y out of the hangar, the move of Aircraft X into the hangar, followed by the move of Aircraft Y back into the south hanger.",
+        "start": 294,
+        "end": 540
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "As Aircraft X got close to the parking spot, I moved to the front of Aircraft Z to observe the distance between the #1 engine nose cowl on Aircraft X and the radome on Aircraft Z.",
+        "start": 814,
+        "end": 993
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "a popping sound then occurred",
+        "start": 1086,
+        "end": 1115
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "While parking Aircraft X in the hanger, as guide man I did not pay enough attention to clearance on nose of Aircraft X and leading edge of Aircraft Z causing impact damage of radome and leading edge slat.",
+        "start": 1415,
+        "end": 1619
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "사전 브리핑을 했고 간격 관찰자까지 따로 배치했는데도 접촉했다. 관찰자는 엔진 카울과 레이돔 사이를 보고 있었고 실제로 닿은 것은 레이돔과 앞전이었다. 결과 상태 서술이 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B777-200",
+      "Commercial Fixed Wing"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

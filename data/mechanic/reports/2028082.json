@@ -1,0 +1,182 @@
+{
+  "report_id": "mechanic-2028082",
+  "acn": "2028082",
+  "set": "mechanic",
+  "synopsis": "Maintenance Supervisor reported only a nose wheel chock was used for an aircraft parked in the hangar and it was improperly positioned resulting in the aircraft rolling into a scissor lift.",
+  "narrative": "During the performance of the work card XX-XX-XX, at some point the nose of the aircraft started to roll off the spot 3 center line. Moving approximately 14 ft. before coming to rest against scissor lift and being re-chocked. Potential that the nose wheel chock were not properly positioned / orientated / worn. With the Emergency / Parking Brake Accumulator pressure released combined with the slop of the hangar floor could be contributing factors. Suggestion: In Step XX.X, of W/C XX-XX-XX define chocking the landing gear as: \"Place chocks at all three landing gear wheels\". In Step XX.Y. add a caution note; \"Caution: Not having all three main landing gear checked while the Emergency / Parking Brake Accumulator pressure released, may cause damage and/or injury.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "combined with the slop of the hangar floor could be contributing factors",
+        "start": 377,
+        "end": 449
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "at some point the nose of the aircraft started to roll off the spot 3 center line",
+        "start": 50,
+        "end": 131
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "Moving approximately 14 ft. before coming to rest against scissor lift and being re-chocked.",
+        "start": 133,
+        "end": 225
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Potential that the nose wheel chock were not properly positioned / orientated / worn.",
+        "start": 226,
+        "end": 311
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "In Step XX.X, of W/C XX-XX-XX define chocking the landing gear as",
+        "start": 463,
+        "end": 528
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "before coming to rest against scissor lift and being re-chocked",
+        "start": 161,
+        "end": 224
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "작업 카드가 앞바퀴 고임목만 요구하고 세 다리 전부를 명시하지 않았다는 지적이다. 기체가 14피트를 굴러 시저 리프트에 부딪혀 멈췄다. 결과 상태 서술이 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "Commercial Fixed Wing"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

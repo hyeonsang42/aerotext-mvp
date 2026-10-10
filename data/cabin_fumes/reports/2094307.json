@@ -1,0 +1,188 @@
+{
+  "report_id": "cabin_fumes-2094307",
+  "acn": "2094307",
+  "set": "cabin_fumes",
+  "synopsis": "A321 First Officer reported they were advised of smoke and an electrical smell in the cabin during approach. The flight crew donned their oxygen masks and continued their approach and landing.",
+  "narrative": "At 4,000 feet flight attendants called the cockpit to report smoke in the cabin, eye and throat irritation, smells like electrical and or fuel. Both pilots went on oxygen immediately, and proceeded to land at ZZZZ airport. AARF (Airport Rescue and Firefighting) was notified before landing to meet the aircraft upon landing, which they did and examine the outside of the airplane for any smoke or hotspots none were found so then we proceeded to a hard stand gate where passengers deplaned through air stairs. Everybody was OK, no reported injuries. AARF came on board after the passengers, deplaned and proceeded to examine the inside of the airplane looking for the smoke source the plane was grounded and taken out of service for repairs at ZZZZ airport.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "At 4,000 feet flight attendants called the cockpit to report smoke in the cabin, eye and throat irritation, smells like electrical and or fuel.",
+        "start": 0,
+        "end": 143
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "At 4,000 feet flight attendants called the cockpit to report smoke in the cabin, eye and throat irritation, smells like electrical and or fuel.",
+        "start": 0,
+        "end": 143
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "flight attendants called the cockpit to report smoke in the cabin",
+        "start": 14,
+        "end": 79
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "Both pilots went on oxygen immediately, and proceeded to land at ZZZZ airport.",
+        "start": 144,
+        "end": 222
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.landed_as_precaution",
+      "evidence": {
+        "quote": "AARF (Airport Rescue and Firefighting) was notified before landing to meet the aircraft upon landing, which they did and examine the outside of the airplane for any smoke or hotspots none were found",
+        "start": 223,
+        "end": 421
+      },
+      "item_label": "대응 행동",
+      "label_ko": "예방 차원의 착륙",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Landed As Precaution",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "the plane was grounded and taken out of service for repairs at ZZZZ airport",
+        "start": 681,
+        "end": 756
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "착륙 성격이 명시되지 않아 fc.landed_as_precaution 은 판단이 들어간 항목이다. 소방대를 미리 부른 것을 근거로 삼았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant"
+      ],
+      "predicted": [
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Landed As Precaution"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Final Approach"
+    ],
+    "Make Model Name": [
+      "A321"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

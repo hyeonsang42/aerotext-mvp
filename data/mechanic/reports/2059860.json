@@ -1,0 +1,163 @@
+{
+  "report_id": "mechanic-2059860",
+  "acn": "2059860",
+  "set": "mechanic",
+  "synopsis": "Air carrier Storekeeper reported the improper packaging and shipment of Hazmat tools by a fellow Storekeeper.",
+  "narrative": "Last week there was an field service tools that were requested to be shipped. It was close to the departure time of the Aircraft X so I asked my fellow storekeeper to help me shipped the tools. Since it's a Aircraft X flight we have to do the shipment manually by just creating a special tag. Mechanic hand over the tools that he needs to check out. I asked him 2x if there is anything hazmat on the tools and he said NO. While I'm creating the special tag and shipping memo, my co worker is doing the packing and shipping. Tools was sent to the gate. Later in the night I tried to update the Tool location that I realized that it's Hazmat. I advised the Mechanic that one of the tool is Hazmat and can't be shipped back without proper documentation.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "hazmat_loading",
+      "evidence": {
+        "quote": "I asked him 2x if there is anything hazmat on the tools and he said NO.",
+        "start": 350,
+        "end": 421
+      },
+      "item_label": "위협",
+      "label_ko": "위험물·적재",
+      "layer": null,
+      "agent": null,
+      "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I asked him 2x if there is anything hazmat on the tools and he said NO.",
+        "start": 350,
+        "end": 421
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "It was close to the departure time of the Aircraft X so I asked my fellow storekeeper to help me shipped the tools.",
+        "start": 78,
+        "end": 193
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.ground_personnel",
+      "evidence": {
+        "quote": "Later in the night I tried to update the Tool location that I realized that it",
+        "start": 552,
+        "end": 630
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지상 요원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Ground Personnel",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "I advised the Mechanic that one of the tool is Hazmat",
+        "start": 641,
+        "end": 694
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "두 번 물어 확인했는데도 잘못된 답을 받아 교차 확인이 뚫렸다. 사람에게 묻는 방식의 한계가 드러난 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Ground Personnel"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ],
+      "overlap": [
+        "Ground Personnel"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Ground Personnel"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [],
+    "Make Model Name": [
+      "No Aircraft"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

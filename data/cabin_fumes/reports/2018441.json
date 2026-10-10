@@ -1,0 +1,152 @@
+{
+  "report_id": "cabin_fumes-2018441",
+  "acn": "2018441",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Flight Attendant reported a strong horrible odor of unknown source during boarding. Flight Attendant notified the Captain who ordered passengers and flight crew to deplane.",
+  "narrative": "About 10 minutes before departure I noticed a very strong and horrible smell in the cabin. I was at seat XX at the time. I went to the aft galley to try and get away from it but it was just as strong. I called the Captain and he stopped boarding and told the passengers to get off the plane and take their belongings with them.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "About 10 minutes before departure I noticed a very strong and horrible smell in the cabin.",
+        "start": 0,
+        "end": 90
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "About 10 minutes before departure I noticed a very strong and horrible smell in the cabin.",
+        "start": 0,
+        "end": 90
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "I called the Captain and he stopped boarding and told the passengers to get off the plane and take their belongings with them.",
+        "start": 201,
+        "end": 327
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "I called the Captain and he stopped boarding and told the passengers to get off the plane and take their belongings with them.",
+        "start": 201,
+        "end": 327
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "327자짜리 짧은 보고다. 결과 상태 서술이 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant"
+      ],
+      "predicted": [
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A321"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

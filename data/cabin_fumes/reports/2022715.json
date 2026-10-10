@@ -1,0 +1,258 @@
+{
+  "report_id": "cabin_fumes-2022715",
+  "acn": "2022715",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier pilot reported during descent there was a spark and electrical popping sounds from panels in the flight deck accompanied by a burning electrical odor. Flight crew landed safely at destination airport where airport responders found no presence of smoke in the aircraft.",
+  "narrative": "During descent there was a spark and electrical, popping / crackling sounds from panels behind and to the right of the FO. The overhead panel back lighting also went dark. We immediately smelled a burning electrical odor. O2 masks were donned and crew communication was established. The FO continued as flying pilot. I [requested priority handling] with ZZZ Center for fumes and smoke in the cockpit and that we were proceeding direct to ZZZ, ZZZZZ intersection. The non-alert, smoke/fire/fumes [checklist] was completed to the landing section. I positioned my Emergency Vision Assurance System (EVAS) on the top of the glare shield but didnt inflate because smoke was not a visibility issue at that time. Approach briefing was completed for XXR. We elected to autoland due to wearing O2 masks. Landing was normal and vacated XXR at taxiway 1, stopping between taxiways 2 & 3 were airport CFR was standing by. Cockpit windows were opened to vent fumes. After CFR found nothing abnormal on the outside of the aircraft we taxied to the area between [taxiway] 4 and spot XX on ramp XX. I elected to shutdown the aircraft down without APU or EXT power because the original problem was electrical. We also determined that an emergency evacuation via slides was not necessary as there was no presence of smoke. Emergency slides were disarmed and the left side door was opened with the emergency pneumatic bottle. Crew stairs were brought to the aircraft. CFR entered and said their scanners were showing no smoke.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "During descent there was a spark and electrical, popping / crackling sounds from panels behind and to the right of the FO.",
+        "start": 0,
+        "end": 122
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "We immediately smelled a burning electrical odor.",
+        "start": 172,
+        "end": 221
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "We immediately smelled a burning electrical odor.",
+        "start": 172,
+        "end": 221
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "O2 masks were donned and crew communication was established.",
+        "start": 222,
+        "end": 282
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "I [requested priority handling] with ZZZ Center for fumes and smoke in the cockpit",
+        "start": 317,
+        "end": 399
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The non-alert, smoke/fire/fumes [checklist] was completed to the landing section.",
+        "start": 463,
+        "end": 544
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "Approach briefing was completed for XXR.",
+        "start": 706,
+        "end": 746
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "automation_protection",
+      "evidence": {
+        "quote": "We elected to autoland due to wearing O2 masks.",
+        "start": 747,
+        "end": 794
+      },
+      "item_label": "방어",
+      "label_ko": "자동화 방호 기능",
+      "layer": "해소",
+      "agent": "자동화",
+      "desc": "오토파일럿이나 보호 기능이 상태 악화를 막는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "After CFR found nothing abnormal on the outside of the aircraft we taxied",
+        "start": 953,
+        "end": 1026
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I elected to shutdown the aircraft down without APU or EXT power because the original problem was electrical.",
+        "start": 1083,
+        "end": 1192
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "산소마스크 착용 상태라 자동 착륙을 택했다. 자동화 방호 기능이 쓰인 첫 사례다. 결과 상태 서술은 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Landed in Emergency Condition",
+        "Overcame Equipment Problem",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition",
+      "Overcame Equipment Problem",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Descent"
+    ],
+    "Make Model Name": [
+      "MD-11"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

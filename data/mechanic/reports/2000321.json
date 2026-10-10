@@ -1,0 +1,171 @@
+{
+  "report_id": "mechanic-2000321",
+  "acn": "2000321",
+  "set": "mechanic",
+  "synopsis": "Technician reported concerns over trouble shooting and the correct application of an MEL while working in a B777-200.",
+  "narrative": "Aircraft X was in ZZZ and had a fault on the Integrated drive generator and an ELEC GEN OFF EICAS Advisory message. The techs applied MEL 24-XX-X. There is concern with the T/S.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Aircraft X was in ZZZ and had a fault on the Integrated drive generator and an ELEC GEN OFF EICAS Advisory message.",
+        "start": 0,
+        "end": 115
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "an ELEC GEN OFF EICAS Advisory message",
+        "start": 76,
+        "end": 114
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "an ELEC GEN OFF EICAS Advisory message",
+        "start": 76,
+        "end": 114
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "The techs applied MEL 24-XX-X.",
+        "start": 116,
+        "end": 146
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "There is concern with the T/S.",
+        "start": 147,
+        "end": 177
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "177자로 이 세트에서 가장 짧다. 고장 탐구가 충분했는지에 대한 우려만 한 문장 적혀 있다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Maintenance"
+      ],
+      "predicted": [
+        "Aircraft Other Automation"
+      ],
+      "overlap": [
+        "Aircraft Other Automation"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate",
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B777-200"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

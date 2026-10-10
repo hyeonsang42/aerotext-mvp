@@ -1,0 +1,184 @@
+{
+  "report_id": "cabin_fumes-2094216",
+  "acn": "2094216",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier cabin crew reported a passenger's laptop was emitting smoke during cruise. The flight attendants secured the device in a thermal containment bag until destination arrival where it was safely turned over to the appropriate personnel.",
+  "narrative": "As we were doing our main meal service after takeoff, FA working the aisle on aircraft right waved at me to signal for help. Said passenger in [seat] XX, computer was smoking. Immediately FA working the galley called FA B to ask them to have the thermal containment bag ready. I informed the cockpit, of the situation and said that I would call back with more information. All 3 of us worked together to follow Company [priority handling] procedures for computer smoke, being ready in case of potential fire ignition . The computer was placed in the thermal containment bag and store as per manual instructions. The passenger was very cooperative, texting his company IT department to obtain necessary information. We informed him that the computer was to remain in the bag and given to the proper authorities to investigate and he would get it back later. After landing, when the door opened. Authority personnel, a Company inflight supervisor, and a customer service supervisor met the flight. Took care of [the] Passenger and asked us questions about the event. While delivering meal trays in a zone, I noticed smoke coming out of a laptop computer at seat XX customer inform me earlier he spilled champagne on keyboard and he was trying to restart it on successfully when it started to smoke the smoke was white, gray and color and had a strong electrical smell. I immediately notified the person in galley flight and to call flight deck and grab the thermal bag. I informed the customer we needed to place the laptop and a thermal bag to prevent any additional smoke possible fire laptop was not hot, but appeared to be melting. Laptop was placed in bag and stored. There were no injuries during this event.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Said passenger in [seat] XX, computer was smoking.",
+        "start": 125,
+        "end": 175
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "FA working the aisle on aircraft right waved at me to signal for help.",
+        "start": 54,
+        "end": 124
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "I informed the cockpit, of the situation and said that I would call back with more information.",
+        "start": 277,
+        "end": 372
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "All 3 of us worked together to follow Company [priority handling] procedures for computer smoke, being ready in case of potential fire ignition",
+        "start": 373,
+        "end": 516
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "The computer was placed in the thermal containment bag and store as per manual instructions.",
+        "start": 519,
+        "end": 611
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Immediately FA working the galley called FA B to ask them to have the thermal containment bag ready.",
+        "start": 176,
+        "end": 276
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "v1.1 의 승무원 수동 개입을 넣었다. 결과 상태는 여전히 비어 있다. 목적지까지 정상 운항했고 정비·취소·탈출 어디에도 해당하지 않는다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant",
+        "Passenger"
+      ],
+      "predicted": [
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Passenger"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "Commercial Fixed Wing"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

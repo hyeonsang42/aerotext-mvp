@@ -1,0 +1,253 @@
+{
+  "dev": {
+    "title": "개발용 (cabin_fumes + mechanic)",
+    "sets": [
+      "cabin_fumes",
+      "mechanic"
+    ],
+    "total": 100,
+    "scored": 98,
+    "matched": 84,
+    "match_rate": 86,
+    "baseline_value": "Flight Crew",
+    "baseline_rate": 41,
+    "gain": 45,
+    "avg_predicted": 1.39,
+    "mismatches": [
+      {
+        "set": "cabin_fumes",
+        "acn": "2027154",
+        "truth": [
+          "Flight Crew"
+        ],
+        "predicted": [
+          "Ground Personnel",
+          "Other Person"
+        ]
+      },
+      {
+        "set": "cabin_fumes",
+        "acn": "2021961",
+        "truth": [
+          "Flight Attendant",
+          "Flight Crew"
+        ],
+        "predicted": [
+          "Other Person"
+        ]
+      },
+      {
+        "set": "cabin_fumes",
+        "acn": "2011084",
+        "truth": [
+          "Flight Crew"
+        ],
+        "predicted": [
+          "Aircraft Other Automation",
+          "Flight Attendant"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2061958",
+        "truth": [
+          "Maintenance"
+        ],
+        "predicted": [
+          "Flight Crew"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2060780",
+        "truth": [
+          "Maintenance"
+        ],
+        "predicted": [
+          "Ground Personnel"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2059864",
+        "truth": [
+          "Maintenance"
+        ],
+        "predicted": [
+          "Ground Personnel"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2051190",
+        "truth": [
+          "Flight Crew"
+        ],
+        "predicted": []
+      },
+      {
+        "set": "mechanic",
+        "acn": "2038548",
+        "truth": [
+          "Maintenance"
+        ],
+        "predicted": [
+          "Aircraft Other Automation",
+          "Flight Crew"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2032488",
+        "truth": [
+          "Aircraft Other Automation",
+          "Flight Crew"
+        ],
+        "predicted": []
+      },
+      {
+        "set": "mechanic",
+        "acn": "2027475",
+        "truth": [
+          "Maintenance"
+        ],
+        "predicted": [
+          "Ground Personnel"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2023427",
+        "truth": [
+          "Other Person"
+        ],
+        "predicted": [
+          "Maintenance"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2017583",
+        "truth": [
+          "Other Person"
+        ],
+        "predicted": [
+          "Ground Personnel"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2008352",
+        "truth": [
+          "Maintenance"
+        ],
+        "predicted": [
+          "Aircraft Other Automation"
+        ]
+      },
+      {
+        "set": "mechanic",
+        "acn": "2005229",
+        "truth": [
+          "Flight Crew",
+          "Other Person"
+        ],
+        "predicted": [
+          "Maintenance"
+        ]
+      }
+    ]
+  },
+  "holdout": {
+    "title": "검증용 (rwy_incur + flt_attendant, 겹침 제외)",
+    "sets": [
+      "flt_attendant",
+      "rwy_incur"
+    ],
+    "total": 40,
+    "scored": 39,
+    "matched": 32,
+    "match_rate": 82,
+    "baseline_value": "Flight Attendant",
+    "baseline_rate": 49,
+    "gain": 33,
+    "avg_predicted": 1.15,
+    "mismatches": [
+      {
+        "set": "rwy_incur",
+        "acn": "2076379",
+        "truth": [
+          "Flight Crew"
+        ],
+        "predicted": [
+          "Air Traffic Control",
+          "Aircraft Other Automation"
+        ]
+      },
+      {
+        "set": "flt_attendant",
+        "acn": "2079362",
+        "truth": [
+          "Flight Attendant"
+        ],
+        "predicted": [
+          "Passenger"
+        ]
+      },
+      {
+        "set": "flt_attendant",
+        "acn": "2073082",
+        "truth": [
+          "Flight Attendant"
+        ],
+        "predicted": [
+          "Aircraft Other Automation"
+        ]
+      },
+      {
+        "set": "flt_attendant",
+        "acn": "2042731",
+        "truth": [
+          "Gate Agent / CSR"
+        ],
+        "predicted": [
+          "Ground Personnel"
+        ]
+      },
+      {
+        "set": "flt_attendant",
+        "acn": "2041854",
+        "truth": [
+          "Flight Attendant"
+        ],
+        "predicted": [
+          "Ground Personnel"
+        ]
+      },
+      {
+        "set": "flt_attendant",
+        "acn": "2025431",
+        "truth": [
+          "Flight Attendant"
+        ],
+        "predicted": [
+          "Flight Crew"
+        ]
+      },
+      {
+        "set": "flt_attendant",
+        "acn": "2015812",
+        "truth": [
+          "Flight Attendant"
+        ],
+        "predicted": [
+          "Passenger"
+        ]
+      }
+    ]
+  },
+  "drop": 4,
+  "pass": true,
+  "overlap_excluded": 0,
+  "note": "ASRS Report Sets 는 주제별로 나뉘지만 같은 보고가 여러 세트에 들어간다. 개발용과 ACN 이 겹치는 보고는 검증에서 제외했다."
+}

@@ -1,0 +1,3639 @@
+[
+  {
+    "acn": "2094307",
+    "report_id": "cabin_fumes-2094307",
+    "set": "cabin_fumes",
+    "synopsis": "A321 First Officer reported they were advised of smoke and an electrical smell in the cabin during approach. The flight crew donned their oxygen masks and continued their approach and landing.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [],
+    "responses": [
+      "예방 차원의 착륙"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": "비상 절차 수행",
+    "n_worked": 2,
+    "n_breached": 0,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 757
+  },
+  {
+    "acn": "2094216",
+    "report_id": "cabin_fumes-2094216",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier cabin crew reported a passenger's laptop was emitting smoke during cruise. The flight attendants secured the device in a thermal containment bag until destination arrival where it was safely turned over to the appropriate personnel.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "객실 승무원 보고",
+      "절차·체크리스트 준수",
+      "승무원 수동 개입",
+      "승무원 교차 확인"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 4,
+    "n_breached": 0,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1712
+  },
+  {
+    "acn": "2093887",
+    "report_id": "cabin_fumes-2093887",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported the cabin crew informed of a burning plastic odor in the aft galley of unknown source. Flight crew completed the odor removal procedures and continued to destination.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고"
+    ],
+    "breached": [
+      "승무원 수동 개입",
+      "절차·체크리스트 준수"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "해소"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 436
+  },
+  {
+    "acn": "2090308",
+    "report_id": "cabin_fumes-2090308",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier pilot reported a Bleed Fail EICAS indication accompanied with a cabin odor during initial climb. Flight returned to departure airport.",
+    "threats": [
+      "항공기 계통 고장",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "관제 감시·지시",
+      "객실 승무원 보고"
+    ],
+    "breached": [],
+    "responses": [
+      "출발 공항으로 회항",
+      "지원 제공"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 4,
+    "n_breached": 0,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 1634
+  },
+  {
+    "acn": "2089095",
+    "report_id": "cabin_fumes-2089095",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported a burning plastic odor during descent with no aircraft indications. The flight crew diverted where a safe landing was completed.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "브리핑·사전 계획",
+      "승무원 교차 확인"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청",
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 2833
+  },
+  {
+    "acn": "2084653",
+    "report_id": "cabin_fumes-2084653",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight crew reported a lavatory smoke warning message during descent. A flight attendant reported smoke was seen in the forward lavatory. Smoke worsened during descent, therefore after landing a precautionary evacuation was completed.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "탈출"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "객실 승무원 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "절차·체크리스트 준수"
+    ],
+    "responses": [
+      "관제 지원·확인 요청",
+      "지원 제공"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 6689
+  },
+  {
+    "acn": "2082029",
+    "report_id": "cabin_fumes-2082029",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported a strong odor upon boarding the aircraft. After further research and conferencing with the appropriate departments it was determined to refuse the aircraft.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "인수 거부"
+    ],
+    "worked": [
+      "운항 관리 협의",
+      "승무원 교차 확인",
+      "운항 중단 판단"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": "운항 중단 판단",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 551
+  },
+  {
+    "acn": "2081885",
+    "report_id": "cabin_fumes-2081885",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported a chemical odor in the cabin during preflight which resulted in passenger deplaning and all crew members being assessed for medical treatment. The Captain informed the cabin crew that this aircraft had multiple fume events previously and that the APU was replaced after this event.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "승객",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능",
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "운항 중단 판단",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 정기 점검",
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "복구",
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 1620
+  },
+  {
+    "acn": "2081062",
+    "report_id": "cabin_fumes-2081062",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight attendant crew reported a strong and overwhelming odor during boarding resulting in an aircraft swap and rescheduling of the flight. All flight attendants experienced physiological symptoms.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "인수 거부",
+      "운항 취소·지연",
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "출발 전 점검",
+      "브리핑·사전 계획",
+      "운항 중단 판단",
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구",
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 4,
+    "n_breached": 2,
+    "n_items": 12,
+    "detector_status": "일치",
+    "narrative_len": 11420
+  },
+  {
+    "acn": "2078132",
+    "report_id": "cabin_fumes-2078132",
+    "set": "cabin_fumes",
+    "synopsis": "ERJ-170 flight crew reported a Flight Attendant called the flight deck to state there was a fume event in the cabin during initial approach. The flight crew followed procedures and safely landed at arrival airport.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "비상 절차 수행"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청",
+      "지원 제공"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": "비상 절차 수행",
+    "n_worked": 4,
+    "n_breached": 0,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 6073
+  },
+  {
+    "acn": "2076233",
+    "report_id": "cabin_fumes-2076233",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight crew reported a flight entertainment monitor began to emit smoke during cruise then eventually stopped. Flight crew completed a diversion and safe landing.",
+    "threats": [
+      "연기·냄새·오염",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "승객"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 12,
+    "detector_status": "일치",
+    "narrative_len": 11090
+  },
+  {
+    "acn": "2075712",
+    "report_id": "cabin_fumes-2075712",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight attendant crew reported a thermal runaway from a vape battery charger during boarding. The flight attendant crew notified the Captain, extinguished the fire and placed the battery charger and associated items in the thermal containment bag until the fire fighters arrived and took custody of the bag.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "승객"
+    ],
+    "outcomes": [
+      "운항 취소·지연",
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 4279
+  },
+  {
+    "acn": "2071173",
+    "report_id": "cabin_fumes-2071173",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported a fumes event during destination arrival. Flight crew secured Pack 1 which dissipated the fumes and continued to destination.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "비상 절차 수행",
+      "객실 승무원 보고",
+      "승무원 수동 개입"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 361
+  },
+  {
+    "acn": "2063521",
+    "report_id": "cabin_fumes-2063521",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight attendants reported a fumes event during departure taxi. The flight returned to the departure gate where all passengers deplaned.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "승객",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 수동 개입",
+      "운항 중단 판단"
+    ],
+    "breached": [],
+    "responses": [
+      "게이트로 복귀"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 중단 판단",
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 692
+  },
+  {
+    "acn": "2059473",
+    "report_id": "cabin_fumes-2059473",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight attendants reported a fume event during initial descent in which the flight crew and passengers experienced physiological symptoms. Upon arrival the aircraft was removed from service and after an extensive delay the flight attendants were attended by a medical doctor.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "운항 승무원",
+      "그 밖의 사람"
+    ],
+    "outcomes": [
+      "정비 조치",
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "비상 절차 수행",
+      "정비 조치·수리",
+      "운항 중단 판단"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 중단 판단",
+    "n_worked": 4,
+    "n_breached": 0,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 2423
+  },
+  {
+    "acn": "2058897",
+    "report_id": "cabin_fumes-2058897",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported a fumes event described as a \"dirty socks\" odor after disconnecting from the ground pushback crew. After an extensive delay in which passengers and flight attendants experienced physiological symptoms, a parking spot was assigned and all passengers and flight attendants deplaned safely.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "운항 중단 판단",
+      "절차·체크리스트 준수",
+      "정비 문서·MEL 확인"
+    ],
+    "breached": [
+      "관제 감시·지시"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "운항 중단 판단",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 1804
+  },
+  {
+    "acn": "2057354",
+    "report_id": "cabin_fumes-2057354",
+    "set": "cabin_fumes",
+    "synopsis": "Flight crew flying EMB-145 aircraft reported smoke in the cabin during departure climb. Flight crew returned to departure airport and landed uneventfully.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "객실 승무원 보고",
+      "관제 감시·지시",
+      "브리핑·사전 계획"
+    ],
+    "breached": [],
+    "responses": [
+      "출발 공항으로 회항",
+      "지원 제공",
+      "게이트로 복귀"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 1429
+  },
+  {
+    "acn": "2055989",
+    "report_id": "cabin_fumes-2055989",
+    "set": "cabin_fumes",
+    "synopsis": "B757 flight crew reported smoke was detected in the cabin and a lavatory smoke caution illuminated shortly after takeoff. One of the packs were then turned off, which dissipated the smoke. The flight crew proceeded to perform an overweight landing and air turnback.",
+    "threats": [
+      "연기·냄새·오염",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "항공기 경고·표시 장치",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "객실 승무원 보고",
+      "비상 절차 수행",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "운항 관리 협의",
+      "브리핑·사전 계획",
+      "정비 조치·수리"
+    ],
+    "breached": [],
+    "responses": [
+      "장비 문제를 극복함",
+      "출발 공항으로 회항"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "정비 조치·수리",
+    "n_worked": 8,
+    "n_breached": 0,
+    "n_items": 16,
+    "detector_status": "일치",
+    "narrative_len": 4021
+  },
+  {
+    "acn": "2055384",
+    "report_id": "cabin_fumes-2055384",
+    "set": "cabin_fumes",
+    "synopsis": "After several unsuccessful start attempts in a CRJ-700, fuel fumes were reported in the cabin. After gate return fuel leak reported on ramp.",
+    "threats": [
+      "항공기 계통 고장",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원",
+      "관제사",
+      "그 밖의 사람"
+    ],
+    "outcomes": [
+      "운항 취소·지연"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "운항 중단 판단",
+      "운항 관리 협의",
+      "관제 감시·지시"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [
+      "게이트로 복귀"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 1648
+  },
+  {
+    "acn": "2052803",
+    "report_id": "cabin_fumes-2052803",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight crew reported an \"acetone\" type odor during cruise in the passenger cabin which resulted in multiple reports of physiological symptoms. With no definitive source of the odor the flight crew requested special handling to a diversion airport where a safe landing was executed.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원",
+      "승객"
+    ],
+    "outcomes": [
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "절차·체크리스트 준수"
+    ],
+    "responses": [
+      "목적지 변경",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 1700
+  },
+  {
+    "acn": "2047525",
+    "report_id": "cabin_fumes-2047525",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported a fumes event during gate pushback. Captain directed tow crew to return to gate and requested First Officer to notify the ramp and request CFR (Crash Fire Rescue) for an orderly deplaning.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "운항 중단 판단",
+      "승무원 수동 개입",
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "비상 절차 수행",
+      "운항 관리 협의"
+    ],
+    "breached": [],
+    "responses": [
+      "게이트로 복귀"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 관리 협의",
+    "n_worked": 6,
+    "n_breached": 0,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 870
+  },
+  {
+    "acn": "2044984",
+    "report_id": "cabin_fumes-2044984",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported an electrical burning odor in the cockpit and forward cabin that was corroborated by the Captain. The Captain completed a diversion and landing.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치",
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [
+      "관제 지원·확인 요청",
+      "비상 상태로 착륙"
+    ],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 2032
+  },
+  {
+    "acn": "2043691",
+    "report_id": "cabin_fumes-2043691",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported a fumes event during departure taxi which was described as fuel burn off fumes and odor. At the same time the Captain communicated with the cabin crew and decided to return to departure gate for maintenance.",
+    "threats": [
+      "연기·냄새·오염",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 수동 개입",
+      "운항 중단 판단"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [
+      "게이트로 복귀"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 중단 판단",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 1210
+  },
+  {
+    "acn": "2038292",
+    "report_id": "cabin_fumes-2038292",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported the Captain notified the cabin crew that the flight was returning to departure airport due to a fume event of unknown source.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능",
+      "정비 조치"
+    ],
+    "worked": [],
+    "breached": [],
+    "responses": [
+      "출발 공항으로 회항"
+    ],
+    "layers_worked": [],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 0,
+    "n_items": 5,
+    "detector_status": "결측",
+    "narrative_len": 499
+  },
+  {
+    "acn": "2038207",
+    "report_id": "cabin_fumes-2038207",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight crew reported a smoke event with associated air conditioning pack EICAS message while parked at the gate and preparing for push back. The Captain ordered an evacuation through the main cabin door onto the ramp, with no injuries reported.",
+    "threats": [
+      "연기·냄새·오염",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "항공기 경고·표시 장치",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "탈출"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "객실 승무원 보고",
+      "절차·체크리스트 준수",
+      "비상 절차 수행"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": "비상 절차 수행",
+    "n_worked": 4,
+    "n_breached": 0,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 1154
+  },
+  {
+    "acn": "2037917",
+    "report_id": "cabin_fumes-2037917",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported a fume event of unknown source during preflight prior to boarding. Maintenance removed aircraft from service and Flight Attendant was removed from trip.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치",
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "정비 조치·수리",
+      "운항 중단 판단"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "복구"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 중단 판단",
+    "n_worked": 2,
+    "n_breached": 0,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 234
+  },
+  {
+    "acn": "2033140",
+    "report_id": "cabin_fumes-2033140",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight crew reported an intermittent burning odor during initial approach. The flight crew continued to a safe landing and evacuation.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "탈출"
+    ],
+    "worked": [
+      "비상 절차 수행",
+      "절차·체크리스트 준수",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "항공기 경고 장치"
+    ],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 2764
+  },
+  {
+    "acn": "2032399",
+    "report_id": "cabin_fumes-2032399",
+    "set": "cabin_fumes",
+    "synopsis": "MD-11 First Officer reported receiving messages indicating possible fire in cargo hold during cruise. Flight crew diverted and performed a normal landing. Postflight temperature readings done by airport responders were normal.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "운항 관리 협의",
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청",
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 7,
+    "n_breached": 0,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 2627
+  },
+  {
+    "acn": "2031952",
+    "report_id": "cabin_fumes-2031952",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported a rotten egg odor to the Captain during boarding. The Captain determined it to be a fume event and instructed everyone to deplane.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "승객"
+    ],
+    "outcomes": [
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "운항 중단 판단",
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 2742
+  },
+  {
+    "acn": "2031865",
+    "report_id": "cabin_fumes-2031865",
+    "set": "cabin_fumes",
+    "synopsis": "B-737 pilot reported receiving a report from ATC during taxi of smoke from the aft part of the aircraft after APU had been shutdown. The flight returned to the gate with no fire indication in cockpit or from the airport fire department, ARFF.",
+    "threats": [
+      "연기·냄새·오염",
+      "공항·지상 환경"
+    ],
+    "detectors": [
+      "관제사"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "관제 감시·지시",
+      "승무원 교차 확인",
+      "비상 절차 수행",
+      "지상 요원·정비사 보고",
+      "운항 중단 판단"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청",
+      "게이트로 복귀"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 중단 판단",
+    "n_worked": 5,
+    "n_breached": 0,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 758
+  },
+  {
+    "acn": "2031778",
+    "report_id": "cabin_fumes-2031778",
+    "set": "cabin_fumes",
+    "synopsis": "MD-11 Captain reported a warning annunciation for a potential fire in lower forward cargo area went off and the flight crew opted to divert.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "운항 관리 협의",
+      "브리핑·사전 계획",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청",
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 관리 협의",
+    "n_worked": 8,
+    "n_breached": 0,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 11400
+  },
+  {
+    "acn": "2031624",
+    "report_id": "cabin_fumes-2031624",
+    "set": "cabin_fumes",
+    "synopsis": "B737-800 First Officer reported compressor stall sounds from the #2 engine and the smell of burning rubber and smoke in the cabin when they were about to level off at cruise altitude. Crew ran compressor stall and smoke/fumes checklist prior to returning to departure airport for landing.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [],
+    "responses": [
+      "출발 공항으로 회항"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 5,
+    "n_breached": 0,
+    "n_items": 10,
+    "detector_status": "결측",
+    "narrative_len": 1782
+  },
+  {
+    "acn": "2031193",
+    "report_id": "cabin_fumes-2031193",
+    "set": "cabin_fumes",
+    "synopsis": "B-777 Captain reported a burning odor while taxiing into the gate after starting the APU. Upon parking and shutdown maintenance discovered burned electrical components in the lower electrical compartment.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "운항 관리 협의",
+      "정비 조치·수리"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "정비 조치·수리",
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 733
+  },
+  {
+    "acn": "2029352",
+    "report_id": "cabin_fumes-2029352",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier flight crew reported a number 2 engine fire warning message during arrival taxi. Flight crew completed the QRH procedures and requested Airport Rescue and Fire Fighting assistance who followed aircraft to parking since fire message had extinguished.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "그 밖의 사람"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "관제 감시·지시",
+      "지상 요원·정비사 보고",
+      "승무원 교차 확인",
+      "운항 관리 협의",
+      "정비 조치·수리"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청",
+      "지원 제공"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "정비 조치·수리",
+    "n_worked": 7,
+    "n_breached": 0,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 3882
+  },
+  {
+    "acn": "2028783",
+    "report_id": "cabin_fumes-2028783",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported an external smoke event emanating from the ground power connection during gate arrival. Crew and passengers deplaned the aircraft and airport response vehicles arrived.",
+    "threats": [
+      "공항·지상 환경",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "지상 요원"
+    ],
+    "outcomes": [
+      "탈출"
+    ],
+    "worked": [
+      "지상 요원·정비사 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 1948
+  },
+  {
+    "acn": "2027741",
+    "report_id": "cabin_fumes-2027741",
+    "set": "cabin_fumes",
+    "synopsis": "Challenger 300 flight crew reported an APU fire warning inflight. After performing the appropriate checklist procedures, the fire warning stopped. Once on the ground no fire was discovered.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "비상 절차 수행",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "운항 관리 협의"
+    ],
+    "breached": [],
+    "responses": [
+      "장비 문제를 극복함"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 관리 협의",
+    "n_worked": 6,
+    "n_breached": 0,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 1375
+  },
+  {
+    "acn": "2027154",
+    "report_id": "cabin_fumes-2027154",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier crew reported an APU fire while loading at the parked position on the ramp. The crew observed smoke at the tail of the aircraft without cockpit warning, activated fire bottles, then evacuated safely by airstairs.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "지상 요원",
+      "그 밖의 사람"
+    ],
+    "outcomes": [
+      "탈출"
+    ],
+    "worked": [
+      "지상 요원·정비사 보고",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "항공기 경고 장치"
+    ],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 11,
+    "detector_status": "불일치",
+    "narrative_len": 2399
+  },
+  {
+    "acn": "2025594",
+    "report_id": "cabin_fumes-2025594",
+    "set": "cabin_fumes",
+    "synopsis": "B767 First Officer reported a strong electrical burning smell during climb in the cabin. After troubleshooting and conferring with Maintenance and Dispatch the flight crew requested priority handling to a suitable airport where a safe landing was executed.",
+    "threats": [
+      "항공기 계통 고장",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 교차 확인",
+      "객실 승무원 보고",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [
+      "목적지 변경",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 12,
+    "detector_status": "일치",
+    "narrative_len": 1809
+  },
+  {
+    "acn": "2023658",
+    "report_id": "cabin_fumes-2023658",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported a sharp acrid odor during cruise. After conferring with Dispatch the odor was determined to be caused by a volcanic ash event which was remedied by climbing to a higher altitude.",
+    "threats": [
+      "기상",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "운항 관리 협의",
+      "승무원 수동 개입",
+      "브리핑·사전 계획"
+    ],
+    "breached": [],
+    "responses": [
+      "회피 기동"
+    ],
+    "layers_worked": [
+      "예방",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 911
+  },
+  {
+    "acn": "2023593",
+    "report_id": "cabin_fumes-2023593",
+    "set": "cabin_fumes",
+    "synopsis": "B767 air carrier flight crew reported fumes in the cabin. Captain decided to divert and landed uneventfully.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "운항 관리 협의",
+      "브리핑·사전 계획",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [],
+    "responses": [
+      "목적지 변경",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 관리 협의",
+    "n_worked": 5,
+    "n_breached": 0,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 973
+  },
+  {
+    "acn": "2022715",
+    "report_id": "cabin_fumes-2022715",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier pilot reported during descent there was a spark and electrical popping sounds from panels in the flight deck accompanied by a burning electrical odor. Flight crew landed safely at destination airport where airport responders found no presence of smoke in the aircraft.",
+    "threats": [
+      "항공기 계통 고장",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "비상 절차 수행",
+      "절차·체크리스트 준수",
+      "브리핑·사전 계획",
+      "자동화 방호 기능",
+      "지상 요원·정비사 보고",
+      "승무원 수동 개입"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 6,
+    "n_breached": 0,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 1507
+  },
+  {
+    "acn": "2021961",
+    "report_id": "cabin_fumes-2021961",
+    "set": "cabin_fumes",
+    "synopsis": "A300 flight crew reported being notified by the cabin jumpseaters of a fume/smoke event during departure taxi. The flight crew requested airport assistance, completed the QRH procedures and took action with no injuries or damage.",
+    "threats": [
+      "항공기 계통 고장",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "그 밖의 사람"
+    ],
+    "outcomes": [
+      "탈출",
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "비상 절차 수행",
+      "절차·체크리스트 준수"
+    ],
+    "breached": [
+      "항공기 경고 장치",
+      "지상 요원·정비사 보고"
+    ],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 5,
+    "n_breached": 2,
+    "n_items": 13,
+    "detector_status": "불일치",
+    "narrative_len": 3488
+  },
+  {
+    "acn": "2021299",
+    "report_id": "cabin_fumes-2021299",
+    "set": "cabin_fumes",
+    "synopsis": "B777 Captain reported a fuel odor and EICAS fuel valve message after engine shutdown at the gate, then was notified to motor the engine by ground maintenance. After dry motoring the engine, the odor dissipated and the Fire Department personnel reported no fire or fuel spill to Captain.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "운항 승무원",
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "지상 요원·정비사 보고",
+      "정비 조치·수리",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 2047
+  },
+  {
+    "acn": "2020522",
+    "report_id": "cabin_fumes-2020522",
+    "set": "cabin_fumes",
+    "synopsis": "Air Carrier flight crew reported a recurring fume event during pre-flight. As Maintenance was formulating a plan to defer the APU and/or Pack 1, the flight crew timed out resulting in the flight being rescheduled.",
+    "threats": [
+      "연기·냄새·오염",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "운항 취소·지연"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "정비 문서·MEL 확인",
+      "운항 관리 협의",
+      "운항 중단 판단",
+      "운항 관리 협의",
+      "운항 중단 판단"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "승무원 교차 확인",
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구",
+      "탐지"
+    ],
+    "last_line": "운항 중단 판단",
+    "n_worked": 6,
+    "n_breached": 3,
+    "n_items": 14,
+    "detector_status": "일치",
+    "narrative_len": 7567
+  },
+  {
+    "acn": "2019880",
+    "report_id": "cabin_fumes-2019880",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier A320 Captain reported being notified at destination arrival of a fume event in the cabin. Maintenance was requested and medical attention provided for the cabin crew.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "승객"
+    ],
+    "outcomes": [
+      "정비 조치",
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "정비 조치·수리"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "정비 조치·수리",
+    "n_worked": 5,
+    "n_breached": 0,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 1328
+  },
+  {
+    "acn": "2019080",
+    "report_id": "cabin_fumes-2019080",
+    "set": "cabin_fumes",
+    "synopsis": "Airbus A320 air carrier pilot reported electrical problems while climbing to cruise altitude. The crew coordinated with the cabin crew to troubleshoot the problem, diverted, and landed safely.",
+    "threats": [
+      "항공기 계통 고장",
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "브리핑·사전 계획",
+      "운항 관리 협의",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "항공기 경고 장치"
+    ],
+    "responses": [
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 6,
+    "n_breached": 1,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 3046
+  },
+  {
+    "acn": "2018709",
+    "report_id": "cabin_fumes-2018709",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Dispatcher reported a flight diverted to a nearest suitable airport due to electrical fumes in the cockpit and the aircraft was turned over to Maintenance.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "운항 관리 협의"
+    ],
+    "breached": [],
+    "responses": [
+      "관제 지원·확인 요청",
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 관리 협의",
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 324
+  },
+  {
+    "acn": "2018441",
+    "report_id": "cabin_fumes-2018441",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Flight Attendant reported a strong horrible odor of unknown source during boarding. Flight Attendant notified the Captain who ordered passengers and flight crew to deplane.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "객실 승무원 보고",
+      "운항 중단 판단"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 중단 판단",
+    "n_worked": 2,
+    "n_breached": 0,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 327
+  },
+  {
+    "acn": "2017316",
+    "report_id": "cabin_fumes-2017316",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported cabin odor and walls in the aft lavatory were extremely hot, as reported by the aft Flight Attendant. After a divert, a missed approach due to arriving too high on final and then an overweight landing, the aircraft arrived safely. The Fire Marshal and maintenance determined the aft water heater was running uncontrolled full power and overheating.",
+    "threats": [
+      "연기·냄새·오염",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "지상 요원·정비사 보고",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [
+      "관제 지원·확인 요청",
+      "목적지 변경",
+      "복행"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 2313
+  },
+  {
+    "acn": "2011084",
+    "report_id": "cabin_fumes-2011084",
+    "set": "cabin_fumes",
+    "synopsis": "Air carrier Captain reported a blown pneumatic duct and bleed leak during takeoff which filled the passenger cabin with excessive noise and airborne particulates. Multiple flight attendants calling cockpit during event was distracting and created difficulty communicating with cabin crew on inter-phone to assess situation in cabin and to advise of planned return to field for an overweight landing aircraft.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치",
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "객실 승무원 보고",
+      "승무원 수동 개입",
+      "운항 관리 협의",
+      "절차·체크리스트 준수",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "객실 승무원 보고"
+    ],
+    "responses": [
+      "관제 지원·확인 요청",
+      "출발 공항으로 회항"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 6,
+    "n_breached": 1,
+    "n_items": 14,
+    "detector_status": "불일치",
+    "narrative_len": 3209
+  },
+  {
+    "acn": "2069879",
+    "report_id": "mechanic-2069879",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician reported lack of key information in A321 aircraft maintenance manual when removing a fuel pump lead to fuel spill.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 조치·수리",
+      "정비 문서·MEL 확인",
+      "절차·체크리스트 준수",
+      "지상 요원·정비사 보고",
+      "비상 절차 수행",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 6,
+    "n_breached": 1,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 2512
+  },
+  {
+    "acn": "2062965",
+    "report_id": "mechanic-2062965",
+    "set": "mechanic",
+    "synopsis": "Maintenance technicians reported that while they were working on an aircraft with a flap issue the company management was not supportive of AMT's working to find root cause of the problem.",
+    "threats": [
+      "항공기 계통 고장",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "정비 문서·MEL 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 7881
+  },
+  {
+    "acn": "2061958",
+    "report_id": "mechanic-2061958",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported an aircraft with extensive damage to nose was approved for flight before repair.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "불일치",
+    "narrative_len": 603
+  },
+  {
+    "acn": "2061955",
+    "report_id": "mechanic-2061955",
+    "set": "mechanic",
+    "synopsis": "Air carrier maintenance personnel reported the improper shipping and handling of fire extinguisher bottles. Reporter suggests additional training of shipping and handling personnel is needed.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 960
+  },
+  {
+    "acn": "2061581",
+    "report_id": "mechanic-2061581",
+    "set": "mechanic",
+    "synopsis": "Helicopter maintenance technicians reported that after scheduled maintenance they learned a pilot discovered during preflight inspection the tail rotor gearbox oil cap was not installed.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "승무원 교차 확인",
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1719
+  },
+  {
+    "acn": "2060780",
+    "report_id": "mechanic-2060780",
+    "set": "mechanic",
+    "synopsis": "Air carrier Maintenance Lead Technician reported accepting a late arriving important parcel. The late parcel caused a departure delay in order to load in the cargo compartment and to issue a revised final load plan.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [
+      "운항 취소·지연"
+    ],
+    "worked": [
+      "지상 요원·정비사 보고",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 7,
+    "detector_status": "불일치",
+    "narrative_len": 936
+  },
+  {
+    "acn": "2059864",
+    "report_id": "mechanic-2059864",
+    "set": "mechanic",
+    "synopsis": "Air carrier Stores Personnel reported the failure to include the AWB with the Hazmat parcel which is required to close the final DG summary. Reporter stated the lack of experience in shipping hazardous material contributed to the document mishandling.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 3,
+    "detector_status": "불일치",
+    "narrative_len": 685
+  },
+  {
+    "acn": "2059860",
+    "report_id": "mechanic-2059860",
+    "set": "mechanic",
+    "synopsis": "Air carrier Storekeeper reported the improper packaging and shipment of Hazmat tools by a fellow Storekeeper.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 750
+  },
+  {
+    "acn": "2058249",
+    "report_id": "mechanic-2058249",
+    "set": "mechanic",
+    "synopsis": "B737 MAX 8 Technician reported the MEL procedure on testing the fire detection loop was vague and needs to provide more information and direction.",
+    "threats": [
+      "절차·문서 불일치",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1666
+  },
+  {
+    "acn": "2058245",
+    "report_id": "mechanic-2058245",
+    "set": "mechanic",
+    "synopsis": "A319 Mechanic reported heavy corrosion was found on components of the fuel tank.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 113
+  },
+  {
+    "acn": "2058239",
+    "report_id": "mechanic-2058239",
+    "set": "mechanic",
+    "synopsis": "Maintenance Inspector reported a connector was mistakenly removed during the replacement of an engine harness. Reporter stated time pressure was a contributing factor.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 393
+  },
+  {
+    "acn": "2054307",
+    "report_id": "mechanic-2054307",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported a near miss while towing an aircraft when it almost made contact with another aircraft due to tow lines in the hangar not labeled.",
+    "threats": [
+      "공항·지상 환경",
+      "교통 근접"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 545
+  },
+  {
+    "acn": "2053650",
+    "report_id": "mechanic-2053650",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported multiple brake rotor drive clips cracked on 737 MAX aircraft.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 0,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 578
+  },
+  {
+    "acn": "2053162",
+    "report_id": "mechanic-2053162",
+    "set": "mechanic",
+    "synopsis": "Maintenance Lead Technician reported finding opened aircraft engine oil cans on the oxygen service cart near the oxygen bottle service valves during a routine inspection.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 257
+  },
+  {
+    "acn": "2053161",
+    "report_id": "mechanic-2053161",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported that the IDG drain plug on B737 aircraft has been found to be cracked due to possible over-torquing.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 633
+  },
+  {
+    "acn": "2051190",
+    "report_id": "mechanic-2051190",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reversed hydraulic flex lines when reassembling brake valve causing brakes to lock up on landing.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "항공기 계통 고장"
+    ],
+    "detectors": [],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 조치·수리",
+      "절차·체크리스트 준수"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 3,
+    "n_items": 5,
+    "detector_status": "불일치",
+    "narrative_len": 1868
+  },
+  {
+    "acn": "2050590",
+    "report_id": "mechanic-2050590",
+    "set": "mechanic",
+    "synopsis": "B737 Aircraft Maintenance Technician reported not performing a required bird strike inspection as the reporter did not see evidence of the bird strike on the engine intake during a walkaround inspection of the fuselage.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "정비 문서·MEL 확인"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 842
+  },
+  {
+    "acn": "2050589",
+    "report_id": "mechanic-2050589",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician found missing panel on engine thrust reverser during pre-departure walk around.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [
+      "정비 정기 점검",
+      "출발 전 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1359
+  },
+  {
+    "acn": "2050585",
+    "report_id": "mechanic-2050585",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported finding corroded batteries in a B787 portable oxygen bottle.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "항공기 경고 장치"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 724
+  },
+  {
+    "acn": "2047663",
+    "report_id": "mechanic-2047663",
+    "set": "mechanic",
+    "synopsis": "Maintenance technician found un-installed engine bolt during maintenance troubleshooting due to jamb of engine twist grip.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 533
+  },
+  {
+    "acn": "2040780",
+    "report_id": "mechanic-2040780",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported missing insulation in the cargo pit causing high temperatures due to the pneumatic duct.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 482
+  },
+  {
+    "acn": "2040479",
+    "report_id": "mechanic-2040479",
+    "set": "mechanic",
+    "synopsis": "Maintenance technicians working on an A320 aircraft reported inadvertent gear retraction causing minor injury to another technician.",
+    "threats": [
+      "항공기 계통 고장",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "부상·직무 불능",
+      "정비 조치"
+    ],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 6336
+  },
+  {
+    "acn": "2039328",
+    "report_id": "mechanic-2039328",
+    "set": "mechanic",
+    "synopsis": "Aircraft technicians reported fuel spill when removing wing tank fuel pump.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "지상 요원·정비사 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 1022
+  },
+  {
+    "acn": "2038548",
+    "report_id": "mechanic-2038548",
+    "set": "mechanic",
+    "synopsis": "Maintenance technicians serviced aircraft IDG with possible contaminated fluid.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인",
+      "항공기 경고 장치",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 9,
+    "detector_status": "불일치",
+    "narrative_len": 2894
+  },
+  {
+    "acn": "2036377",
+    "report_id": "mechanic-2036377",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician incorrectly closed an MEL on a B767 item due to not reading all of the logbook updates.",
+    "threats": [
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 725
+  },
+  {
+    "acn": "2033529",
+    "report_id": "mechanic-2033529",
+    "set": "mechanic",
+    "synopsis": "Two onboard air carrier Mechanics and one Ground Marshaller reported a ground encounter with a parked aircraft during aircraft repositioning to a hangar. Marshaller stated he misjudged the lack of winglet clearance.",
+    "threats": [
+      "교통 근접"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 수동 개입",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "지상 요원·정비사 보고",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 2471
+  },
+  {
+    "acn": "2033522",
+    "report_id": "mechanic-2033522",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported a suspected design issue regarding the lack of safety wire on the main landing gear valve stem assembly.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "출발 전 점검"
+    ],
+    "breached": [
+      "정비 정기 점검",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 679
+  },
+  {
+    "acn": "2032488",
+    "report_id": "mechanic-2032488",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported aircraft had hydraulic system failure due to non- accomplishment of aircraft modification.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "운항 관리 협의"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구"
+    ],
+    "layers_breached": [
+      "복구",
+      "해소"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "불일치",
+    "narrative_len": 741
+  },
+  {
+    "acn": "2032484",
+    "report_id": "mechanic-2032484",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician towing an aircraft into the hangar struck the wing of another aircraft with the radome of the aircraft under tow.",
+    "threats": [
+      "교통 근접"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "지상 요원·정비사 보고"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 1619
+  },
+  {
+    "acn": "2030501",
+    "report_id": "mechanic-2030501",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported wing access panels departed the aircraft inflight due to possible missing or damaged part.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "출발 전 점검",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 1033
+  },
+  {
+    "acn": "2030003",
+    "report_id": "mechanic-2030003",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Inspector and Technician reported incorrect sign-off of cabin door assist actuator during previous maintenance visit.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1012
+  },
+  {
+    "acn": "2028354",
+    "report_id": "mechanic-2028354",
+    "set": "mechanic",
+    "synopsis": "B787 Technician reported being marshaled into the gate when a service vehicle entered the safety area passing close by the Technician and Marshaller.",
+    "threats": [
+      "공항·지상 환경"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 0,
+    "n_items": 2,
+    "detector_status": "일치",
+    "narrative_len": 435
+  },
+  {
+    "acn": "2028082",
+    "report_id": "mechanic-2028082",
+    "set": "mechanic",
+    "synopsis": "Maintenance Supervisor reported only a nose wheel chock was used for an aircraft parked in the hangar and it was improperly positioned resulting in the aircraft rolling into a scissor lift.",
+    "threats": [
+      "공항·지상 환경",
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 768
+  },
+  {
+    "acn": "2028067",
+    "report_id": "mechanic-2028067",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technician reported that during preflight the flight crew found the aircraft flight crew escape ropes were not installed properly.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "복구",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 535
+  },
+  {
+    "acn": "2027475",
+    "report_id": "mechanic-2027475",
+    "set": "mechanic",
+    "synopsis": "Air carrier Safety Representative reported inconsistencies of aircraft hazmat components tagging during ground processing. Reporter suggested more training for stores clerks.",
+    "threats": [
+      "위험물·적재",
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "지상 요원·정비사 보고",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 정기 점검",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 3,
+    "n_items": 8,
+    "detector_status": "불일치",
+    "narrative_len": 1891
+  },
+  {
+    "acn": "2026576",
+    "report_id": "mechanic-2026576",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technicians reported improper removal of 737-900 aircraft wing structure protective coatings and material.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 수동 개입",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 2660
+  },
+  {
+    "acn": "2024817",
+    "report_id": "mechanic-2024817",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported incorrectly installing landing gear uplock brackets and had mistakenly installed them upside-down.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "정비 문서·MEL 확인"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방"
+    ],
+    "layers_breached": [
+      "복구",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 569
+  },
+  {
+    "acn": "2024499",
+    "report_id": "mechanic-2024499",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician reported PSU units with O2 generators were not being processed as a HAZMAT part and were being improperly tagged without the proper shelf life information.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 교차 확인",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 2293
+  },
+  {
+    "acn": "2023499",
+    "report_id": "mechanic-2023499",
+    "set": "mechanic",
+    "synopsis": "Helicopter owner/pilot reported performing own maintenance due to experimental exhibition category. The helicopter experienced a loss of power during a flight and was damaged upon landing.",
+    "threats": [
+      "항공기 계통 고장",
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 2,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 569
+  },
+  {
+    "acn": "2023427",
+    "report_id": "mechanic-2023427",
+    "set": "mechanic",
+    "synopsis": "Aircraft Technician reported missing step in maintenance procedure to restore circuit breakers for VOR antenna.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "출발 전 점검"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 2,
+    "n_items": 4,
+    "detector_status": "불일치",
+    "narrative_len": 407
+  },
+  {
+    "acn": "2022066",
+    "report_id": "mechanic-2022066",
+    "set": "mechanic",
+    "synopsis": "A320 Maintenance Technician reported that the incorrect part was listed in the Illustrated Parts Catalog (IPC) and needs to be corrected and updated. The installation of the incorrect part as instructed in the current IPC could lead to possible malfunction of the aircraft’s thrust reverser system.",
+    "threats": [
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 1,
+    "n_breached": 1,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 2432
+  },
+  {
+    "acn": "2021140",
+    "report_id": "mechanic-2021140",
+    "set": "mechanic",
+    "synopsis": "A320 technicians reported the Aircraft Maintenance Manual (AMM) did not clearly provide defuel instructions for a fuel pump removal procedure. After removing the pump, fuel began to leak, spilling all over on the ramp.",
+    "threats": [
+      "시간·업무 부하",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "승무원 교차 확인",
+      "지상 요원·정비사 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 3,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 3127
+  },
+  {
+    "acn": "2020865",
+    "report_id": "mechanic-2020865",
+    "set": "mechanic",
+    "synopsis": "Maintenance Stores Personnel reported he mistakenly advanced a hazmat parcel as a \"No hazmat on board NOTOC\". This mistake resulted in the undocumented air transport of hazmat.",
+    "threats": [
+      "위험물·적재",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "절차·체크리스트 준수",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 3,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1506
+  },
+  {
+    "acn": "2017583",
+    "report_id": "mechanic-2017583",
+    "set": "mechanic",
+    "synopsis": "Air carrier Ground Personnel reported being notified of a box containing two Dangerous Goods (DG) components combined in one box. Reporter stated he was not aware of any DG in the box.",
+    "threats": [
+      "위험물·적재"
+    ],
+    "detectors": [
+      "지상 요원"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "정비 정기 점검"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 3,
+    "detector_status": "불일치",
+    "narrative_len": 287
+  },
+  {
+    "acn": "2017070",
+    "report_id": "mechanic-2017070",
+    "set": "mechanic",
+    "synopsis": "B737 Technician reported that an EA (Engineering Authorization) does not have a sufficient fuel nozzle leak check process after fuel nozzle post-replacement work is completed. If the leak test is not performed and a potential problem goes undetected, the reporter states that it can lead to in-service engine fires.",
+    "threats": [
+      "절차·문서 불일치",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "정비 정기 점검",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1637
+  },
+  {
+    "acn": "2010947",
+    "report_id": "mechanic-2010947",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported pressure from Maintenance Control department to install incorrect part onto airplane.",
+    "threats": [
+      "절차·문서 불일치",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인",
+      "운항 중단 판단",
+      "운항 관리 협의",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "운항 관리 협의"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "해소"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 5178
+  },
+  {
+    "acn": "2008358",
+    "report_id": "mechanic-2008358",
+    "set": "mechanic",
+    "synopsis": "Aircraft Maintenance Technician reported an inadvertent discharge of the cargo pit fire extinguisher bottle during a maintenance check.",
+    "threats": [
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [],
+    "breached": [
+      "절차·체크리스트 준수"
+    ],
+    "responses": [],
+    "layers_worked": [],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": null,
+    "n_worked": 0,
+    "n_breached": 1,
+    "n_items": 3,
+    "detector_status": "일치",
+    "narrative_len": 511
+  },
+  {
+    "acn": "2008352",
+    "report_id": "mechanic-2008352",
+    "set": "mechanic",
+    "synopsis": "Maintenance Technicians reported missing a procedural step when deferring a thrust reverser while the aircraft was at the gate prior to departure.",
+    "threats": [
+      "항공기 계통 고장",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "운항 관리 협의",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "정비 문서·MEL 확인",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 3,
+    "n_breached": 3,
+    "n_items": 9,
+    "detector_status": "불일치",
+    "narrative_len": 4305
+  },
+  {
+    "acn": "2005229",
+    "report_id": "mechanic-2005229",
+    "set": "mechanic",
+    "synopsis": "Maintenance Manager reported non compliance with MEL procedure and incorrect maintenance practices led to water leaking into the Lower avionics compartment, causing system failures on a B747 aircraft.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "정비사"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "운항 관리 협의",
+      "정비 조치·수리",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구",
+      "예방",
+      "해소"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 2,
+    "n_breached": 3,
+    "n_items": 8,
+    "detector_status": "불일치",
+    "narrative_len": 1780
+  },
+  {
+    "acn": "2000321",
+    "report_id": "mechanic-2000321",
+    "set": "mechanic",
+    "synopsis": "Technician reported concerns over trouble shooting and the correct application of an MEL while working in a B777-200.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "정비 문서·MEL 확인"
+    ],
+    "breached": [
+      "정비 조치·수리"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 1,
+    "n_items": 5,
+    "detector_status": "일치",
+    "narrative_len": 177
+  }
+]

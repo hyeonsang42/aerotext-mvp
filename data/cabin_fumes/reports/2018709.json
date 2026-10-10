@@ -1,0 +1,203 @@
+{
+  "report_id": "cabin_fumes-2018709",
+  "acn": "2018709",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Dispatcher reported a flight diverted to a nearest suitable airport due to electrical fumes in the cockpit and the aircraft was turned over to Maintenance.",
+  "narrative": "Aircraft X [requested priority] due to fumes in the cockpit. Diverted nearest suitable alternate, ZZZ. Crew on the ground and in the blocks safely. No hard haz on the aircraft, only some dry ice. Crew said the fumes had an electrical smell to it. Maintenance Control looking into it at this time. Cause - maintenance problem",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Aircraft X [requested priority] due to fumes in the cockpit.",
+        "start": 0,
+        "end": 60
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Crew said the fumes had an electrical smell to it.",
+        "start": 196,
+        "end": 246
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "Aircraft X [requested priority] due to fumes in the cockpit.",
+        "start": 0,
+        "end": 60
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 2,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "Diverted nearest suitable alternate, ZZZ.",
+        "start": 61,
+        "end": 102
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "Maintenance Control looking into it at this time.",
+        "start": 247,
+        "end": 296
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "Cause - maintenance problem",
+        "start": 297,
+        "end": 324
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "운항 관리사가 쓴 보고라 조종실 내부 서술이 없다. 방어를 특정할 근거가 적다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Landed in Emergency Condition",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "B757-200"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

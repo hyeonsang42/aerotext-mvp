@@ -1,0 +1,168 @@
+{
+  "report_id": "mechanic-2032488",
+  "acn": "2032488",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Technician reported aircraft had hydraulic system failure due to non- accomplishment of aircraft modification.",
+  "narrative": "EO (Engineering Order) XXXXXXXX issued for A321nx aircraft. Problem wasn't addressed until after potential catastrophic failure. Aircraft had an air interrupt. Lost green hydraulic system. Had to deploy the gear manually and EO was not accomplished at this time. The failure for this item is exactly why this EO has been issued for this fleet. Cause: EO not accomplished as a result of this failure. The replaced part is the one that needs to be upgraded in the EO to avoid a hydraulic fluid loss. Solution: Every aircraft that this EO applies to should have the EO accomplished immediately. Waiting until a potential catastrophic failure is reckless. Even after this failure management still didn't do the EO, stated it would take too long.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Aircraft had an air interrupt. Lost green hydraulic system.",
+        "start": 129,
+        "end": 188
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Had to deploy the gear manually and EO was not accomplished at this time.",
+        "start": 189,
+        "end": 262
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "Had to deploy the gear manually",
+        "start": 189,
+        "end": 220
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "Waiting until a potential catastrophic failure is reckless.",
+        "start": 592,
+        "end": 651
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "The replaced part is the one that needs to be upgraded in the EO to avoid a hydraulic fluid loss.",
+        "start": 400,
+        "end": 497
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "고장을 막으려고 발행된 기술 지시를 이행하지 않은 상태에서 바로 그 고장이 났다. mechanic-2040479 의 첫 문장(그린 유압 상실, 수동 강하)과 같은 유형이라 연결해 볼 만하다.",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Landed in Emergency Condition",
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition",
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A321"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

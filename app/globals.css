@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+
+  /* 잉크 계열 바탕. 항공 계기판의 짙은 남색을 기준으로 잡았다 */
+  --ink-900: #0b1728;
+  --ink-800: #132339;
+  --ink-700: #1d3350;
+
+  /* 강조색. 링크와 선택 상태 */
+  --accent: #0e7490;
+  --accent-soft: #ecfeff;
+
+  /* 방어 층위 */
+  --layer-prevent: #d97706;
+  --layer-detect: #2563eb;
+  --layer-resolve: #6366f1;
+  --layer-recover: #059669;
+
+  --hair: rgb(11 23 40 / 0.08);
+}
+
+body {
+  font-family: "Pretendard", "Malgun Gothic", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-feature-settings: "tnum";
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.005em;
+  color: #27364b;
+  background-color: #f5f7fa;
+  background-image:
+    radial-gradient(900px 320px at 50% -180px, #e6edf6 0%, transparent 72%),
+    linear-gradient(rgb(11 23 40 / 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(11 23 40 / 0.018) 1px, transparent 1px);
+  background-size: auto, 34px 34px, 34px 34px;
+  min-height: 100vh;
+}
+
+/* 제목은 자간을 좁혀 밀도를 준다 */
+h1, h2, h3 {
+  letter-spacing: -0.021em;
+  color: #16233a;
+}
+
+/* 카드 공통 */
+.card {
+  background: #fff;
+  border-radius: 0.65rem;
+  box-shadow:
+    0 1px 1px rgb(11 23 40 / 0.03),
+    0 3px 10px -6px rgb(11 23 40 / 0.14),
+    0 0 0 1px var(--hair);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 2px 3px rgb(11 23 40 / 0.04),
+    0 10px 26px -12px rgb(11 23 40 / 0.22),
+    0 0 0 1px rgb(11 23 40 / 0.13);
+}
+
+/* 큰 수치. 숫자 폭을 고정해 값이 바뀌어도 흔들리지 않는다 */
+.stat {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+/* 머리글 밑 얇은 구분선 */
+.hair { border-color: var(--hair); }
+
+/* 근거 구절 강조. 색만으로 구분하지 않도록 밑줄을 함께 쓴다 (NFR-07) */
+mark.evidence {
+  background: linear-gradient(transparent 56%, #fde68a 56%);
+  border-bottom: 2px solid var(--layer-prevent);
+  padding: 1px 0;
+  border-radius: 1px;
+}
+
+/* 인용문 */
+blockquote {
+  font-feature-settings: "tnum";
+  word-break: keep-all;
+}
+
+/* 사진 출처. 평소엔 거의 보이지 않고 사진 위에 올리면 드러난다 */
+.photo-credit {
+  opacity: 0.2;
+  transition: opacity 0.3s ease;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
+}
+figure:hover .photo-credit { opacity: 0.8; }
+
+/* 표 머리 */
+.thead {
+  background: linear-gradient(#fcfdfe, #f2f5f9);
+  color: #64748b;
+  letter-spacing: 0.01em;
+}
+
+/* 표 줄 전환 */
+tbody tr { transition: background-color 0.16s ease; }
+
+/* 막대 전환 */
+.bar { transition: width 0.42s cubic-bezier(0.22, 1, 0.36, 1); }
+
+/* 필터 칩 */
+.chip {
+  transition: background-color 0.16s ease, border-color 0.16s ease,
+              color 0.16s ease, transform 0.16s ease;
+}
+.chip:active { transform: scale(0.97); }
+
+/* 링크 밑줄을 은은하게 */
+a.quiet {
+  text-decoration-color: rgb(29 51 80 / 0.25);
+  text-underline-offset: 3px;
+}
+a.quiet:hover { text-decoration-color: currentColor; }
+
+/* 스크롤 막대를 얇게 */
+*::-webkit-scrollbar { width: 9px; height: 9px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: #cfd8e3; border-radius: 9px; }
+*::-webkit-scrollbar-thumb:hover { background: #9aa8bb; }
+
+/* 줄어든 움직임을 선호하는 설정을 존중한다 (NFR-07) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

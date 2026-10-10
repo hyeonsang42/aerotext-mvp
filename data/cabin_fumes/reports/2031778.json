@@ -1,0 +1,321 @@
+{
+  "report_id": "cabin_fumes-2031778",
+  "acn": "2031778",
+  "set": "cabin_fumes",
+  "synopsis": "MD-11 Captain reported a warning annunciation for a potential fire in lower forward cargo area went off and the flight crew opted to divert.",
+  "narrative": "Approximately 3 hours into our flight from ZZZ1 to ZZZ2, just past our ETP, we received a LVL 1 CRG FLO FWD DISAG. Interesting enough, prior to the ETP, I just had a discussion with my FO (First Officer) on what specifically the ETP represented in a tri-jet. We reviewed the FOM together on this subject, to include a refresher on the nearest airports page in the FMS. We discussed the rules and various scenarios in oceanic emergency decision-making. The FO was the pilot flying when the LVL 1 alert appeared, and I pulled the QRH. No action was required. While discussing the system and observing the yellow triangle in the upper FWD LWR CRG compartment on the AIR Synoptic Display, along with the DISAG light in the associated FLOW switch on the overhead panel, and approximately 3 - 5 minutes after the initial alert, we received a LVL 3 CRG FIRE LWR with tri-tone and flashing master warning. The yellow triangle also changed to RED. At this time I directed the FO to pull his QRH RED tab FIRE and SMOKE. He quickly found the CARGO FIRE LWR page and started reading out loud with his finger under each line on the procedure visible to me. We concurred with the notes and steps of the decision tree. I executed the procedure - i.e., pushed the flashing CARGO FIRE AGENT DISCH Switch, turned off the associated CARGO FLOW Switch, and turned off the associated CARGO TEMP Selector per the QRH. We estimate within 60 seconds of discharging the fire agent, the fire warning stopped. This brought some relief. We discussed diversion as I pulled up the nearest airports page on MCDU (Multi-Purpose Control Display Unit) 1. ZZZ was the closest. We discussed our options including pulling the weather and agreed ZZZ was the best course of action. I took over as pilot flying and selected direct to ZZZ on MCDU 1, and the FO self- initiated pulling up the CPDLC page on MCDU 2 to [request priority handling] and diversion with ZZZ, whom we were logged onto. He asked me if he should select [priority], I said yes. Inflight fire constitutes this level of urgency. ATC sent us CPDLC routing direct ZZZZZ ZZZZZ1 which he confirmed with me, accepted, and loaded into the secondary. I selected heading on the FCP (Flight Control Panel), activated the secondary flight plan, and reengaged navigation. This cleaned up the FMS for accurate ETA predictions. The FMS was now showing 1:40 to ZZZ. The FO asked if he should wake the Jumpseat Pilot sleeping in the crew rest. I said absolutely. The FO jumped up, woke the Jumpseat Pilot, directed him to stow the crew rest compartment, not to worry about the cushions to just throw them in the courier area if you needed, and then returned to his seat. I quickly briefed the Jumpseat Pilot once he was on the flight deck, and my FO asked if I wanted to call the company. My FO immediately provided me with the telephone number, whereby I loaded it into the SATCOM on MCDU 3. I initially forgot to dial the 001 wondering why the call would not go through, then I fumbled through the directory and selected the [priority handling] number. No one answered. I really wished I preloaded the number in ZZZ1. Realizing now, having seen the directory, I forgot the 001, I entered 001 and asked the FO to read me the Dispatch number again - which he still had the release teed up on his iPad open to the page. I established contacted with Dispatch to inform them of our situation and inquire as to the contents of the lower forward cargo. I asked the Dispatcher to please call ZZZ1 Ramp and let us know what we had in the belly. It was reported back empty cans. In discussion amongst the crew, we were still concerned the fire was real due to the escalating warnings and the extinguishing of the fire warning following discharge of the fire suppression bottle. Bleed 3 warms this compartment and that was a concern. Next we discussed altitude. Consensus was high altitude, cold air and less oxygen, was best to prevent reignition and I choose to remain at FL390. The cockpit was a little quiet at this point as I stared at a 1:30 ETA, when I realized I was still SPEED EDIT MACH .82 for the crossing. I announced the problem, bow tied Mach .85, then decided to change the cost index to 300 and reengage prof. This gave us an equivalent Mach.85 and better predictions for our arrival and descent. Searching for ways to trim down time to destination, this also reminded me that I needed new winds after the divert and activatte the secondary flight plan ATC sent. About that time my FO asked to re-initialize altitude as I had FL400 and FL410 for our predicted flight planned step-climbs. I said yes. Good idea. I then loaded, and briefed the arrival and approach. Initially set up for ILS XXL Flaps 50 AUTOLAND. The Jumpseat Pilot asked about our familiarity with ZZZ. I haven’t been in there in a while and neither had my FO. It was a frequent route for the company pilot, and he gave us a briefing overview for landing [Runway] XXs. I was very appreciative. Now became a waiting game. I took the opportunity to discuss emergency egress, and when we expected the 90 minutes to expire to discharge the second fire suppression bottle. Predicted on approach before landing. I briefed door slides, window ropes, and potential issues to prevent injury if I called for an emergency egress. The Jumpseat Pilot asked for the location of our firefighting hood, which I advised him on the compartment above the coat closet, and I pointed out the walk around bottles in the cockpit. I told him the quick donning mask in his seat had attached smoke goggles and was his first choice. He was willing to help fight any fire, but I let him know we had no access to that lower cargo compartment. I briefed my intentions on landing, that if the fire reignited, and there was an active fire warning on approach to landing, I would stop on the runway. Otherwise, we would clear the runway and stop immediately on the taxiway to allow ARFF (Airport Rescue and Firefighting) to evaluate with their heat guns. I discussed with my FO to be very clear, concise, and specific as to the location of the potential fire, once he was on frequency with the firefighters on the ground. I then had the FO flip to the back of the QRH and read out loud for all of our review and discussion the emergency evacuation checklist. When he got to the line item about pulling the engine and APU fire handles, twist, I said we would not twist. The engines were fine and there was no need to blow the bottles unless we had an engine fire warning. We reviewed what those fire handles cut off. I felt we were thoroughly briefed on everything, except the possibility of having to ditch, which has been active in my mind through the entire emergency. I stated if the fire reignited, and we had visible signs of smoke, fire, or heat that was uncontrollable, we would perform a controlled ditch in the ocean versus burning up inflight. Aside from the slides detaching as a raft, I pointed out the location of the raft just outside the cockpit door. “That was all I had to say about that.” As we approached coast in and established VHF contact with ZZZ, my FO was excellent on the radios. He used call sign Aircraft X, [priority] aircraft. I started to feel better about the situation but was not going to let down my guard. I briefed that with no active fire warning, I was going to slow to 250 below 10,000 ft. and keep the approach and landing as close to normal as possible on how we operate. We had a runway change to XXR, which I welcomed as a longer CAT 3 runway. Winds were changing as ATIS updated, and at one point the FO reported winds exceeded the 15-kt. max crossword for autoland. I said if I had to land, I was going to land the plane. If we were within limits, I would allow it to autoland. Keep me posted. The winds died down and the fog started to roll in. We had our flaps 50, medium autobrakes, AUTOLAND distance, and I briefed the taxiway exit point. On vectors for approach, 90 minutes after discharge of the first fire suppression bottle expired, the yellow discharge light started flashing at us, and the FO pushed the button and discharged the second bottle as planned and briefed. We touched down without any further fire warning. I remembered to hit the autopilot disconnect on the yoke so I could steer, cleared the runway, and came to a complete stop. The FO switched to the directed frequency to communicate with ARFF. His radio communication was perfect. He surprised me and included the location of the forward lower cargo compartment door, on the right side of the aircraft. Rescue determined no heat or ongoing fire. ARFF reported no active fire or heat. I called for the after landing checklist and asked him to advise Fire Rescue that we would be retracting the flaps to ensure personnel were clear. We switched back to Ground Control to request taxi to the Ramp. I wasn’t sure if the Ramp would be ready for us so I instructed the FO to start the APU, and once it was up and stable, to shut down engine number two as we were extremely light. We pulled into parking and I shut down engines three and one. We were told ARFF would be opening the lower forward cargo compartment and inspecting. I had the First Officer disarm the doors and we conducted our normal shutdown procedures as the stairs pulled up to the jet and Fire Rescue inspected the compartment. After the flight deck was secure and we exited the aircraft, I spoke with Maintenance, Security, the Lead Fire Rescue-Man, and our Ramp Agent. Then I called the Supervisor to brief the event. Supervisor was a much appreciated warm and welcoming voice on the other end of the phone. She reminded me to write it up in the aircraft release, encouraged me to write down as many details as possible while the event was still fresh in my mind. I have [to] give credit to the exceptional performance by my First Officer. He demonstrated leadership, quick thinking, had ideas ahead of me, was constantly feeding me information so I could make good decisions, and remained engaged at the highest level performance throughout. I couldn’t have asked for a stronger First Officer. We worked together in lock step like a marching band. Regardless, this trip was the first we had flown together and ever met. The engagement of our Jumpseat Pilot also deserves recognition for his upstanding professionalism and support throughout the ordeal. In debrief, some things I could’ve performed better on like speeding up sooner to Mach .85 and taking the time to pre-load our Dispatcher’s phone number in the SATCOM before pushing, did not prove distracting and I believe were overcome by the strength of the team on the flight deck. Building the team was the best thing I did as a Captain before I ever released the parking brake. It set the tone for the synchronicity I experienced, and the empowerment of both my First Officer and Jumpseat Pilot to perform at their highest levels, thinking, communicating effectively, and freely sharing ideas. I made it clear to our Jumpseat Pilot we recognize he’s a professional airline pilot even though he doesn’t fly the MD-11. I let him know on preflight brief he is a part of the crew and that if he sees something, to please share it with us. He has local familiarity with ZZZ1 and our destination. Never in a million years did I think I would need that guy like I did that night. Cause - false fire warning.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "prior to the ETP, I just had a discussion with my FO (First Officer) on what specifically the ETP represented in a tri-jet. We reviewed the FOM together on this subject",
+        "start": 135,
+        "end": 303
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "we received a LVL 1 CRG FLO FWD DISAG",
+        "start": 76,
+        "end": 113
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "we received a LVL 3 CRG FIRE LWR with tri-tone and flashing master warning",
+        "start": 822,
+        "end": 896
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "we received a LVL 3 CRG FIRE LWR with tri-tone and flashing master warning",
+        "start": 822,
+        "end": 896
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "He quickly found the CARGO FIRE LWR page and started reading out loud with his finger under each line on the procedure visible to me.",
+        "start": 1010,
+        "end": 1143
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "He quickly found the CARGO FIRE LWR page and started reading out loud with his finger under each line on the procedure visible to me.",
+        "start": 1010,
+        "end": 1143
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "pushed the flashing CARGO FIRE AGENT DISCH Switch, turned off the associated CARGO FLOW Switch",
+        "start": 1237,
+        "end": 1331
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "the FO self- initiated pulling up the CPDLC page on MCDU 2 to [request priority handling] and diversion with ZZZ",
+        "start": 1813,
+        "end": 1925
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "I took over as pilot flying and selected direct to ZZZ on MCDU 1",
+        "start": 1743,
+        "end": 1807
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "I established contacted with Dispatch to inform them of our situation and inquire as to the contents of the lower forward cargo.",
+        "start": 3333,
+        "end": 3461
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "I took the opportunity to discuss emergency egress, and when we expected the 90 minutes to expire to discharge the second fire suppression bottle.",
+        "start": 5009,
+        "end": 5155
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "ARFF reported no active fire or heat.",
+        "start": 8623,
+        "end": 8660
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 10,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "She reminded me to write it up in the aircraft release",
+        "start": 9649,
+        "end": 9703
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "마지막에 원인을 거짓 화재 경고로 적었다. 경고가 오작동이어도 방어가 순서대로 작동한 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation"
+      ],
+      "overlap": [
+        "Aircraft Other Automation"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "FLC complied w / Automation / Advisory",
+        "Landed in Emergency Condition",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Diverted",
+      "FLC complied w / Automation / Advisory",
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "MD-11"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

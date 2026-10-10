@@ -1,0 +1,285 @@
+{
+  "report_id": "cabin_fumes-2047525",
+  "acn": "2047525",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Captain reported a fumes event during gate pushback. Captain directed tow crew to return to gate and requested First Officer to notify the ramp and request CFR (Crash Fire Rescue) for an orderly deplaning.",
+  "narrative": "After push from gate the right engine was started and I advised push crew to disconnect. At this time the FO (First Officer) and myself noticed an acrid smell in cockpit. I advised push crew to stay connected and the FO to notify ramp we would be returning to gate. I shut down number 2 engine and the packs to facilitate door opening if necessary. Immediately after this FA (Flight Attendant) called to advise smoke in the cabin. I verified smoke and not odor and advised her we would be exiting main cabin door. Directed FO to advise ramp we would be deplaning and to call for CFR (Crash Fire Rescue). Immediate action items for deplaning were completed and I ordered exiting main cabin door via PA. All passengers and crew were deplaned without injuries. I notified dispatch of the event via phone and Maintenance subsequently assumed responsibility for the aircraft.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "At this time the FO (First Officer) and myself noticed an acrid smell in cockpit.",
+        "start": 89,
+        "end": 170
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "At this time the FO (First Officer) and myself noticed an acrid smell in cockpit.",
+        "start": 89,
+        "end": 170
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "I advised push crew to stay connected and the FO to notify ramp we would be returning to gate.",
+        "start": 171,
+        "end": 265
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "response",
+      "value": "fc.returned_to_gate",
+      "evidence": {
+        "quote": "I advised push crew to stay connected and the FO to notify ramp we would be returning to gate.",
+        "start": 171,
+        "end": 265
+      },
+      "item_label": "대응 행동",
+      "label_ko": "게이트로 복귀",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Gate",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I shut down number 2 engine and the packs to facilitate door opening if necessary.",
+        "start": 266,
+        "end": 348
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "Immediately after this FA (Flight Attendant) called to advise smoke in the cabin.",
+        "start": 349,
+        "end": 430
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "Immediately after this FA (Flight Attendant) called to advise smoke in the cabin.",
+        "start": 349,
+        "end": 430
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I verified smoke and not odor and advised her we would be exiting main cabin door.",
+        "start": 431,
+        "end": 513
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "Directed FO to advise ramp we would be deplaning and to call for CFR (Crash Fire Rescue).",
+        "start": 514,
+        "end": 603
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "I notified dispatch of the event via phone and Maintenance subsequently assumed responsibility for the aircraft.",
+        "start": 758,
+        "end": 870
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "Maintenance subsequently assumed responsibility for the aircraft",
+        "start": 805,
+        "end": 869
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [
+        "Returned To Gate"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Evacuated",
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Evacuated",
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Taxi"
+    ],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "Regional Jet 700 ER/LR (CRJ700)"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

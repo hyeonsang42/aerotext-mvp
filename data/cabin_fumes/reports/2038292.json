@@ -1,0 +1,166 @@
+{
+  "report_id": "cabin_fumes-2038292",
+  "acn": "2038292",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Flight Attendant reported the Captain notified the cabin crew that the flight was returning to departure airport due to a fume event of unknown source.",
+  "narrative": "Shortly after take-off, the entire crew smelled an odor. The Captain called us, and said we would be returning to the airport. Paramedics came, and checked us out after the passengers deplaned. We were taken to the emergency room at the hospital for blood tests, and our vitals. Hours later, we were released. The aircraft needs an overhaul. There was obviously a serious problem, as it was taken to the hanger. This cannot continue to keep happening for the safety of the crews, and the passengers.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Shortly after take-off, the entire crew smelled an odor.",
+        "start": 0,
+        "end": 56
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "Shortly after take-off, the entire crew smelled an odor.",
+        "start": 0,
+        "end": 56
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "The Captain called us, and said we would be returning to the airport.",
+        "start": 57,
+        "end": 126
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 3,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "We were taken to the emergency room at the hospital for blood tests, and our vitals.",
+        "start": 194,
+        "end": 278
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "There was obviously a serious problem, as it was taken to the hanger.",
+        "start": 342,
+        "end": 411
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "서술이 짧아 방어를 특정할 근거가 거의 없다. 억지로 채우지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Flight Attendant"
+      ],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Maintenance Action",
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Climb"
+    ],
+    "Make Model Name": [
+      "A321"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

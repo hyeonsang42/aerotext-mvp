@@ -1,0 +1,205 @@
+{
+  "report_id": "mechanic-2060780",
+  "acn": "2060780",
+  "set": "mechanic",
+  "synopsis": "Air carrier Maintenance Lead Technician reported accepting a late arriving important parcel. The late parcel caused a departure delay in order to load in the cargo compartment and to issue a revised final load plan.",
+  "narrative": "I got an important/hazmat right before I was ready to close the flight, wasn't aware of the hazmat until it arrived plane side, not knowing that I could refuse the shipment I accepted it causing my crew to have to close up the aft cargo and reopen the front cargo to load the hazmat because on an airbus that's the only place it can go. At departure time I was notified that the restricted article wasn't showing on the final. Cause: Only being a crew chief for several weeks, receiving the hazmat at the last minute caused a lapse in judgement and a sort of panic to get it to the right cargo bin. The extra work caused the delay, when I did the NOTOC I thought that would update the final to show that it was part of the final load. Solution: Did what I knew to do when I have items that aren't showing up in the final, call loads, open the flight back up, scan the item that wasn't showing and then finalize the flight one more time.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "hazmat_loading",
+      "evidence": {
+        "quote": "I got an important/hazmat right before I was ready to close the flight",
+        "start": 0,
+        "end": 70
+      },
+      "item_label": "위협",
+      "label_ko": "위험물·적재",
+      "layer": null,
+      "agent": null,
+      "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "receiving the hazmat at the last minute caused a lapse in judgement and a sort of panic to get it to the right cargo bin",
+        "start": 477,
+        "end": 597
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "not knowing that I could refuse the shipment I accepted it",
+        "start": 128,
+        "end": 186
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.ground_personnel",
+      "evidence": {
+        "quote": "At departure time I was notified that the restricted article",
+        "start": 337,
+        "end": 397
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지상 요원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Ground Personnel",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "At departure time I was notified that the restricted article",
+        "start": 337,
+        "end": 397
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "call loads, open the flight back up",
+        "start": 822,
+        "end": 857
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.flight_cancelled_delayed",
+      "evidence": {
+        "quote": "The extra work caused the delay",
+        "start": 599,
+        "end": 630
+      },
+      "item_label": "결과 상태",
+      "label_ko": "운항 취소·지연",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Cancelled / Delayed",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "Flight Cancelled / Delayed"
+      ],
+      "overlap": [
+        "Flight Cancelled / Delayed"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A321"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

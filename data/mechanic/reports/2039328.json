@@ -1,0 +1,195 @@
+{
+  "report_id": "mechanic-2039328",
+  "acn": "2039328",
+  "set": "mechanic",
+  "synopsis": "Aircraft technicians reported fuel spill when removing wing tank fuel pump.",
+  "narrative": "Aircraft X, Person 2 and I were tasked to Remove and replace the inboard right hand wing fuel pump. Following the Aircraft Maintenance manual reference, we were up to the step to removing the pump. The fuel pump came out with ease using the tool that was called out in the Aircraft Maintenance manual, as soon as the pump was coming out the slide valve, the slide valve started to fall out of the wing, fuel started pouring right out of the wing, we tried to re install the fuel pump and slide valve to stop the fuel from coming out and was unsuccessful, so we got out of the way, we called our Leads and supervisor right away and the fire department was notified immediately. Cause: I believe that the reason this event occurred because the slide valve retaining pin malfunctioned allowing the slide valve to come out of the wing. Solution: Before removing the fuel pump, to transfer the fuel out of the wing and to inspect the slide valve retaining pin for damage and functionality. [No additional information provided.]",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "Aircraft X, Person 2 and I were tasked to Remove and replace the inboard right hand wing fuel pump.",
+        "start": 0,
+        "end": 99
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Following the Aircraft Maintenance manual reference, we were up to the step to removing the pump.",
+        "start": 100,
+        "end": 197
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "I believe that the reason this event occurred because the slide valve retaining pin malfunctioned allowing the slide valve to come out of the wing.",
+        "start": 684,
+        "end": 831
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "fuel started pouring right out of the wing",
+        "start": 403,
+        "end": 445
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Solution: Before removing the fuel pump, to transfer the fuel out of the wing and to inspect the slide valve retaining pin for damage and functionality.",
+        "start": 832,
+        "end": 984
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "we called our Leads and supervisor right away and the fire department was notified immediately",
+        "start": 581,
+        "end": 675
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "we called our Leads and supervisor right away and the fire department was notified immediately",
+        "start": 581,
+        "end": 675
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "mechanic-2069879 과 같은 유형의 사건이다. 두 건 모두 교범을 그대로 따랐는데 슬라이드 밸브가 함께 빠져 연료가 쏟아졌고, 두 건 모두 교범에 사전 연료 이송 지시가 없다고 지적했다. 서로 다른 신고자의 독립 보고다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [],
+    "Make Model Name": [
+      "No Aircraft"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "report_id": "mechanic-2017070",
+  "acn": "2017070",
+  "set": "mechanic",
+  "synopsis": "B737 Technician reported that an EA (Engineering Authorization) does not have a sufficient fuel nozzle leak check process after fuel nozzle post-replacement work is completed. If the leak test is not performed and a potential problem goes undetected, the reporter states that it can lead to in-service engine fires.",
+  "narrative": "EA (Engineering Authorization) doesn’t require sufficient fuel nozzle leak check to prevent possible in-service engine fires. Nitrogen leak check with a leak test solution is a “CFM best practice”but has not been adopted by Company A in this EA, nor has Boeing included it in the remove and replace of the nozzles in their AMM (Aircraft Maintenance Manual). The nitro leak check can be found in the adjustment/test section just after fuel nozzle section. This nitrogen leak test needs to be included in the Leap 1B Fuel Nozzle post replacement work card. Proof is a recent incident. During the required “idle leak check”after full set of fuel nozzles were replaced, our technicians discovered an oil leak, but no fuel leak. After a 70% part power engine run using bag method at drain lines, a significant fuel leak developed in the hot section. Other report [from weeks ago] of hot section fires support the need to do a best practice leak check. In the interim while tooling and leak detector liquid are on order, I feel need to require EA be revised to require a high power engine run after fuel nozzles are replaced or proper nitrogen test equipment tooling and leak detector can be used. Suggested resolution - an immediate resolution. In the interim, while tooling and leak detector liquid are on delay due to availability of leak check - not owned - and tooling repairs needed, I relay this feedback from the technicians on the floor: Require EA be revised to require a high power engine run after fuel nozzles are replaced and a subsequent opening of the core cowls to inspect for fuel stains, leaks in manifold, and nozzles area.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "procedure_doc_conflict",
+      "evidence": {
+        "quote": "EA (Engineering Authorization) doesn’t require sufficient fuel nozzle leak check to prevent possible in-service engine fires.",
+        "start": 0,
+        "end": 125
+      },
+      "item_label": "위협",
+      "label_ko": "절차·문서 불일치",
+      "layer": null,
+      "agent": null,
+      "desc": "절차서, 교범, 차트, MEL의 내용이 서로 다르거나 현장과 맞지 않는 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "EA (Engineering Authorization) doesn’t require sufficient fuel nozzle leak check to prevent possible in-service engine fires.",
+        "start": 0,
+        "end": 125
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "EA (Engineering Authorization) doesn’t require sufficient fuel nozzle leak check to prevent possible in-service engine fires.",
+        "start": 0,
+        "end": 125
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "our technicians discovered an oil leak, but no fuel leak",
+        "start": 666,
+        "end": 722
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "After a 70% part power engine run using bag method at drain lines, a significant fuel leak developed in the hot section.",
+        "start": 724,
+        "end": 844
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "After a 70% part power engine run using bag method at drain lines, a significant fuel leak developed in the hot section.",
+        "start": 724,
+        "end": 844
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "규정된 아이들 누설 점검은 통과했는데 70퍼센트 출력 시운전에서 연료 누설이 드러났다. 점검 조건 자체가 부족했던 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B737 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "05"
+  }
+}

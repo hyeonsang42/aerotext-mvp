@@ -1,0 +1,229 @@
+{
+  "report_id": "cabin_fumes-2033140",
+  "acn": "2033140",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier flight crew reported an intermittent burning odor during initial approach. The flight crew continued to a safe landing and evacuation.",
+  "narrative": "We were operating flt XXXX; ZZZ-ZZZ1. we were cleared the ZZZZZ arrival to land ILSXXL. Approaching the ZZZZZ intersection we smelled a faint burning odor that went away quickly, there was no visible smoke with the odor. Perhaps a minute later the odor returned, but much stronger, at which time we donned our O2 masks and [requested priority handling]. Conditions were vmc and we were on an extended base for XXL. We consulted the smoke and fumes ck list, configured, and landed uneventfully. We cleared the rwy and it was decided to evacuate the aircraft. We evacuated using the inertial reels and met up with personnel on the ground away from the airplane. The [incident] occurred very close to the airport in vmc conditions so after [advising ATC] the landing came quickly so in a lot of respects there wasn’t much time to ascertain the what and where of what was burning. The only indication we recvd in flight of anything out of the ordinary in addition to the strong odor in the cockpit was a brief status message which appeared and went away in a few seconds...I was unable to read it and it occurred somewhere around 1500 ft AGL on final during configuration. The surprises!? The inertial reels do not arrest your fall as much as one would expect or anticipate. If I ever use it again I will land with knees bent and perform a military roll to avoid injury. Fortunately I had the privilege to watch the Captain land and did exactly that.....the other thing I will again carry is a flashlight around my neck for immediate use, once the aircraft is secured and shutdown its rather dark in the cockpit and the [lighting] is dim. We were operating flight XXXX ZZZ-ZZZ1. We were cleared to descend via the ZZZZZ RNAV XXL arrival. Approaching the ZZZZZ1 intersection we smelled a faint burning odor that dissipated quickly. A few minutes later the odor came back and then became stronger. At that point, we donned our O2 masks, [requested priority handling] and consulted the smoke and fumes checklist. We set up for an autoland ILS approach to RW XXL. We landed uneventfully and cleared the runway. We stopped on the taxiway accessed the situation and evacuated the aircraft through the main entry door with the inertial reals. There was a no indication of the source of the odor except for a momentary status message that quickly went away. Several take aways from this experience are that the inertial reals don’t arrest your fall as fast as you anticipate. After the evacuation checklist is preformed it would have been nice to have a small flashlight handy. Lastly, I am thankful for all the years of training this [incident] in training. I felt that our level of training and urgency to perform our duties and land the airplane ASAP was handled very well.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Approaching the ZZZZZ intersection we smelled a faint burning odor that went away quickly, there was no visible smoke with the odor.",
+        "start": 88,
+        "end": 220
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Approaching the ZZZZZ intersection we smelled a faint burning odor that went away quickly, there was no visible smoke with the odor.",
+        "start": 88,
+        "end": 220
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "at which time we donned our O2 masks and [requested priority handling]",
+        "start": 282,
+        "end": 352
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "at which time we donned our O2 masks and [requested priority handling]",
+        "start": 282,
+        "end": 352
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "We consulted the smoke and fumes ck list, configured, and landed uneventfully.",
+        "start": 415,
+        "end": 493
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "The only indication we recvd in flight of anything out of the ordinary in addition to the strong odor in the cockpit was a brief status message which appeared and went away in a few seconds",
+        "start": 877,
+        "end": 1066
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "We evacuated using the inertial reels and met up with personnel on the ground away from the airplane.",
+        "start": 558,
+        "end": 659
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "outcome",
+      "value": "general.evacuated",
+      "evidence": {
+        "quote": "it was decided to evacuate the aircraft",
+        "start": 517,
+        "end": 556
+      },
+      "item_label": "결과 상태",
+      "label_ko": "탈출",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Evacuated",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "경고 메시지가 잠깐 떴다 사라져 읽지 못했다고 적혀 있다. 경고 장치가 있었으나 쓸 수 없었던 사례라 뚫린 방어로 보았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Landed in Emergency Condition"
+      ],
+      "predicted": [
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Evacuated",
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "Evacuated"
+      ],
+      "overlap": [
+        "Evacuated"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Evacuated",
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach",
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B767-300 and 300 ER"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

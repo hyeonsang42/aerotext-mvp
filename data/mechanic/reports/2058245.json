@@ -1,0 +1,131 @@
+{
+  "report_id": "mechanic-2058245",
+  "acn": "2058245",
+  "set": "mechanic",
+  "synopsis": "A319 Mechanic reported heavy corrosion was found on components of the fuel tank.",
+  "narrative": "Fuel tank entry mechanics found heavy corrosion on the attaching hardware and impact fuel panels 640cb and 640bb.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "Fuel tank entry mechanics found heavy corrosion on the attaching hardware and impact fuel panels 640cb and 640bb.",
+        "start": 0,
+        "end": 113
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "Fuel tank entry mechanics found heavy corrosion on the attaching hardware and impact fuel panels 640cb and 640bb.",
+        "start": 0,
+        "end": 113
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "Fuel tank entry mechanics found heavy corrosion on the attaching hardware and impact fuel panels 640cb and 640bb.",
+        "start": 0,
+        "end": 113
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "113자짜리 한 문장 보고다. 위협과 탐지만 있고 그 뒤가 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A319"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

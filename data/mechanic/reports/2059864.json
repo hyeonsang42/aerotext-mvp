@@ -1,0 +1,129 @@
+{
+  "report_id": "mechanic-2059864",
+  "acn": "2059864",
+  "set": "mechanic",
+  "synopsis": "Air carrier Stores Personnel reported the failure to include the AWB with the Hazmat parcel which is required to close the final DG summary. Reporter stated the lack of experience in shipping hazardous material contributed to the document mishandling.",
+  "narrative": "I received a pick in Company Software B for hazardous material. Proceeded to go to Company Software A to ship the material. Had made it all the way to booking flight and was given the shipping AWB (Airway Bill) in Company Software A. Once completed I went to my shipping on the other screen in Company Software B to complete the shipping to complete the other half. Wasn't aware that I needed to input the AWB that was given to close out the shipment in Company Software B. Cause: Lack in experience and shipping hazardous material. Suggestions: Company can return back to a 2 person sign off on all hazardous material shipments. Also each item shipping out on ground and air training.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "hazmat_loading",
+      "evidence": {
+        "quote": "I received a pick in Company Software B for hazardous material.",
+        "start": 0,
+        "end": 63
+      },
+      "item_label": "위협",
+      "label_ko": "위험물·적재",
+      "layer": null,
+      "agent": null,
+      "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.ground_personnel",
+      "evidence": {
+        "quote": "I received a pick in Company Software B for hazardous material.",
+        "start": 0,
+        "end": 63
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지상 요원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Ground Personnel",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Suggestions: Company can return back to a 2 person sign off on all hazardous material shipments.",
+        "start": 533,
+        "end": 629
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "2인 확인을 되살리자는 제안에서 지금은 1인 처리임을 읽었다. 대응 행동과 결과 상태 서술이 없다.",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Ground Personnel"
+      ],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Pre-flight"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "No Aircraft"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

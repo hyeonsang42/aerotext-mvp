@@ -1,0 +1,180 @@
+{
+  "report_id": "mechanic-2026576",
+  "acn": "2026576",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Technicians reported improper removal of 737-900 aircraft wing structure protective coatings and material.",
+  "narrative": "performed removal of panels (wing to body), panel numbers were 195BL and 195CL, gained access to requested area, attempted to remove requested particles from two fasteners, in the process my work partner had used a Dremel tool to help the process. originally had used dry sanding method and proved to not be effective on surface. the next step I used the Dremel tool and when I saw surface that I did not intend to be removed coming off I immediately stopped, tried to think of a possible better solution to the problem on the bolts but sanding was the only other method at time I could think of. as soon as I knew something was messed up I went to the inspector and asked what it was supposed to look like on the surface to verify that the problem had occurred. once I saw that had become messed up, I started to look for my lead and try to get help on what the next course of action should be. he informed me he would be right back and was. the question posed if I think there could have been a way to prevent it, better training and more help on knowing the aircraft and what we are dealing with. I believe that training is a big factor in this given that what we worked on is a serious part of an aircraft and have very severe impact on safety with the plane. also having experienced guys around who can help us understand better or better documentation on work cards than just a few simple lines to say to do something. the drawling's that were attached to the work card that i used to try and research what I was dealing with weren't sufficient in detail as to what it was. I personally feel responsible for not saying or doing more to try and help prevent this given what happen. Upon receiving information from the inspector after removing panels, I was told to get the sealant off until the strap was completely clean. After using the plastic scraper to get the thicker part of the sealant off then I moved to scotch bright. If I had gone to the manual and read, that I am to use the minimal amount of material to take the sealant off I would have been aware of the fact that even scotch bright is unsafe to use. When the 400-grit sandpaper was not working around the base of the high lock fastener I tried to get it off with a scotch bright dremel pad. I mistook a grinding pad for a stiff scotch bright pad. After taking the grinding pad to the metal and it immediately took the primer off of the metal I stopped. Due to not reading into the manual failed in adhering to rules against certain materials used on the paint and primer of the failsafe strap. Suggestion: Better training on how to access branching aircraft maintenance manual references.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "when I saw surface that I did not intend to be removed coming off I immediately stopped",
+        "start": 371,
+        "end": 458
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "when I saw surface that I did not intend to be removed coming off I immediately stopped",
+        "start": 371,
+        "end": 458
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "If I had gone to the manual and read, that I am to use the minimal amount of material to take the sealant off I would have been aware of the fact that even scotch bright is unsafe to use.",
+        "start": 1934,
+        "end": 2121
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "After taking the grinding pad to the metal and it immediately took the primer off of the metal I stopped.",
+        "start": 2319,
+        "end": 2424
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "as soon as I knew something was messed up I went to the inspector and asked what it was supposed to look like on the surface to verify that the problem had occurred",
+        "start": 597,
+        "end": 761
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "better documentation on work cards than just a few simple lines to say to do something",
+        "start": 1337,
+        "end": 1423
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "결과 상태 서술이 없다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B737-900"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

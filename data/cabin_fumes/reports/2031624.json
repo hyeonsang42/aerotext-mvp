@@ -1,0 +1,262 @@
+{
+  "report_id": "cabin_fumes-2031624",
+  "acn": "2031624",
+  "set": "cabin_fumes",
+  "synopsis": "B737-800 First Officer reported compressor stall sounds from the #2 engine and the smell of burning rubber and smoke in the cabin when they were about to level off at cruise altitude. Crew ran compressor stall and smoke/fumes checklist prior to returning to departure airport for landing.",
+  "narrative": "I was the pilot monitoring. Just prior to our level off at our cruising altitude of FL320 I noticed an abnormal noise in the #2 engine. In a matter of seconds the noise became multiple very loud bangs characteristic of a compressor stall, while also smelling something like burning rubber. The Captain immediately reduced power and lowered the aircraft’s nose. While he did this, I advised center that we were leveling off at FL310 as I wasn’t entirely sure if we were a [priority handling] aircraft at this point. The Captain called for the QRC for an engine compressor stall, and while I was looking for the checklist we were receiving a call from our flight attendants. At this point the engine appeared stable at a reduced thrust setting, so I answered the FA (Flight Attendant) call while the Captain advised air traffic control and got us a lower altitude. The flight attendant advised that they had smoke in the cabin, to which I responded we were working on the situation and would get back to them with more information. I informed the captain of the flight attendant’s report and we decided to run the smoke and fumes QRH while diverting back to ZZZ. As there was no visible smoke in the flight deck, we both concurred that oxygen masks were not necessary. The Captain continued flying and working the radios while I ran the QRH. Once that was complete, the passengers, dispatch, and flight attendants were all advised we would be returning to ZZZ. Once we landed ARFF (Airport Rescue and Firefighting) visually inspected our aircraft for damage and reported that there was none. The captain requested that one or two of the safety vehicles follow us back to the gate, where we parked with no further incident. The casual factor was a maintenance issue with the #2 engine.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "In a matter of seconds the noise became multiple very loud bangs characteristic of a compressor stall, while also smelling something like burning rubber.",
+        "start": 136,
+        "end": 289
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Just prior to our level off at our cruising altitude of FL320 I noticed an abnormal noise in the #2 engine.",
+        "start": 28,
+        "end": 135
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "The Captain immediately reduced power and lowered the aircraft’s nose.",
+        "start": 290,
+        "end": 360
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The Captain called for the QRC for an engine compressor stall",
+        "start": 515,
+        "end": 576
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "The flight attendant advised that they had smoke in the cabin",
+        "start": 863,
+        "end": 924
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "The flight attendant advised that they had smoke in the cabin",
+        "start": 863,
+        "end": 924
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I informed the captain of the flight attendant’s report and we decided to run the smoke and fumes QRH while diverting back to ZZZ.",
+        "start": 1030,
+        "end": 1160
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "the passengers, dispatch, and flight attendants were all advised we would be returning to ZZZ",
+        "start": 1364,
+        "end": 1457
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "Once we landed ARFF (Airport Rescue and Firefighting) visually inspected our aircraft for damage and reported that there was none.",
+        "start": 1459,
+        "end": 1589
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "The casual factor was a maintenance issue with the #2 engine.",
+        "start": 1721,
+        "end": 1782
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "",
+  "checks": {
+    "detector": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Issued New Clearance",
+        "Landed in Emergency Condition",
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition",
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [
+      "Issued New Clearance"
+    ],
+    "When Detected": [],
+    "Flight Phase": [
+      "Climb"
+    ],
+    "Make Model Name": [
+      "B737-800"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

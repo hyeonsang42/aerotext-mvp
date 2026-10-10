@@ -1,0 +1,220 @@
+{
+  "report_id": "mechanic-2030501",
+  "acn": "2030501",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Technician reported wing access panels departed the aircraft inflight due to possible missing or damaged part.",
+  "narrative": "On the weekend of Day 0 - Day 3 I was performing several maintenance tasks on Aircraft X, one of those being lubrication of slat, ball drive screw nut, and slat roller assy. I was alone performing this task for both wings. I opened each panel, performed lube task, then closed access. Ref A300 AMM XX-XX-XX. The aircraft departed Day 3 night from ZZZ1- ZZZ. Upon landing and walk-around inspection performed by pilot [they informed us] that two inboard leading edge panels were missing. Field service was sent up to ZZZ and verified all hardware was installed on the aircraft from where the panel left. When the panel left the aircraft it tucks underneath the panel outboard of it and it made that one depart the aircraft as well. To my understanding, I performed the task at hand correctly and closed access correctly. There is a bracket on the aircraft that is either missing, or damaged that caused the blow out panel to leave the aircraft, and other aircraft I believe have been reported to have that damaged, or missing as well.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "There is a bracket on the aircraft that is either missing, or damaged that caused the blow out panel to leave the aircraft",
+        "start": 820,
+        "end": 942
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "I was alone performing this task for both wings.",
+        "start": 174,
+        "end": 222
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "I opened each panel, performed lube task, then closed access. Ref A300 AMM XX-XX-XX.",
+        "start": 223,
+        "end": 307
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Upon landing and walk-around inspection performed by pilot [they informed us] that two inboard leading edge panels were missing.",
+        "start": 358,
+        "end": 486
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "Upon landing and walk-around inspection performed by pilot [they informed us] that two inboard leading edge panels were missing.",
+        "start": 358,
+        "end": 486
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Field service was sent up to ZZZ and verified all hardware was installed on the aircraft from where the panel left.",
+        "start": 487,
+        "end": 602
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "other aircraft I believe have been reported to have that damaged, or missing as well",
+        "start": 948,
+        "end": 1032
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "Field service was sent up to ZZZ and verified all hardware was installed on the aircraft from where the panel left.",
+        "start": 487,
+        "end": 602
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "패널이 비행 중 떨어져 나갔고 조종사의 착륙 후 외부 점검에서 발견됐다. 같은 브래킷 문제가 다른 기체에서도 보고됐다는 서술이 있다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A300"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

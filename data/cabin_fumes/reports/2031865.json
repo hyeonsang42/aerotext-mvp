@@ -1,0 +1,284 @@
+{
+  "report_id": "cabin_fumes-2031865",
+  "acn": "2031865",
+  "set": "cabin_fumes",
+  "synopsis": "B-737 pilot reported receiving a report from ATC during taxi of smoke from the aft part of the aircraft after APU had been shutdown. The flight returned to the gate with no fire indication in cockpit or from the airport fire department, ARFF.",
+  "narrative": "Tower reported aircraft was on fire with smoke. Started both engines, turned off the APU and taxied out of ZZZ. Tower reported fire/smoke coming from aircraft very shortly later. With no cockpit indications, we asked for clarification of where the smoke was coming from. The tower replied, “aft aircraft.” We called for ARFF. The ARFF scanned aircraft and only found heat from the running engines. We opted not to start APU, gate return and asked for a MX inspection. Gate returned and had both engines running because the station was not setup with a GPU or air cart and the OAT (Outside Air Temperature) was 32f. The station required 15 minutes to locate and hook up air, electrics and stairs to the aircraft all the while one or both engines were running.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Tower reported aircraft was on fire with smoke.",
+        "start": 0,
+        "end": 47
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.air_traffic_control",
+      "evidence": {
+        "quote": "Tower reported aircraft was on fire with smoke.",
+        "start": 0,
+        "end": 47
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관제사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Air Traffic Control",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "Tower reported fire/smoke coming from aircraft very shortly later.",
+        "start": 112,
+        "end": 178
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "With no cockpit indications, we asked for clarification of where the smoke was coming from.",
+        "start": 179,
+        "end": 270
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "With no cockpit indications, we asked for clarification of where the smoke was coming from.",
+        "start": 179,
+        "end": 270
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "We called for ARFF.",
+        "start": 306,
+        "end": 325
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "The ARFF scanned aircraft and only found heat from the running engines.",
+        "start": 326,
+        "end": 397
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "We opted not to start APU, gate return and asked for a MX inspection.",
+        "start": 398,
+        "end": 467
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.returned_to_gate",
+      "evidence": {
+        "quote": "We opted not to start APU, gate return and asked for a MX inspection.",
+        "start": 398,
+        "end": 467
+      },
+      "item_label": "대응 행동",
+      "label_ko": "게이트로 복귀",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Gate",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "the station was not setup with a GPU or air cart",
+        "start": 519,
+        "end": 567
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "asked for a MX inspection",
+        "start": 441,
+        "end": 466
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "조종실 표시가 전혀 없었고 관제탑이 유일한 탐지 경로였다. 기관 코딩의 탐지 주체가 관제사로 잡히는지 대조해 볼 만한 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Air Traffic Control"
+      ],
+      "overlap": [
+        "Air Traffic Control"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Returned To Gate"
+      ],
+      "predicted": [
+        "Requested ATC Assistance / Clarification",
+        "Returned To Gate"
+      ],
+      "overlap": [
+        "Returned To Gate"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control"
+    ],
+    "Detector.Automation": [
+      "Air Traffic Control"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Returned To Gate"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Taxi"
+    ],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "B737 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}

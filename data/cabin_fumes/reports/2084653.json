@@ -1,0 +1,291 @@
+{
+  "report_id": "cabin_fumes-2084653",
+  "acn": "2084653",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier flight crew reported a lavatory smoke warning message during descent. A flight attendant reported smoke was seen in the forward lavatory. Smoke worsened during descent, therefore after landing a precautionary evacuation was completed.",
+  "narrative": "Precautionary evacuation due to “SMOKE FWD LAV” warning and Flight Attendant information. While descending well into the arrival, we received a “SMOKE FWD LAV” warning message. We also heard the beeping from the smoke detector in the main cabin. The Captain initiated me to run “SMOKE FWD LAV QRH.” Shortly after turning to the QRH Checklist page, ATC gave us instructions preparing us for final vectors to land. It was at this time we let ATC know we had an issue and relayed the message we received. The Captain instructed me to [request priority handling] with ATC. ATC responded and asked how many souls and pounds of fuel onboard. I let them know that information, and the Captain got a call from the Flight Attendant believing they could smell a slight burning smell from the front lavatory area. In addition, the “SMOKE FWD LAV” warning message extinguished. After he gathered this information from them, I returned to the QRH. However, both the Captain and I agreed due to our low altitude and workload management getting the aircraft ready for landing, it would be best to both focus on configuring the aircraft safely. He transferred controls to me while he made maybe one or two more calls to the flight attendants, and coordinated with ATC for response. Landing was uneventful. ATC asked if we would like to taxi off or if the trucks should come to us. ATC said it is no problem for the trucks to come to us, and we said to standby while we checked in with the Flight Attendant on the situation. The forward Flight Attendant said, “The smell is getting stronger.” I relayed this to the Captain and he said we will be evacuating here. He instructed me to begin the Evacuation Checklist which then triggered the evacuation. Evacuation happened without incident or injuries. On approach for landing, Passenger A used the forward lavatory. While in the lavatory the smoke detector went off for about 15 seconds. Passenger A did not come out right away - maybe XX-XY seconds after smoke detector stopped. When they came out, there was a cloud of smoke that followed the Passenger. I even noticed it coming from their hair as they sat down. I immediately questioned if they were smoking. They said, “No.” I explained that the only time the smoke detector goes off is because there is smoke. They asked if it was a malfunction - I said no. I asked them if they could see any smoke coming from anywhere in the lavatory or smell smoke. They said, no. I asked aft FA (Flight Attendant) to check for any signs of smoke or fire in the lavatory and to check the halon to see if it went off/activated. I asked Passenger A if they were vaping. They said no. I could smell smoke - not cigarette smoke, but smoke from something burning. The aft FA said that the halon is still in normal mode; she checked for fire and hotspots and didn't find anything. But she said she could smell smoke too. I also checked for hotspots, smoke and fire in the lavatory and in the galley service area. Within minutes of the smoke detector sound stopping, the Flight Deck, FD, called and told aft FA we have a priority situation. Aft FA told me that the Captain was unclear in his description. I called to verify/confirm. Captain said that, “We have a priority situation - we got an alert indicator of smoke in forward lavatory and that emergency personnel will meet us upon landing on tarmac. Prepare for normal landing. Standby for further instructions.” I said that I believed a passenger was smoking in the forward lavatory. Aft FA and I were in process of putting service items away when all of this happening. So we quickly secured the galley and then I made the preparation PA. Right before touching down, the smell of smoke became stronger, but no visible smoke. We landed and stopped on tarmac. I waited for direction from Captain. He called and said emergency personnel are on their way and to wait to open the door. I said that the smell of smoke got stronger. He then said we’re going to evacuate. After what seem like a long 1 - 2 minutes he made PA “Evacuate!” The power was off, so I began to yell at the passengers to “come this way - evacuate now!” Passengers began grabbing their belongings, so I yelled, “LEAVE EVERYTHING, EVACUATE, COME THIS WAY!” Passengers were evacuated within XX -XY minutes. I went to Passenger A and asked them if they were using any kind of spray. They said no. Everyone was accounted for with no injuries. Aircraft X was evacuated due to smoke warning in the forward lavatory. At approximately 9500 - 10000 ft. descending with ZZZZ Approach into ZZZZ, SMOKE FWD LAV Master Warning chime and aural alarm was heard. I was pilot flying, my First Officer was monitoring. I directed him to run the checklist. I then handed over and transferred controls to my First Officer, who was pilot flying for the remainder of the flight. I chimed the flight attendants. I was told, “A passenger has been going into the forward lavatory smoking. The smoke is getting worse.” At this time, I smelled the smoke in the cockpit. We [requested priority handling]. Prior to landing, ZZZZ Tower told us to stop on the runway and let the fire trucks approach our aircraft. We had a normal landing and set the parking brake on Runway XXR. The Flight Attendant told us the smoke is now in the forward galley area. At this time my FO (First Officer) and I agreed it's time to evacuate. The fire department confirmed their trucks are stopped and are ready to receive the passengers on the left side of the runway. I called for and ran the Evacuation Checklist. The evacuation went quick, melodic, and smooth, except for a handful of passengers who brought their carry-on bags with them. After the fire department boarded the aircraft and gave us an all clear, we taxiied the aircraft to a remote parking area. No injuries were occurred from my knowledge and the aircraft was never placed in an undesired state and was operated very safely. Allegedly, a passenger had been smoking in the forward lavatory according to the Flight Attendant. This was evident with the smell of smoke that can be smelled from the cockpit. This is an event out of crew control when a passenger deliberately breaks the rules and causes aircraft fire alarms to go off. However, my suggestion is that training should use this event to talk about in training because thanks to the training’s evacuation training and the company’s mentality of take a breath and do not rush evacuation, things went as smooth as they could have gone. I have to compliment training and of course my flight crew for their swift and professional actions and thanks to that, as far as I am aware, no injuries or damage to the aircraft was done.",
+  "narrative_count": 3,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "While descending well into the arrival, we received a “SMOKE FWD LAV” warning message.",
+        "start": 90,
+        "end": 176
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "we received a “SMOKE FWD LAV” warning message",
+        "start": 130,
+        "end": 175
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "We also heard the beeping from the smoke detector in the main cabin.",
+        "start": 177,
+        "end": 245
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The Captain initiated me to run “SMOKE FWD LAV QRH.”",
+        "start": 246,
+        "end": 298
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "The Captain instructed me to [request priority handling] with ATC.",
+        "start": 502,
+        "end": 568
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "atc.provided_assistance",
+      "evidence": {
+        "quote": "ATC responded and asked how many souls and pounds of fuel onboard.",
+        "start": 569,
+        "end": 635
+      },
+      "item_label": "대응 행동",
+      "label_ko": "지원 제공",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Provided Assistance",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "the Captain got a call from the Flight Attendant believing they could smell a slight burning smell from the front lavatory area",
+        "start": 674,
+        "end": 801
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "the Captain got a call from the Flight Attendant believing they could smell a slight burning smell from the front lavatory area",
+        "start": 674,
+        "end": 801
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "However, both the Captain and I agreed due to our low altitude and workload management getting the aircraft ready for landing, it would be best to both focus on configuring the aircraft safely.",
+        "start": 935,
+        "end": 1128
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "He instructed me to begin the Evacuation Checklist which then triggered the evacuation.",
+        "start": 1646,
+        "end": 1733
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.evacuated",
+      "evidence": {
+        "quote": "Evacuation happened without incident or injuries.",
+        "start": 1734,
+        "end": 1783
+      },
+      "item_label": "결과 상태",
+      "label_ko": "탈출",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Evacuated",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "QRH 를 시작했다가 중단한 대목을 뚫린 방어로 보았다. 원문이 중단 사실과 이유를 직접 서술한다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Attendant"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Aircraft Other Automation",
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Landed in Emergency Condition",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Evacuated"
+      ],
+      "predicted": [
+        "Evacuated"
+      ],
+      "overlap": [
+        "Evacuated"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Evacuated"
+    ],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Descent"
+    ],
+    "Make Model Name": [
+      "Commercial Fixed Wing"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

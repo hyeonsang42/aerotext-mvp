@@ -1,0 +1,274 @@
+{
+  "report_id": "cabin_fumes-2052803",
+  "acn": "2052803",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier flight crew reported an \"acetone\" type odor during cruise in the passenger cabin which resulted in multiple reports of physiological symptoms. With no definitive source of the odor the flight crew requested special handling to a diversion airport where a safe landing was executed.",
+  "narrative": "Very light chemical smell detected on the ground, prior to departure. Apparent alcohol or hand sanitizer type. After discussion with Crew, we agreed to proceed with flight, as it seemed to fade and present no concern. There was a NOTAC for HAZMAT for battery transport, but this didn’t seem to fit with the smell detected. During cruise, Flight Attendants noted a much stronger “acetone” type of smell, mid cabin to aft. A passenger became ill, complaining of headache and dizziness. A phone patch with medical services was initiated. During this time the C Flight Attendant also began to experience symptoms of headache and nausea. After consulting with medical services, we were told that due to multiple persons being affected, a diversion was advisable. We elected to divert. After an initial turn towards ZZZ, Dispatch advised that ZZZ1 would be a better divert location for manning and EMT capabilities. We initiated a turn towards ZZZ1 and coordinated with Dispatch for Medical Personnel to meet the aircraft. We [requested priority handling] as well. As the divert continued, we were informed by the Flight Attendants that the C F/A was vomiting in the Lavatory. We relayed all of the above info to Dispatch and coordinated for a gate. No smell was noted on the flight deck so no Emergency Checklists were deemed necessary. This may have been an error, and perhaps the smoke or fumes checklist would have been advisable, under an abundance of caution. Arrival to ZZZ1 was uneventful. EMT met the Aircraft at the gate and serviced the ill Passenger and Flight Attendants. O2 bottles were used during the flight for the Passenger and F/A. [Report narrative contained no additional information.]",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "Very light chemical smell detected on the ground, prior to departure.",
+        "start": 0,
+        "end": 69
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Very light chemical smell detected on the ground, prior to departure.",
+        "start": 0,
+        "end": 69
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "During cruise, Flight Attendants noted a much stronger “acetone” type of smell, mid cabin to aft.",
+        "start": 323,
+        "end": 420
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "During cruise, Flight Attendants noted a much stronger “acetone” type of smell, mid cabin to aft.",
+        "start": 323,
+        "end": 420
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.passenger",
+      "evidence": {
+        "quote": "A passenger became ill, complaining of headache and dizziness.",
+        "start": 421,
+        "end": 483
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "승객",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Passenger",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "After consulting with medical services, we were told that due to multiple persons being affected, a diversion was advisable.",
+        "start": 633,
+        "end": 757
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "We elected to divert.",
+        "start": 758,
+        "end": 779
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "We [requested priority handling] as well.",
+        "start": 1017,
+        "end": 1058
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "No smell was noted on the flight deck so no Emergency Checklists were deemed necessary. This may have been an error",
+        "start": 1244,
+        "end": 1359
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "EMT met the Aircraft at the gate and serviced the ill Passenger and Flight Attendants.",
+        "start": 1492,
+        "end": 1578
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "출발 전 냄새를 감지하고도 운항하기로 한 판단(we agreed to proceed with flight)도 뚫린 방어로 볼 수 있으나, 원문이 그것을 실패로 명시하지는 않아 넣지 않았다. 체크리스트 미수행은 본인이 오류였을 수 있다고 직접 적어 뚫린 방어로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant",
+        "Flight Crew",
+        "Passenger"
+      ],
+      "overlap": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Overcame Equipment Problem",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Overcame Equipment Problem",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "B737-800"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "02"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "report_id": "cabin_fumes-2081885",
+  "acn": "2081885",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Flight Attendant reported a chemical odor in the cabin during preflight which resulted in passenger deplaning and all crew members being assessed for medical treatment. The Captain informed the cabin crew that this aircraft had multiple fume events previously and that the APU was replaced after this event.",
+  "narrative": "At the end of boarding, the #1 Flight Attendant requested water pressure to use the coffee pot in his galley. The Captain turned on the APU and immediately chemical odors permeated the aircraft. I immediately walked to the back of the aircraft to assess the situation. Passengers seated in XX row noticed the odor and stopped me to inquire about it. The fumes were worse in the aft galley of the aircraft and the #2 Flight Attendant was coughing profusely. I instructed her to go to the front door to get fresh air. I called the Captain and informed him of the odor, he said he noticed it too, and was in the process of starting an evacuation of passengers. I made sure the galley was secured and moved as far away from the aft galley as I could without leaving the doors unattended. The #2 and I took turns trading places on the aircraft so we could each get fresh air until the aircraft was free of all passengers, approximately XX minutes, and the required checks were finished. All 5 crew members went to the ER for treatment, this is my second major cabin fumes event in four months. The Captain informed us this particular aircraft was written up for similar fumes events on DATE, DATE1, and DATE2 in all phases of flights and marked that maintenance could not find the source so they marked it as a NFF (No Fault Found) and put it back in service. Our event was treated differently as they changed the filters, which are not designed to remove chemical toxins from the air. Seven days later on DATE3, after many concerned emails, regarding, the aircraft had a full APU change and was returned to service on DATE4.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "The Captain turned on the APU and immediately chemical odors permeated the aircraft.",
+        "start": 110,
+        "end": 194
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "I immediately walked to the back of the aircraft to assess the situation.",
+        "start": 195,
+        "end": 268
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.passenger",
+      "evidence": {
+        "quote": "Passengers seated in XX row noticed the odor and stopped me to inquire about it.",
+        "start": 269,
+        "end": 349
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "승객",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Passenger",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "I called the Captain and informed him of the odor",
+        "start": 516,
+        "end": 565
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "he said he noticed it too, and was in the process of starting an evacuation of passengers",
+        "start": 567,
+        "end": 656
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "he said he noticed it too, and was in the process of starting an evacuation of passengers",
+        "start": 567,
+        "end": 656
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "marked that maintenance could not find the source so they marked it as a NFF (No Fault Found) and put it back in service",
+        "start": 1233,
+        "end": 1353
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "All 5 crew members went to the ER for treatment",
+        "start": 982,
+        "end": 1029
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Our event was treated differently as they changed the filters, which are not designed to remove chemical toxins from the air.",
+        "start": 1355,
+        "end": 1480
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "the aircraft had a full APU change and was returned to service on DATE4",
+        "start": 1548,
+        "end": 1619
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 9,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "the aircraft had a full APU change and was returned to service on DATE4",
+        "start": 1548,
+        "end": 1619
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "v1.1 의 정비 조치를 넣었다. 필터 교체는 화학 물질을 거르지 못한다고 원문이 밝혀 뚫린 방어, APU 교체는 작동한 방어다. 반복 고장을 원인 미상으로 닫고 재투입한 대목도 뚫린 방어의 분명한 사례다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant",
+        "Flight Crew",
+        "Passenger"
+      ],
+      "overlap": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Evacuated",
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action",
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Evacuated",
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate",
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A319"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "version": "v1.1",
+  "updated": "2026-09-28",
+  "none_value": "서술 없음",
+  "note": [
+    "탐지 주체·대응 행동·결과 상태의 asrs_value 는 ASRS 코딩 값과 글자 그대로 같다. 고치지 말 것.",
+    "채점과 참고 대조가 문자열 일치로 이루어지므로, 한 글자만 달라도 대조가 깨진다.",
+    "화면에는 label_ko 를 보이고, 저장되는 값은 code 다.",
+    "위협과 방어는 ASRS에 대응 필드가 없어 새로 만든 값이다. 자동 채점되지 않는다.",
+    "observed 는 표본 150건에서 그 값이 코딩된 보고 수다. pipeline/06_detector_stats.py 로 재현한다.",
+    "v1.1 에서 방어 값 2개를 더하고 1개의 설명을 넓혔다. 근거는 rubric/CHANGELOG.md."
+  ],
+  "sequence_items": [
+    "threat",
+    "detector",
+    "barrier_worked",
+    "barrier_breached",
+    "response",
+    "outcome"
+  ],
+  "items": {
+    "threat": {
+      "label_ko": "위협",
+      "scoring": "대조 없음",
+      "multiple": true,
+      "source": "ICAO TEM Environmental/Organizational threat 2분법에서 축을 잡고 표본의 Anomaly·Contributing Factors 값에서 귀납. ICAO Doc 9803 (LOSA) countermeasure 3범주. references/REFERENCES.md, 접근일 2026-09-19",
+      "values": [
+        {
+          "code": "aircraft_system_failure",
+          "label_ko": "항공기 계통 고장",
+          "label_en": "Aircraft system failure",
+          "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태"
+        },
+        {
+          "code": "fumes_odor",
+          "label_ko": "연기·냄새·오염",
+          "label_en": "Fumes, smoke or odor",
+          "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태"
+        },
+        {
+          "code": "part_maintenance_defect",
+          "label_ko": "부품·정비 상태 이상",
+          "label_en": "Part or maintenance defect",
+          "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함"
+        },
+        {
+          "code": "procedure_doc_conflict",
+          "label_ko": "절차·문서 불일치",
+          "label_en": "Procedure or document conflict",
+          "desc": "절차서, 교범, 차트, MEL의 내용이 서로 다르거나 현장과 맞지 않는 상태"
+        },
+        {
+          "code": "atc_comm_issue",
+          "label_ko": "관제·통신 문제",
+          "label_en": "ATC or communication issue",
+          "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절"
+        },
+        {
+          "code": "traffic_conflict",
+          "label_ko": "교통 근접",
+          "label_en": "Traffic conflict",
+          "desc": "다른 항공기나 지상 이동체와의 간격이 좁아진 상태"
+        },
+        {
+          "code": "weather",
+          "label_ko": "기상",
+          "label_en": "Weather",
+          "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건"
+        },
+        {
+          "code": "airport_ground",
+          "label_ko": "공항·지상 환경",
+          "label_en": "Airport or ground environment",
+          "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치"
+        },
+        {
+          "code": "hazmat_loading",
+          "label_ko": "위험물·적재",
+          "label_en": "Hazardous material or loading",
+          "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제"
+        },
+        {
+          "code": "operational_pressure",
+          "label_ko": "시간·업무 부하",
+          "label_en": "Operational pressure",
+          "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태"
+        }
+      ]
+    },
+    "detector": {
+      "label_ko": "탐지 주체",
+      "scoring": "자동 채점",
+      "multiple": true,
+      "coded_fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "source": "ASRS 코딩 값 그대로. 표본 150건(mechanic, crm, cabin_fumes)에서 관측",
+      "values": [
+        {
+          "code": "person.flight_crew",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Flight Crew",
+          "label_ko": "운항 승무원",
+          "observed": 78
+        },
+        {
+          "code": "person.maintenance",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Maintenance",
+          "label_ko": "정비사",
+          "observed": 40
+        },
+        {
+          "code": "person.flight_attendant",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Flight Attendant",
+          "label_ko": "객실 승무원",
+          "observed": 32
+        },
+        {
+          "code": "person.air_traffic_control",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Air Traffic Control",
+          "label_ko": "관제사",
+          "observed": 10
+        },
+        {
+          "code": "person.ground_personnel",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Ground Personnel",
+          "label_ko": "지상 요원",
+          "observed": 5
+        },
+        {
+          "code": "person.passenger",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Passenger",
+          "label_ko": "승객",
+          "observed": 3
+        },
+        {
+          "code": "person.other_person",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Other Person",
+          "label_ko": "그 밖의 사람",
+          "observed": 3
+        },
+        {
+          "code": "person.observer",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "Observer",
+          "label_ko": "관측 좌석 탑승자",
+          "observed": 2
+        },
+        {
+          "code": "person.uas_crew",
+          "asrs_field": "Detector.Person",
+          "asrs_value": "UAS Crew",
+          "label_ko": "무인기 운용자",
+          "observed": 1
+        },
+        {
+          "code": "automation.aircraft_other_automation",
+          "asrs_field": "Detector.Automation",
+          "asrs_value": "Aircraft Other Automation",
+          "label_ko": "항공기 경고·표시 장치",
+          "observed": 22
+        },
+        {
+          "code": "automation.air_traffic_control",
+          "asrs_field": "Detector.Automation",
+          "asrs_value": "Air Traffic Control",
+          "label_ko": "관제 자동화 장비",
+          "observed": 4
+        },
+        {
+          "code": "automation.aircraft_terrain_warning",
+          "asrs_field": "Detector.Automation",
+          "asrs_value": "Aircraft Terrain Warning",
+          "label_ko": "지형 경고 장치",
+          "observed": 4
+        },
+        {
+          "code": "automation.aircraft_ra",
+          "asrs_field": "Detector.Automation",
+          "asrs_value": "Aircraft RA",
+          "label_ko": "공중충돌경고 회피 지시",
+          "observed": 1
+        }
+      ]
+    },
+    "barrier": {
+      "label_ko": "방어",
+      "scoring": "이중 주석",
+      "multiple": true,
+      "used_by": [
+        "barrier_worked",
+        "barrier_breached"
+      ],
+      "note": "작동한 방어와 뚫린 방어가 같은 값 목록을 쓴다. 같은 것이 작동했는지 뚫렸는지 비교해야 집계가 뜻을 가진다. 뚫린 방어는 내러티브에 명시된 경우만 쓴다.",
+      "source": "EUROCONTROL Barrier Analysis (Ed. 2.0) human/automated barrier, Prevention-Resolution-Recovery. 접근일 2026-09-19 v1.1 추가 2개는 시범 10건에서 원문에 있으나 넣을 값이 없어 버린 항목에서 귀납 (2081062, 2082029, 2081885)",
+      "values": [
+        {
+          "code": "preflight_check",
+          "label_ko": "출발 전 점검",
+          "label_en": "Pre-flight check",
+          "layer": "예방",
+          "agent": "사람",
+          "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것"
+        },
+        {
+          "code": "scheduled_inspection",
+          "label_ko": "정비 정기 점검",
+          "label_en": "Scheduled inspection",
+          "layer": "예방",
+          "agent": "절차",
+          "desc": "정해진 주기에 따른 점검이나 정비 작업"
+        },
+        {
+          "code": "maintenance_doc",
+          "label_ko": "정비 문서·MEL 확인",
+          "label_en": "Maintenance document or MEL check",
+          "layer": "예방",
+          "agent": "절차",
+          "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것"
+        },
+        {
+          "code": "procedure_checklist",
+          "label_ko": "절차·체크리스트 준수",
+          "label_en": "Procedure or checklist",
+          "layer": "예방",
+          "agent": "절차",
+          "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것"
+        },
+        {
+          "code": "briefing_planning",
+          "label_ko": "브리핑·사전 계획",
+          "label_en": "Briefing or planning",
+          "layer": "예방",
+          "agent": "사람",
+          "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립"
+        },
+        {
+          "code": "crew_crosscheck",
+          "label_ko": "승무원 교차 확인",
+          "label_en": "Crew cross-check",
+          "layer": "탐지",
+          "agent": "사람",
+          "desc": "다른 승무원이 확인해 잘못을 잡아내는 것"
+        },
+        {
+          "code": "cabin_report",
+          "label_ko": "객실 승무원 보고",
+          "label_en": "Cabin crew report",
+          "layer": "탐지",
+          "agent": "사람",
+          "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것"
+        },
+        {
+          "code": "ground_report",
+          "label_ko": "지상 요원·정비사 보고",
+          "label_en": "Ground or maintenance report",
+          "layer": "탐지",
+          "agent": "사람",
+          "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것"
+        },
+        {
+          "code": "atc_monitoring",
+          "label_ko": "관제 감시·지시",
+          "label_en": "ATC monitoring or instruction",
+          "layer": "탐지",
+          "agent": "사람",
+          "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것"
+        },
+        {
+          "code": "aircraft_alert",
+          "label_ko": "항공기 경고 장치",
+          "label_en": "Aircraft warning system",
+          "layer": "탐지",
+          "agent": "자동화",
+          "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동"
+        },
+        {
+          "code": "automation_protection",
+          "label_ko": "자동화 방호 기능",
+          "label_en": "Automation protection",
+          "layer": "해소",
+          "agent": "자동화",
+          "desc": "오토파일럿이나 보호 기능이 상태 악화를 막는 것"
+        },
+        {
+          "code": "manual_intervention",
+          "label_ko": "승무원 수동 개입",
+          "label_en": "Manual intervention by crew",
+          "layer": "해소",
+          "agent": "사람",
+          "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다"
+        },
+        {
+          "code": "emergency_procedure",
+          "label_ko": "비상 절차 수행",
+          "label_en": "Emergency procedure",
+          "layer": "복구",
+          "agent": "절차",
+          "desc": "비상 선언, 비상 절차, 탈출 절차의 수행"
+        },
+        {
+          "code": "stop_operation",
+          "label_ko": "운항 중단 판단",
+          "label_en": "Stop the operation",
+          "layer": "복구",
+          "agent": "사람",
+          "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단"
+        },
+        {
+          "code": "maintenance_action",
+          "label_ko": "정비 조치·수리",
+          "label_en": "Maintenance action",
+          "layer": "복구",
+          "agent": "사람",
+          "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다"
+        },
+        {
+          "code": "company_consult",
+          "label_ko": "운항 관리 협의",
+          "label_en": "Company consultation",
+          "layer": "해소",
+          "agent": "사람",
+          "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것"
+        }
+      ]
+    },
+    "response": {
+      "label_ko": "대응 행동",
+      "scoring": "참고 대조",
+      "multiple": true,
+      "coded_fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "note": "보유율 58%, 25%. 채점이 아니라 참고 대조에만 쓴다.",
+      "source": "ASRS 코딩 값 그대로. 표본 150건(mechanic, crm, cabin_fumes)에서 관측",
+      "values": [
+        {
+          "code": "fc.overcame_equipment_problem",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Overcame Equipment Problem",
+          "label_ko": "장비 문제를 극복함",
+          "observed": 33
+        },
+        {
+          "code": "fc.requested_atc_assistance_clarification",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Requested ATC Assistance / Clarification",
+          "label_ko": "관제 지원·확인 요청",
+          "observed": 31
+        },
+        {
+          "code": "fc.landed_in_emergency_condition",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Landed in Emergency Condition",
+          "label_ko": "비상 상태로 착륙",
+          "observed": 23
+        },
+        {
+          "code": "fc.diverted",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Diverted",
+          "label_ko": "목적지 변경",
+          "observed": 19
+        },
+        {
+          "code": "fc.returned_to_departure_airport",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Returned To Departure Airport",
+          "label_ko": "출발 공항으로 회항",
+          "observed": 11
+        },
+        {
+          "code": "fc.became_reoriented",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Became Reoriented",
+          "label_ko": "상황 인식 회복",
+          "observed": 8
+        },
+        {
+          "code": "fc.returned_to_clearance",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Returned To Clearance",
+          "label_ko": "인가된 경로로 복귀",
+          "observed": 8
+        },
+        {
+          "code": "fc.landed_as_precaution",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Landed As Precaution",
+          "label_ko": "예방 차원의 착륙",
+          "observed": 7
+        },
+        {
+          "code": "fc.returned_to_gate",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Returned To Gate",
+          "label_ko": "게이트로 복귀",
+          "observed": 7
+        },
+        {
+          "code": "fc.took_evasive_action",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Took Evasive Action",
+          "label_ko": "회피 기동",
+          "observed": 7
+        },
+        {
+          "code": "fc.executed_go_around_missed_approach",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Executed Go Around / Missed Approach",
+          "label_ko": "복행",
+          "observed": 7
+        },
+        {
+          "code": "fc.flc_complied_w_automation_advisory",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "FLC complied w / Automation / Advisory",
+          "label_ko": "자동화 지시에 따름",
+          "observed": 4
+        },
+        {
+          "code": "fc.inflight_shutdown",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Inflight Shutdown",
+          "label_ko": "비행 중 엔진 정지",
+          "observed": 3
+        },
+        {
+          "code": "fc.regained_aircraft_control",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Regained Aircraft Control",
+          "label_ko": "기체 제어 회복",
+          "observed": 3
+        },
+        {
+          "code": "fc.overrode_automation",
+          "asrs_field": "Result.Flight Crew",
+          "asrs_value": "Overrode Automation",
+          "label_ko": "자동화를 무시하고 개입",
+          "observed": 2
+        },
+        {
+          "code": "atc.provided_assistance",
+          "asrs_field": "Result.Air Traffic Control",
+          "asrs_value": "Provided Assistance",
+          "label_ko": "지원 제공",
+          "observed": 30
+        },
+        {
+          "code": "atc.issued_new_clearance",
+          "asrs_field": "Result.Air Traffic Control",
+          "asrs_value": "Issued New Clearance",
+          "label_ko": "새 인가 발부",
+          "observed": 8
+        },
+        {
+          "code": "atc.issued_advisory_alert",
+          "asrs_field": "Result.Air Traffic Control",
+          "asrs_value": "Issued Advisory / Alert",
+          "label_ko": "조언·경고 발부",
+          "observed": 5
+        }
+      ]
+    },
+    "outcome": {
+      "label_ko": "결과 상태",
+      "scoring": "참고 대조",
+      "multiple": true,
+      "coded_fields": [
+        "Result.General"
+      ],
+      "note": "보유율 74%. 대응 행동이 '무엇을 했는가'라면 결과 상태는 '어떻게 끝났는가'다.",
+      "source": "ASRS 코딩 값 그대로. 표본 150건(mechanic, crm, cabin_fumes)에서 관측",
+      "values": [
+        {
+          "code": "general.maintenance_action",
+          "asrs_field": "Result.General",
+          "asrs_value": "Maintenance Action",
+          "label_ko": "정비 조치",
+          "observed": 59
+        },
+        {
+          "code": "general.flight_cancelled_delayed",
+          "asrs_field": "Result.General",
+          "asrs_value": "Flight Cancelled / Delayed",
+          "label_ko": "운항 취소·지연",
+          "observed": 48
+        },
+        {
+          "code": "general.none_reported_taken",
+          "asrs_field": "Result.General",
+          "asrs_value": "None Reported / Taken",
+          "label_ko": "별도 조치 없음",
+          "observed": 18
+        },
+        {
+          "code": "general.evacuated",
+          "asrs_field": "Result.General",
+          "asrs_value": "Evacuated",
+          "label_ko": "탈출",
+          "observed": 8
+        },
+        {
+          "code": "general.work_refused",
+          "asrs_field": "Result.General",
+          "asrs_value": "Work Refused",
+          "label_ko": "작업 거부",
+          "observed": 5
+        },
+        {
+          "code": "general.release_refused_aircraft_not_accepted",
+          "asrs_field": "Result.General",
+          "asrs_value": "Release Refused / Aircraft Not Accepted",
+          "label_ko": "인수 거부",
+          "observed": 4
+        },
+        {
+          "code": "general.physical_injury_incapacitation",
+          "asrs_field": "Result.General",
+          "asrs_value": "Physical Injury / Incapacitation",
+          "label_ko": "부상·직무 불능",
+          "observed": 3
+        }
+      ]
+    }
+  }
+}

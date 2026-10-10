@@ -1,0 +1,111 @@
+{
+  "dev": {
+    "rules_version": "d1",
+    "holdout": false,
+    "sets": [
+      "cabin_fumes",
+      "mechanic"
+    ],
+    "combined": {
+      "match_rate": 50,
+      "baseline_rate": 41,
+      "gain": 9,
+      "avg_predicted": 0.93,
+      "scored": 98,
+      "matched": 49,
+      "empty": 29,
+      "total": 100,
+      "answered": 69,
+      "answered_rate": 71
+    },
+    "cabin_fumes": {
+      "match_rate": 73,
+      "baseline_rate": 69,
+      "gain": 4,
+      "avg_predicted": 1.38,
+      "scored": 48,
+      "matched": 35,
+      "empty": 1,
+      "total": 50,
+      "answered": 47,
+      "answered_rate": 74
+    },
+    "mechanic": {
+      "match_rate": 28,
+      "baseline_rate": 78,
+      "gain": -50,
+      "avg_predicted": 0.48,
+      "scored": 50,
+      "matched": 14,
+      "empty": 28,
+      "total": 50,
+      "answered": 22,
+      "answered_rate": 64
+    },
+    "vs_llm": {
+      "rule": {
+        "match_rate": 50,
+        "baseline_rate": 41,
+        "gain": 9,
+        "avg_predicted": 0.93,
+        "scored": 98,
+        "matched": 49,
+        "empty": 29,
+        "total": 100,
+        "answered": 69,
+        "answered_rate": 71
+      },
+      "llm": {
+        "match_rate": 86,
+        "baseline_rate": 41,
+        "gain": 45,
+        "avg_predicted": 1.39
+      },
+      "match_rate_gain": 36
+    }
+  },
+  "holdout": {
+    "rules_version": "d1",
+    "holdout": true,
+    "sets": [
+      "flt_attendant",
+      "rwy_incur"
+    ],
+    "combined": {
+      "match_rate": 35,
+      "baseline_rate": 54,
+      "gain": -19,
+      "avg_predicted": 0.79,
+      "scored": 98,
+      "matched": 34,
+      "empty": 36,
+      "total": 100,
+      "answered": 63,
+      "answered_rate": 54
+    },
+    "flt_attendant": {
+      "match_rate": 45,
+      "baseline_rate": 90,
+      "gain": -45,
+      "avg_predicted": 1.04,
+      "scored": 49,
+      "matched": 22,
+      "empty": 12,
+      "total": 50,
+      "answered": 37,
+      "answered_rate": 59
+    },
+    "rwy_incur": {
+      "match_rate": 24,
+      "baseline_rate": 71,
+      "gain": -47,
+      "avg_predicted": 0.54,
+      "scored": 49,
+      "matched": 12,
+      "empty": 24,
+      "total": 50,
+      "answered": 26,
+      "answered_rate": 46
+    }
+  }
+}

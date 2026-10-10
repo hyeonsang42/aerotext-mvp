@@ -1,0 +1,148 @@
+{
+  "report_id": "mechanic-2061955",
+  "acn": "2061955",
+  "set": "mechanic",
+  "synopsis": "Air carrier maintenance personnel reported the improper shipping and handling of fire extinguisher bottles. Reporter suggests additional training of shipping and handling personnel is needed.",
+  "narrative": "Fire extinguisher bottles are being shipped, issued, and handled without protective shunt caps on the squibs. The cardboard boxes are only labeled as nonflammable gas, not as explosive. When we receive the bottles, the squibs are installed on them and have only a non-ESD plastic cap over the squib connectors. The squibs should have shunts on from the manufacturer, what are the venders doing with them? I brought this up in the past when there was only 1 cap in house. We were told we should make shunt caps via a supplement due to no inventory. Whoever is, doing the inspections, testing, shipping and squib tag should be aware of the need for the shunts at all times until installed on the aircraft. Suggestion: 1st educate the venders and shippers of the hazards associated with the squibs. 2nd make sure the squibs are shipped handled and stored with shunt caps on at all times. 3rd cartons need to be properly labeled as to the hazards contained inside.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "hazmat_loading",
+      "evidence": {
+        "quote": "Fire extinguisher bottles are being shipped, issued, and handled without protective shunt caps on the squibs.",
+        "start": 0,
+        "end": 109
+      },
+      "item_label": "위협",
+      "label_ko": "위험물·적재",
+      "layer": null,
+      "agent": null,
+      "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "When we receive the bottles, the squibs are installed on them and have only a non-ESD plastic cap over the squib connectors.",
+        "start": 186,
+        "end": 310
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "The cardboard boxes are only labeled as nonflammable gas, not as explosive.",
+        "start": 110,
+        "end": 185
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "I brought this up in the past when there was only 1 cap in house.",
+        "start": 405,
+        "end": 470
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "사건 보고가 아니라 상시 위험 지적이다. 탐지와 방어는 있으나 대응 행동과 결과 상태가 없다. 정비 세트에 이런 형태가 얼마나 되는지 세어 볼 것.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "Regional Jet 200 ER/LR (CRJ200)"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "01"
+  }
+}

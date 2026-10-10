@@ -1,0 +1,157 @@
+{
+  "report_id": "mechanic-2051190",
+  "acn": "2051190",
+  "set": "mechanic",
+  "synopsis": "Maintenance Technician reversed hydraulic flex lines when reassembling brake valve causing brakes to lock up on landing.",
+  "narrative": "Gulfstream III departed our maintenance facility on Day 0 following replacement of the Emergency Brake Valve. After the replacement valve was installed, the installation was inspected. All 4 Brakes were bled. The Chief Pilot for this aircraft is also a training instructor. He also holds an A&P Maintenance Certificate. Maintenance hooked up 2 each Hydraulic flex lines in reverse. We informed the pilot that we had not performed the operational check portion of the valve installation. He stated that he wanted to do that himself and wanted to do a test flight following that. After the test flight he taxied to the local FBO and put the aircraft in position for a XA00 next day departure. The pilot never performed the operational check of the valve prior to test flight or prior to the XA00- departure next day. The checklist was not followed for either flight which calls for \"Parking Brake Set / Aux Pump On and indicating 3,000 psi\". If the Aux Pump had ever been operated the aircraft would not have been able to taxi the with brakes locked up. The before landing checklist calls for Aux Pump On and 3,000 indicated prior to landing. Since the lines were crossed this built up 3,000 psi to the brakes and caused all 4 to be locked up prior to touchdown. (see prevent situation / correct the situation below). Maintenance facility made policy change: Any component removed having more than one line will have all lines marked with color coded tie straps / color coded paint marker / color coded inspectors seal or tape to prevent any crossed connections. Only the Inspector is approved to remove the markings once verified to be correct. Chief Pilots are no longer allowed to perform operational checks of components replaced without maintenance personnel witnessing the event. It's easy to get complacent, the crew members need to actually follow the checklist.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "Maintenance hooked up 2 each Hydraulic flex lines in reverse.",
+        "start": 320,
+        "end": 381
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "After the replacement valve was installed, the installation was inspected.",
+        "start": 110,
+        "end": 184
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "The pilot never performed the operational check of the valve prior to test flight or prior to the XA00- departure next day.",
+        "start": 691,
+        "end": 814
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The checklist was not followed for either flight which calls for",
+        "start": 815,
+        "end": 879
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Since the lines were crossed this built up 3,000 psi to the brakes and caused all 4 to be locked up prior to touchdown.",
+        "start": 1141,
+        "end": 1260
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    }
+  ],
+  "notes": "방어가 세 겹 연달아 뚫렸다. 설치 검사, 작동 점검, 체크리스트가 모두 빗나가 착륙 때 네 바퀴 브레이크가 잠겼다. 탐지 주체가 원문에 없고 결과 상태도 서술되지 않았다. 사후 정책 변경(라인 색 표시, 조종사 단독 작동 점검 금지)은 사건 당시의 방어가 아니라 넣지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Landing"
+    ],
+    "Make Model Name": [
+      "Gulfstream III (G1159A)"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "02"
+  }
+}

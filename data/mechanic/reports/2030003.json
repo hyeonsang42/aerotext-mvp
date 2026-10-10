@@ -1,0 +1,182 @@
+{
+  "report_id": "mechanic-2030003",
+  "acn": "2030003",
+  "set": "mechanic",
+  "synopsis": "Aircraft Maintenance Inspector and Technician reported incorrect sign-off of cabin door assist actuator during previous maintenance visit.",
+  "narrative": "Aircraft arrived at ZZZ for a scheduled-check scheduled for the specified timeframe. During this check I signed off the install inspection of the body torque tube for one of the doors found with the discrepancies. This was discovered yesterday at our vendor at ZZZ1, both the L4 and R4 door assist actuator B nuts were found disconnected when the sidewall panels just forward of the L4 and R4 door cut outs were removed on the aircraft. They were both found with the red streamers still attached. This aircraft was inducted to ZZZ1 for scheduled check several months later. Due to the elapsed time, I cannot recall the exact cause of the discrepancy. Multiple maintenance operations occurring at the same time or overlooked maintenance steps is the assumption. b-nut was not installed on pneumatic line for the emergency door assist actuator streamer was installed on pneumatic line with the information i was presented, my statement is as followed due to the time of the event and how long it was i can't recall",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "both the L4 and R4 door assist actuator B nuts were found disconnected when the sidewall panels just forward of the L4 and R4 door cut outs were removed on the aircraft",
+        "start": 267,
+        "end": 435
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "both the L4 and R4 door assist actuator B nuts were found disconnected when the sidewall panels just forward of the L4 and R4 door cut outs were removed on the aircraft",
+        "start": 267,
+        "end": 435
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "This aircraft was inducted to ZZZ1 for scheduled check several months later.",
+        "start": 497,
+        "end": 573
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "During this check I signed off the install inspection of the body torque tube for one of the doors found with the discrepancies.",
+        "start": 85,
+        "end": 213
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "scheduled_inspection",
+      "evidence": {
+        "quote": "They were both found with the red streamers still attached.",
+        "start": 437,
+        "end": 496
+      },
+      "item_label": "방어",
+      "label_ko": "정비 정기 점검",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 주기에 따른 점검이나 정비 작업",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "Multiple maintenance operations occurring at the same time or overlooked maintenance steps is the assumption.",
+        "start": 651,
+        "end": 760
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    }
+  ],
+  "notes": "작업 미완료 표시인 빨간 스트리머가 그대로 달린 채 몇 달을 날았다. 검사 서명은 통과했다. 발견은 다른 정비 때 우연히 이루어졌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Maintenance"
+      ],
+      "predicted": [
+        "Maintenance"
+      ],
+      "overlap": [
+        "Maintenance"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Maintenance"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Routine Inspection"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "B757 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "04"
+  }
+}

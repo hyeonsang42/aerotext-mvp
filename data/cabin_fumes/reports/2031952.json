@@ -1,0 +1,223 @@
+{
+  "report_id": "cabin_fumes-2031952",
+  "acn": "2031952",
+  "set": "cabin_fumes",
+  "synopsis": "Air carrier Flight Attendant reported a rotten egg odor to the Captain during boarding. The Captain determined it to be a fume event and instructed everyone to deplane.",
+  "narrative": "During the boarding process, a rotten egg smell was detected in the boarding area, front galley, and main cabin. Smell was reported to the captain, and he determined that we were experiencing an odor event. Captain came on the PA and instructed everyone to deplane ASAP. Crew was then met by ops who instructed us to start a report, call out sick and receive medical attention asap. We took a ride hailing service to an ER had blood drawn and received oxygen. All 4 of us flight attendants were declared good to go as our blood work came back with good readings. We were released and returned to the airport. During boarding, I noticed a strong smell of rotten eggs. At first, I thought a boarding passenger might have uncontrollable flatulence, but as more people came on I realized the smell was not going away. As I turned to notify the flight deck, the FO (First Officer) was coming out; I asked if he had any idea what that was. He planned to go check it out, and mentioned something about switching to or from the APU - I can't honestly remember the exact comment. In the meantime, more people came on and complained of the strong smell. When the FO came back, he went to the flight deck and said they were checking on what it could be. Shortly thereafter, he told myself and FA (Flight Attendant) 1 that we would be deplaning and the Captain came on with a PA advising everyone that we would be deplaning. FA1 was several months pregnant, so I immediately encouraged her to breathe through something (we found paper towels). I also grabbed some wet paper towels to breathe through intermittently (between saying goodbye to the passengers). Our passengers were deplaning rather slowly so FA 4 came on with a PA to encourage them to gather everything and deplane more quickly. The FO went to the top of the jet bridge to retrieve wheelchair assistance for our one wheelchair passenger. The 4 FAs deplaned as quickly as we could and regrouped at the boarding area. FA2 had already started calling a phone number, and we started moving to another boarding area (away from our passengers) to decide what to do next. FAs 2 and 4 both had some symptoms consistent with a fume event, and I was developing a headache. I am unsure of what caused the fume event. Shortly after boarding started the #4 & I discussed a rotten odor in the cabin. She contacted the flt deck with the concern. Flt deck called aft but I don't recall the conversation due to feeling light-headed & dizzy. Flt deck then made a cabin announcement that customers needed to deplane immediately. There should have been more of a sense of urgency communicated so that the cabin crew could deplane quickly as well so as not to be exposed to the fumes any longer than necessary.",
+  "narrative_count": 3,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "fumes_odor",
+      "evidence": {
+        "quote": "During the boarding process, a rotten egg smell was detected in the boarding area, front galley, and main cabin.",
+        "start": 0,
+        "end": 112
+      },
+      "item_label": "위협",
+      "label_ko": "연기·냄새·오염",
+      "layer": null,
+      "agent": null,
+      "desc": "객실이나 조종실에서 연기, 타는 냄새, 화학 냄새가 감지된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "During the boarding process, a rotten egg smell was detected in the boarding area, front galley, and main cabin.",
+        "start": 0,
+        "end": 112
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.passenger",
+      "evidence": {
+        "quote": "In the meantime, more people came on and complained of the strong smell.",
+        "start": 1071,
+        "end": 1143
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "승객",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Passenger",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "Smell was reported to the captain, and he determined that we were experiencing an odor event.",
+        "start": 113,
+        "end": 206
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "Captain came on the PA and instructed everyone to deplane ASAP.",
+        "start": 207,
+        "end": 270
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "There should have been more of a sense of urgency communicated so that the cabin crew could deplane quickly as well so as not to be exposed to the fumes any longer than necessary.",
+        "start": 2563,
+        "end": 2742
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "Crew was then met by ops who instructed us to start a report, call out sick and receive medical attention asap.",
+        "start": 271,
+        "end": 382
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "FAs 2 and 4 both had some symptoms consistent with a fume event, and I was developing a headache.",
+        "start": 2118,
+        "end": 2215
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "하기 지시는 나갔으나 긴급함이 전달되지 않아 객실 승무원이 더 오래 노출됐다고 적혀 있다. 브리핑·전달을 뚫린 방어로 보았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant",
+        "Passenger"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Work Refused"
+      ],
+      "predicted": [
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Work Refused"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "A321"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-09-28",
+    "batch": "03"
+  }
+}
