@@ -3,7 +3,8 @@
 항공 준사고 보고서 구조화 분석 시스템. 2026-2학기 항공빅데이터개론 바이브코딩 프로젝트.
 김현상 (2025210508, 경상국립대학교 대학원 기술경영학과)
 
-- **사이트: https://hyeonsang42.github.io/aerotext-mvp/**
+- **사이트: https://aerotext-mvp.vercel.app/** (Vercel)
+- 사이트: https://hyeonsang42.github.io/aerotext-mvp/ (GitHub Pages)
 
 ## 이 저장소는 무엇인가
 
