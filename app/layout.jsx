@@ -1,4 +1,5 @@
 import { url } from "@/lib/path";
+import Ping from "./Ping";
 import "./globals.css";
 
 export const metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
                 </a>
               ))}
             </nav>
+            <Ping />
           </div>
           <div className="border-t border-white/10 bg-gradient-to-b from-black/25 to-black/15">
             <p className="mx-auto max-w-6xl px-6 py-2 text-[12px] leading-relaxed text-amber-200/85">
