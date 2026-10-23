@@ -3,6 +3,11 @@ import { getSets, getScoring, getBarriers } from "@/lib/data";
 import { DefenseLayers, SetIcon, BarrierBars } from "@/app/Art";
 import { Photo, PhotoCredits, SET_PHOTO } from "@/app/Photo";
 
+/* 첫 화면에서 보고서 한 건으로 바로 가는 링크.
+   세트 -> 목록 -> 스크롤 -> 클릭 네 단계를 거치지 않고 이 시스템이 무엇을 보여주는지 바로 확인하게 한다.
+   같은 방어(절차·체크리스트 준수)가 작동과 뚫림 양쪽에 나오는 보고라 시퀀스를 설명하기에 가장 좋다. */
+const LEAD = { set: "cabin_fumes", acn: "2084653" };
+
 /** SCR-01 세트 선택 */
 export default function Home() {
   const sets = getSets();
@@ -26,6 +31,33 @@ export default function Home() {
             </p>
           </div>
         </div>
+        {/* 핵심 결론 세 가지. 발표 화면에서 뒷자리까지 읽히도록 크게 둔다. 전부 측정값이다. */}
+        <div className="grid gap-px bg-white/10 sm:grid-cols-3" style={{ backgroundColor: "var(--ink-900)" }}>
+          {[
+            {
+              n: `${b.layers[0].breach_rate}%`,
+              k: "예방 층위 뚫림",
+              d: `뚫린 방어 ${b.breached_total}건 중 ${b.layers[0].breached}건. 가장 앞단이 가장 자주 뚫린다`,
+            },
+            {
+              n: `${s.match_rate}%`,
+              k: "탐지 주체 대조 일치율",
+              d: `최빈값 기준선 ${s.baseline_rate}% 대비 +${s.gain}%p. 기준선 없이 쓰지 않는다`,
+            },
+            {
+              n: `${items}개`,
+              k: "근거 원문 연결",
+              d: "누락 0개. 원문에 없는 구절은 화면에 올라오지 못한다",
+            },
+          ].map((x) => (
+            <div key={x.k} className="px-6 py-5" style={{ backgroundColor: "var(--ink-900)" }}>
+              <div className="stat text-[2.5rem] font-bold leading-none text-white">{x.n}</div>
+              <div className="mt-2 text-[15px] font-semibold text-white/90">{x.k}</div>
+              <p className="mt-1.5 text-[13px] leading-relaxed text-white/60">{x.d}</p>
+            </div>
+          ))}
+        </div>
+
         <div className="border-b border-slate-100 px-6 pt-5">
           <h2 className="text-base font-bold">방어 층위별로 어디가 뚫리는가</h2>
           <p className="mt-1 max-w-3xl text-sm leading-relaxed text-slate-600">
@@ -48,6 +80,14 @@ export default function Home() {
           세트를 고르면 보고서 목록과 보고서별 방어 시퀀스를 볼 수 있습니다. 현재 {sets.length}개 세트{" "}
           {total}건, 추출 항목 {items}개.
         </p>
+        <a href={url(`/set/${LEAD.set}/report/${LEAD.acn}/`)}
+           className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 rounded-lg border border-[var(--accent)]/25 bg-[var(--accent-soft)] px-5 py-3.5 transition hover:border-[var(--accent)]/60">
+          <span className="text-[15px] font-semibold text-[var(--accent)]">보고서 한 건 바로 보기</span>
+          <span className="text-sm text-slate-600">
+            ACN {LEAD.acn} · 화장실 연기 경고 후 예방적 탈출. 같은 방어가 작동과 뚫림 양쪽에 나옵니다
+          </span>
+        </a>
+
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {sets.map((x) => (
             <a key={x.set} href={url(`/set/${x.set}/`)}
@@ -95,10 +135,10 @@ export default function Home() {
                 ["건당 평균 추출", `${s.avg_predicted}개`, `정밀도 ${s.avg_precision}%`],
               ].map(([k, v, sub]) => (
                 <div key={k} className="flex items-baseline justify-between gap-3 border-b border-slate-100 pb-2 last:border-0">
-                  <span className="text-[13px] text-slate-500">{k}</span>
+                  <span className="text-sm font-medium text-slate-600">{k}</span>
                   <span className="text-right">
-                    <span className="stat text-lg font-semibold">{v}</span>
-                    <span className="ml-2 text-xs text-slate-400">{sub}</span>
+                    <span className="stat text-2xl font-bold text-[var(--ink-800)]">{v}</span>
+                    <span className="ml-2 text-[13px] text-slate-500">{sub}</span>
                   </span>
                 </div>
               ))}

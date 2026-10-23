@@ -38,8 +38,9 @@ export function DefenseLayers({ layers }) {
             <line x1={x} y1={104 - hole / 2} x2={x + 34} y2={104 - hole / 2} stroke={c.stroke} strokeWidth="1.5" strokeDasharray="3 2" />
             <line x1={x} y1={104 + hole / 2} x2={x + 34} y2={104 + hole / 2} stroke={c.stroke} strokeWidth="1.5" strokeDasharray="3 2" />
             <text x={x + 17} y="28" textAnchor="middle" className="fill-slate-700 text-[13px] font-semibold">{l.layer}</text>
-            <text x={x + 17} y="188" textAnchor="middle" className="fill-slate-500 text-[11px] tabular-nums">뚫림 {l.breach_rate}%</text>
-            <text x={x + 17} y="202" textAnchor="middle" className="fill-slate-400 text-[10px] tabular-nums">{l.worked}/{l.total}</text>
+            <text x={x + 17} y="188" textAnchor="middle" className="fill-slate-600 text-[13px] font-medium tabular-nums">뚫림 {l.breach_rate}%</text>
+            {/* 위의 비율과 같은 분수를 쓴다. 작동 수를 적으면 비율과 맞지 않아 읽는 사람이 헷갈린다 */}
+            <text x={x + 17} y="203" textAnchor="middle" className="fill-slate-500 text-[12px] tabular-nums">{l.breached}/{l.total}</text>
           </g>
         );
       })}
