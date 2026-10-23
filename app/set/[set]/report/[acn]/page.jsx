@@ -1,4 +1,6 @@
 import { url } from "@/lib/path";
+import { setKo } from "@/lib/sets";
+import { asrsListKo } from "@/lib/labels";
 import { getAllReportParams, getIndex, getReport } from "@/lib/data";
 import ReportView from "@/app/ReportView";
 
@@ -46,7 +48,7 @@ export default function ReportPage({ params }) {
       <nav className="text-sm text-slate-500">
         <a href={url("/")} className="hover:underline">세트 선택</a>
         <span className="mx-2">/</span>
-        <a href={url(`/set/${params.set}/`)} className="hover:underline">{params.set}</a>
+        <a href={url(`/set/${params.set}/`)} className="hover:underline">{setKo(params.set)}</a>
         <span className="mx-2">/</span>
         <span className="text-slate-900">ACN {report.acn}</span>
       </nav>
@@ -103,15 +105,15 @@ export default function ReportPage({ params }) {
                   <div className="font-medium">{CHECK_LABEL[k]}</div>
                   <div className="text-xs text-slate-400">{c.scoring}</div>
                 </td>
-                <td className="py-2 pr-4 align-top text-slate-700">{c.truth.join(", ") || "결측"}</td>
-                <td className="py-2 pr-4 align-top text-slate-700">{c.predicted.join(", ") || "서술 없음"}</td>
+                <td className="py-2 pr-4 align-top text-slate-700">{asrsListKo(k, c.truth).join(", ") || "결측"}</td>
+                <td className="py-2 pr-4 align-top text-slate-700">{asrsListKo(k, c.predicted).join(", ") || "서술 없음"}</td>
                 <td className="py-2 align-top"><Status value={c.status} /></td>
               </tr>
             ))}
           </tbody>
         </table>
 
-        <h3 className="mt-6 text-sm font-semibold">그 밖의 코딩 필드 (참고)</h3>
+        <h3 className="mt-6 text-sm font-semibold">그 밖의 코딩 필드 <span className="font-normal text-slate-400">(기관이 적은 영어 값 그대로)</span></h3>
         <dl className="mt-2 grid gap-x-6 gap-y-1 text-[13px] sm:grid-cols-2">
           {Object.entries(report.coded).map(([k, v]) => (
             <div key={k} className="flex gap-2">

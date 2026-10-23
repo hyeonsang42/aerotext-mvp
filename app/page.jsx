@@ -2,6 +2,7 @@ import { url } from "@/lib/path";
 import { getSets, getScoring, getBarriers } from "@/lib/data";
 import { DefenseLayers, SetIcon, BarrierBars } from "@/app/Art";
 import { Photo, PhotoCredits, SET_PHOTO } from "@/app/Photo";
+import { setKo, asrsKo } from "@/lib/labels";
 
 /* 첫 화면에서 보고서 한 건으로 바로 가는 링크.
    세트 -> 목록 -> 스크롤 -> 클릭 네 단계를 거치지 않고 이 시스템이 무엇을 보여주는지 바로 확인하게 한다.
@@ -27,7 +28,7 @@ export default function Home() {
               준사고는 왜 사고가 되지 않았는가
             </h1>
             <p className="mt-1 max-w-2xl text-[13px] leading-relaxed text-white/85">
-              보고 {total}건의 내러티브에서 방어 시퀀스를 복원하고, 작동한 방어와 뚫린 방어를 구분해 집계했습니다.
+              비행 중 큰일 날 뻔한 보고 {total}건을 읽고, 무엇이 막아 주었고 무엇이 뚫렸는지 순서대로 정리했습니다.
             </p>
           </div>
         </div>
@@ -56,6 +57,23 @@ export default function Home() {
               <p className="mt-1.5 text-[13px] leading-relaxed text-white/60">{x.d}</p>
             </div>
           ))}
+        </div>
+
+        {/* 항공 용어를 모르는 사람이 아래 그림을 읽을 수 있게 세 단어만 먼저 푼다 */}
+        <div className="border-b border-slate-100 bg-slate-50 px-6 py-4">
+          <h2 className="text-[13px] font-semibold text-slate-500">읽기 전에, 이 화면에서 쓰는 말 세 개</h2>
+          <dl className="mt-2 grid gap-x-8 gap-y-2 text-[13px] sm:grid-cols-3">
+            {[
+              ["방어", "사고로 가지 않게 막아 주는 장치나 절차. 정비 점검, 경고음, 비상 절차 같은 것"],
+              ["층위", "방어가 놓인 자리. 예방 → 탐지 → 해소 → 복구 네 겹으로 본다"],
+              ["뚫림", "그 방어가 있었는데 제 일을 하지 못했다는 뜻"],
+            ].map(([w, d]) => (
+              <div key={w}>
+                <dt className="font-semibold text-slate-700">{w}</dt>
+                <dd className="mt-0.5 leading-relaxed text-slate-600">{d}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
 
         <div className="border-b border-slate-100 px-6 pt-5">
@@ -97,7 +115,7 @@ export default function Home() {
                 <SetIcon set={x.set} className="mt-0.5 h-9 w-9 shrink-0 text-slate-400 transition group-hover:text-slate-700" />
                 <div className="min-w-0 flex-1">
                   <div className="flex items-baseline justify-between gap-2">
-                    <h3 className="font-semibold">{x.set}</h3>
+                    <h3 className="font-semibold">{setKo(x.set)}</h3>
                     <span className="shrink-0 text-sm text-slate-500 tabular-nums">{x.records}건</span>
                   </div>
                   <dl className="mt-2.5 space-y-1 text-[13px] text-slate-600">
@@ -126,11 +144,13 @@ export default function Home() {
         <div className="space-y-4">
           <div className="card p-5">
             <h2 className="font-semibold">탐지 주체 대조 채점</h2>
-            <p className="mt-1 text-[13px] text-slate-600">채점 단위는 {s.unit}.</p>
+            <p className="mt-1 text-[13px] leading-relaxed text-slate-600">
+              뽑아낸 값이 맞는지 기관이 적어 둔 답과 맞춰 본 것입니다. 채점 단위는 {s.unit}.
+            </p>
             <div className="mt-4 space-y-2">
               {[
                 ["세부 값 일치율", `${s.match_rate}%`, `${s.matched}/${s.scored}건`],
-                ["최빈값 기준선", `${s.baseline_rate}%`, s.baseline_value],
+                ["최빈값 기준선", `${s.baseline_rate}%`, asrsKo("detector", s.baseline_value)],
                 ["기준선 대비", `+${s.gain}%p`, "상승폭"],
                 ["건당 평균 추출", `${s.avg_predicted}개`, `정밀도 ${s.avg_precision}%`],
               ].map(([k, v, sub]) => (

@@ -32,8 +32,8 @@ export default function RootLayout({ children }) {
           </div>
           <div className="border-t border-white/10 bg-gradient-to-b from-black/25 to-black/15">
             <p className="mx-auto max-w-6xl px-6 py-2 text-[12px] leading-relaxed text-amber-200/85">
-              추출 결과는 대화형 배치로 만든 참고 정보이며 근거 원문과 함께 확인해야 합니다.
-              내러티브에 서술되지 않은 내용은 표시하지 않습니다.
+              여기 있는 분석 결과는 사람이 다시 확인해야 하는 참고 자료입니다.
+              모든 값에는 근거가 된 원문 구절이 붙어 있고, 원문에 없는 내용은 올리지 않습니다.
             </p>
           </div>
         </header>

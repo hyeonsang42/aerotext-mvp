@@ -1,4 +1,5 @@
 import { url } from "@/lib/path";
+import { setKo } from "@/lib/sets";
 import { getFindings, getBarriers, getScoring, getGeneralization } from "@/lib/data";
 
 export const metadata = { title: "발견 사항 — AeroText" };
@@ -14,7 +15,7 @@ function Case({ c }) {
           ACN {c.acn}
         </a>
         <span className="mx-1.5 text-slate-300">·</span>
-        <span className="text-slate-400">{c.set}</span>
+        <span className="text-slate-400">{setKo(c.set)}</span>
         {c.note && (
           <>
             <span className="mx-1.5 text-slate-300">·</span>

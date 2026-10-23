@@ -1,4 +1,5 @@
 import { url } from "@/lib/path";
+import { setKo } from "@/lib/sets";
 import { getSets, getIndex } from "@/lib/data";
 import { SetIcon } from "@/app/Art";
 import { Photo, SET_PHOTO } from "@/app/Photo";
@@ -17,7 +18,7 @@ export default function SetPage({ params }) {
       <nav className="text-sm text-slate-500">
         <a href={url("/")} className="hover:underline">세트 선택</a>
         <span className="mx-2">/</span>
-        <span className="text-slate-900">{meta.set}</span>
+        <span className="text-slate-900">{setKo(meta.set)}</span>
       </nav>
 
       <Photo name={SET_PHOTO[meta.set]} className="h-40 rounded-lg border border-slate-200 sm:h-48" />
@@ -25,7 +26,7 @@ export default function SetPage({ params }) {
       <section className="flex items-start gap-4">
         <SetIcon set={meta.set} className="mt-1 h-8 w-8 shrink-0 text-slate-400" />
         <div>
-        <h1 className="text-[1.35rem] font-bold">{meta.set}</h1>
+        <h1 className="text-[1.35rem] font-bold">{setKo(meta.set)}</h1>
         <p className="mt-1 text-sm text-slate-600">
           보고 {meta.records}건 · 추출 항목 {meta.items}개 · 기준표 {meta.rubric_version} ·
           프롬프트 {meta.prompt_version} · {meta.extracted_at}

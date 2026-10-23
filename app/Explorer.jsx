@@ -1,5 +1,6 @@
 "use client";
 import { url } from "@/lib/path";
+import { SET_KO } from "@/lib/sets";
 
 import { useMemo, useState } from "react";
 import Network from "@/app/Network";
@@ -259,7 +260,7 @@ export default function Explorer({ rows, facets, layers }) {
                   <tr key={r.report_id} className="border-b hair last:border-0 hover:bg-slate-50">
                     <td className="whitespace-nowrap px-4 py-2.5 align-top">
                       <a href={url(`/set/${r.set}/report/${r.acn}/`)} className="quiet font-medium text-[var(--accent)] underline decoration-1 hover:text-cyan-800">{r.acn}</a>
-                      <div className="text-[11px] text-slate-400">{r.set}</div>
+                      <div className="text-[11px] text-slate-400">{SET_KO[r.set] || r.set}</div>
                     </td>
                     <td className="max-w-lg px-4 py-2.5 align-top text-slate-700">{r.synopsis}</td>
                     <td className="px-4 py-2.5 align-top text-rose-700">
