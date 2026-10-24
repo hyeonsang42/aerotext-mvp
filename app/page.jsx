@@ -1,5 +1,6 @@
 import { url } from "@/lib/path";
-import { getSets, getScoring, getBarriers } from "@/lib/data";
+import { getSets, getScoring, getBarriers, getGeneralization,
+         getCodingOverlap, getCodingOverlapKo } from "@/lib/data";
 import { DefenseLayers, SetIcon, BarrierBars } from "@/app/Art";
 import { Photo, PhotoCredits, SET_PHOTO } from "@/app/Photo";
 import { setKo, asrsKo } from "@/lib/labels";
@@ -14,6 +15,9 @@ export default function Home() {
   const sets = getSets();
   const s = getScoring();
   const b = getBarriers();
+  const g = getGeneralization();
+  const o = getCodingOverlap();
+  const oko = getCodingOverlapKo();
   const total = sets.reduce((a, x) => a + x.records, 0);
   const items = sets.reduce((a, x) => a + x.items, 0);
 
@@ -42,8 +46,10 @@ export default function Home() {
             },
             {
               n: `${s.match_rate}%`,
-              k: "탐지 주체 대조 일치율",
-              d: `최빈값 기준선 ${s.baseline_rate}% 대비 +${s.gain}%p. 기준선 없이 쓰지 않는다`,
+              k: "기관이 적어 둔 답과 일치",
+              d: g
+                ? `읽지 않고 찍으면 ${s.baseline_rate}%다. 한 번도 열어 보지 않은 자료에서도 ${g.holdout.match_rate}%`
+                : `읽지 않고 찍으면 ${s.baseline_rate}%다. ${s.gain}점 높다`,
             },
             {
               n: `${items}개`,
@@ -91,6 +97,54 @@ export default function Home() {
           기관 코딩 필드에는 이 구분이 없습니다.
         </p>
       </section>
+
+      {/* 왜 이 시스템이 필요한가. 지금까지 이 숫자가 콘솔에만 있었다 */}
+      {o && (
+        <section className="card p-5">
+          <h2 className="text-base font-bold">기관이 체크해 둔 칸만으로는 이 보고들을 구별할 수 없습니다</h2>
+          <p className="mt-1.5 max-w-3xl text-sm leading-relaxed text-slate-600">
+            그러면 왜 줄글을 다시 읽어야 하는가. 세어 봤습니다. 보고 {o.total}건의 {o.field_ko} 칸을
+            적힌 값 조합으로 묶으면 {o.combos}가지밖에 나오지 않습니다.
+            서로 다른 사건이 같은 칸을 쓰고 있다는 뜻입니다.
+          </p>
+          <div className="mt-4 grid gap-3 sm:grid-cols-3">
+            {[
+              [`${o.shared_rate}%`, "다른 보고와 칸이 똑같다", `${o.total}건 중 ${o.shared}건`],
+              [`${o.combos}가지`, "서로 다른 칸 조합", `${o.total}건을 묶으면 이것뿐`],
+              [`${o.largest}건`, "가장 큰 한 묶음", `칸이 전부 ${o.largest_labels.map((l) => (oko._labels?.[l] ? `${oko._labels[l]}(${l})` : l)).join(", ")} 하나`],
+            ].map(([num, k, d]) => (
+              <div key={k} className="rounded-md border hair px-3.5 py-3">
+                <div className="stat text-2xl font-bold">{num}</div>
+                <div className="mt-0.5 text-[13px] font-semibold text-slate-700">{k}</div>
+                <div className="mt-0.5 text-xs leading-relaxed text-slate-500">{d}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-4 rounded-md border border-slate-200 bg-slate-50 p-4">
+            <h3 className="text-[13px] font-semibold text-slate-700">
+              그 {o.largest}건 가운데 넷. 칸은 같은데 실제로는 서로 다른 사건입니다
+            </h3>
+            <ul className="mt-2.5 space-y-3">
+              {o.largest_examples.map((e) => (
+                <li key={e.acn} className="text-[13px] leading-relaxed">
+                  <p className="text-slate-700">{oko[e.acn] || e.synopsis}</p>
+                  <a href={url(`/set/${e.set}/report/${e.acn}/`)}
+                     className="quiet mt-0.5 inline-block text-xs text-[var(--accent)] underline decoration-1 hover:text-cyan-800">
+                    ACN {e.acn} 원문 보기
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <p className="mt-3 text-xs leading-relaxed text-slate-500">
+            무엇이 뚫렸고 어떤 순서로 벌어졌는지는 칸이 아니라 줄글에만 있습니다.
+            그 줄글을 셀 수 있는 칸으로 바꾸는 것이 이 시스템이 하는 일입니다.
+            세는 방법은 pipeline/06_detector_stats.py 에 있습니다.
+          </p>
+        </section>
+      )}
 
       <section>
         <h2 className="text-base font-bold">처리된 세트</h2>
@@ -149,10 +203,11 @@ export default function Home() {
             </p>
             <div className="mt-4 space-y-2">
               {[
-                ["세부 값 일치율", `${s.match_rate}%`, `${s.matched}/${s.scored}건`],
-                ["최빈값 기준선", `${s.baseline_rate}%`, asrsKo("detector", s.baseline_value)],
-                ["기준선 대비", `+${s.gain}%p`, "상승폭"],
+                ["읽고 뽑았을 때", `${s.match_rate}%`, `${s.matched}/${s.scored}건 일치`],
+                ["읽지 않고 찍었을 때", `${s.baseline_rate}%`, `${asrsKo("detector", s.baseline_value)} 하나만 전부 찍기`],
+                ["그 차이", `+${s.gain}%p`, "읽어서 얻은 몫"],
                 ["건당 평균 추출", `${s.avg_predicted}개`, `정밀도 ${s.avg_precision}%`],
+                ...(g ? [["안 열어 본 자료에서", `${g.holdout.match_rate}%`, `${g.drop}%p만 하락`]] : []),
               ].map(([k, v, sub]) => (
                 <div key={k} className="flex items-baseline justify-between gap-3 border-b border-slate-100 pb-2 last:border-0">
                   <span className="text-sm font-medium text-slate-600">{k}</span>

@@ -1,5 +1,5 @@
 import { url } from "@/lib/path";
-import { getScoring, getRules } from "@/lib/data";
+import { getScoring, getRules, getGeneralization } from "@/lib/data";
 import { setKo, setListKo, asrsKo, asrsListKo } from "@/lib/labels";
 
 function Metric({ label, value, sub, strong }) {
@@ -16,6 +16,7 @@ function Metric({ label, value, sub, strong }) {
 export default function ScoringPage() {
   const s = getScoring();
   const r = getRules();
+  const g = getGeneralization();
   const dev = r?.dev?.combined;
   const hold = r?.holdout?.combined;
   const drop = dev && hold ? dev.match_rate - hold.match_rate : null;
@@ -32,17 +33,19 @@ export default function ScoringPage() {
         </p>
         {/* 기준선을 모르면 일치율 숫자가 좋은지 나쁜지 알 수 없다. 먼저 푼다 */}
         <div className="mt-3 max-w-3xl rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-[13px] leading-relaxed text-amber-900">
-          <b>최빈값 기준선</b>이란, 내용을 읽지 않고 <b>제일 많이 나오는 답 하나만 전부 찍었을 때</b>의 정답률입니다.
-          일치율이 이 숫자보다 충분히 높아야 의미가 있습니다. 그래서 두 숫자를 늘 같이 적습니다.
+          <b>기준선</b>이란, 내용을 읽지 않고 <b>제일 많이 나오는 답 하나만 전부 찍었을 때</b>의 정답률입니다.
+          여기서는 {s.baseline_rate}%입니다. 이 시스템은 {s.match_rate}%이므로 {s.gain}점 높습니다.
+          기준선 없이 일치율만 보면 그 숫자가 좋은지 나쁜지 알 수 없습니다. 그래서 늘 같이 적습니다.
         </div>
       </section>
 
       <section className="card p-5">
         <h2 className="font-semibold">대화형 배치 <span className="font-normal text-[13px] text-slate-500">(현재 방식. 언어모델에게 기준표를 주고 한 묶음씩 읽히는 방법)</span></h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <Metric strong label="세부 값 일치율" value={`${s.match_rate}%`} sub={`${s.matched}/${s.scored}건`} />
-          <Metric label="최빈값 기준선" value={`${s.baseline_rate}%`} sub={asrsKo("detector", s.baseline_value)} />
-          <Metric strong label="기준선 대비" value={`+${s.gain}%p`} sub="상승폭" />
+          <Metric strong label="일치율 (읽고 뽑았을 때)" value={`${s.match_rate}%`} sub={`${s.matched}/${s.scored}건 일치`} />
+          <Metric label="기준선 (읽지 않고 찍었을 때)" value={`${s.baseline_rate}%`}
+                  sub={`가장 흔한 답 하나(${asrsKo("detector", s.baseline_value)})만 전부 찍은 점수`} />
+          <Metric strong label="그 차이" value={`+${s.gain}%p`} sub="읽어서 얻은 몫" />
           <Metric label="건당 평균 추출 개수" value={`${s.avg_predicted}개`} sub={`평균 정밀도 ${s.avg_precision}%`} />
         </div>
         <p className="mt-3 text-xs leading-relaxed text-slate-500">
@@ -50,9 +53,34 @@ export default function ScoringPage() {
         </p>
       </section>
 
+      {g && (
+        <section className="card p-5">
+          <h2 className="font-semibold">일반화 확인 (대화형 배치, 현재 방식)</h2>
+          <p className="mt-1 max-w-3xl text-[13px] leading-relaxed text-slate-600">
+            위 숫자는 시스템을 만들면서 함께 본 보고에서 나온 것입니다. 그래서 그 보고에만 잘 맞는 것은
+            아닌지 확인해야 합니다. 그래서 {g.holdout.title.replace("검증용 ", "")} 세트는
+            <b> 만드는 동안 한 번도 열어 보지 않고 남겨 두었습니다</b>. 다 만든 뒤에 그 자료로 다시 쟀습니다.
+          </p>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <Metric label="만들 때 본 자료" value={`${g.dev.match_rate}%`}
+                    sub={`${g.dev.scored}건 · 기준선 ${g.dev.baseline_rate}%`} />
+            <Metric strong label="한 번도 안 열어 본 자료" value={`${g.holdout.match_rate}%`}
+                    sub={`${g.holdout.scored}건 · 기준선 ${g.holdout.baseline_rate}%`} />
+            <Metric strong label="떨어진 폭" value={`${g.drop}%p`}
+                    sub={g.pass ? "목표 10%p 이내, 충족" : "목표 10%p 초과, 미충족"} />
+            <Metric label="처음 보는 자료에서의 차이" value={`+${g.holdout.gain}%p`} sub="기준선 대비" />
+          </div>
+          <p className="mt-3 text-xs leading-relaxed text-slate-500">
+            {g.note} 겹침 제외 {g.overlap_excluded}건.
+            이 {g.drop}%p 하락이 지금 이 시스템에 대해 할 수 있는 가장 강한 말입니다.
+            처음 보는 보고에서도 기준선보다 {g.holdout.gain}점 높게 나왔다는 뜻입니다.
+          </p>
+        </section>
+      )}
+
       {dev && (
         <section className="card p-5">
-          <h2 className="font-semibold">추출 방식 비교</h2>
+          <h2 className="font-semibold">비교용 대조군: 단어 규칙만으로 뽑으면 어떻게 되는가</h2>
           <p className="mt-1 text-[13px] text-slate-600">
             같은 세트, 같은 결측 제외 규칙, 같은 지표로 비교합니다.
           </p>
@@ -103,10 +131,9 @@ export default function ScoringPage() {
 
       {hold && (
         <section className="card p-5">
-          <h2 className="font-semibold">일반화 확인 (규칙 기반)</h2>
-          <p className="mt-1 text-[13px] text-slate-600">
-            규칙 개발에 쓰지 않은 검증용 세트({setListKo(r.holdout.sets)})에서 다시 잰 값입니다.
-            목표는 개발 세트 대비 10%p 이내 하락입니다.
+          <h2 className="font-semibold">대조군을 처음 보는 자료에서 재면 (규칙 기반)</h2>
+          <p className="mt-1 max-w-3xl text-[13px] text-slate-600">
+            규칙을 만들 때 쓰지 않은 검증용 세트({setListKo(r.holdout.sets)})에서 다시 잰 값입니다.
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-3">
             <Metric label="개발용 세트" value={`${dev.match_rate}%`} sub={`기준선 ${dev.baseline_rate}%`} />
@@ -115,9 +142,10 @@ export default function ScoringPage() {
                     sub={Math.abs(drop) <= 10 ? "10%p 이내, 충족" : "10%p 초과, 미충족"} />
           </div>
           <p className="mt-3 text-xs leading-relaxed text-rose-800">
-            검증용에서 일치율 {hold.match_rate}%는 그 집합의 최빈값 기준선 {hold.baseline_rate}%보다
-            {" "}{hold.baseline_rate - hold.match_rate}%p 낮습니다. 최빈값만 답하는 것보다 못하므로
-            규칙 기반은 일반화 이전에 변별력이 없습니다. 대화형 배치의 일반화 확인은 진행 중입니다.
+            검증용에서 일치율 {hold.match_rate}%는 그 집합의 기준선 {hold.baseline_rate}%보다
+            {" "}{hold.baseline_rate - hold.match_rate}%p 낮습니다. 읽지 않고 찍는 것보다 못합니다.
+            그래서 단어 규칙만으로는 안 된다고 결론 내렸고, 이것이 현재 방식을 쓰는 이유입니다.
+            규칙을 정답에 맞춰 고쳐서 점수를 올리지 않았습니다. 대조군이므로 그대로 둡니다.
           </p>
         </section>
       )}

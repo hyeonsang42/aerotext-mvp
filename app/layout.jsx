@@ -31,10 +31,19 @@ export default function RootLayout({ children }) {
             <Ping />
           </div>
           <div className="border-t border-white/10 bg-gradient-to-b from-black/25 to-black/15">
-            <p className="mx-auto max-w-6xl px-6 py-2 text-[12px] leading-relaxed text-amber-200/85">
-              여기 있는 분석 결과는 사람이 다시 확인해야 하는 참고 자료입니다.
-              모든 값에는 근거가 된 원문 구절이 붙어 있고, 원문에 없는 내용은 올리지 않습니다.
-            </p>
+            <div className="mx-auto max-w-6xl px-6 py-2">
+              <p className="text-[12.5px] leading-relaxed text-white/75">
+                <b className="font-semibold text-white">입력</b> 신고서 줄글 한 건
+                <span className="px-2 text-white/30">→</span>
+                <b className="font-semibold text-white">방법</b> 국제기구 기준표의 정해진 목록과 대조해 뽑기.
+                <span className="text-amber-200/90"> 학습하지 않습니다</span>
+                <span className="px-2 text-white/30">→</span>
+                <b className="font-semibold text-white">출력</b> 무엇이 막았고 무엇이 뚫렸는지, 벌어진 순서와 근거 구절
+              </p>
+              <p className="mt-1 text-[12px] leading-relaxed text-amber-200/80">
+                분석 결과는 사람이 다시 확인해야 하는 참고 자료입니다. 원문에 없는 내용은 화면에 올라오지 못합니다.
+              </p>
+            </div>
           </div>
         </header>
 

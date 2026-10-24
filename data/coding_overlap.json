@@ -1,0 +1,34 @@
+{
+  "field": "Contributing Factors / Situations",
+  "field_ko": "기여 요인 코딩",
+  "total": 150,
+  "combos": 42,
+  "shared": 120,
+  "shared_rate": 80,
+  "largest": 29,
+  "largest_labels": [
+    "Aircraft"
+  ],
+  "largest_examples": [
+    {
+      "acn": "2094307",
+      "set": "cabin_fumes",
+      "synopsis": "A321 First Officer reported they were advised of smoke and an electrical smell in the cabin during approach. The flight crew donned their oxygen masks and continued their approach and landing."
+    },
+    {
+      "acn": "2093887",
+      "set": "cabin_fumes",
+      "synopsis": "Air carrier Captain reported the cabin crew informed of a burning plastic odor in the aft galley of unknown source. Flight crew completed the odor removal procedures and continued to destination."
+    },
+    {
+      "acn": "2090308",
+      "set": "cabin_fumes",
+      "synopsis": "Air carrier pilot reported a Bleed Fail EICAS indication accompanied with a cabin odor during initial climb. Flight returned to departure airport."
+    },
+    {
+      "acn": "2081885",
+      "set": "cabin_fumes",
+      "synopsis": "Air carrier Flight Attendant reported a chemical odor in the cabin during preflight which resulted in passenger deplaning and all crew members being assessed for medical treatment. The Captain informed the cabin crew that this aircraft had multiple fume events previously and that the APU was replaced after this event."
+    }
+  ]
+}

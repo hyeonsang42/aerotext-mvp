@@ -38,8 +38,9 @@ export default function FindingsPage() {
       <section>
         <h1 className="text-[1.35rem] font-bold">발견 사항</h1>
         <p className="mt-1 max-w-3xl text-sm leading-relaxed text-slate-600">
-          보고 {b.reports}건에서 방어 시퀀스를 복원해 찾은 것들입니다. 인용문은 전부 원문
-          그대로이며, 빌드할 때마다 해당 보고의 내러티브에 실제로 있는지 검사합니다.
+          한 건만 읽으면 보이지 않고, 보고 {b.reports}건을 <b>같은 기준으로 모았을 때 비로소 보인 것들</b>입니다.
+          한 건에서는 개인의 실수로 보이던 일이, 여러 건을 겹쳐 놓으면 문서나 절차의 구멍으로 드러납니다.
+          인용문은 전부 원문 그대로이며, 빌드할 때마다 해당 보고의 내러티브에 실제로 있는지 검사합니다.
           접수번호를 누르면 그 보고의 전체 원문과 근거 구절로 이동합니다.
         </p>
       </section>
@@ -50,8 +51,8 @@ export default function FindingsPage() {
           {[
             ["처리한 보고", `${b.reports}건`, `추출 항목 ${b.worked_total + b.breached_total}개`],
             ["뚫린 방어가 기록된 보고", `${b.breached_reports}건`, `${Math.round((b.breached_reports / b.reports) * 100)}%`],
-            ["탐지 주체 일치율", `${s.match_rate}%`, `기준선 ${s.baseline_rate}%, +${s.gain}%p`],
-            g ? ["검증용 세트", `${g.holdout.match_rate}%`, `하락 ${g.drop}%p, 기준 충족`]
+            ["기관 답과 일치", `${s.match_rate}%`, `읽지 않고 찍으면 ${s.baseline_rate}%`],
+            g ? ["안 열어 본 자료에서", `${g.holdout.match_rate}%`, `${g.drop}%p만 하락`]
               : ["예방 층위 뚫림", `${b.layers[0].breach_rate}%`, "복구 층위는 0%"],
           ].map(([k, v, sub]) => (
             <div key={k} className="rounded-md border hair px-3 py-2.5">

@@ -13,5 +13,816 @@
     "However, both the Captain and I agreed due to our low altitude and workload management getting the aircraft ready for landing, it would be best to both focus on configuring the aircraft safely.": "그러나 기장과 나는 고도가 낮고 착륙 준비로 할 일이 많아서, 둘 다 항공기를 안전하게 착륙 형태로 만드는 데 집중하는 편이 낫겠다고 합의했다.",
     "He instructed me to begin the Evacuation Checklist which then triggered the evacuation.": "기장이 나에게 탈출 체크리스트를 시작하라고 지시했고, 그에 따라 탈출이 시작되었다.",
     "Evacuation happened without incident or injuries.": "탈출은 별다른 사고나 부상 없이 끝났다."
+  },
+  "cabin_fumes-2011084": {
+    "takeoff roll normal but at 120 kts we got an EICAS message, caution bleed leak body": "이륙 활주는 정상이었는데 시속 120노트에서 엔진·계기 경고 화면(EICAS)에 동체 블리드 배관 누출 경고가 떴다.",
+    "we got an EICAS message, caution bleed leak body": "엔진·계기 경고 화면(EICAS)에 동체 블리드 배관 누출 경고가 떴다.",
+    "Once airborne we were alerted by multiple Flight Attendants (FAs) that we had potential smoke/fumes in aft cabin.": "이륙 직후 여러 객실 승무원이 뒤쪽 객실에 연기나 유해 가스가 있는 것 같다고 알려 왔다.",
+    "the intercom was effectively blocked by multiple users so we could not communicate at a time when I needed specific information on the nature of the smoke": "여러 사람이 한꺼번에 쓰는 바람에 기내 통화 장치가 사실상 막혀 버렸고, 연기가 어떤 종류인지 정확히 알아야 하는 바로 그때 소통할 수가 없었다.",
+    "I circumvented this by doing a FA check in call and was able to speak to our purser.": "나는 객실 승무원 점검 호출을 걸어 이 문제를 돌아갔고, 그렇게 해서 객실 사무장과 통화할 수 있었다.",
+    "We [requested priority handling].": "우리는 관제에 우선 처리를 요청했다.",
+    "Asked to level off at 5000 ft. and took vectors around for a downwind": "고도 5,000피트에서 수평 비행을 요청하고, 배풍 구간으로 들어가기 위해 관제 유도를 받았다.",
+    "I spoke with Dispatch and asked them to run weights for overweight landing at 509000 lbs.": "운항 관리실과 통화해 509,000파운드 중량 초과 착륙에 필요한 무게 계산을 해 달라고 요청했다.",
+    "We ran the overweight landing checklist, coordinated Brief with FAs and made a PA to passengers.": "중량 초과 착륙 점검 목록을 수행하고, 객실 승무원과 상황 설명을 맞추고, 승객에게 기내 방송을 했다.",
+    "Crash rescue were there to meet, inspected the aircraft and cleared us to taxi back to the gate.": "공항 소방구조대가 나와 기다리고 있었고, 기체를 점검한 뒤 탑승구로 되돌아가도 좋다고 알려 주었다.",
+    "Mechanics came on and informed us that it was a blown duct": "정비사들이 올라와 배관이 터진 것이라고 알려 주었다.",
+    "O2 was administered to some passengers as they were having trouble breathing.": "숨쉬기가 힘들다는 승객 몇 명에게 산소를 공급했다."
+  },
+  "cabin_fumes-2017316": {
+    "After departure the lead FA (Flight Attendant) called up and said they had a very strong electrical smoke smell and the walls of the center aft lav was extremely hot to the touch.": "이륙 후 선임 객실 승무원이 전화해, 전기 타는 냄새가 아주 심하게 나고 가운데 뒤쪽 화장실 벽이 손을 댈 수 없을 만큼 뜨겁다고 말했다.",
+    "I asked if there was any smoke or fire.": "나는 연기나 불이 보이는지 물었다.",
+    "At this point I made the decision to request priority handling and divert to ZZZ.": "이 시점에 나는 관제에 우선 처리를 요청하고 ZZZ 공항으로 회항하기로 결정했다.",
+    "We turned around and started down and ran all of our checklist including the overweight landing checklist.": "우리는 기수를 돌려 하강을 시작하고 중량 초과 착륙 점검 목록을 포함해 모든 점검 목록을 수행했다.",
+    "Unfortunately with all that was going on I failed to notice they turned us in about 5 miles closer then I expected. Due to this we ended up being much to high for the landing.": "여러 일이 한꺼번에 벌어지는 중이라, 관제가 예상보다 약 5마일 가까운 지점에서 우리를 선회시킨 것을 알아채지 못했다. 그래서 착륙하기에는 고도가 너무 높아져 버렸다.",
+    "We went around and then came back for a smooth overweight landing.": "우리는 착륙을 포기하고 다시 돌아와 중량 초과 상태로 부드럽게 착륙했다.",
+    "After landing we stopped on the high speed and I had the fire trucks position behind us and look for any signs.": "착륙 후 고속 이탈 유도로에 정지하고, 소방차를 뒤쪽에 배치해 이상 징후가 있는지 살펴보게 했다.",
+    "Upon inspection they found the water heater to be at fault": "점검해 보니 온수기가 원인이었다.",
+    "Upon inspection they found the water heater to be at fault and basically running away as hot as it would go.": "점검해 보니 온수기가 원인이었고, 사실상 제어가 풀려 올라갈 수 있는 최대 온도까지 올라가 있었다."
+  },
+  "cabin_fumes-2018441": {
+    "About 10 minutes before departure I noticed a very strong and horrible smell in the cabin.": "출발 10분쯤 전에 객실에서 아주 강하고 역한 냄새가 나는 것을 알아챘다.",
+    "I called the Captain and he stopped boarding and told the passengers to get off the plane and take their belongings with them.": "기장에게 전화했고, 기장은 탑승을 중단시키고 승객들에게 소지품을 들고 내리라고 안내했다."
+  },
+  "cabin_fumes-2018709": {
+    "Aircraft X [requested priority] due to fumes in the cockpit.": "항공기 X가 조종실 유해 가스 때문에 우선 처리를 요청했다.",
+    "Crew said the fumes had an electrical smell to it.": "승무원은 그 가스에서 전기 타는 냄새가 났다고 말했다.",
+    "Diverted nearest suitable alternate, ZZZ.": "가장 가까운 적합 대체 공항인 ZZZ로 회항했다.",
+    "Maintenance Control looking into it at this time.": "현재 정비 통제실이 원인을 확인하고 있다.",
+    "Cause - maintenance problem": "원인은 정비 문제였다."
+  },
+  "cabin_fumes-2019080": {
+    "we heard multiple clicking/banging sounds coming from the main BUS circuit board (Relays)": "주 전기 버스 회로판(계전기) 쪽에서 딸깍거리고 쿵쿵거리는 소리가 여러 번 들렸다.",
+    "I called back to ask the FAs (Flight Attendants) if they noticed anything": "나는 객실 승무원들에게 전화해 이상한 점이 없었는지 물었다.",
+    "on the third occurrence, they reported the WIFI and the lights were flickering": "세 번째로 같은 일이 있었을 때, 승무원들은 와이파이와 조명이 깜박였다고 알려 왔다.",
+    "At this point I had asked the lead FA to do a sweep of the cabin to see if they see or smell smoke or hear anything suspicious.": "이 시점에 나는 선임 객실 승무원에게 객실을 한 바퀴 돌며 연기가 보이거나 냄새가 나거나 수상한 소리가 들리는지 확인해 달라고 요청했다.",
+    "Shortly after the lead FA said that there was a strange buzzing sound over row XX (where the Wi-Fi is) and a strange smell of possible smoke.": "잠시 뒤 선임 객실 승무원은 와이파이 장비가 있는 XX열 위쪽에서 이상한 윙윙 소리가 나고 연기 같은 이상한 냄새가 난다고 말했다.",
+    "At this point while still on the line with the FA, I gave him a briefing": "그 승무원과 통화를 이어 가면서 상황 설명을 해 주었다.",
+    "as I had seen ZZZ as the closest airport, fortunately with maintenance as well, telling him that is where we are going": "가장 가까운 공항이 ZZZ였고 마침 정비도 가능한 곳이어서, 그곳으로 간다고 승무원에게 알렸다.",
+    "dispatch/Maintenance Control coordinated well to prepare for the landing in ZZZ": "운항 관리실과 정비 통제실이 ZZZ 착륙 준비를 잘 맞춰 주었다.",
+    "On arrival Maintenance Control stated they received a message from our aircraft that the ENG1 IDG (Integrated Drive Generator) had failed. We had not seen that message": "도착하자 정비 통제실은 우리 기체에서 1번 엔진 발전기(IDG) 고장 메시지를 받았다고 말했다. 우리는 그 메시지를 보지 못했다.",
+    "Fire trucks pulled the infrared sensors and noted no heat anomalies": "소방대가 적외선 감지기를 꺼내 확인했고 이상 발열은 없다고 알려 주었다.",
+    "It was concluded that the ENG1 IDG had or was failing, so we did an engine run to confirm and deactivate the IDG.": "1번 엔진 발전기(IDG)가 고장 났거나 고장 나고 있었다는 결론이 나와, 엔진 시운전으로 확인한 뒤 그 발전기를 차단했다."
+  },
+  "cabin_fumes-2019880": {
+    "my lead FA (Flight Attendant) called and notified me that they were experiencing a fume event in the cabin": "선임 객실 승무원이 전화해 객실에 유해 가스가 퍼지고 있다고 알려 주었다.",
+    "Multiple passengers and all of the flight attendants were feeling the effects of it.": "승객 여러 명과 객실 승무원 전원이 그 영향을 느끼고 있었다.",
+    "I immediately shut off PACK 2 and we initiated the Procedure for removal of odor/fumes.": "나는 곧바로 2번 공조 장치(팩)를 차단하고 냄새·유해 가스 제거 절차를 시작했다.",
+    "We notified Maintenance Control, completed the safety form, notified the Chief Pilot, and assisted the cabin crew in obtaining medical assistance.": "정비 통제실에 알리고, 안전 보고서를 작성하고, 수석 기장에게 알리고, 객실 승무원이 의료 지원을 받도록 도왔다.",
+    "I helped them identify the specific smell that indicates a TCP (tricresyl phosphate) generated fume event": "나는 인산트리크레실(TCP)이 원인일 때 나는 특유의 냄새를 그들이 알아볼 수 있게 도왔다.",
+    "I worked with the Maintenance crew to explain what had happened.": "나는 정비진과 함께 무슨 일이 있었는지 설명했다.",
+    "Flight Attendant B felt ill enough that she vomited.": "객실 승무원 B는 몸이 너무 안 좋아져 구토를 했다."
+  },
+  "cabin_fumes-2020522": {
+    "He was being tail swapped out of an aircraft that had a fume event.": "그는 유해 가스 사건이 있었던 기체에서 다른 기체로 교체 투입되는 중이었다.",
+    "the aircraft had just been written up for a fume event, but that it had been cleared by Maintenance without any deferral as they were not able to duplicate it": "그 기체는 방금 유해 가스 사건으로 정비 기록이 올라갔는데, 정비 쪽에서 재현하지 못해 정비 유보 처리도 없이 그냥 정상으로 처리했다는 것이었다.",
+    "At the same time, the Lead FA asked if I was aware that the aircraft had had a fume event and the prior crew tail swapped.": "같은 시점에 선임 객실 승무원이, 이 기체에 유해 가스 사건이 있었고 앞 승무조가 기체를 바꿨다는 사실을 아느냐고 물었다.",
+    "Upon review, I noticed that the aircraft had JUST been written up for a fume event": "확인해 보니 그 기체는 바로 직전에 유해 가스 사건으로 정비 기록이 올라가 있었다.",
+    "I spoke with a Chief Pilot.": "나는 수석 기장과 통화했다.",
+    "The Chief Pilot, MX, my FO (First Officer), and I all concluded that without any actual present indications of a problem, it was safe to make the flight with extra vigilance for a potential fume event.": "수석 기장, 정비, 부기장, 나 모두 지금 실제로 나타나는 이상 징후가 없으니 유해 가스 사건에 각별히 주의하면서 비행해도 안전하다는 결론을 내렸다.",
+    "We had a fairly tight turn around": "우리는 지상 체류 시간이 꽤 빡빡했다.",
+    "Upon returning to the aircraft, I was hit with a wall of noxious, acrid fumes that were immediately irritating and obviously the classic presentation of a fume event.": "기체로 돌아오자마자 코를 찌르는 역한 가스가 벽처럼 덮쳐 왔고, 곧바로 자극이 느껴졌으며, 누가 봐도 전형적인 유해 가스 사건이었다.",
+    "I exited the aircraft and advised the FA contingent to do the same.": "나는 기체에서 내리고 객실 승무원들에게도 똑같이 하라고 알렸다.",
+    "We contacted Maintenance Control, Contract Maintenance came out and began troubleshooting.": "정비 통제실에 연락했고, 외주 정비가 나와 원인을 찾기 시작했다.",
+    "Maintenance Control asked me to perform an engine run and I declined.": "정비 통제실이 엔진 시운전을 해 달라고 요청했고 나는 거절했다.",
+    "I consulted with Maintenance Control and alerted them that the problem was not at all solved by deferring the APU.": "나는 정비 통제실과 상의하면서, 보조동력장치(APU)를 정비 유보 처리하는 것으로는 문제가 전혀 해결되지 않는다고 알렸다.",
+    "We all eventually timed out and were rescheduled.": "우리는 결국 모두 근무 시간 한도에 걸려 일정이 다시 잡혔다."
+  },
+  "cabin_fumes-2021299": {
+    "After engine shutdown, received status message “ENG FUEL VALVE L” and had a very distinct fuel odor in the cockpit.": "엔진을 정지한 뒤 왼쪽 엔진 연료 밸브 상태 메시지가 떴고, 조종실에 연료 냄새가 아주 분명하게 났다.",
+    "received status message “ENG FUEL VALVE L”": "왼쪽 엔진 연료 밸브 상태 메시지가 떴다.",
+    "had a very distinct fuel odor in the cockpit": "조종실에 연료 냄새가 아주 분명하게 났다.",
+    "Ground personnel allerted me to an issue on the left side of the aircraft": "지상 요원이 기체 왼쪽에 문제가 있다고 알려 주었다.",
+    "I opened the cockpit window and a mechanic instructed us to dry motor the left engine - which we did for approximately 2 minutes.": "조종실 창문을 열었고, 정비사가 왼쪽 엔진을 연료 없이 돌리라고(드라이 모터링) 지시해 약 2분간 그렇게 했다.",
+    "My FO (First Officer) requested Crash, Fire and Rescue - who were dispatched onto the scene.": "부기장이 공항 소방구조대를 요청했고, 소방대가 현장에 출동했다.",
+    "During the unfolding events, a CS agent (who was obviously unaware of the fuel issue) moved the jetbridge into position and opened door 2L per normal procedures.": "일이 벌어지는 동안, 연료 문제를 전혀 모르고 있던 지상 서비스 직원이 평소 절차대로 탑승교를 붙이고 왼쪽 두 번째 문을 열었다.",
+    "the lead fire fighter made his way to the cockpit - reporting that no fuel existed on the tarmac and he saw no indication of fire": "선임 소방관이 조종실까지 올라와, 주기장 바닥에 연료는 없고 화재 징후도 보이지 않는다고 알려 주었다."
+  },
+  "cabin_fumes-2021961": {
+    "Unknown, suspected air conditioning and/or issue with pack(s).": "원인 불명. 공조 계통이나 공조 장치(팩) 문제로 추정된다.",
+    "received call from 3 jumpseaters indicating smoke in the courier area": "보조석 탑승자 세 명으로부터 화물 운송 구역에 연기가 있다는 전화를 받았다.",
+    "No indications or warnings of smoke in the cockpit at this time.": "이 시점에 조종실에는 연기 관련 표시나 경고가 없었다.",
+    "FO (First Officer) opened cockpit door and confirmed presence of smoke, and returned to the cockpit.": "부기장이 조종실 문을 열어 연기가 있는 것을 확인하고 조종실로 돌아왔다.",
+    "We opened both cockpit windows to ventilate.": "환기하려고 조종실 창문을 양쪽 다 열었다.",
+    "Informed Tower that we had smoke in the aircraft and request that they": "관제탑에 기내에 연기가 있다고 알리고 요청했다.",
+    "CA called for the evacuation checklist": "기장이 비상 탈출 점검 목록을 수행하라고 지시했다.",
+    "We ran the checklist and then CA went back and opened L1, deploying the slide.": "점검 목록을 수행한 뒤 기장이 뒤로 가서 왼쪽 첫 번째 문을 열고 탈출 슬라이드를 펼쳤다.",
+    "All 5 of us evacuated via the slide.": "우리 다섯 명 모두 슬라이드로 탈출했다.",
+    "They had to wait until crew stairs arrived.": "그들은 승무원용 계단이 도착할 때까지 기다려야 했다.",
+    "Aircraft turned over to maintenance.": "기체는 정비 쪽으로 넘겼다."
+  },
+  "cabin_fumes-2022715": {
+    "During descent there was a spark and electrical, popping / crackling sounds from panels behind and to the right of the FO.": "하강 중에 부기장 뒤쪽과 오른쪽 패널에서 불꽃이 튀고 전기가 터지는 듯한 소리가 났다.",
+    "We immediately smelled a burning electrical odor.": "곧바로 전기 타는 냄새를 맡았다.",
+    "O2 masks were donned and crew communication was established.": "산소마스크를 착용하고 승무원 간 통신을 확보했다.",
+    "I [requested priority handling] with ZZZ Center for fumes and smoke in the cockpit": "나는 조종실의 유해 가스와 연기를 이유로 ZZZ 관제센터에 우선 처리를 요청했다.",
+    "The non-alert, smoke/fire/fumes [checklist] was completed to the landing section.": "경고가 뜨지 않은 경우의 연기·화재·유해 가스 점검 목록을 착륙 항목까지 수행했다.",
+    "Approach briefing was completed for XXR.": "XXR 활주로 접근 설명을 마쳤다.",
+    "We elected to autoland due to wearing O2 masks.": "산소마스크를 쓴 상태였기 때문에 자동 착륙을 선택했다.",
+    "After CFR found nothing abnormal on the outside of the aircraft we taxied": "공항 소방구조대가 기체 외부에서 이상을 찾지 못한 뒤 우리는 지상 이동을 시작했다.",
+    "I elected to shutdown the aircraft down without APU or EXT power because the original problem was electrical.": "원래 문제가 전기 쪽이었기 때문에 보조동력장치도 외부 전원도 쓰지 않고 기체를 정지시키기로 했다."
+  },
+  "cabin_fumes-2023593": {
+    "the Relief Pilot reported a burning electrical smell in the area between the flight deck and the rest seat": "교대 조종사가 조종실과 휴식 좌석 사이 구역에서 전기 타는 냄새가 난다고 알려 왔다.",
+    "I transferred flying duties to the FO (First Officer) and began running the smoke, fire, or fumes checklist.": "나는 조종을 부기장에게 넘기고 연기·화재·유해 가스 점검 목록을 수행하기 시작했다.",
+    "I contacted Dispatch and discussed the situation with the dispatcher and Maintenance Control.": "운항 관리실에 연락해 운항 관리사와 정비 통제실과 상황을 논의했다.",
+    "In consultation I decided to [request priority handling] and divert to ZZZ.": "상의 끝에 나는 우선 처리를 요청하고 ZZZ로 회항하기로 결정했다.",
+    "The FAs (flight attendants) and passengers were informed of the situation and diversion.": "객실 승무원과 승객에게 상황과 회항을 알렸다.",
+    "Firefighting services followed us to the gate and came on board. Their equipment sensed no hot spots.": "소방대가 탑승구까지 따라와 기내에 올라왔다. 장비로는 발열 지점이 감지되지 않았다."
+  },
+  "cabin_fumes-2023658": {
+    "At FL390 near waypoint ZZZ we encountered what looked like high cirrus clouds.": "고도 39,000피트 ZZZ 지점 근처에서 높은 권운처럼 보이는 것을 만났다.",
+    "Shortly after entering the IMC conditions we had a sharp acrid smell and suspected Volcanic ash": "구름 속에 들어간 직후 코를 찌르는 날카로운 냄새가 나서 화산재를 의심했다.",
+    "as dispatch gave us a VA warning for FL 240 and below": "운항 관리실이 고도 24,000피트 이하에 화산재 경보를 준 상태였다.",
+    "We immediately made a left turn 15 miles off course and a climb to FL410.": "우리는 곧바로 항로에서 왼쪽으로 15마일 벗어나며 고도 41,000피트로 상승했다.",
+    "We planned our descent to remain higher to avoid ash cloud on the arrival.": "도착 경로에서 화산재 구름을 피하려고 더 높은 고도를 유지하도록 하강 계획을 세웠다.",
+    "Notified ATC and dispatch of the encounter and wrote up airplane for VA encounter": "관제와 운항 관리실에 조우 사실을 알리고 화산재 조우로 기체 정비 기록을 올렸다."
+  },
+  "cabin_fumes-2025594": {
+    "Plane had electrical issues from the beginning.": "이 비행기는 처음부터 전기 계통에 문제가 있었다.",
+    "Because there was a previous write up about it that screens went out toward the back of the plane.": "기체 뒤쪽 화면들이 꺼진다는 정비 기록이 전에 올라와 있었기 때문이다.",
+    "As soon as I stepped out of the cockpit I got hit with a strong electrical burning smell.": "조종실에서 나오자마자 전기 타는 냄새가 강하게 덮쳐 왔다.",
+    "The purser comes up to me asking me if I smell it too.": "객실 사무장이 내게 와서 자기도 이 냄새가 나는데 나도 맡았는지 물었다.",
+    "I call up to the front, let them know we got a strong electrical smell.": "나는 앞쪽으로 전화해 전기 타는 냄새가 강하게 난다고 알렸다.",
+    "Help with the checklist. Still cannot isolate the location.": "점검 목록 수행을 도왔다. 그래도 어디서 나는지 위치를 특정할 수 없었다.",
+    "Get Maintenance Control and Dispatch in the loop and decide to divert to ZZZ2 since we were just north of ZZZ2 at the time.": "정비 통제실과 운항 관리실을 상황에 참여시키고, 그때 우리가 ZZZ2 바로 북쪽에 있었으므로 ZZZ2로 회항하기로 결정했다.",
+    "Requested Priority.": "우선 처리를 요청했다.",
+    "Fire department said there is no presence of a fire from thermal imaging.": "소방대는 열화상으로 봤을 때 화재는 없다고 말했다."
+  },
+  "cabin_fumes-2027154": {
+    "At approximately XA:33Z the aircraft went down to battery power abruptly as well as emergency power.": "대략 XA시 33분(협정 세계시)에 기체 전원이 갑자기 배터리 전원과 비상 전원으로 떨어졌다.",
+    "We had no indications in the cockpit of an APU fire.": "조종실에는 보조동력장치 화재를 알리는 표시가 전혀 없었다.",
+    "My First Officer (FO) said that he thought he heard someone say fire from outside the airplane (possibly loaders from the K-loader or cargo compartment area).": "부기장은 기체 밖에서 누군가 불이라고 외치는 소리를 들은 것 같다고 말했다. 화물 적재기나 화물실 쪽 작업자였을 가능성이 있다.",
+    "we heard people yelling fire and then we heard someone say APU fire": "사람들이 불이라고 외치는 소리가 들렸고, 이어서 누군가 보조동력장치 화재라고 말하는 소리가 들렸다.",
+    "I asked our jump seater to see if she saw anything outside the airplane or could confirm any type of fire. She said yes.": "나는 보조석 탑승자에게 기체 밖에 뭔가 보이는지, 화재가 맞는지 확인해 달라고 요청했다. 그는 그렇다고 답했다.",
+    "I ran back into the cockpit and said APU Fire checklist as I pulled the APU for handle.": "나는 조종실로 뛰어 들어가 보조동력장치 소화 핸들을 당기면서 보조동력장치 화재 점검 목록을 수행하자고 말했다.",
+    "We performed the APU Fire checklist and discharged all 3 bottles.": "보조동력장치 화재 점검 목록을 수행하고 소화 용기 세 개를 모두 분사했다.",
+    "I called ZZZ ground at the same time and told them we had an APU fire on spot and send Airport Rescue and Firefighting (ARFF) immediately.": "동시에 ZZZ 지상 관제에 전화해 주기 위치에서 보조동력장치 화재가 났다고 알리고 공항 구조소방대를 즉시 보내 달라고 했다.",
+    "I then directed everyone off of the airplane, myself, the FO and our jump seater.": "그다음 나와 부기장, 보조석 탑승자까지 전원을 기체에서 내리게 했다.",
+    "shut down the aircraft, and evacuated using the stairs": "기체를 정지시키고 계단을 이용해 탈출했다."
+  },
+  "cabin_fumes-2027741": {
+    "On climb out in turbulence Master Warning System activated and APU Fire CAS message as well as aural “APU Fire” annunciated.": "난기류 속에서 상승하던 중 주경고 장치가 작동하고 보조동력장치 화재 경고 메시지와 함께 음성으로 보조동력장치 화재가 울렸다.",
+    "Master Warning System activated and APU Fire CAS message as well as aural “APU Fire” annunciated": "주경고 장치가 작동하고 보조동력장치 화재 경고 메시지와 함께 음성으로 보조동력장치 화재가 울렸다.",
+    "Memory items were completed.": "외워서 바로 해야 하는 조치 항목을 수행했다.",
+    "When the APU Fire switch was pressed Fire indication extinguished immediately.": "보조동력장치 소화 스위치를 누르자 화재 표시가 즉시 사라졌다.",
+    "We completed the APU Fire checklist and elected to continue to ZZZ1 as we were already prepared for a landing there.": "보조동력장치 화재 점검 목록을 수행하고, 이미 ZZZ1 착륙 준비가 돼 있었으므로 그대로 ZZZ1로 가기로 했다.",
+    "Once completed we discussed continuing to ZZZ1 or turning back to ZZZ.": "수행을 마친 뒤 ZZZ1로 계속 갈지 ZZZ로 되돌아갈지 논의했다.",
+    "We then informed Dispatch and Maintenance.": "그다음 운항 관리실과 정비에 알렸다."
+  },
+  "cabin_fumes-2028783": {
+    "The OPS Agent came on and told me that when they connected ground power to the plane, it started to spark": "운항 담당 직원이 올라와, 기체에 지상 전원을 연결했을 때 불꽃이 튀기 시작했다고 알려 주었다.",
+    "I looked out into the jetbridge and could smell a very heavy smoky odor.": "탑승교 쪽을 내다봤고 연기 냄새가 아주 짙게 났다.",
+    "I looked into the flightdeck and noticed the windshield was covered in smoke.": "조종실 안을 들여다봤고 앞창이 연기로 덮여 있는 것을 알아챘다.",
+    "The Ops Agent stuck her head into the galley and said": "운항 담당 직원이 갤리로 머리를 들이밀고 말했다.",
+    "I got on the PA and said Evacuate evacuate evacuate. Everyone off now, leave your things.": "나는 기내 방송으로 탈출하라, 탈출하라, 탈출하라고 말했다. 전원 지금 내리고 소지품은 두고 가라고 했다.",
+    "At this point neither of our pilots addressed us nor debriefed us.": "이 시점에 조종사 두 사람 중 누구도 우리에게 말을 걸거나 상황을 정리해 주지 않았다.",
+    "I got on the PA and said Evacuate evacuate evacuate": "나는 기내 방송으로 탈출하라, 탈출하라, 탈출하라고 말했다."
+  },
+  "cabin_fumes-2029352": {
+    "After landing in ZZZ while on the taxi to parking we got a fire warning for engine 2 with the accompanying fire bell/lights.": "ZZZ에 착륙한 뒤 주기장으로 지상 이동하던 중 2번 엔진 화재 경고가 울리고 화재 경보음과 경고등이 함께 들어왔다.",
+    "we got a fire warning for engine 2 with the accompanying fire bell/lights": "2번 엔진 화재 경고가 울리고 화재 경보음과 경고등이 함께 들어왔다.",
+    "We completed the immediate action items/emergency checklist for the engine fire warning.": "엔진 화재 경고에 대한 즉시 조치 항목과 비상 점검 목록을 수행했다.",
+    "I was PM and advised the ATC of the fire warning and requested the fire department respond.": "나는 조종을 감시하는 쪽이었고, 관제에 화재 경고를 알리고 소방대 출동을 요청했다.",
+    "they asked the aircraft behind us who reported no fire observed": "관제가 우리 뒤 항공기에 물었고, 그 항공기는 화재가 보이지 않는다고 답했다.",
+    "During this process I asked ATC if they could observe anything, and they asked the aircraft behind us who reported no fire observed.": "이 과정에서 나는 관제에 보이는 것이 있는지 물었고, 관제는 우리 뒤 항공기에 물어 화재가 보이지 않는다는 답을 받았다.",
+    "As soon as the PM notified ground of the engine fire they immediately let us know that fire services would be on their way.": "조종 감시를 맡은 조종사가 지상 관제에 엔진 화재를 알리자마자, 관제는 소방대가 출동 중이라고 바로 알려 주었다.",
+    "The fire department reported no fire observed but reported vapor/smoke was coming from the #2 engine tail pipe.": "소방대는 화재는 보이지 않지만 2번 엔진 배기구에서 증기나 연기가 나오고 있다고 보고했다.",
+    "The first officer asked if I wanted to taxi in given the issues. At that point we switched PF/PM duties and I taxied the airplane to parking.": "부기장이 이런 상황이니 내가 지상 이동을 맡겠느냐고 물었다. 그 시점에 조종과 감시 역할을 서로 바꾸고 내가 기체를 주기장까지 이동시켰다.",
+    "I asked our 3rd seat first officer to advise dispatch and then while taxing to advise company.": "세 번째 좌석의 부기장에게 운항 관리실에 알리고, 지상 이동 중에 회사에도 알리라고 요청했다.",
+    "Maintenance stated it was a false warning.": "정비는 잘못 울린 경고였다고 말했다.",
+    "I double checked with maintenance and the fire department to see if they needed any additional information from us before we left": "나는 자리를 떠나기 전에 정비와 소방대에 우리에게서 더 받아야 할 정보가 있는지 다시 확인했다."
+  },
+  "cabin_fumes-2031193": {
+    "Upon taxi into the gate, and selection of the APU switch to On and Start, a burning odor was detected by both the First Officer and myself.": "탑승구로 지상 이동하면서 보조동력장치 스위치를 켜고 시동 위치로 돌렸을 때, 부기장과 나 둘 다 타는 냄새를 맡았다.",
+    "a burning odor was detected by both the First Officer and myself": "부기장과 나 둘 다 타는 냄새를 맡았다.",
+    "The Status page was referenced and it showed two Status messages: Main Battery Status and Main Battery Charger Status.": "상태 화면을 확인했고 두 개의 상태 메시지가 떠 있었다. 주 배터리 상태와 주 배터리 충전기 상태였다.",
+    "The First Officer contacted station maintenance on taxi in and maintenance met the aircraft at the gate.": "부기장이 지상 이동 중에 공항 정비에 연락했고, 정비가 탑승구에서 기체를 맞았다.",
+    "They discovered soot and charring on the battery box and connector.": "정비는 배터리 상자와 연결 단자에 그을음과 탄 흔적이 있는 것을 발견했다.",
+    "The battery was disconnected and the airplane de-powered.": "배터리를 분리하고 기체 전원을 모두 내렸다."
+  },
+  "cabin_fumes-2031624": {
+    "In a matter of seconds the noise became multiple very loud bangs characteristic of a compressor stall, while also smelling something like burning rubber.": "몇 초 만에 그 소리는 압축기 실속에서 나는 특유의 아주 큰 폭발음 여러 번으로 바뀌었고, 동시에 고무 타는 것 같은 냄새가 났다.",
+    "Just prior to our level off at our cruising altitude of FL320 I noticed an abnormal noise in the #2 engine.": "순항 고도 32,000피트에서 수평 비행으로 들어가기 바로 전에 2번 엔진에서 이상한 소리가 나는 것을 알아챘다.",
+    "The Captain immediately reduced power and lowered the aircraft’s nose.": "기장은 곧바로 출력을 줄이고 기수를 낮췄다.",
+    "The Captain called for the QRC for an engine compressor stall": "기장이 엔진 압축기 실속에 대한 즉시 조치 카드를 수행하라고 지시했다.",
+    "The flight attendant advised that they had smoke in the cabin": "객실 승무원이 객실에 연기가 있다고 알려 왔다.",
+    "I informed the captain of the flight attendant’s report and we decided to run the smoke and fumes QRH while diverting back to ZZZ.": "나는 객실 승무원의 보고를 기장에게 전했고, ZZZ로 되돌아가면서 연기·유해 가스 비상 절차 책자를 수행하기로 결정했다.",
+    "the passengers, dispatch, and flight attendants were all advised we would be returning to ZZZ": "승객과 운항 관리실, 객실 승무원 모두에게 ZZZ로 되돌아간다고 알렸다.",
+    "Once we landed ARFF (Airport Rescue and Firefighting) visually inspected our aircraft for damage and reported that there was none.": "착륙한 뒤 공항 구조소방대가 기체 손상 여부를 눈으로 점검했고 손상은 없다고 보고했다.",
+    "The casual factor was a maintenance issue with the #2 engine.": "원인은 2번 엔진의 정비 문제였다."
+  },
+  "cabin_fumes-2031778": {
+    "prior to the ETP, I just had a discussion with my FO (First Officer) on what specifically the ETP represented in a tri-jet. We reviewed the FOM together on this subject": "등시점에 이르기 전에, 나는 부기장과 삼발 엔진 항공기에서 등시점이 정확히 무엇을 뜻하는지 이야기를 나눴다. 이 주제로 운항 교범을 함께 다시 봤다.",
+    "we received a LVL 1 CRG FLO FWD DISAG": "전방 화물실 공기 흐름 불일치 1단계 경고가 떴다.",
+    "we received a LVL 3 CRG FIRE LWR with tri-tone and flashing master warning": "하부 화물실 화재 3단계 경고가 세 음 경고음과 주경고등 점멸과 함께 떴다.",
+    "He quickly found the CARGO FIRE LWR page and started reading out loud with his finger under each line on the procedure visible to me.": "부기장은 하부 화물실 화재 절차 쪽을 빠르게 찾아, 내가 볼 수 있도록 각 줄에 손가락을 짚으면서 소리 내어 읽기 시작했다.",
+    "pushed the flashing CARGO FIRE AGENT DISCH Switch, turned off the associated CARGO FLOW Switch": "점멸하는 화물실 소화제 분사 스위치를 누르고, 해당 화물실 공기 흐름 스위치를 껐다.",
+    "the FO self- initiated pulling up the CPDLC page on MCDU 2 to [request priority handling] and diversion with ZZZ": "부기장이 스스로 두 번째 다기능 조작 화면에서 데이터 통신 화면을 띄워 ZZZ에 우선 처리와 회항을 요청했다.",
+    "I took over as pilot flying and selected direct to ZZZ on MCDU 1": "나는 조종을 맡고 첫 번째 다기능 조작 화면에서 ZZZ 직항을 선택했다.",
+    "I established contacted with Dispatch to inform them of our situation and inquire as to the contents of the lower forward cargo.": "운항 관리실과 연결해 우리 상황을 알리고 하부 전방 화물실에 무엇이 들어 있는지 물었다.",
+    "I took the opportunity to discuss emergency egress, and when we expected the 90 minutes to expire to discharge the second fire suppression bottle.": "나는 이 기회에 비상 탈출 방법과, 두 번째 소화 용기를 분사해야 하는 90분이 언제 끝나는지를 함께 논의했다.",
+    "ARFF reported no active fire or heat.": "공항 구조소방대는 진행 중인 화재나 발열은 없다고 보고했다.",
+    "She reminded me to write it up in the aircraft release": "그는 기체 인수 서류에 이 내용을 적어 두라고 내게 일러 주었다."
+  },
+  "cabin_fumes-2031865": {
+    "Tower reported aircraft was on fire with smoke.": "관제탑이 기체에서 불이 나고 연기가 난다고 알려 왔다.",
+    "Tower reported fire/smoke coming from aircraft very shortly later.": "얼마 지나지 않아 관제탑이 기체에서 화재와 연기가 나온다고 알려 왔다.",
+    "With no cockpit indications, we asked for clarification of where the smoke was coming from.": "조종실에 아무 표시가 없었으므로 우리는 연기가 어디서 나오는지 다시 확인해 달라고 요청했다.",
+    "We called for ARFF.": "우리는 공항 구조소방대를 요청했다.",
+    "The ARFF scanned aircraft and only found heat from the running engines.": "공항 구조소방대가 기체를 훑어봤고 작동 중인 엔진에서 나는 열만 확인했다.",
+    "We opted not to start APU, gate return and asked for a MX inspection.": "우리는 보조동력장치를 시동하지 않고 탑승구로 되돌아가 정비 점검을 요청하기로 했다.",
+    "the station was not setup with a GPU or air cart": "그 공항에는 지상 전원 장비나 공기 공급 장비가 갖춰져 있지 않았다.",
+    "asked for a MX inspection": "정비 점검을 요청했다."
+  },
+  "cabin_fumes-2031952": {
+    "During the boarding process, a rotten egg smell was detected in the boarding area, front galley, and main cabin.": "탑승이 진행되는 동안 탑승 구역과 앞쪽 갤리, 주 객실에서 썩은 달걀 냄새가 났다.",
+    "In the meantime, more people came on and complained of the strong smell.": "그러는 사이 더 많은 사람이 들어와 냄새가 심하다고 말했다.",
+    "Smell was reported to the captain, and he determined that we were experiencing an odor event.": "기장에게 냄새를 보고했고, 기장은 냄새 사건이 발생한 것으로 판단했다.",
+    "Captain came on the PA and instructed everyone to deplane ASAP.": "기장이 기내 방송으로 전원 최대한 빨리 하기하라고 안내했다.",
+    "There should have been more of a sense of urgency communicated so that the cabin crew could deplane quickly as well so as not to be exposed to the fumes any longer than necessary.": "객실 승무원도 빨리 내려서 필요 이상으로 유해 가스에 노출되지 않게, 더 급하다는 뜻이 전달돼야 했다.",
+    "Crew was then met by ops who instructed us to start a report, call out sick and receive medical attention asap.": "그다음 승무원들은 운항 담당자를 만났고, 담당자는 보고서를 작성하고 병가를 내고 최대한 빨리 진료를 받으라고 안내했다.",
+    "FAs 2 and 4 both had some symptoms consistent with a fume event, and I was developing a headache.": "2번과 4번 객실 승무원 둘 다 유해 가스 사건과 들어맞는 증상이 있었고, 나는 두통이 오기 시작했다."
+  },
+  "cabin_fumes-2032399": {
+    "Just a few minutes after that indication we received a LEVEL 3 CRG FIRE LWR": "그 표시가 뜬 지 몇 분 만에 하부 화물실 화재 3단계 경고가 떴다.",
+    "We received a CARGO FLO FORWARD DISAG LEVEL 1": "전방 화물실 공기 흐름 불일치 1단계 경고가 떴다.",
+    "the Captain took the controls and I read this QRH for both of us to hear and confirm the actions required": "기장이 조종을 맡고 내가 이 비상 절차 책자를 둘 다 들을 수 있게 소리 내어 읽으면서 필요한 조치를 확인했다.",
+    "we [requested priority handling] with ATC via CPDLC": "우리는 데이터 통신으로 관제에 우선 처리를 요청했다.",
+    "changed destination, to the closest airport to our present position ZZZ confirming it had suitable weather": "목적지를 현재 위치에서 가장 가까운 공항인 ZZZ로 바꾸고, 그곳 기상이 적합한지 확인했다.",
+    "then contacted company via SatCom to inform them of the situation and to get information of cargo being hauled": "그다음 위성 통신으로 회사에 연락해 상황을 알리고 실어 가는 화물 정보를 받았다.",
+    "the Captain lead discussions about ditching, evacuating, system review of cargo fire indications, location of emergency equipment": "기장이 수면 비상 착수, 탈출, 화물실 화재 표시에 대한 계통 점검, 비상 장비 위치에 대한 논의를 이끌었다.",
+    "she made sure everyone knew to speak up including jumpseaters, made us part of the decision process, took input and explained her decision process": "기장은 보조석 탑승자까지 포함해 모두가 의견을 낼 수 있게 했고, 우리를 결정 과정에 참여시켰고, 의견을 받아들였고, 자기 판단 과정을 설명했다.",
+    "as briefed I activated the second bottle": "사전에 정해 둔 대로 내가 두 번째 소화 용기를 작동시켰다."
+  },
+  "cabin_fumes-2033140": {
+    "Approaching the ZZZZZ intersection we smelled a faint burning odor that went away quickly, there was no visible smoke with the odor.": "ZZZZZ 교차점에 접근하면서 타는 냄새가 희미하게 났다가 금방 사라졌고, 냄새와 함께 보이는 연기는 없었다.",
+    "at which time we donned our O2 masks and [requested priority handling]": "그 시점에 우리는 산소마스크를 착용하고 우선 처리를 요청했다.",
+    "We consulted the smoke and fumes ck list, configured, and landed uneventfully.": "연기·유해 가스 점검 목록을 확인하고, 착륙 형태를 만들고, 별일 없이 착륙했다.",
+    "The only indication we recvd in flight of anything out of the ordinary in addition to the strong odor in the cockpit was a brief status message which appeared and went away in a few seconds": "조종실의 강한 냄새 말고 비행 중에 받은 이상 징후는 몇 초 동안 떴다가 사라진 짧은 상태 메시지 하나뿐이었다.",
+    "We evacuated using the inertial reels and met up with personnel on the ground away from the airplane.": "우리는 비상 탈출용 하강 장치를 이용해 탈출하고 기체에서 떨어진 곳에서 지상 요원과 만났다.",
+    "it was decided to evacuate the aircraft": "기체에서 탈출하기로 결정했다."
+  },
+  "cabin_fumes-2037917": {
+    "We had a fume event after we boarded the aircraft before boarding passengers.": "승객 탑승 전에 우리가 기체에 올라탄 뒤 유해 가스 사건이 있었다.",
+    "Maintenance was called and aircraft was removed": "정비를 불렀고 기체는 운항에서 빠졌다.",
+    "I went to ER as i experienced watery eyes, sore throat and felt light headed and got removed from the trip": "나는 눈물이 나고 목이 아프고 어지러워서 응급실에 갔고, 그 비행에서 빠졌다."
+  },
+  "cabin_fumes-2038207": {
+    "Smoke and fumes noted at completion of engine start checklist.": "엔진 시동 점검 목록을 마쳤을 때 연기와 유해 가스가 확인됐다.",
+    "Associated with pack two overheat message on EICAS.": "엔진·계기 경고 화면(EICAS)의 2번 공조 장치 과열 메시지와 함께 나타났다.",
+    "Smoke visible in flight deck immediately and also the cabin when I walked through the plane before evacuating myself.": "조종실에서는 곧바로 연기가 보였고, 내가 탈출하기 전에 기내를 지나갈 때 객실에서도 연기가 보였다.",
+    "FO (First Officer) noted PACK2 OVHT on EICAS.": "부기장이 엔진·계기 경고 화면에 2번 공조 장치 과열 경고가 뜬 것을 확인했다.",
+    "Flight Attendant was called via cabin [priority] and she noted smoke smell in the cabin.": "객실 우선 호출로 객실 승무원에게 전화했고, 그 승무원은 객실에서 연기 냄새가 난다고 확인해 주었다.",
+    "Donned oxygen masks and CA (Captain) called for QRH procedure.": "산소마스크를 착용하고 기장이 비상 절차 책자 수행을 지시했다.",
+    "[Priority handling was requested] and Airport Rescue and Firefighting services requested.": "우선 처리를 요청하고 공항 구조소방대를 요청했다.",
+    "All passengers and crew evacuated without further incident.": "승객과 승무원 전원이 더는 사고 없이 탈출했다."
+  },
+  "cabin_fumes-2038292": {
+    "Shortly after take-off, the entire crew smelled an odor.": "이륙 직후 승무원 전원이 냄새를 맡았다.",
+    "The Captain called us, and said we would be returning to the airport.": "기장이 우리에게 전화해 공항으로 되돌아갈 것이라고 말했다.",
+    "We were taken to the emergency room at the hospital for blood tests, and our vitals.": "우리는 혈액 검사와 활력 징후 확인을 위해 병원 응급실로 이송됐다.",
+    "There was obviously a serious problem, as it was taken to the hanger.": "기체가 격납고로 들어간 것을 보면 분명히 심각한 문제가 있었던 것이다."
+  },
+  "cabin_fumes-2043691": {
+    "During taxi out the cabin filled with fuel burn off fumes and odor.": "지상 이동 중에 객실이 연료 연소 가스와 냄새로 가득 찼다.",
+    "the captain called to ask if I could smell fumes because him and the FO could smell it strongly as well": "기장이 전화해 내게도 가스 냄새가 나는지 물었다. 자기와 부기장도 아주 강하게 맡고 있다는 것이었다.",
+    "I notified my 2/4 Flight Attendants (FAs) and they also let me know they were smelling it strong in the aft.": "나는 2번과 4번 객실 승무원에게 알렸고, 그들도 뒤쪽에서 아주 강하게 냄새가 난다고 알려 주었다.",
+    "He told us he was turning on the APU to help with the odor and that we would be returning to the gate.": "기장은 냄새를 줄이려고 보조동력장치를 켜겠다고, 그리고 탑승구로 되돌아갈 것이라고 말했다.",
+    "we would be returning to the gate": "우리는 탑승구로 되돌아가게 됐다.",
+    "Suggestion: Better maintenance on these aircraft with known fume events.": "제안: 유해 가스 사건 이력이 알려진 이 기종들에 대해 정비를 더 잘해 줄 것.",
+    "We felt pressured by mgmt when we were returned to the gate to continue to fly or to make a choice quickly on whether we would continue or not": "탑승구로 되돌아왔을 때, 그대로 비행을 계속하라거나 계속할지 말지 빨리 결정하라는 식으로 회사 쪽에서 압박을 느꼈다.",
+    "I experienced some eye discomfort and nausea until we were on APU power": "보조동력장치 전원으로 바뀔 때까지 눈이 불편하고 메스꺼운 증상이 있었다."
+  },
+  "cabin_fumes-2044984": {
+    "There was an electrical burning smell in the cockpit and forward cabin.": "조종실과 앞쪽 객실에서 전기 타는 냄새가 났다.",
+    "Captain asked what we are burning.": "기장이 무엇이 타고 있는지 물었다.",
+    "They both searched for the source of the smell. When they couldn’t find it FA3 (Flight Attendant) searched.": "두 사람이 함께 냄새의 근원을 찾았다. 찾지 못하자 3번 객실 승무원이 찾아 나섰다.",
+    "When I stepped back in the forward galley I heard a whining sound and then heard something shut down.": "앞쪽 갤리로 돌아왔을 때 높은 음의 소리가 들렸고, 이어서 무언가 꺼지는 소리가 들렸다.",
+    "Then the Captain said take your seats I am declaring a [priority] landing.": "그때 기장이 자리에 앉으라고, 우선 착륙을 선언한다고 말했다.",
+    "The crew was informed that we had to take the plane back. Because maintenance MEL the issue.": "승무원들은 이 기체를 되돌려야 한다고 통보받았다. 정비가 그 문제를 정비 유보 목록으로 처리했기 때문이다.",
+    "Because maintenance MEL the issue.": "정비가 그 문제를 정비 유보 목록으로 처리했기 때문이다.",
+    "I was not okay mentally to continue on with the rest of my trip. I was pulled from my trip and put in a hotel to go home the next day.": "나는 남은 비행을 계속할 만한 정신 상태가 아니었다. 그 비행에서 빠지고 호텔에 들어가 다음 날 집으로 돌아갔다."
+  },
+  "cabin_fumes-2047525": {
+    "At this time the FO (First Officer) and myself noticed an acrid smell in cockpit.": "이 시점에 부기장과 나는 조종실에서 코를 찌르는 냄새를 알아챘다.",
+    "I advised push crew to stay connected and the FO to notify ramp we would be returning to gate.": "나는 견인 작업조에 연결을 유지하라고 알리고, 부기장에게는 탑승구로 되돌아간다고 지상 조업에 알리라고 했다.",
+    "I shut down number 2 engine and the packs to facilitate door opening if necessary.": "필요하면 문을 열 수 있게 2번 엔진과 공조 장치를 정지시켰다.",
+    "Immediately after this FA (Flight Attendant) called to advise smoke in the cabin.": "그 직후 객실 승무원이 전화해 객실에 연기가 있다고 알려 왔다.",
+    "I verified smoke and not odor and advised her we would be exiting main cabin door.": "나는 냄새가 아니라 연기임을 확인하고, 주 객실 문으로 나가게 될 것이라고 그 승무원에게 알렸다.",
+    "Directed FO to advise ramp we would be deplaning and to call for CFR (Crash Fire Rescue).": "부기장에게 하기할 것이라고 지상 조업에 알리고 공항 소방구조대를 요청하라고 지시했다.",
+    "I notified dispatch of the event via phone and Maintenance subsequently assumed responsibility for the aircraft.": "나는 전화로 운항 관리실에 상황을 알렸고, 이후 정비가 기체를 인수했다.",
+    "Maintenance subsequently assumed responsibility for the aircraft": "이후 정비가 기체를 인수했다."
+  },
+  "cabin_fumes-2052803": {
+    "Very light chemical smell detected on the ground, prior to departure.": "출발 전 지상에서 아주 약한 화학 약품 냄새가 확인됐다.",
+    "During cruise, Flight Attendants noted a much stronger “acetone” type of smell, mid cabin to aft.": "순항 중에 객실 승무원들이 객실 중앙부터 뒤쪽까지 아세톤 같은 냄새가 훨씬 강하게 난다고 알려 왔다.",
+    "A passenger became ill, complaining of headache and dizziness.": "승객 한 명이 몸이 안 좋아져 두통과 어지럼증을 호소했다.",
+    "After consulting with medical services, we were told that due to multiple persons being affected, a diversion was advisable.": "의료 지원 쪽과 상의한 뒤, 여러 사람이 영향을 받고 있으니 회항하는 것이 좋겠다는 답을 받았다.",
+    "We elected to divert.": "우리는 회항하기로 했다.",
+    "We [requested priority handling] as well.": "우선 처리도 함께 요청했다.",
+    "No smell was noted on the flight deck so no Emergency Checklists were deemed necessary. This may have been an error": "조종실에서는 냄새가 확인되지 않아 비상 점검 목록이 필요하다고 보지 않았다. 이 판단은 잘못이었을 수 있다.",
+    "EMT met the Aircraft at the gate and serviced the ill Passenger and Flight Attendants.": "응급 구조사가 탑승구에서 기체를 맞아 몸이 안 좋아진 승객과 객실 승무원을 처치했다."
+  },
+  "cabin_fumes-2055384": {
+    "Upon engine 2 start, the engine failed to light.": "2번 엔진을 시동했을 때 엔진에 불이 붙지 않았다.",
+    "the forward Flight Attendant called the flight deck and notified the flight deck that a very strong odor of jet fuel existed inside the passenger cabin": "앞쪽 객실 승무원이 조종실에 전화해, 객실 안에 항공유 냄새가 아주 강하게 난다고 알려 왔다.",
+    "the aircraft was taxied back into the gate area under own power with engine number 1": "기체는 1번 엔진만으로 자력으로 탑승구 쪽으로 되돌아갔다.",
+    "After speaking with Maintenance Control and having contract Maintenance inspect the aircraft, no solution was found.": "정비 통제실과 통화하고 외주 정비가 기체를 점검했지만 해결책을 찾지 못했다.",
+    "Ground control notified the flight crew via radio on ground frequency that the right (number 2) engine had fuel leaking from the engine cowling.": "지상 관제가 지상 주파수 무선으로 조종사들에게, 오른쪽 2번 엔진의 엔진 덮개에서 연료가 새고 있다고 알려 주었다.",
+    "Simultaneously, a flight crew heard the conversation on frequency and said they also could smell fuel in their aircraft supposedly coming from our plane.": "동시에 다른 항공기 승무원이 그 교신을 듣고, 자기 기체 안에서도 연료 냄새가 나는데 아마 우리 기체에서 오는 것 같다고 말했다.",
+    "In addition, a substantial delay was incurred because of a related mechanical issue.": "게다가 이와 관련된 기계적 문제 때문에 상당한 지연이 생겼다."
+  },
+  "cabin_fumes-2055989": {
+    "Shortly after takeoff from ZZZ pilots began to smell smoke or the exhaust from aircraft that departed immediately in front of us.": "ZZZ에서 이륙한 직후 조종사들은 연기나 바로 앞에 출발한 항공기의 배기가스 냄새를 맡기 시작했다.",
+    "At about 3,000 ft. the LAV SMOKE EICAS CAUTION illuminated.": "약 3,000피트에서 엔진·계기 경고 화면에 화장실 연기 주의 경고가 들어왔다.",
+    "They verified the LAV SMOKE indication and said that smoke was visible in the ceiling at the aft end of the cabin.": "그들은 화장실 연기 표시를 확인하고, 객실 뒤쪽 천장에 연기가 보인다고 말했다.",
+    "Pilots then noticed the high oil temperature, in red, on the left engine and ran the non-normal procedure.": "그다음 조종사들은 왼쪽 엔진의 오일 온도가 빨간색으로 높게 표시된 것을 알아채고 비정상 절차를 수행했다.",
+    "Pilots donned oxygen masks and smoke goggles as a precaution.": "조종사들은 예방 조치로 산소마스크와 연기 차단 고글을 착용했다.",
+    "FO suggested turning left PACK off to isolate the smoke, and Captain agreed.": "부기장이 연기를 차단하려고 왼쪽 공조 장치를 끄자고 제안했고 기장이 동의했다.",
+    "Reducing the thrust on the left engine to mid- position restored oil temperature to normal.": "왼쪽 엔진 추력을 중간 위치로 줄이자 오일 온도가 정상으로 돌아왔다.",
+    "Dispatch and Maintenance Control were consulted via SATCOM and agreed a return to ZZZ was appropriate.": "위성 통신으로 운항 관리실과 정비 통제실과 상의했고, ZZZ로 되돌아가는 것이 적절하다는 데 합의했다.",
+    "The threat of go-around with possible lack of thrust from the left engine was mitigated by briefing the special engine out procedure for Runway XXR.": "왼쪽 엔진 추력이 부족한 상태로 착륙을 포기해야 할 위험은 XXR 활주로의 엔진 부작동 특별 절차를 미리 맞춰 둬서 줄였다.",
+    "At the gate, maintenance personnel examined the left engine and discovered the fuel oil cooler had failed.": "탑승구에서 정비사들이 왼쪽 엔진을 점검해 연료 냉각기가 고장 난 것을 발견했다.",
+    "High oil temperature and an overweight landing were reported to ZZZ Maintenance.": "오일 고온과 중량 초과 착륙을 ZZZ 정비에 보고했다."
+  },
+  "cabin_fumes-2057354": {
+    "The Flight Attendant called us and told us there was smoke rising from the floor boards in the center cabin.": "객실 승무원이 전화해 객실 중앙 바닥판에서 연기가 올라오고 있다고 말했다.",
+    "I notified the Captain and was instructed to give the passengers a briefing about our abnormal situation and the need to return to the airport.": "나는 기장에게 알렸고, 비정상 상황과 공항으로 되돌아가야 한다는 점을 승객에게 설명하라는 지시를 받았다.",
+    "We contacted departure and requested to return to the field immediately.": "출발 관제에 연락해 즉시 공항으로 되돌아가겠다고 요청했다.",
+    "We did not [request priority handling], air traffic control did it for us.": "우리가 우선 처리를 요청한 것은 아니고, 관제가 우리를 위해 대신 해 주었다.",
+    "We elected to return to the Gate to deplane passengers normal.": "우리는 탑승구로 돌아가 평소대로 승객을 하기시키기로 했다."
+  },
+  "cabin_fumes-2058897": {
+    "Dirty sock and chemical odor was detected by the flight crew after turning on bleeds and packs.": "블리드와 공조 장치를 켠 뒤 조종사들이 땀에 젖은 양말 냄새와 화학 약품 냄새를 맡았다.",
+    "Seconds later, the inflight crew notified us of strong odor in the cabin, especially in the aft cabin.": "몇 초 뒤 객실 승무원들이 객실, 특히 뒤쪽 객실에서 냄새가 심하다고 알려 왔다.",
+    "The First Officer and I decided to return to a gate immediately to deplane the customers and crew.": "부기장과 나는 승객과 승무원을 하기시키려고 즉시 탑승구로 되돌아가기로 결정했다.",
+    "While we waited, we referenced and performed the Fumes/Smoke Removal checklist in the QRH.": "기다리는 동안 비상 절차 책자의 유해 가스·연기 제거 점검 목록을 찾아 수행했다.",
+    "I referenced the A320/321 odor guidance in the operations manual.": "나는 운항 교범의 A320·A321 냄새 대응 지침을 확인했다.",
+    "I asked Ground Control several times for a gate, but was denied.": "지상 관제에 탑승구를 여러 번 요청했지만 거절당했다.",
+    "Some of the crew were showing signs of discomfort (headache and dizziness)": "승무원 일부가 두통과 어지럼증 같은 불편 증상을 보이고 있었다."
+  },
+  "cabin_fumes-2059473": {
+    "During final descent, we started to smell a strong continuous toxic fume odor that did not dissipate.": "최종 하강 중에 사라지지 않는 독한 유해 가스 냄새가 계속 나기 시작했다.",
+    "Before, we could call flight deck, they already called to alert us and to ask if we were alright.": "우리가 조종실에 전화하기도 전에, 조종실에서 먼저 전화해 상황을 알리며 우리가 괜찮은지 물었다.",
+    "The DH (Dead Head) pilots let us know we needed to put masks on for protection from the scent and advised us it was really bad and unsafe.": "비행 임무 없이 탑승한 조종사들이, 그 냄새를 막기 위해 마스크를 써야 한다고 알려 주면서 상태가 정말 심각하고 안전하지 않다고 말했다.",
+    "we needed to put masks on for protection from the scent": "그 냄새를 막기 위해 마스크를 써야 했다.",
+    "After several test, they continued to smell it, and concluded that the toxic fumes were indeed unsafe and advised the flight deck not to operate and took it out of service": "여러 번 확인한 뒤에도 냄새가 계속 났고, 결국 유해 가스가 실제로 안전하지 않다는 결론을 내려 조종실에 운항하지 말라고 알리고 기체를 운항에서 빼냈다.",
+    "advised the flight deck not to operate and took it out of service": "조종실에 운항하지 말라고 알리고 기체를 운항에서 빼냈다.",
+    "took it out of service and ferried to ZZZ": "기체를 운항에서 빼내 승객 없이 ZZZ로 보냈다.",
+    "They recorded that I was not fit to fly.": "그들은 내가 비행에 적합하지 않은 상태라고 기록했다."
+  },
+  "cabin_fumes-2063521": {
+    "During push-back as the Captain initiated engine #2 severe jet fuel and burnt oil fumes entered the cabin and cockpit.": "기장이 2번 엔진을 시동하는 동안 견인 중이었는데, 항공유와 탄 오일 냄새가 심하게 객실과 조종실로 들어왔다.",
+    "FA4 (Flight Attendant 4) and FA1 were in front cabin. Notice strong fume odor.": "4번과 1번 객실 승무원이 앞쪽 객실에 있었다. 강한 가스 냄새를 알아챘다.",
+    "Saw passengers covering their mouths with clothing, blankets.": "승객들이 옷과 담요로 입을 막고 있는 것을 보았다.",
+    "Called Captain he stated he smelled it too and was very strong.": "기장에게 전화했고, 기장도 냄새를 맡았으며 아주 강하다고 말했다.",
+    "The Captain stated he shut off the 2nd engine": "기장은 2번 엔진을 정지시켰다고 말했다.",
+    "went back to a gate to deplane all passengers": "승객 전원을 하기시키려고 탑승구로 되돌아갔다.",
+    "The odor lingered and my eyes started burning and I became dizzy.": "냄새가 계속 남아 있었고 눈이 타는 듯이 아프기 시작했으며 어지러워졌다."
+  },
+  "cabin_fumes-2071173": {
+    "Moderate fume event on arrival into ZZZ1 passing through 8000 feet.": "ZZZ1에 도착하면서 8,000피트를 지날 때 중간 정도의 유해 가스 사건이 있었다.",
+    "Moderate fume event on arrival into ZZZ1 passing through 8000 feet. Both pilots on oxygen.": "ZZZ1에 도착하면서 8,000피트를 지날 때 중간 정도의 유해 가스 사건이 있었다. 조종사 둘 다 산소를 썼다.",
+    "Both pilots on oxygen.": "조종사 둘 다 산소를 썼다.",
+    "Flight attendants called cockpit and advised of vomit smell throughout the cabin.": "객실 승무원들이 조종실에 전화해 객실 전체에 토사물 냄새가 난다고 알려 왔다.",
+    "Pack one was selected off. Fumes dissolved shortly.": "1번 공조 장치를 껐다. 가스는 곧 사라졌다.",
+    "Logbook write up and required paperwork filled out.": "항공기 일지에 기록하고 필요한 서류를 작성했다."
+  },
+  "cabin_fumes-2075712": {
+    "there was a fire on one the customers seat due to a faulty vape charger in a backpack": "배낭 안에 있던 불량 전자담배 충전기 때문에 승객 좌석 하나에 불이 났다.",
+    "He immediately stated that there was a fire in the aft cabin and went directly there": "그는 곧바로 뒤쪽 객실에 화재가 났다고 말하고 바로 그쪽으로 갔다.",
+    "A passenger came from the back of the Aircraft (AC) stating they saw something spark in the back.": "승객 한 명이 기체 뒤쪽에서 와서 뒤에서 뭔가 불꽃이 튀는 것을 봤다고 말했다.",
+    "During boarding, Flight Attendant (FA) called up to the front to tell us that there was a fire in the aft of the aircraft": "탑승 중에 객실 승무원이 앞쪽으로 전화해 기체 뒤쪽에 화재가 났다고 알려 주었다.",
+    "FA had doused the smoke/fire.": "객실 승무원이 연기와 불을 끈 상태였다.",
+    "Immediately, I assumed equipment runner duties and proceeded to grab the containment bag, fire extinguisher, and locate Protective Breathing Equipment.": "나는 곧바로 장비 운반 역할을 맡아 화재 격납 가방과 소화기를 가져오고 보호 호흡 장비 위치를 확인했다.",
+    "The event was managed and we departed approximately XX hours and XX minutes later than scheduled.": "상황은 처리됐고 우리는 예정보다 XX시간 XX분 늦게 출발했다.",
+    "XX seats in the aircraft were also burned and maintenance replaced them.": "기내 좌석 XX개도 타서 정비가 교체했다."
+  },
+  "cabin_fumes-2076233": {
+    "FAs (Flight Attendants) notified him an IFE (In- flight Entertainment) screen smoking.": "객실 승무원들이 기내 오락 장치 화면에서 연기가 난다고 기장에게 알렸다.",
+    "the smoke clearly came from the IFE screen, was now powered off, and was no longer smoking": "연기는 분명히 기내 오락 장치 화면에서 나왔고, 지금은 전원이 꺼져 더 이상 연기가 나지 않았다.",
+    "CA (Captain) answered cabin call; FAs (Flight Attendants) notified him an IFE (In- flight Entertainment) screen smoking.": "기장이 객실 호출을 받았고, 객실 승무원들이 기내 오락 장치 화면에서 연기가 난다고 알렸다.",
+    "Multiple pax smelled smoke, FAs retrieved fire extinguisher.": "승객 여러 명이 연기 냄새를 맡았고 객실 승무원들이 소화기를 가져왔다.",
+    "FAs established a point of contact with the flight deck, designated a FA to handle the smoke issue, and provided us with updates as able": "객실 승무원들은 조종실과의 연락 담당을 정하고, 연기 문제를 처리할 승무원을 지정하고, 가능한 대로 우리에게 상황을 계속 알려 주었다.",
+    "CA selected IFE/PASS seats power switch off": "기장이 기내 오락 장치와 승객 좌석 전원 스위치를 껐다.",
+    "I called up and began accomplishing the smoke, fire, fumes Electronic checklist.": "나는 조종실에 알리고 연기·화재·유해 가스 전자 점검 목록을 수행하기 시작했다.",
+    "calling via SATCOM to dispatch and asking for a maintenance control patch": "위성 통신으로 운항 관리실에 전화해 정비 통제실과 연결해 달라고 요청했다.",
+    "As CA made decision to divert to ZZZ1 [airport] with dispatch I coordinated with ATC for diversion and flew the aircraft": "기장이 운항 관리실과 함께 ZZZ1 공항으로 회항하기로 결정하는 동안 나는 관제와 회항을 조정하고 기체를 조종했다.",
+    "he made sure I was aware of the changes so I could back him up to prevent pilot induced errors": "기장은 내가 변경 사항을 알고 있게 해서, 조종사가 일으키는 실수를 막도록 자기를 뒷받침할 수 있게 했다.",
+    "I did not feel that it was worth the time in pushing back on the CA’s call to NOT [request priority handling]": "우선 처리를 요청하지 않겠다는 기장의 판단에 반대 의견을 내면서 시간을 쓸 만한 가치는 없다고 느꼈다.",
+    "Completed smoke event paperwork with maintenance after parking.": "주기 후에 정비와 함께 연기 사건 서류를 작성했다."
+  },
+  "cabin_fumes-2078132": {
+    "Descending around 5,000 ft. to 3,000 we get an emergency call from flight attendants they have fumes in the cabin.": "5,000피트에서 3,000피트로 하강하던 중 객실 승무원들로부터 객실에 유해 가스가 있다는 비상 호출을 받았다.",
+    "we get an emergency call from flight attendants they have fumes in the cabin": "객실 승무원들로부터 객실에 유해 가스가 있다는 비상 호출을 받았다.",
+    "Additionally, we had two crew members sitting on the flight in the cabin agree upon the fumes.": "게다가 객실에 타고 있던 다른 승무원 두 명도 그 가스를 맡았다고 확인해 주었다.",
+    "I called for smoke fire fumes QRC as we donned the oxygen masks and did memory items.": "우리는 산소마스크를 착용하고 외워 둔 조치 항목을 수행하면서 연기·화재·유해 가스 즉시 조치 카드를 수행하라고 지시했다.",
+    "After reading the QRC we [requested priority handling] which Approach gave us priority in front of one other aircraft.": "즉시 조치 카드를 읽은 뒤 우선 처리를 요청했고, 접근 관제가 다른 항공기 한 대보다 우리를 먼저 처리해 주었다.",
+    "We accomplished both regular Landing Checklist, and Smoke, Fire, Fumes Landing Checklist.": "일반 착륙 점검 목록과 연기·화재·유해 가스 착륙 점검 목록을 모두 수행했다."
+  },
+  "cabin_fumes-2081062": {
+    "Upon boarding the aircraft at approximately XA30 hours I noticed a foul unusual odor.": "오전 XA시 30분쯤 기체에 올라탔을 때 평소와 다른 역한 냄새를 알아챘다.",
+    "I began to do my pre-flight safety checks when I started to feel a burning sensation in my throat and a lightheaded/foggy sensation.": "비행 전 안전 점검을 시작했는데 목이 타는 듯한 느낌과 어지럽고 머리가 멍한 느낌이 들기 시작했다.",
+    "During the crew briefing, many of the flight attendants commented about the bad smell and the adverse physical reactions they were feeling.": "승무원 상황 설명 중에 객실 승무원 여러 명이 냄새가 심하다는 것과 자기들이 느끼는 신체 이상 반응을 이야기했다.",
+    "Captain had a briefing and at that time said the odor was very strong in the cockpit and they had called for Maintenance.": "기장이 상황 설명을 했고, 그때 조종실에도 냄새가 아주 강하다며 정비를 불렀다고 말했다.",
+    "At this point one Maintenance person said no need because they were signing off on the aircraft.": "이 시점에 정비사 한 명은 자기들이 기체를 정상으로 서명 처리할 것이니 그럴 필요가 없다고 말했다.",
+    "They turned up the heat to max to try to burn off the fumes, which made it all worse": "그들은 가스를 태워 없애려고 난방을 최대로 올렸는데, 그러자 상황이 더 나빠졌다.",
+    "The Captain ended up refusing the plane due to the smell/fumes and the physical reactions being caused by them.": "기장은 결국 냄새와 유해 가스, 그리고 그것이 일으키는 신체 반응을 이유로 그 기체를 거부했다.",
+    "I mentioned it to the Captain who then decided that this was a safety issue and called the Chief Pilot.": "나는 기장에게 그 이야기를 했고, 기장은 이것이 안전 문제라고 판단해 수석 기장에게 전화했다.",
+    "The Captain then decided to cancel the flight for safety reasons.": "그다음 기장은 안전상의 이유로 비행을 취소하기로 결정했다.",
+    "The crew all began experiencing various symptoms from headaches to dizziness.": "승무원 전원이 두통에서 어지럼증까지 여러 증상을 겪기 시작했다."
+  },
+  "cabin_fumes-2081885": {
+    "The Captain turned on the APU and immediately chemical odors permeated the aircraft.": "기장이 보조동력장치를 켰고 곧바로 화학 약품 냄새가 기체 안에 퍼졌다.",
+    "I immediately walked to the back of the aircraft to assess the situation.": "나는 상황을 확인하려고 곧바로 기체 뒤쪽으로 걸어갔다.",
+    "Passengers seated in XX row noticed the odor and stopped me to inquire about it.": "XX열에 앉은 승객들이 그 냄새를 알아채고 나를 붙잡아 물어봤다.",
+    "I called the Captain and informed him of the odor": "나는 기장에게 전화해 냄새를 알렸다.",
+    "he said he noticed it too, and was in the process of starting an evacuation of passengers": "기장도 냄새를 알아챘으며 승객 하기를 시작하는 중이라고 말했다.",
+    "marked that maintenance could not find the source so they marked it as a NFF (No Fault Found) and put it back in service": "정비가 원인을 찾지 못해 결함 없음으로 처리하고 다시 운항에 투입했다고 기록돼 있었다.",
+    "All 5 crew members went to the ER for treatment": "승무원 다섯 명 전원이 치료를 받으러 응급실에 갔다.",
+    "Our event was treated differently as they changed the filters, which are not designed to remove chemical toxins from the air.": "우리 사건은 다르게 처리됐다. 공기 중 화학 독성 물질을 걸러내도록 만들어진 것이 아닌 필터만 교체했기 때문이다.",
+    "the aircraft had a full APU change and was returned to service on DATE4": "그 기체는 보조동력장치를 전부 교체하고 DATE4에 운항에 복귀했다."
+  },
+  "cabin_fumes-2082029": {
+    "Upon boarding, the aircraft, a strong fume was noticeable.": "기체에 올라타자 강한 가스 냄새가 눈에 띄었다.",
+    "The Flight Attendants had come up to asked what the smell was": "객실 승무원들이 앞으로 와서 이 냄새가 무엇인지 물었다.",
+    "I called the Chief Pilot, and noted that the previous crew had refused the aircraft due to the fumes.": "나는 수석 기장에게 전화하면서, 앞 승무조가 이 가스 때문에 기체를 거부했다는 점을 알렸다.",
+    "as a crew we talked about it, and decided that we could not operate the aircraft": "우리는 승무조로서 함께 논의한 뒤 이 기체를 운항할 수 없다고 결정했다.",
+    "The Chief Pilot recommended running the APU with the bleed on for about 10 minutes to see if the smell would go away but it only got worse.": "수석 기장은 보조동력장치를 블리드를 켠 상태로 10분쯤 돌려 냄새가 사라지는지 보라고 권했지만, 오히려 더 심해졌다.",
+    "A conference call was set up with Chief Pilot, Maintenance Control and Dispatch for aircraft refusal.": "기체 거부를 위해 수석 기장, 정비 통제실, 운항 관리실이 참여하는 전화 회의가 열렸다."
+  },
+  "cabin_fumes-2089095": {
+    "A burning plastic odor was detected on the flight deck by the FO and myself as we were crossing ZZZZZ at FL 240 on the ZZZZZ arrival into ZZZ.": "ZZZ로 들어가는 ZZZZZ 도착 경로에서 고도 24,000피트로 ZZZZZ 지점을 지날 때, 부기장과 나는 조종실에서 플라스틱 타는 냄새를 알아챘다.",
+    "A burning plastic odor was detected on the flight deck by the FO and myself": "부기장과 나는 조종실에서 플라스틱 타는 냄새를 알아챘다.",
+    "The cabin crew immediately called to notify us that customers and themselves were detecting the same burning plastic odor near row XX.": "객실 승무원들이 곧바로 전화해, 승객들과 자기들도 XX열 근처에서 같은 플라스틱 타는 냄새를 맡고 있다고 알려 왔다.",
+    "I [requested priority handling] with ZZZ center and diverted to ZZZ1.": "나는 ZZZ 관제센터에 우선 처리를 요청하고 ZZZ1으로 회항했다.",
+    "The cabin crew was briefed, and provided them an ETE of 10 minutes before landing.": "객실 승무원에게 상황을 설명하고 착륙까지 남은 예상 시간이 10분이라고 알려 주었다.",
+    "The FO and I briefed that he was still the PF; to coordinate with ATC as I would be focused on the cabin": "부기장과 나는 부기장이 계속 조종을 맡고 관제와의 교신도 맡기로 맞췄다. 나는 객실에 집중해야 했기 때문이다.",
+    "The burnt plastic odor discrepancy was documented into the aircraft": "플라스틱 타는 냄새 결함을 기체 기록에 남겼다."
+  },
+  "cabin_fumes-2090308": {
+    "Shortly after takeoff, prior to finishing the after takeoff Emergency Checklist, we received a left bleed fail EICAS.": "이륙 직후, 이륙 후 비상 점검 목록을 마치기 전에 엔진·계기 경고 화면에 왼쪽 블리드 고장 경고가 떴다.",
+    "we received a left bleed fail EICAS": "엔진·계기 경고 화면에 왼쪽 블리드 고장 경고가 떴다.",
+    "we began running the bleed fail Emergency Checklist": "우리는 블리드 고장 비상 점검 목록을 수행하기 시작했다.",
+    "Within 20 seconds we then noticed an exhaust or burned oil smell.": "20초 안에 배기가스나 탄 오일 같은 냄새를 알아챘다.",
+    "We quickly decided we needed to go back to ZZZ.": "우리는 ZZZ로 되돌아가야 한다고 빠르게 결정했다.",
+    "ATC advised us they [requested priority] for us due to traffic priority.": "관제는 교통 우선순위 때문에 우리를 위해 우선 처리를 요청했다고 알려 주었다.",
+    "Cabin crew advised us they were experiencing the same vibrations and odor in the cabin.": "객실 승무원들은 객실에서도 같은 진동과 냄새를 겪고 있다고 알려 왔다."
+  },
+  "cabin_fumes-2093887": {
+    "During cruise about 1 hour prior to landing cabin Crew informed us of a mild-moderate \"burning plastic\" smell in the aft galley.": "순항 중 착륙 약 한 시간 전에 객실 승무원들이 뒤쪽 갤리에서 약하거나 중간 정도의 플라스틱 타는 냄새가 난다고 알려 왔다.",
+    "cabin Crew informed us of a mild-moderate \"burning plastic\" smell in the aft galley": "객실 승무원들이 뒤쪽 갤리에서 약하거나 중간 정도의 플라스틱 타는 냄새가 난다고 알려 왔다.",
+    "They shut off all lights and coffee pots as a precaution, but smell remained.": "그들은 예방 조치로 조명과 커피 포트를 모두 껐지만 냄새는 남아 있었다.",
+    "We performed the cabin odor checklist, but odor remained.": "우리는 객실 냄새 점검 목록을 수행했지만 냄새는 남아 있었다.",
+    "Both logbook and appropriate [incident] form completed.": "항공기 일지와 해당 사건 보고 서식을 모두 작성했다."
+  },
+  "cabin_fumes-2094216": {
+    "Said passenger in [seat] XX, computer was smoking.": "XX 좌석 승객의 노트북에서 연기가 난다고 말했다.",
+    "FA working the aisle on aircraft right waved at me to signal for help.": "기체 오른쪽 통로에서 일하던 객실 승무원이 도움이 필요하다는 신호로 나에게 손을 흔들었다.",
+    "I informed the cockpit, of the situation and said that I would call back with more information.": "나는 조종실에 상황을 알리고, 더 자세한 내용을 확인해 다시 연락하겠다고 말했다.",
+    "All 3 of us worked together to follow Company [priority handling] procedures for computer smoke, being ready in case of potential fire ignition": "우리 세 사람은 함께 회사의 노트북 연기 우선 처리 절차를 따르면서, 불이 붙을 수 있는 상황에 대비했다.",
+    "The computer was placed in the thermal containment bag and store as per manual instructions.": "노트북은 교범 지시대로 열 격납 가방에 넣어 보관했다.",
+    "Immediately FA working the galley called FA B to ask them to have the thermal containment bag ready.": "갤리에서 일하던 객실 승무원이 곧바로 B 승무원에게 전화해 열 격납 가방을 준비해 두라고 요청했다."
+  },
+  "cabin_fumes-2094307": {
+    "At 4,000 feet flight attendants called the cockpit to report smoke in the cabin, eye and throat irritation, smells like electrical and or fuel.": "4,000피트에서 객실 승무원들이 조종실에 전화해 객실에 연기가 있고 눈과 목이 자극되며 전기나 연료 같은 냄새가 난다고 알려 왔다.",
+    "flight attendants called the cockpit to report smoke in the cabin": "객실 승무원들이 조종실에 전화해 객실에 연기가 있다고 알려 왔다.",
+    "Both pilots went on oxygen immediately, and proceeded to land at ZZZZ airport.": "조종사 둘 다 곧바로 산소를 쓰고 ZZZZ 공항에 착륙하기로 했다.",
+    "AARF (Airport Rescue and Firefighting) was notified before landing to meet the aircraft upon landing, which they did and examine the outside of the airplane for any smoke or hotspots none were found": "착륙 전에 공항 구조소방대에 연락해 착륙하는 기체를 맞아 달라고 요청했고, 소방대는 그렇게 했으며 기체 외부에서 연기나 발열 지점이 있는지 점검했지만 아무것도 찾지 못했다.",
+    "the plane was grounded and taken out of service for repairs at ZZZZ airport": "기체는 운항이 정지됐고 수리를 위해 ZZZZ 공항에서 운항에서 빠졌다."
+  },
+  "mechanic-2000321": {
+    "Aircraft X was in ZZZ and had a fault on the Integrated drive generator and an ELEC GEN OFF EICAS Advisory message.": "항공기 X는 ZZZ에 있었고 통합 구동 발전기에 결함이 있었으며 엔진·계기 경고 화면에 전기 발전기 꺼짐 안내 메시지가 떠 있었다.",
+    "an ELEC GEN OFF EICAS Advisory message": "엔진·계기 경고 화면에 전기 발전기 꺼짐 안내 메시지가 떠 있었다.",
+    "The techs applied MEL 24-XX-X.": "정비사들이 정비 유보 목록 24-XX-X 항목을 적용했다.",
+    "There is concern with the T/S.": "고장 탐구 절차에 우려되는 점이 있다."
+  },
+  "mechanic-2005229": {
+    "Maintenance tech found water pouring out of the CAC door area": "정비사가 객실 공기 압축기 문 쪽에서 물이 쏟아져 나오는 것을 발견했다.",
+    "upon post and pre-flight inspection Maintenance tech found water pouring out of the CAC door area": "비행 후와 비행 전 점검을 하던 중에 정비사가 객실 공기 압축기 문 쪽에서 물이 쏟아져 나오는 것을 발견했다.",
+    "the Maintenance tech contacted Maintenance control and advised them of the finding": "정비사가 정비 통제실에 연락해 발견한 내용을 알렸다.",
+    "They were informed to deferred maintenance instruction and deactivate the water system and keep the plane moving to next stop": "정비 통제실은 정비 유보 지시를 적용해 물 공급 계통을 차단하고 기체를 다음 기착지까지 계속 운항시키라고 통보했다.",
+    "We were told to not work anything since everything was planned for another station": "모든 것이 다른 공항에서 처리하도록 계획됐으니 아무 작업도 하지 말라는 지시를 받았다.",
+    "they just wrote off the leak as not found": "그들은 그 누수를 그냥 발견되지 않은 것으로 처리해 버렸다.",
+    "he threatened myself saying he would never put his team on the spot again": "그는 다시는 자기 팀을 이런 곤란한 처지에 두지 않겠다며 나를 위협했다."
+  },
+  "mechanic-2008352": {
+    "We found that there was a #2 thrust reverser fault.": "우리는 2번 역추력 장치에 결함이 있는 것을 발견했다.",
+    "I was given a gate call tonight on a MAX 8 for a maintenance light.": "오늘 밤 737 MAX 8 기체의 정비 경고등 때문에 탑승구 호출을 받았다.",
+    "We had the gate personnel hassling us on how long it will take along with the flight attendant who was very impatient with us.": "탑승구 직원들이 얼마나 걸리는지 계속 재촉했고, 객실 승무원도 우리에게 몹시 참을성 없이 굴었다.",
+    "I contribute this to a lack of training on the aircraft.": "나는 이것이 이 기종에 대한 교육 부족 때문이라고 본다.",
+    "I got on the phone with maintenance control to verify all the procedures were done properly": "나는 정비 통제실과 통화해 모든 절차가 제대로 수행됐는지 확인했다.",
+    "we never locked out the outboard TR with the lockout bolt": "우리는 바깥쪽 역추력 장치를 잠금 볼트로 잠그는 일을 전혀 하지 않았다.",
+    "I recall that we did not pin the outboard T/R sleeve.": "바깥쪽 역추력 장치 슬리브에 안전핀을 꽂지 않았던 것이 기억난다.",
+    "We immediately went to supervision to notify them of the situation.": "우리는 곧바로 관리자에게 가서 상황을 알렸다."
+  },
+  "mechanic-2008358": {
+    "I noticed what appeared to be broken snap wire on the guarded switch to the agent discharge for the cargo compartment fire extinguisher": "화물실 소화기의 소화제 분사용 덮개 달린 스위치에서 봉인 철선이 끊어진 것처럼 보이는 것을 알아챘다.",
+    "I should have pulled the circuit breaker before checking the guard switch to prevent to fire extinguisher bottle from discharging.": "소화 용기가 분사되지 않게 하려면 덮개 스위치를 확인하기 전에 회로 차단기를 먼저 내렸어야 했다."
+  },
+  "mechanic-2010947": {
+    "It was found that the part number received was not effective for our serial number of aircraft.": "받은 부품 번호가 우리 기체의 제작 번호에는 적용 대상이 아닌 것으로 확인됐다.",
+    "Prior to installing the steps on the aircraft the technician verified part number in the manufactures Illustrated Parts Catalog (IPC).": "계단을 기체에 장착하기 전에 정비사가 제작사의 도해 부품 목록에서 부품 번호를 확인했다.",
+    "Maintenance control told the technician that we are allowed to use all the part numbers of stairs in the IPC no matter the effectivity. They could not provide any documentation showing this from the manufacturer.": "정비 통제실은 적용 대상과 상관없이 도해 부품 목록에 있는 모든 계단 부품 번호를 쓸 수 있다고 정비사에게 말했다. 그런데 제작사가 그렇게 밝힌 문서는 하나도 제시하지 못했다.",
+    "Maintenance control continued to try and pressure the technician into making a bad decision and install the stairs on the aircraft without documentation": "정비 통제실은 계속해서 정비사를 압박해, 문서 없이 그 계단을 기체에 장착하는 잘못된 결정을 내리게 만들려고 했다.",
+    "A maintenance lead and I challenged that answer and asked for something in writing that states we can install them on the aircraft.": "정비 반장과 나는 그 답변에 이의를 제기하고, 이것을 기체에 장착해도 된다는 내용을 문서로 달라고 요청했다.",
+    "Maintenance and Quality Control both were assertive with Maintenance Controller, and did not install the stairs that were to be removed and installed on the original aircraft.": "정비와 품질 관리 양쪽 모두 정비 통제사에게 단호하게 맞서, 떼어 내 원래 기체에 장착하기로 돼 있던 그 계단을 장착하지 않았다.",
+    "Quality Control and Maintenance at ZZZ started email chains with Company explaining the issue.": "ZZZ의 품질 관리와 정비가 본사에 이 문제를 설명하는 전자우편을 주고받기 시작했다.",
+    "the result was an inspector in ZZZ contacted Company and sorted out the effectivity and the correct assembly that appears in the IPC was shipped and installed": "그 결과 ZZZ의 검사관이 본사에 연락해 적용 대상 문제를 정리했고, 도해 부품 목록에 실제로 나오는 올바른 조립체가 배송돼 장착됐다.",
+    "the correct assembly that appears in the IPC was shipped and installed": "도해 부품 목록에 실제로 나오는 올바른 조립체가 배송돼 장착됐다."
+  },
+  "mechanic-2017070": {
+    "EA (Engineering Authorization) doesn’t require sufficient fuel nozzle leak check to prevent possible in-service engine fires.": "기술 승인 문서가 운항 중 엔진 화재를 막는 데 충분한 연료 노즐 누출 점검을 요구하지 않고 있다.",
+    "our technicians discovered an oil leak, but no fuel leak": "우리 정비사들은 오일 누출은 발견했지만 연료 누출은 발견하지 못했다.",
+    "After a 70% part power engine run using bag method at drain lines, a significant fuel leak developed in the hot section.": "배출관에 비닐봉지를 씌우는 방법으로 70퍼센트 부분 출력 엔진 시운전을 한 뒤, 고온부에서 상당한 연료 누출이 생겼다."
+  },
+  "mechanic-2017583": {
+    "On Day 0 I was made aware of a Dangerous Goods Discrepancy for XX-XXXX-X-XXX.": "0일째에 품목 XX-XXXX-X-XXX의 위험물 불일치를 알게 됐다.",
+    "When completing a cycle count I was unaware that XX-XXXX-X-XXX was located inside the box with XX-XXXX-X-XXY.": "재고 실사를 하면서, 품목 XX-XXXX-X-XXX가 품목 XX-XXXX-X-XXY와 같은 상자 안에 들어 있다는 것을 몰랐다."
+  },
+  "mechanic-2020865": {
+    "The 14-piece trek bicycle with 2 dg batteries was accepted by employee Person A.": "위험물 배터리 두 개가 포함된 14개 부품 자전거를 직원 A가 접수했다.",
+    "When a NOTOC is refused it then shows in the system as NO DG. indicating that NO DGs are on the flight.": "기장 통보서가 반려되면 시스템에는 위험물 없음으로 표시되며, 그 편에 위험물이 없다는 뜻이 된다.",
+    "so I proceeded to plan the flight for on time departure": "그래서 나는 정시 출발을 위해 그대로 비행 계획을 진행했다.",
+    "When manifesting the trip for Aircraft Y I pushed NOTOC the system read NO DG so I proceeded to plan the flight for on time departure.": "항공기 Y의 운항 적재 목록을 작성할 때 기장 통보서 버튼을 눌렀더니 시스템이 위험물 없음으로 표시했고, 그래서 정시 출발을 위해 그대로 비행 계획을 진행했다.",
+    "I asked why was this never covered in training for this position": "나는 이 직무 교육에서 왜 이 내용을 한 번도 다루지 않았는지 물었다.",
+    "The manager showed me that there are 2 little window Icon the click on that opens new windows to show DGs.": "관리자는 눌러서 새 창을 띄우면 위험물을 보여 주는 작은 창 아이콘 두 개가 있다는 것을 보여 주었다."
+  },
+  "mechanic-2021140": {
+    "All three mechanics were unfamiliar with job but were aware of the danger of fuel spilling.": "정비사 세 명 모두 이 작업이 익숙하지 않았지만 연료가 쏟아질 위험은 알고 있었다.",
+    "asked older mechanics about defueling but after looking into the AMM (Aircraft Maintenance Manual)": "선배 정비사들에게 연료를 빼는 작업에 대해 물어본 뒤 정비 교범을 확인했다.",
+    "There was nothing that had details about transferring fuel beforehand, so continued.": "교범에는 미리 연료를 옮기는 것에 대한 내용이 전혀 없었기 때문에 그대로 진행했다.",
+    "Then, we tried to reinstall pump but could not because retaining pin and spring assembly failed.": "그다음 펌프를 다시 장착하려 했지만, 고정핀과 스프링 조립체가 제 기능을 하지 못해 장착할 수 없었다.",
+    "Once the pump was removed fuel came out after following step in accordance with AMM. Fuel was out on ramp.": "정비 교범의 절차를 따랐는데도 펌프를 떼어 내자 연료가 흘러나왔다. 연료가 주기장에 쏟아졌다.",
+    "To add to this all three mechanics were reading the manual independently and wasn’t following one single person reading off the manual.": "게다가 정비사 세 명이 각자 따로 교범을 읽고 있었고, 한 사람이 교범을 읽어 주는 방식을 따르지 않았다.",
+    "At the same time we notified the supervisors.": "동시에 우리는 관리자들에게 알렸다.",
+    "I went to grab fuel leak kit to clean the fuel.": "나는 쏟아진 연료를 치우려고 연료 누출 처리 장비를 가져왔다.",
+    "I ask did we have to defuel but the AMM didn’t call for a defuel.": "나는 연료를 미리 빼야 하는지 물었지만 정비 교범은 연료를 빼라고 요구하지 않았다."
+  },
+  "mechanic-2022066": {
+    "Associated parts lists and illustrations show a straight backshell but should reflect a 90-degree backshell on all IPCs and illustrations.": "관련 부품 목록과 도해에는 일자형 커넥터 후면 덮개로 나와 있는데, 모든 도해 부품 목록과 도해에 90도형 후면 덮개로 반영돼 있어야 한다.",
+    "Engineering request to revise the associated work order has been made and corrections have been agreed to and process to revise has been initiated.": "해당 작업 지시서를 개정해 달라는 기술 부서 요청이 접수됐고, 수정 내용에 합의가 이뤄져 개정 절차가 시작됐다."
+  },
+  "mechanic-2023427": {
+    "I was notified on Day 1 that Aircraft X had flown multiple flight legs with two Circuit Breakers (C/Bs) not closed.": "1일째에 항공기 X가 회로 차단기 두 개가 닫히지 않은 상태로 여러 구간을 비행했다는 것을 통보받았다.",
+    "failed to follow all steps per the Aircraft Maintenance Manual (AMM)": "정비 교범의 모든 절차를 따르지 않았다.",
+    "Aircraft X had flown multiple flight legs with two Circuit Breakers (C/Bs) not closed": "항공기 X가 회로 차단기 두 개가 닫히지 않은 상태로 여러 구간을 비행했다."
+  },
+  "mechanic-2023499": {
+    "I have been informed the condition inspections needed to be signed off by an A&P mechanic, which they were not.": "상태 검사는 기체·동력장치 정비 면장 소지 정비사가 서명해야 한다고 통보받았는데, 그렇게 되어 있지 않았다.",
+    "I believed I could perform the required military phase inspections myself due to it being experimental.": "실험 분류 항공기라서 필요한 군용 단계 검사를 내가 직접 할 수 있다고 믿었다.",
+    "While I was flying the aircraft it experienced a loss of power and was damaged during landing.": "내가 그 기체를 조종하던 중 출력을 잃었고 착륙하면서 기체가 손상됐다.",
+    "it is possible the loss of power was maintenance related": "출력 상실이 정비와 관련된 것일 가능성이 있다."
+  },
+  "mechanic-2024499": {
+    "noticed a box of PSU (Passenger Service Unit) panels with O2 generators": "산소 발생기가 달린 승객 서비스 패널이 담긴 상자를 발견했다.",
+    "I asked the storekeeper if they need inspection tags.": "나는 창고 담당자에게 이 부품에 검사 표찰이 필요하지 않은지 물었다.",
+    "Currently the stock balance shows a generic 180 months instead of": "현재 재고 정보에는 실제 값이 아니라 일괄 180개월로 표시되어 있다.",
+    "I told the person to hold the parts and notify Lead to find out if it needs a tag.": "나는 그 사람에게 부품을 보류하고, 표찰이 필요한지 확인하도록 반장에게 알리라고 말했다.",
+    "If I did not happen to walk by those parts and asked questions, would have gone to bin without a tag with no shelf life.": "내가 우연히 그 부품 옆을 지나가며 묻지 않았다면, 보관 수명 표시도 표찰도 없이 선반으로 들어갔을 것이다.",
+    "company is looking at getting rid of inspection from all receiving parts and give that work to storekeepers": "회사는 입고되는 모든 부품에서 검사 단계를 없애고 그 일을 창고 담당자에게 넘기는 것을 검토하고 있다."
+  },
+  "mechanic-2024817": {
+    "I was doing a 100-hour inspection and found that the uplock roller was not moving freely on lefthand landing gear": "100시간 점검을 하면서 왼쪽 착륙장치의 상방 잠금 롤러가 자유롭게 움직이지 않는 것을 발견했다.",
+    "decided to change the uplock brackets and roller pin in accordance with the CMM (Component Maintenance Manual)": "부품 정비 교범에 따라 상방 잠금 브래킷과 롤러 핀을 교체하기로 했다.",
+    "Uplock brackets were mistakenly installed upside down.": "상방 잠금 브래킷을 실수로 거꾸로 장착했다.",
+    "I had thought that I had correctly installed the uplock brackets but I mistakenly installed them upside down.": "나는 상방 잠금 브래킷을 제대로 장착했다고 생각했지만 실수로 거꾸로 장착했다.",
+    "Do a gear swing of the aircraft to make sure that the job was done correctly.": "작업이 제대로 됐는지 확인하기 위해 기체의 착륙장치 작동 시험을 해 볼 것."
+  },
+  "mechanic-2026576": {
+    "when I saw surface that I did not intend to be removed coming off I immediately stopped": "떼어 낼 생각이 없었던 표면이 벗겨져 나오는 것을 보고 곧바로 작업을 멈췄다.",
+    "If I had gone to the manual and read, that I am to use the minimal amount of material to take the sealant off I would have been aware of the fact that even scotch bright is unsafe to use.": "교범을 찾아 읽었더라면, 밀폐제를 제거할 때 최소한의 자재만 써야 한다는 내용을 봤을 것이고, 스카치 브라이트 연마 패드조차 쓰면 안 된다는 사실을 알았을 것이다.",
+    "After taking the grinding pad to the metal and it immediately took the primer off of the metal I stopped.": "연마 패드를 금속에 댔더니 금속의 하도 도료가 바로 벗겨져서 작업을 멈췄다.",
+    "as soon as I knew something was messed up I went to the inspector and asked what it was supposed to look like on the surface to verify that the problem had occurred": "뭔가 잘못됐다는 것을 알자마자 검사관에게 가서, 문제가 생긴 것이 맞는지 확인하려고 그 표면이 원래 어떤 모습이어야 하는지 물었다.",
+    "better documentation on work cards than just a few simple lines to say to do something": "작업 카드에 무엇을 하라는 간단한 몇 줄만 적는 대신 더 자세한 문서가 필요하다."
+  },
+  "mechanic-2027475": {
+    "there was a situation where a stores clerk processed an item (squib) XX-XXXX CARTRIDGE, on their end of receiving": "창고 담당자가 입고 처리 과정에서 점화 장약 품목인 XX-XXXX 카트리지를 처리한 상황이 있었다.",
+    "The stores clerk was certain that the cartridge being hazmat 1.4 explosive that inspection was needing to process it further for tagging processes and procedures.": "창고 담당자는 그 카트리지가 위험물 1.4 등급 폭발물이므로 표찰 처리 절차를 위해 검사 단계에서 추가 처리를 해야 한다고 확신하고 있었다.",
+    "The stores clerk waited to see if the inspector was going to catch the item or process it thru.": "창고 담당자는 검사관이 그 품목을 잡아낼지 아니면 그대로 통과시킬지 지켜보며 기다렸다.",
+    "the inspector Person 2 proceeded to finalize the item without tagging it with required washer stamp and wire or shelf life item date expiration": "검사관 2는 필요한 봉인용 와셔 각인과 철선, 보관 수명 만료일 표시를 하지 않은 채 그 품목 처리를 마무리했다.",
+    "With the confusion on software program as a similar item YY-YYYY CARTRIDGE, CARGO EXT BOTTLE is an INSP": "비슷한 품목인 YY-YYYY 카트리지, 화물실 소화 용기가 검사 품목으로 돼 있어 소프트웨어 상에서 혼동이 있었다.",
+    "This is when the stores clerk asked another inspector, Person 3, about it if it should have been tagged or not.": "이때 창고 담당자가 다른 검사관 3에게 이 품목에 표찰을 붙여야 하는 것이 아닌지 물었다.",
+    "supervision had not briefed the inspectors on the potential of the mishap to watch out for during their receiving duties on any of the three shifts": "관리자는 세 교대조 중 어느 조에도, 입고 업무 중에 주의해야 할 이런 사고 가능성을 검사관들에게 알려 주지 않았다.",
+    "It was pulled from the receiving area and taken to supervisor": "그 품목은 입고 구역에서 빼내 관리자에게 전달됐다."
+  },
+  "mechanic-2028067": {
+    "Mechanics found both escape ropes unattached to air-frame, and thus would not have been able to be used for their functions in the event of an emergency.": "정비사들은 탈출용 로프 두 개가 모두 기체 구조에 연결되어 있지 않은 것을 발견했고, 따라서 비상 상황에서 제 기능을 할 수 없었을 것이다.",
+    "Flight crew wrote up both flight deck escape rope compartments opened on their own, both ropes fell out of compartments.": "조종사들은 조종실 탈출용 로프 보관함 두 개가 저절로 열려 로프 두 개가 모두 보관함에서 떨어져 나왔다고 정비 기록을 올렸다.",
+    "Also found both ropes without cotter pins installed, thus allowing anchors to release anchor plate.": "또한 로프 두 개 모두 분할핀이 장착되어 있지 않아, 고정 장치가 고정판에서 풀릴 수 있는 상태였다.",
+    "Review task or task cards or work areas involving dual maintenance on flight deck escape ropes.": "조종실 탈출용 로프에 두 사람이 함께 작업하는 경우에 관한 작업 항목과 작업 카드, 작업 구역을 재검토할 것."
+  },
+  "mechanic-2028082": {
+    "combined with the slop of the hangar floor could be contributing factors": "격납고 바닥 기울기와 겹쳐 원인이 됐을 수 있다.",
+    "at some point the nose of the aircraft started to roll off the spot 3 center line": "어느 시점부터 기체 앞부분이 3번 주기 위치 중심선에서 벗어나 굴러가기 시작했다.",
+    "Moving approximately 14 ft. before coming to rest against scissor lift and being re-chocked.": "약 14피트를 움직인 뒤 가위형 고소 작업대에 부딪혀 멈췄고 다시 고임목을 받쳤다.",
+    "Potential that the nose wheel chock were not properly positioned / orientated / worn.": "앞바퀴 고임목이 제대로 놓이지 않았거나 방향이 잘못됐거나 닳아 있었을 가능성이 있다.",
+    "In Step XX.X, of W/C XX-XX-XX define chocking the landing gear as": "작업 카드 XX-XX-XX의 XX.X 단계에서 착륙장치에 고임목을 받치는 방법을 다음과 같이 규정하고 있다.",
+    "before coming to rest against scissor lift and being re-chocked": "가위형 고소 작업대에 부딪혀 멈춘 뒤 다시 고임목을 받쳤다."
+  },
+  "mechanic-2028354": {
+    "a Company maintenance pick up come from my right, goes into the safety area, goes behind my partner (real close)": "회사 정비용 픽업 트럭이 내 오른쪽에서 와서 안전 구역으로 들어오더니 내 동료 바로 뒤를 아주 가깝게 지나갔다."
+  },
+  "mechanic-2030003": {
+    "both the L4 and R4 door assist actuator B nuts were found disconnected when the sidewall panels just forward of the L4 and R4 door cut outs were removed on the aircraft": "기체에서 L4와 R4 문 개구부 바로 앞쪽 측벽 패널을 떼어 냈을 때, L4와 R4 문 보조 작동기의 B 너트가 둘 다 연결되어 있지 않은 것이 발견됐다.",
+    "This aircraft was inducted to ZZZ1 for scheduled check several months later.": "이 기체는 몇 달 뒤 정기 점검을 위해 ZZZ1으로 입고됐다.",
+    "During this check I signed off the install inspection of the body torque tube for one of the doors found with the discrepancies.": "이 점검 중에 나는 결함이 발견된 그 문들 가운데 하나의 동체 토크 튜브 장착 검사에 서명했다.",
+    "They were both found with the red streamers still attached.": "두 곳 모두 빨간 표시 리본이 그대로 달린 상태로 발견됐다.",
+    "Multiple maintenance operations occurring at the same time or overlooked maintenance steps is the assumption.": "여러 정비 작업이 동시에 진행됐거나 정비 절차가 빠뜨려진 것으로 추정된다."
+  },
+  "mechanic-2030501": {
+    "There is a bracket on the aircraft that is either missing, or damaged that caused the blow out panel to leave the aircraft": "기체에 브래킷 하나가 없거나 손상된 상태였고, 그 때문에 압력 배출 패널이 기체에서 떨어져 나갔다.",
+    "I was alone performing this task for both wings.": "나는 양쪽 날개 모두에 대해 이 작업을 혼자 수행했다.",
+    "I opened each panel, performed lube task, then closed access. Ref A300 AMM XX-XX-XX.": "각 패널을 열고 윤활 작업을 한 뒤 점검구를 닫았다. A300 정비 교범 XX-XX-XX를 참조했다.",
+    "Upon landing and walk-around inspection performed by pilot [they informed us] that two inboard leading edge panels were missing.": "착륙 후 조종사가 외부 점검을 하면서 안쪽 앞전 패널 두 개가 없어졌다고 우리에게 알려 주었다.",
+    "Field service was sent up to ZZZ and verified all hardware was installed on the aircraft from where the panel left.": "현장 지원반이 ZZZ로 올라가, 패널이 떨어져 나간 자리의 모든 체결 부품이 기체에 장착되어 있었음을 확인했다.",
+    "other aircraft I believe have been reported to have that damaged, or missing as well": "다른 기체들에서도 그 부분이 손상되거나 없어졌다는 보고가 있었던 것으로 알고 있다."
+  },
+  "mechanic-2032484": {
+    "I turned and walked back to see the radome of Aircraft X resting on the leading edge of Aircraft Z left wing.": "뒤돌아 걸어가 보니 항공기 X의 기수 레이더 덮개가 항공기 Z의 왼쪽 날개 앞전에 얹혀 있었다.",
+    "Lead Technician and crew held a huddle prior to moving Aircraft Y out of the hangar and they reviewed the move of Aircraft Y out of the hangar, the move of Aircraft X into the hangar, followed by the move of Aircraft Y back into the south hanger.": "정비 반장과 작업조는 항공기 Y를 격납고에서 빼내기 전에 모여, 항공기 Y를 빼내고 항공기 X를 격납고에 넣은 뒤 항공기 Y를 다시 남쪽 격납고로 들이는 순서를 함께 확인했다.",
+    "As Aircraft X got close to the parking spot, I moved to the front of Aircraft Z to observe the distance between the #1 engine nose cowl on Aircraft X and the radome on Aircraft Z.": "항공기 X가 주기 위치에 가까워지자, 나는 항공기 Z 앞으로 이동해 항공기 X의 1번 엔진 앞쪽 덮개와 항공기 Z의 기수 레이더 덮개 사이 간격을 살폈다.",
+    "a popping sound then occurred": "그때 퍽 하는 소리가 났다.",
+    "While parking Aircraft X in the hanger, as guide man I did not pay enough attention to clearance on nose of Aircraft X and leading edge of Aircraft Z causing impact damage of radome and leading edge slat.": "항공기 X를 격납고에 넣는 동안 유도원이었던 나는 항공기 X의 기수와 항공기 Z의 날개 앞전 사이 간격에 충분히 주의하지 않았고, 그래서 기수 레이더 덮개와 앞전 슬랫에 충격 손상이 생겼다."
+  },
+  "mechanic-2032488": {
+    "Aircraft had an air interrupt. Lost green hydraulic system.": "기체에 운항 중단이 있었다. 녹색 유압 계통을 잃었다.",
+    "Had to deploy the gear manually and EO was not accomplished at this time.": "착륙장치를 수동으로 내려야 했고, 이 시점까지 해당 기술 지시서는 이행되지 않은 상태였다.",
+    "Had to deploy the gear manually": "착륙장치를 수동으로 내려야 했다.",
+    "Waiting until a potential catastrophic failure is reckless.": "치명적 고장이 날 때까지 기다리는 것은 무책임한 일이다.",
+    "The replaced part is the one that needs to be upgraded in the EO to avoid a hydraulic fluid loss.": "교체된 그 부품이 바로 유압유 상실을 막기 위해 기술 지시서에서 개선 대상으로 올려야 하는 부품이다."
+  },
+  "mechanic-2033522": {
+    "The cause of this was the #4 MLG wheel Assembly valve stem not being torqued from back shop and was so loose that it came off when removing the valve core removal tool.": "원인은 4번 주 착륙장치 휠 조립체의 밸브 스템이 후방 정비 공장에서 규정 토크로 조여지지 않은 것이었고, 너무 느슨해서 밸브 코어 분리 공구를 빼낼 때 함께 빠져 버렸다.",
+    "#4 Main landing gear (MLG) Wheel Assembly was low tire pressure to the point where both #4 and #3 MLG tires had to be changed right before departure time.": "4번 주 착륙장치 휠 조립체의 타이어 공기압이 낮아, 출발 시각 직전에 4번과 3번 주 착륙장치 타이어를 둘 다 교체해야 했다.",
+    "the #4 MLG wheel Assembly valve stem not being torqued from back shop": "4번 주 착륙장치 휠 조립체의 밸브 스템이 후방 정비 공장에서 규정 토크로 조여지지 않았다.",
+    "The valve stem assembly on the 737 MAX fleet MLG wheels do not have any safety device like safety wire. This is a dangerous design flaw.": "737 MAX 기종 주 착륙장치 휠의 밸브 스템 조립체에는 안전 철선 같은 안전 장치가 전혀 없다. 이것은 위험한 설계 결함이다.",
+    "both #4 and #3 MLG tires had to be changed right before departure time": "출발 시각 직전에 4번과 3번 주 착륙장치 타이어를 둘 다 교체해야 했다."
+  },
+  "mechanic-2033529": {
+    "During aircraft move from spot XX to hangar, left winglet of Aircraft X made contact with right winglet of Aircraft Y in front of hangar.": "기체를 XX 주기 위치에서 격납고로 옮기던 중, 격납고 앞에서 항공기 X의 왼쪽 윙렛이 항공기 Y의 오른쪽 윙렛에 닿았다.",
+    "I was performing the aircraft marshalling and it appeared that there was enough clearance from each aircraft winglet as I was guiding Aircraft X forward.": "나는 지상 유도를 하고 있었고, 항공기 X를 앞으로 유도하는 동안 두 기체 윙렛 사이에 간격이 충분해 보였다.",
+    "I could not see my wing tip, and we were still being directed to come forward which I complied with.": "나는 내 날개 끝을 볼 수 없었고, 계속 앞으로 오라는 유도를 받아 그대로 따랐다.",
+    "I noticed a jolt just prior to reaching the end.": "끝 지점에 거의 다다랐을 때 덜컹하는 충격을 느꼈다.",
+    "I stopped immediately and shut down.": "나는 즉시 정지하고 기체를 정지시켰다.",
+    "I then radioed my Supervisor and advised him that there may have been aircraft contact between the two aircrafts and that we would assess.": "그다음 무선으로 관리자에게 두 기체가 서로 닿았을 가능성이 있다고 알리고 확인해 보겠다고 말했다."
+  },
+  "mechanic-2036377": {
+    "There was an item that was deferred (XXXXXZ) that had to be fixed and required reactivating engine for sheet metal to gain access.": "정비 유보 처리된 항목(XXXXXZ)이 있었는데, 이를 고쳐야 했고 판금 작업자가 접근할 수 있도록 엔진을 다시 활성화해야 했다.",
+    "After reactivating #1 eng and deploying. realized that engine was working.": "1번 엔진을 다시 활성화하고 전개한 뒤, 엔진이 정상 작동한다는 것을 확인했다.",
+    "I closed the MEL due to the original PIREP and did not notice the updates on the log.": "나는 원래 올라온 조종사 보고를 근거로 정비 유보 항목을 종결 처리했고, 일지에 갱신된 내용을 알아채지 못했다.",
+    "It was brought to my attention the next day that the log should never have been closed because it was tied to the High Pressure Shut-Off Valve being on MEL.": "다음 날 나는 그 일지를 종결해서는 안 됐다는 지적을 받았다. 고압 차단 밸브가 정비 유보 상태인 것과 묶여 있었기 때문이다."
+  },
+  "mechanic-2038548": {
+    "We got the information that the red fluid was found mixed with the Y oil.": "빨간 액체가 Y 오일에 섞여 있는 것이 발견됐다는 정보를 받았다.",
+    "We used the correct browser and serviced it properly IAW the manual": "우리는 맞는 주입 장비를 써서 교범에 따라 제대로 보충했다.",
+    "we all double checked the work to make sure it was serviced properly": "우리 모두 제대로 보충됐는지 확인하기 위해 작업을 두 번 점검했다.",
+    "We were unable to see it during the first drop before to service both IDG because we work at night the vision is not so perfect.": "통합 구동 발전기 두 개를 보충하기 전 첫 번째 배출 점검 때는 그것을 볼 수 없었다. 우리가 밤에 일하기 때문에 시야가 그렇게 좋지 않다.",
+    "During flight the flight crew got a message saying the IDG temperature was too high.": "비행 중에 조종사들이 통합 구동 발전기 온도가 너무 높다는 메시지를 받았다.",
+    "After landing the mechanics began troubleshooting the problem and saw a reddish color fluid": "착륙 후 정비사들이 문제를 찾기 시작했고 붉은빛 액체를 발견했다.",
+    "As of right now there is a sample of the fluid in the IDG that was sent out to be inspected for any contaminates.": "현재 통합 구동 발전기 안의 그 액체 시료를 오염 물질 검사를 위해 외부로 보낸 상태다."
+  },
+  "mechanic-2039328": {
+    "Aircraft X, Person 2 and I were tasked to Remove and replace the inboard right hand wing fuel pump.": "항공기 X에서 작업자 2와 나는 오른쪽 날개 안쪽 연료 펌프를 떼어 내고 교체하는 작업을 맡았다.",
+    "Following the Aircraft Maintenance manual reference, we were up to the step to removing the pump.": "정비 교범을 따라가면서 펌프를 떼어 내는 단계까지 왔다.",
+    "I believe that the reason this event occurred because the slide valve retaining pin malfunctioned allowing the slide valve to come out of the wing.": "이 일이 벌어진 이유는 슬라이드 밸브 고정핀이 제 기능을 하지 못해 슬라이드 밸브가 날개에서 빠져 나왔기 때문이라고 생각한다.",
+    "fuel started pouring right out of the wing": "연료가 날개에서 그대로 쏟아지기 시작했다.",
+    "Solution: Before removing the fuel pump, to transfer the fuel out of the wing and to inspect the slide valve retaining pin for damage and functionality.": "해결책: 연료 펌프를 떼어 내기 전에 날개에서 연료를 빼내고, 슬라이드 밸브 고정핀의 손상 여부와 작동 상태를 점검할 것.",
+    "we called our Leads and supervisor right away and the fire department was notified immediately": "우리는 곧바로 반장과 관리자를 불렀고 소방대에도 즉시 알렸다."
+  },
+  "mechanic-2040479": {
+    "the original write up was that the pilots reported losing all HYD pressure in the green system after takeoff causing him to manually drop the landing gear": "원래 올라온 정비 기록은, 조종사들이 이륙 후 녹색 계통의 유압 압력을 전부 잃어 착륙장치를 수동으로 내려야 했다고 보고한 것이었다.",
+    "The Lead was in an hurry to get the job done before night shift came on.": "반장은 야간 교대조가 들어오기 전에 작업을 끝내려고 서두르고 있었다.",
+    "I think the lead was in a rush and did not provide us with enough information for the job.": "반장이 서두른 탓에 우리에게 작업에 필요한 정보를 충분히 주지 않았다고 생각한다.",
+    "We needed to be more safe when it came to locking out the gear doors": "착륙장치 문을 잠금 처리하는 일에 관해 우리는 더 안전하게 했어야 했다.",
+    "The crew working the job should be the ones touching and carrying out the tests and work.": "그 작업을 맡은 작업조가 직접 손을 대고 시험과 작업을 수행하는 쪽이어야 한다.",
+    "Person 4 next to me, screamed to get out of the way": "내 옆에 있던 작업자 4가 비키라고 소리쳤다.",
+    "thankfully he was able to get out in time and only resulted in minor bruises and scrapes": "다행히 그는 제때 빠져나올 수 있었고 가벼운 멍과 긁힌 상처만 입었다.",
+    "causing damage to the door and to the ceiling of the MLG": "문과 주 착륙장치 수납부 천장에 손상을 입혔다."
+  },
+  "mechanic-2040780": {
+    "The missing insulation blanket in the aft pit was causing temperatures above 112 degrees in lavatory area.": "뒤쪽 하부 공간에 단열재가 없어서 화장실 구역 온도가 화씨 112도를 넘고 있었다.",
+    "The temperature at the duct in the aft cargo area where there was no insulation was reading 260F, possible fire hazard in an enclosed area.": "단열재가 없던 뒤쪽 화물실의 배관 온도가 화씨 260도로 측정됐다. 밀폐된 공간에서 화재 위험이 될 수 있다."
+  },
+  "mechanic-2047663": {
+    "Bolt appears to be un-installed with anti-seize present and no safety wire installed in head of 12-point engine bolt.": "그 볼트는 고착 방지제가 묻은 채로 장착되지 않은 상태로 보이며, 12각 엔진 볼트 머리에 안전 철선이 장착되어 있지 않았다.",
+    "Engine bolt located after jamb of #1 engine twist grip and subsequent trouble shooting with magnet in inaccessible area adjacent to engine idle cutoff inner bellcrank.": "그 엔진 볼트는 1번 엔진 회전 손잡이가 걸린 뒤, 엔진 공전 차단 내부 벨크랭크 옆의 접근하기 어려운 구역에서 자석으로 고장 탐구를 하던 중에 발견됐다.",
+    "Last engine maintenance in area Day 1 per documented maintenance records.": "기록된 정비 문서에 따르면 그 구역의 마지막 엔진 정비는 1일째였다.",
+    "Use of borescope, visually thru open panels, or magnet after disassembly/reassembly of engine components with performed.": "엔진 부품을 분해하고 재조립한 뒤 내시경 사용, 열린 패널을 통한 육안 확인, 자석 사용 점검을 수행했다.",
+    "Installation if engine verified. No other FOD found.": "엔진 장착 상태를 확인했다. 다른 이물질은 발견되지 않았다."
+  },
+  "mechanic-2050585": {
+    "When servicing bottle found the batteries in the bottle corroded, possible causing a spark in the bottle.": "용기를 보충하면서 용기 안의 배터리가 부식된 것을 발견했고, 용기 안에서 불꽃이 생길 수 있는 상태였다.",
+    "Oxygen bottle was low, needed to be serviced.": "산소 용기 압력이 낮아 보충이 필요했다.",
+    "This B787 only gets checked when it needs servicing.": "이 B787은 보충이 필요할 때만 점검을 받는다.",
+    "They were both found because the test that gives you a green light was not coming on.": "두 가지 모두 녹색 표시등이 들어와야 하는 시험에서 불이 들어오지 않아 발견됐다."
+  },
+  "mechanic-2050589": {
+    "During routine ETOPS check found door/panel on #1 engine inboard thrust reverser upper hinge beam aft small door missing.": "정기 장거리 회항 운항 점검 중에 1번 엔진 안쪽 역추력 장치 상부 힌지 빔 뒤쪽 작은 문 또는 패널이 없어진 것을 발견했다.",
+    "Letter says no more walkarounds due to staffing levels at ZZZ": "공문에는 ZZZ의 인력 수준 때문에 더 이상 외부 순회 점검을 하지 않는다고 적혀 있다.",
+    "this is not safe because ramp agents do not know what they are looking at, they are not trained, they are not qualified": "이것은 안전하지 않다. 지상 조업 직원들은 자기가 무엇을 보고 있는지 알지 못하고, 교육을 받지 않았고, 자격도 없다."
+  },
+  "mechanic-2050590": {
+    "witnessed small red spot on lefthand side of radome lower section": "기수 레이더 덮개 하부 왼쪽에 작은 붉은 반점이 있는 것을 보았다.",
+    "During walkaround inspection of the fuselage, witnessed small red spot on lefthand side of radome lower section.": "동체 외부 순회 점검 중에 기수 레이더 덮개 하부 왼쪽에 작은 붉은 반점이 있는 것을 보았다.",
+    "I had slowed down and taken the time to read further into the MM (Maintenance Manual), it drove me to look at another MM.": "속도를 늦추고 시간을 들여 정비 교범을 더 깊이 읽었더니, 다른 정비 교범까지 찾아보게 됐다.",
+    "Meanwhile not seeing, the bird excrement and small amount of blood at the 5 o'clock position of the #1 engine intake, which required a bird strike inspection.": "그러는 사이 1번 엔진 흡입구 5시 방향에 있던 새 배설물과 소량의 피를 보지 못했고, 그것은 조류 충돌 점검이 필요한 상황이었다."
+  },
+  "mechanic-2051190": {
+    "Maintenance hooked up 2 each Hydraulic flex lines in reverse.": "정비가 유압 연성 배관 두 개를 서로 반대로 연결했다.",
+    "After the replacement valve was installed, the installation was inspected.": "교체 밸브를 장착한 뒤 장착 상태를 검사했다.",
+    "The pilot never performed the operational check of the valve prior to test flight or prior to the XA00- departure next day.": "조종사는 시험 비행 전에도, 다음 날 XA시 출발 전에도 그 밸브의 작동 점검을 전혀 하지 않았다.",
+    "The checklist was not followed for either flight which calls for": "두 비행 모두 다음을 요구하는 점검 목록을 따르지 않았다.",
+    "Since the lines were crossed this built up 3,000 psi to the brakes and caused all 4 to be locked up prior to touchdown.": "배관이 서로 엇갈려 연결돼 있었기 때문에 제동 장치에 3,000psi 압력이 걸렸고, 접지 전에 네 바퀴 모두 잠겨 버렸다."
+  },
+  "mechanic-2053161": {
+    "aluminum drain plug which gets torqued at block 2 step XX is often found cracked due to previous over torquing and/or previous use of improper tool": "2단계 XX 절차에서 규정 토크로 조이는 알루미늄 배출 플러그는, 전에 과도한 토크로 조였거나 맞지 않는 공구를 썼기 때문에 금이 간 상태로 발견되는 일이 많다.",
+    "visual inspection of crack under naked eye or magnifying glass": "맨눈이나 확대경으로 균열을 육안 점검하는 것.",
+    "Suggest adding to block 2 step XX": "2단계 XX 절차에 이 내용을 추가할 것을 제안한다."
+  },
+  "mechanic-2053162": {
+    "Opened aircraft engine oil cans were found on oxygen service cart near oxygen bottle service valves during morning shift equipment inspection.": "아침 교대조 장비 점검 중에, 뚜껑이 열린 항공기 엔진 오일 캔이 산소 보충 카트의 산소 용기 보충 밸브 근처에 놓여 있는 것이 발견됐다.",
+    "during morning shift equipment inspection": "아침 교대조 장비 점검 중에 발견됐다."
+  },
+  "mechanic-2053650": {
+    "During a LOSA (Line Operations Safety Assessment) observation, mechanic found a #4 brake rotor drive clip cracked.": "현장 안전 관찰 중에 정비사가 4번 제동 장치 회전판 구동 클립에 금이 간 것을 발견했다.",
+    "While awaiting parts I inspected the brake and found a total of seven of the rotor drive clips cracked.": "부품을 기다리는 동안 내가 그 제동 장치를 점검했고, 회전판 구동 클립 일곱 개에 금이 간 것을 발견했다.",
+    "Got with several other technicians including the grave shift new hire trainer and was told they are seeing this problem on MAX aircraft quite common": "심야 교대조 신입 교육 담당자를 포함한 다른 정비사 여러 명과 이야기해 보니, MAX 기종에서 이 문제가 꽤 흔하게 보인다는 답을 들었다."
+  },
+  "mechanic-2054307": {
+    "The diagonal lines in Bay Y are not applicable for the Aircraft X type. They are also unlabeled.": "Y 구역의 대각선 표시는 항공기 X 기종에는 적용되지 않는다. 그리고 아무 표시도 붙어 있지 않다.",
+    "While towing Aircraft X into Bay X there was a near miss with Aircraft Y which was located in bay Y.": "항공기 X를 X 구역으로 견인하던 중, Y 구역에 있던 항공기 Y와 아차 사고가 있었다."
+  },
+  "mechanic-2058239": {
+    "During the replacement of an engine harness on Aircraft X, on engine #2, a connector was mistakenly removed.": "항공기 X의 2번 엔진에서 엔진 배선 다발을 교체하는 동안 커넥터 하나가 실수로 분리됐다.",
+    "Due to the significant amount of AMT’s present at the time of the job and trying to get the plane out on time, it may have been inadvertently missed during the installation process.": "작업 당시 정비사가 많이 몰려 있었고 기체를 정시에 내보내려 했기 때문에, 장착 과정에서 무심코 빠뜨렸을 수 있다.",
+    "it may have been inadvertently missed during the installation process": "장착 과정에서 무심코 빠뜨렸을 수 있다."
+  },
+  "mechanic-2058245": {
+    "Fuel tank entry mechanics found heavy corrosion on the attaching hardware and impact fuel panels 640cb and 640bb.": "연료 탱크 진입 정비사들이 체결 부품과 해당 연료 패널 640cb, 640bb에서 심한 부식을 발견했다."
+  },
+  "mechanic-2058249": {
+    "The maintenance section of the MEL is vague.": "정비 유보 목록의 정비 항목 설명이 모호하다.",
+    "I found that the MEL can be interpreted as meaning to check each and every segment in the loop or the loop in total.": "그 정비 유보 목록은 감지 루프의 각 구간을 하나하나 점검하라는 뜻으로도, 루프 전체를 한 번에 점검하라는 뜻으로도 읽을 수 있다는 것을 알았다.",
+    "If to check it in total, it does not say where or provide a maintenance reference for the AMM (Aircraft Maintenance Manual) to use to prove this test.": "전체를 한 번에 점검하는 것이라면, 어디서 해야 하는지도 적혀 있지 않고 이 시험을 입증할 정비 교범 참조 번호도 주지 않는다.",
+    "In speaking with Maintenance Control they said you just test the loop anywhere.": "정비 통제실과 통화했더니 루프의 아무 곳에서나 시험하면 된다고 말했다.",
+    "this task is near impossible in the turn environment it was provided to me in": "내게 주어진 짧은 지상 체류 시간 안에서 이 작업은 사실상 불가능하다."
+  },
+  "mechanic-2059860": {
+    "I asked him 2x if there is anything hazmat on the tools and he said NO.": "나는 그에게 그 공구에 위험물이 있는지 두 번 물었고, 그는 없다고 답했다.",
+    "It was close to the departure time of the Aircraft X so I asked my fellow storekeeper to help me shipped the tools.": "항공기 X 출발 시각이 가까워져서 동료 창고 담당자에게 공구 발송을 도와 달라고 부탁했다.",
+    "Later in the night I tried to update the Tool location that I realized that it": "그날 밤 늦게 공구 위치를 갱신하려다가 그것을 깨달았다.",
+    "I advised the Mechanic that one of the tool is Hazmat": "나는 그 정비사에게 공구 하나가 위험물이라고 알렸다."
+  },
+  "mechanic-2059864": {
+    "I received a pick in Company Software B for hazardous material.": "회사 소프트웨어 B에서 위험물 출고 지시를 받았다.",
+    "Suggestions: Company can return back to a 2 person sign off on all hazardous material shipments.": "제안: 회사가 모든 위험물 발송에 대해 2인 서명 방식으로 되돌아갈 수 있다."
+  },
+  "mechanic-2060780": {
+    "I got an important/hazmat right before I was ready to close the flight": "운항 서류를 마감하려던 바로 직전에 긴급 위험물 건을 받았다.",
+    "receiving the hazmat at the last minute caused a lapse in judgement and a sort of panic to get it to the right cargo bin": "마지막 순간에 위험물을 받은 것이 판단 착오와 일종의 당황으로 이어져, 맞는 화물칸에 넣으려 서두르게 됐다.",
+    "not knowing that I could refuse the shipment I accepted it": "그 발송을 거부할 수 있다는 것을 몰라서 그대로 접수했다.",
+    "At departure time I was notified that the restricted article": "출발 시각에 그 제한 품목에 대해 통보를 받았다.",
+    "call loads, open the flight back up": "적재 담당에 전화해 운항 서류를 다시 열었다.",
+    "The extra work caused the delay": "추가 작업 때문에 지연이 생겼다."
+  },
+  "mechanic-2061581": {
+    "he noticed the tail rotor gearbox oil cap was not installed": "그는 꼬리 회전날개 기어박스 오일 캡이 장착되어 있지 않은 것을 알아챘다.",
+    "the pilot was performing his preflight inspection after receiving the aircraft from scheduled maintenance when he noticed the tail rotor gearbox oil cap was not installed": "조종사는 정기 정비를 마친 기체를 인수한 뒤 비행 전 점검을 하던 중에 꼬리 회전날개 기어박스 오일 캡이 장착되어 있지 않은 것을 알아챘다.",
+    "I was the individual who installed the cap, and another AMT verified its installation by performing a Safety and Security Check (SSC).": "그 캡을 장착한 사람이 나였고, 다른 정비사가 안전·보안 점검을 수행해 장착 상태를 확인했다.",
+    "During 300 HR upon completion of servicing and inspection of the tail rotor gearbox area I was tasked with conducting a safety and security check (SSC) of the area prior to the cowling being installed.": "300시간 점검에서 꼬리 회전날개 기어박스 구역의 보충과 점검을 마친 뒤, 덮개를 장착하기 전에 그 구역의 안전·보안 점검을 수행하는 일을 내가 맡았다."
+  },
+  "mechanic-2061955": {
+    "Fire extinguisher bottles are being shipped, issued, and handled without protective shunt caps on the squibs.": "소화 용기가 점화 장약에 단락 보호 캡을 씌우지 않은 상태로 발송되고 출고되고 취급되고 있다.",
+    "When we receive the bottles, the squibs are installed on them and have only a non-ESD plastic cap over the squib connectors.": "우리가 그 용기를 받을 때 점화 장약은 이미 장착되어 있고, 장약 커넥터 위에 정전기 방지 기능이 없는 플라스틱 캡만 씌워져 있다.",
+    "The cardboard boxes are only labeled as nonflammable gas, not as explosive.": "그 종이 상자에는 폭발물이 아니라 불연성 가스로만 표시되어 있다.",
+    "I brought this up in the past when there was only 1 cap in house.": "사내에 캡이 하나밖에 없던 시절에도 내가 이 문제를 제기한 적이 있다."
+  },
+  "mechanic-2061958": {
+    "Aircraft arrived in ZZZ just after XA00 with a pilot report of lightning strike.": "기체가 XA시 직후 낙뢰 피격 조종사 보고와 함께 ZZZ에 도착했다.",
+    "The maintenance crew consulted with Maintenance Control and it was determined that the aircraft could continue in service": "정비 작업조가 정비 통제실과 상의했고, 그 기체를 계속 운항시킬 수 있다는 결정이 내려졌다.",
+    "I believe this is incorrect due to the fact that there was extensive damage to the nose area of the aircraft.": "기체 기수 부분에 광범위한 손상이 있었다는 사실을 보면 이 결정은 잘못됐다고 생각한다.",
+    "there were many aircraft out of service at the time, and that the aircraft was needed to cover the trip": "그때 운항에서 빠져 있던 기체가 많았고, 그 비행을 메우려면 이 기체가 필요했다."
+  },
+  "mechanic-2062965": {
+    "The report generated from the aircraft stated the warning message (F/CTL FLAPS LOCKED, SFCS).": "기체에서 생성된 보고서에는 비행 조종 플랩 잠김, 2차 비행 조종 계통 경고 메시지가 적혀 있었다.",
+    "We failed to receive any kind of turnover due to the fact that morning shift was the last to touch the aircraft": "아침 교대조가 그 기체를 마지막으로 만진 조였기 때문에 우리는 어떤 인수인계도 받지 못했다.",
+    "By the end of the shift, we discovered more underlying damage of the flap system which included track 3 and track 4 (the outboard flap)": "교대가 끝날 무렵 우리는 플랩 계통에 더 많은 숨은 손상이 있다는 것을 발견했고, 거기에는 3번 레일과 바깥쪽 플랩인 4번 레일이 포함됐다.",
+    "we performed a visual inspection of the area and found numerous discrepancies that were noted on non routine paperwork": "우리는 그 구역을 육안 점검해 여러 결함을 발견했고 비정기 작업 서류에 기록했다.",
+    "Us AMTs created a copious amount of non-routine items for tracks 3 and 4": "우리 정비사들은 3번과 4번 레일에 대해 비정기 작업 항목을 아주 많이 만들어 냈다.",
+    "we felt as if there was an unjust pressure and judgement against us by scrupulously following the approved maintenance manual references": "승인된 정비 교범을 꼼꼼하게 따랐다는 이유로 우리에게 부당한 압박과 평가가 가해졌다고 느꼈다.",
+    "We were told by a crew chief to hold off on writing up a potentially worn attaching link of the track 2 inboard flap": "우리는 작업조장으로부터 2번 레일 안쪽 플랩의 연결 링크가 닳았을 가능성에 대해서는 기록을 보류하라는 말을 들었다.",
+    "we proceeded to check documentation, and did not find anything regarding inspection of the LH track 1 and 2 system": "우리는 문서를 확인해 봤지만 왼쪽 1번과 2번 레일 계통의 점검에 관한 내용은 아무것도 찾지 못했다."
+  },
+  "mechanic-2069879": {
+    "Aircraft X had an open discrepancy for the RH wing INBD fuel pump fuel leak.": "항공기 X에는 오른쪽 날개 안쪽 연료 펌프 누출이라는 미해결 결함이 올라와 있었다.",
+    "The Aircraft Maintenance Manual (AMM) does not call for a defuel but I decided it was best as a precaution.": "정비 교범은 연료 배출을 요구하지 않지만, 나는 예방 조치로 그렇게 하는 것이 최선이라고 판단했다.",
+    "the mechanic began the removal procedure of the fuel pump in accordance with the AMM. All precautions and steps were followed.": "정비사가 정비 교범에 따라 연료 펌프 제거 절차를 시작했다. 모든 주의 사항과 절차를 따랐다.",
+    "The Aircraft Maintenance Manual does not suggest defueling the tank before removal of the pump.": "정비 교범은 펌프를 떼어 내기 전에 탱크의 연료를 빼라고 권하지 않는다.",
+    "The Aircraft Maintenance Manual also does not caution in the removal procedures that on A321 aircraft the center fuel tank will gravity feed into the wing tanks if the center tank has less fuel.": "또한 정비 교범은 제거 절차에서, A321 기종의 경우 중앙 연료 탱크의 연료가 적으면 중앙 탱크에서 날개 탱크로 중력에 의해 연료가 흘러 들어간다는 주의 문구를 전혀 넣지 않았다.",
+    "He then contacted me by phone.": "그다음 그가 나에게 전화로 연락했다.",
+    "Many mechanics, crew chiefs, and supervisors immediately got spill kits and attempted to contain the fuel.": "많은 정비사와 작업조장, 관리자들이 곧바로 유출 처리 장비를 가져와 연료를 막으려고 했다.",
+    "Mechanics were able to then separate the slide valve from the fuel pump on the ground and slide it into place on the wing to stop the leak.": "그다음 정비사들은 지상에서 슬라이드 밸브를 연료 펌프에서 분리해 날개의 제자리에 밀어 넣어 누출을 막을 수 있었다.",
+    "We then cleaned the spill.": "그다음 우리는 유출된 연료를 치웠다."
   }
 }
