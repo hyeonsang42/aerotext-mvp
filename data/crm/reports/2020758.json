@@ -1,0 +1,190 @@
+{
+  "report_id": "crm-2020758",
+  "acn": "2020758",
+  "set": "crm",
+  "synopsis": "Air carrier First Officer reported they descended 500 feet below glideslope and had a track heading deviation during approach. Reportedly, the FO did not enter the missed approach altitude at the right time and there was confusion over who had control of the aircraft during the event.",
+  "narrative": "ATC instructed us to turn left heading 260 and descend down to 2,000 feet until established on the localizer for ILS XXL at ZZZ. First Officer (FO) selected 260 on the heading selector followed by NAV mode. FO then selected the altitude of 2,000 ft. followed by VS. Localizer for ILS XXL was captured. FO asked Captain (CA) if we were cleared for the approach. Captain replied yes. FO selected APP and armed the approach. FO selected the missed approach altitude of 3,000 ft. prior to capturing the glideslope as aircraft was descending towards 2,000 ft. Aircraft started to descend below 2,000 ft. and CA said we did not capture the glideslope. FO selected ALT. CA took the controls. Autopilot was overridden by Captain's input on the yolk. FO mentioned that we were off course of the approach and descending even lower. Captain asked to rearm the approach. Aircraft continued descending and was off course. Undesired aircraft state was potentially 500 ft. below flightpath at one point. Captain then said, \"my controls.\" There was confusion over who had the controls when Captain took the controls prior to stating, \"my controls.\" CA asked for autopilot to be reengaged again. Aircraft's flight path was eventually stabilized on the approach prior to 1,000 ft. CA asked if FO wanted the controls to land the aircraft. FO agreed and took the controls and landed the aircraft safely. Captain and First Officer debriefed at the completion of the flight and discussed what mistakes were made on both ends. FO realized selecting the missed approach altitude prior to FAF during the descent to the previously cleared altitude was incorrect. FO selected the missed approach altitude prior to FAF during the descent to the previously cleared altitude. Confusion was also created when captain took controls of the aircraft overriding the autopilot, without stating \"my controls\". Waiting to set the missed approach altitude at the correct time, after descending to at least 300 ft. below FAF altitude. FO could use CRM and delegate to CA to set missed approach altitude when needed if task saturated. Both PF/PM should delineate who has controls of the aircraft if confusion exists. A missed approach should be initiated if aircraft is not stabilized on the approach or aircraft was found in an undesired aircraft state rather than continuing with the approach",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "FO selected the missed approach altitude prior to FAF during the descent to the previously cleared altitude.",
+        "start": 1637,
+        "end": 1745
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Aircraft started to descend below 2,000 ft. and CA said we did not capture the glideslope.",
+        "start": 555,
+        "end": 645
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "FO mentioned that we were off course of the approach and descending even lower.",
+        "start": 742,
+        "end": 821
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "There was confusion over who had the controls when Captain took the controls prior to stating, \"my controls.\"",
+        "start": 1023,
+        "end": 1132
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "Aircraft's flight path was eventually stabilized on the approach prior to 1,000 ft.",
+        "start": 1179,
+        "end": 1262
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "FO agreed and took the controls and landed the aircraft safely.",
+        "start": 1320,
+        "end": 1383
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "기준표 위협 목록에 맞는 값이 없어 threat 를 넣지 않았다. 승무원 교차 확인이 작동과 뚫림 양쪽에 나온다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Became Reoriented",
+        "Overrode Automation",
+        "Regained Aircraft Control",
+        "Returned To Clearance"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Became Reoriented",
+      "Overrode Automation",
+      "Regained Aircraft Control",
+      "Returned To Clearance"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "Regional Jet 900 (CRJ900)"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

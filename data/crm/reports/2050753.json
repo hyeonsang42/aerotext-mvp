@@ -1,0 +1,231 @@
+{
+  "report_id": "crm-2050753",
+  "acn": "2050753",
+  "set": "crm",
+  "synopsis": "Air taxi Captain reported fixes on the approach were not loaded and they descended below published altitudes resulting in a Low Altitude Alert from ATC.",
+  "narrative": "The part 135 flight was originally scheduled into ZZZ, but due to weather reports below minima, the plan was shifted to fly to ZZZ1 airport instead. About 20 minutes away from ZZZ, we checked the weather again and the ceiling had improved to 2500 feet bkn, 500 feet. above minima for the LOC approach into ZZZ. We requested and received a change of destination to ZZZ and loaded and briefed the LOC approach into ZZZ. We successfully completed the LOC approach and at the MDA, were still in IMC so executed the published missed approach. We decided to try again because we had the airport in sight shortly after executing the missed approach, and it appeared that a lone cloud had been obscuring the airport at the MAP. The PM, a relatively new FO (First Officer) to our company, set up the approach in the FMS and coordinated communication with ATC, while I flew the missed approach, reconfigured the airplane and re-engaged the autopilot. At this point I should have verified the fixes were properly loaded into the FMS, but I was focused on monitoring the airplane's altitude, speed and heading. We received vectors to re-intercept the localizer and maintained the assigned altitude until the intercepting the localizer. At that point, the autopilot momentarily intercepted the localizer, but then began to roll out of the intercept turn. I disengaged the autopilot immediately and hand flew the approach to re- interecept the localizer while the PM coordinated communication with ATC and ran the approach and before landing checklists. I began descending to the next fix altitude in the FMS, without realizing that 2 of the fixes still ahead of me were not appearing in the FMS. At around 12,400 feet. as I was descending to 11,700 feet. the FAF altitude, we received a low altitude alert from ATC to climb immediately, and that our next fix altitude would be 12,300 feet. I climbed immediately to 12,900 feet. until we passed ZZZZZ, and then continued the approach as published. I realized that somehow during the loading of the approach or subsequently, two of the approach fixes (ZZZZZ and ZZZZZ1) were missing. We continued the approach as published and were able to see the airport before the MDA to make a safe, normal landing. I feel that the biggest contributor to deviating from the altitude on the IAP was my failure to verify that the approach was loaded into and appearing correctly on the FMS on the second IAP attempt. When the AP (Autopilot) captured then failed to hold the localizer, I should have realized that it may have been loaded improperly, or not activated from the correct fix. Also contributing to the deviation was expectation bias--the ceiling was reported as 500 feet. above minima, and the tower reported that the jet who landed previously saw the airport at the FAF, so neither I nor my FO was expecting to have to complete the Missed Approach Procedure (MAP). This change in expected procedure I feel caused us to be caught off-guard having to complete the MAP, and I was not as careful or diligent to double-check the FO's work in re-loading the IAP. Also contributing was the FO, PM. In addition to completing the checklists, he should have been monitoring our position and verifying altitudes at each fix, especially since I was hand-flying the approach in IMC mountainous terrain. We debriefed the flight thoroughly afterwards, and feel that we both learned valuable lessons about CRM, crew duties, FMS loading and communication especially on a non-precision approach in mountainous IMC. Moving forward I will be more specific in my approach briefings--especially with localizer/VOR approaches, to have the PM monitor the altitude and set proper altitudes on the altitude selector as the approach continues.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "The part 135 flight was originally scheduled into ZZZ, but due to weather reports below minima, the plan was shifted to fly to ZZZ1 airport instead.",
+        "start": 0,
+        "end": 148
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "We successfully completed the LOC approach and at the MDA, were still in IMC so executed the published missed approach.",
+        "start": 418,
+        "end": 537
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I feel that the biggest contributor to deviating from the altitude on the IAP was my failure to verify that the approach was loaded into and appearing correctly on the FMS on the second IAP attempt.",
+        "start": 2238,
+        "end": 2436
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "This change in expected procedure I feel caused us to be caught off-guard having to complete the MAP, and I was not as careful or diligent to double-check the FO's work in re-loading the IAP.",
+        "start": 2897,
+        "end": 3088
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "automation.air_traffic_control",
+      "evidence": {
+        "quote": "At around 12,400 feet. as I was descending to 11,700 feet. the FAF altitude, we received a low altitude alert from ATC to climb immediately, and that our next fix altitude would be 12,300 feet.",
+        "start": 1683,
+        "end": 1876
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관제 자동화 장비",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Air Traffic Control",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "we received a low altitude alert from ATC to climb immediately, and that our next fix altitude would be 12,300 feet",
+        "start": 1760,
+        "end": 1875
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I climbed immediately to 12,900 feet. until we passed ZZZZZ, and then continued the approach as published.",
+        "start": 1877,
+        "end": 1983
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "We continued the approach as published and were able to see the airport before the MDA to make a safe, normal landing.",
+        "start": 2119,
+        "end": 2237
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "비행 관리 장치에 접근 지점 두 개가 빠져 있었다. 기준표 위협 목록에 해당 값이 없어 위협은 기상만 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Air Traffic Control"
+      ],
+      "overlap": [
+        "Air Traffic Control"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Became Reoriented",
+        "Executed Go Around / Missed Approach",
+        "FLC complied w / Automation / Advisory",
+        "Issued Advisory / Alert",
+        "Issued New Clearance",
+        "Provided Assistance",
+        "Returned To Clearance"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Became Reoriented",
+      "Executed Go Around / Missed Approach",
+      "FLC complied w / Automation / Advisory",
+      "Returned To Clearance"
+    ],
+    "Result.Air Traffic Control": [
+      "Issued Advisory / Alert",
+      "Issued New Clearance",
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "PC-12"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "03"
+  }
+}

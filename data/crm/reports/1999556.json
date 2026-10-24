@@ -1,0 +1,325 @@
+{
+  "report_id": "crm-1999556",
+  "acn": "1999556",
+  "set": "crm",
+  "synopsis": "B787 flight crew reported misdiagnosing a hydraulic system failure as flap and slat systems failure. The flight crew continued to destination airport and made a precautionary landing.",
+  "narrative": "During flap extension the center hydraulic system failed. Initially the ECL (Electronic Checklist) presented \"FLAPS PRIMARY FAIL\" and \"SLATS PRIMARY FAIL\". After delegating the First Officer to flying and communicating, I began those checklists. Shortly thereafter, ECL presented \"HYD PRESS SYSTEM C\" and that checklist was accomplished as well. We asked for delay vectors to accomplish all the required tasks. We requested priority handling with ATC, contacted Dispatch with the situation notification as well. Flight Attendants were briefed with no need to prepare for evacuation. Notified passengers with multiple announcements. We requested the longest runway, and asked that the fire equipment be standing by. We extended the gear with the alternate system and used the secondary system for flap extension. After landing, nose wheel steering was available and we taxied to the gate. I debriefed with the flight attendants and then the other pilots. An area for improvement in my performance was accomplishing the first two checklists in the order they presented, rather than waiting for the \"HYD PRESS SYSTEM C\" that presented after a period of time. That would have made things easier. I was beginning to configure and perform my first landing in the 787 on my first IOE trip. After our attempt to lower flaps 1, we saw and heard the master caution alarm. The right flap had fully extended and the left had not. The FLAPS PRIMARY FAIL and SLATS PRIMARY FAIL ECLs appeared. The Captain transferred radios to me while he addressed the ECLs. Several more ECLs appeared and it became clear the primary issue was that the center hydraulic tank quantity and pressure were extremely low. We decided to request priority handling, which I told ZZZ Tower and that we would need to use [Runway] XXL and to send crash fire and rescue trucks. We received vectors and ATC asked if it was a flap issue which the Captain agreed it was, and I told ATC that it was. The Captain discussed and performed the ECLs with the relief pilot and LCA (Line Check Airman) / Instructor in the jump seats. I focused on flying the aircraft using autopilot and monitored for any abnormalities. There were no observable differences in aerodynamics or performance. After we completed the ECLs and discussed our fuel on board, the Captain took control of the aircraft for the approach and I became pilot monitoring. We received vectors to fly the ILS approach to XXL. Landing gear and flaps 20 extended without issue and the approach and landing were normal. After landing we were able to taxi normally using nose wheel steering and we proceeded to taxi to the gate and park normally. While on approach at ZZZ ATC directed 210 knots and Flaps 1, just prior to intercepting the localizer, we received 2 EICAS messages, \"FLAPS PRIMARY FAIL\" and \"SLATS PRIMARY FAIL\". The Captain was PM (Pilot Monitoring) and a LCP (Line Check Airman) giving an IOE to a student on her 2nd IOE flight. The Captain assigned tasks IAW (In Accordance With) FOM recommendations: First Officer was assigned to continue flying and handle ATC communications, the 2nd Relief Pilot (an observing LCP on a previous airframe converting to a 787 LCP) was assigned to monitor and assist the PF (Pilot Flying) in her duties and I was assigned to assist the Captain in his checklist duties. As the Captain began the EICAS non-normal checklist for the FLAPS PRIMARY FAIL, we received another EICAS, \"HYD PRESS SYS C\". About this time, the PF intercepted the Localizer at 10,000 feet, 210 KIAS, IAW ATC instructions. The Captain had me confirm the EICAS and confirm the systems indications with him on the HYD SYS (Hydraulic Systems) Status page. All indications confirmed the EICAS messages we were seeing. At this point, the Captain communicated his thoughts that we needed to terminate the approach and coordinate a place to hold so we could properly address the checklists and configure the aircraft properly for landing. This was coordinated by the PF and we were continuously vectored by ZZZ Approach control south of the airport. From this point, the Captain did an outstanding job of executing all appropriate checklists while communicating with all of the pilots. Of note, I consider the Captain's CRM/TEM (Threat and Error Management) Skills the best I have ever witnessed. He kept all of the flight crew's situational awareness extremely high at all times through his calm and clear communication skills. His workload management was outstanding - delegating appropriate tasks to each flight deck crew member. Monitor, crosscheck and flight path monitoring was maintained all times, despite multiple checklists and tasks. Overall, the Captain's leadership effectiveness was outstanding. Once all checklists were completed and understood, the Captain had the First Officer request priority handling with our intentions to land on RWY XXL, the longest runway available with an initial plan to stop on the runway since there was a possibility of nose wheel steering being inoperative. The Captain had me coordinate Airport Fire and Rescue through our Dispatcher. He also had me communicate the cabin briefing with the purser - we did not have them prepare for evacuation. He also had the 2nd relief pilot review all the checklists again to make sure we had not missed anything. Then the Captain set up the aircraft for the new approach runway and proceeded to brief the approach and plan while the PF continued to fly vectors south of the airport. Once the approach was briefed and we all confirmed the plan and all checklists competed, the approach was commenced. The 2nd relief pilot made an outstanding input from the checklist review and reminded the Captain that although the checklists directed us to NOT arm the auto speed brakes for landing, we were supposed to manually deploy them upon touchdown. So that was a great catch and another example of the outstanding CRM/TEM skills employed by the Captain to ensure nothing was missed. The Captain assumed flying duties and the approach was commenced and flown without any incident. Upon landing, even though the speed brakes were not armed, they did deploy upon thrust reverser initiation. When we reached taxi speed, the Captain tested the nose wheel steering and determined it was functioning properly. We discussed as a crew clearing the runway since nose wheel steering was operational, and we all decided that was appropriate and safe based on our system knowledge and our understanding of the HYD system display that showed the isolation valve in HYD SYS C had isolated hydraulic pressure in the nose wheel steering system. We stopped the aircraft after clearing the runway. We all agreed it was safe to taxi to the gate and terminated our need for airport fire and rescue, although they still followed us to the gate. The remaining taxi to the gate and engine shutdown was normal although we did not retract the flaps. A thorough debriefing of what went well and what could we have done better was completed after the airplane was deplaned. The Captain mentioned his checklist management should have been better, but I disagree. I think he did everything exceptionally well throughout. For some reason, the \"FLAPS PRIMARY FAIL\" and the \"SLATS PRIMARY FAIL\" checklists both kept coming up first despite them both showing \"CHECKLIST COMPLETE\". Eventually he overrode these checklists after confirming with me they were both complete to avoid the nuisance of them continuing to prevent him from accessing other checklists that needed to be completed. I do not think this was his mistake, but regardless, he took appropriate action to manage the situation.",
+  "narrative_count": 3,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "During flap extension the center hydraulic system failed.",
+        "start": 0,
+        "end": 57
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "Initially the ECL (Electronic Checklist) presented \"FLAPS PRIMARY FAIL\" and \"SLATS PRIMARY FAIL\".",
+        "start": 58,
+        "end": 155
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "Initially the ECL (Electronic Checklist) presented \"FLAPS PRIMARY FAIL\" and \"SLATS PRIMARY FAIL\".",
+        "start": 58,
+        "end": 155
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Several more ECLs appeared and it became clear the primary issue was that the center hydraulic tank quantity and pressure were extremely low.",
+        "start": 1545,
+        "end": 1686
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The Captain had me confirm the EICAS and confirm the systems indications with him on the HYD SYS (Hydraulic Systems) Status page.",
+        "start": 3551,
+        "end": 3680
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Shortly thereafter, ECL presented \"HYD PRESS SYSTEM C\" and that checklist was accomplished as well.",
+        "start": 246,
+        "end": 345
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "automation_protection",
+      "evidence": {
+        "quote": "For some reason, the \"FLAPS PRIMARY FAIL\" and the \"SLATS PRIMARY FAIL\" checklists both kept coming up first despite them both showing \"CHECKLIST COMPLETE\".",
+        "start": 7190,
+        "end": 7345
+      },
+      "item_label": "방어",
+      "label_ko": "자동화 방호 기능",
+      "layer": "해소",
+      "agent": "자동화",
+      "desc": "오토파일럿이나 보호 기능이 상태 악화를 막는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "The Captain had me coordinate Airport Fire and Rescue through our Dispatcher.",
+        "start": 5026,
+        "end": 5103
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "Then the Captain set up the aircraft for the new approach runway and proceeded to brief the approach and plan while the PF continued to fly vectors south of the airport.",
+        "start": 5319,
+        "end": 5488
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "We extended the gear with the alternate system and used the secondary system for flap extension.",
+        "start": 715,
+        "end": 811
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "We requested priority handling with ATC, contacted Dispatch with the situation notification as well.",
+        "start": 411,
+        "end": 511
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 9,
+      "item": "response",
+      "value": "fc.landed_as_precaution",
+      "evidence": {
+        "quote": "Landing gear and flaps 20 extended without issue and the approach and landing were normal.",
+        "start": 2438,
+        "end": 2528
+      },
+      "item_label": "대응 행동",
+      "label_ko": "예방 차원의 착륙",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Landed As Precaution",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 10,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "The remaining taxi to the gate and engine shutdown was normal although we did not retract the flaps.",
+        "start": 6822,
+        "end": 6922
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "전자 점검 목록이 완료 표시에도 계속 먼저 떠서 다른 점검 목록 접근을 막았다고 원문이 밝혀, 자동화 방호 기능을 뚫린 방어로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Landed As Precaution",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Landed As Precaution",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Landed As Precaution",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Landed As Precaution",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Final Approach"
+    ],
+    "Make Model Name": [
+      "B787 Dreamliner Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

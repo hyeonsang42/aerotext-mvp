@@ -1,0 +1,312 @@
+{
+  "report_id": "crm-2110047",
+  "acn": "2110047",
+  "set": "crm",
+  "synopsis": "B737 Flight Attendant reported the 2R door handle moved out of position slightly several times after takeoff so they continuously pushed handle back into position. Flight returned to departure airport where it was found that the outside door handle was not latched.",
+  "narrative": "When we walked to the back of the aircraft maintenance informed me that my 2L jump- seat was completely inoperable and I would have to sit at the 2R door and Person A and I asked if it could be fixed and he said not before departure time and Person A and I communicated that we would check with the captain so he went up to just to notify him, we continued to do our safety checks with our links and preflights for the doors, I checked my door and everything looked good to go and I started to set up my galley. When the announcement was made for flight attendants to arm doors, I did my review and I made sure that the door handle was down, I even put my weight on it and then put my strap up on the window and continued to arm my door then cross check as all of us did. There was no notification that my door was unlocked or open from the captain. Earlier during boarding the FO did notify FA 02 that her door was not closed after catering had just closed up but did not question any other doors. We pushed back and Person A and I crossed checked each other with locks in the galley, all the equipment, the bathrooms and doors. Again there were no indications that my door was unlocked or opened. The captain did not call and the handle was completely level and there was no sign of the outside handle in my viewing window. We got into our jump-seats at the 2R door when the captain told us to on the PA and I started to do my review, we took off and I continued to assess my door because I felt uncomfortable that I was not near it because my jump-seat was inoperable and I couldn't be near the phone or megaphone or reach it from my jump seat. As I was accessing I noticed immediately my door handle started to rise and I said it out loud to Person A and we communicated that this was not right but I couldn't reach it. It appeared to be reaching about 30 to 35 degree angle at the time I ran over to it to push it down. I pushed it down the first time and it then continued to to lift back up without ease and I pushed it down again and it started to rise again and right before I was going to captain to notify him what was going on the captain called at that point and he asked me about the door because it had triggered the sensor and I told him this is the third time I have had to push it down and I was holding it at this point and he communicated to the whole crew as the purser was on the phone with us as well that we needed to go back to ZZZ and we said okay, he asked if I could watch it and hold it down and I told him I could not because my jump-seat was inoperable and he asked if I could or couldn't sit there and I told him that maintenance blocked it off and we notified him on the ground. He said he wanted all of us to be strapped in and that we were making a landing but to watch the door and I informed him that my phone was also not in my reach and if I could hold the phone in my lap during landing because Person A and I had no way of communicating with the purser or captain being strapped safely into our jump seats. He said yes. So I had the phone in my lap for landing and I sat inboard at the 2R door for landing like for takeoff and continued to watched the handle. Person A and I went through our commands, preflight safety review, exit door operations for the 737 and made sure we knew what was on his jumpseat and mine because I couldn't get to it being strapped in. We made sure we were prepared for that door opening because the fact we couldn't be near the door because of the inoperable jump seat. We watched that door until it was time for me disarm it, it was made known by maintenance that catering took a picture when they pulled up after landing and said the handle from the outside was not latched which made me even more upset for my crew and l's safety and everyone on board. After we landed the captain asked us to do a briefing in the front of the plane and Person B from the company was there who did an amazing job of supporting us. But the captain said we did a good job at communicating but we need to make sure we're safe at all times and be strapped in but we did make it known that the only way for us to communicate during the entire situation was to be out of our jump-seat to get to that phone to communicate because Person A and I had no other way to talk to the crew or captain because my jump- seat was inoperable. It was also made know that the 1L door and 1R door were not working properly either from maintenance while we were still on board debriefing because the purser mentioned she saw her handle raised a little when landing. I am so blessed that I was working with such a great group of flight attendants and human beings during this situation, the way they supported me and we supported each other was amazing and they all did an amazing job, we worked amazing together and our CRM skills were used for a safe outcome, truly thank you crew.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "When we walked to the back of the aircraft maintenance informed me that my 2L jump- seat was completely inoperable and I would have to sit at the 2R door",
+        "start": 0,
+        "end": 153
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "When we walked to the back of the aircraft maintenance informed me that my 2L jump- seat was completely inoperable and I would have to sit at the 2R door",
+        "start": 0,
+        "end": 153
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "we continued to do our safety checks with our links and preflights for the doors, I checked my door and everything looked good to go and I started to set up my galley.",
+        "start": 344,
+        "end": 511
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "We pushed back and Person A and I crossed checked each other with locks in the galley, all the equipment, the bathrooms and doors.",
+        "start": 999,
+        "end": 1129
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "As I was accessing I noticed immediately my door handle started to rise and I said it out loud to Person A and we communicated that this was not right but I couldn't reach it.",
+        "start": 1648,
+        "end": 1823
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "As I was accessing I noticed immediately my door handle started to rise and I said it out loud to Person A and we communicated that this was not right but I couldn't reach it.",
+        "start": 1648,
+        "end": 1823
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "It appeared to be reaching about 30 to 35 degree angle at the time I ran over to it to push it down.",
+        "start": 1824,
+        "end": 1924
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "he asked me about the door because it had triggered the sensor",
+        "start": 2176,
+        "end": 2238
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "he asked me about the door because it had triggered the sensor",
+        "start": 2176,
+        "end": 2238
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "I told him this is the third time I have had to push it down and I was holding it at this point",
+        "start": 2243,
+        "end": 2338
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "he communicated to the whole crew as the purser was on the phone with us as well that we needed to go back to ZZZ and we said okay",
+        "start": 2343,
+        "end": 2473
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 9,
+      "item": "barrier_breached",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "it was made known by maintenance that catering took a picture when they pulled up after landing and said the handle from the outside was not latched",
+        "start": 3597,
+        "end": 3745
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 10,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "It was also made know that the 1L door and 1R door were not working properly either from maintenance while we were still on board debriefing because the purser mentioned she saw her handle raised a little when landing.",
+        "start": 4380,
+        "end": 4598
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "출발 전 점검이 작동과 뚫림 양쪽에 나온다. 승무원이 문을 확인해 정상으로 보았으나 착륙 후 외부 핸들이 걸려 있지 않았음이 사진으로 확인됐다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Landed in Emergency Condition",
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition",
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [],
+    "Make Model Name": [
+      "B737 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "01"
+  }
+}

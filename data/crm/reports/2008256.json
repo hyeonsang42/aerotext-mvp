@@ -1,0 +1,240 @@
+{
+  "report_id": "crm-2008256",
+  "acn": "2008256",
+  "set": "crm",
+  "synopsis": "Air carrier Captain reported a ground conflict with the pushback tug shortly after initiating taxi. The Captain reported he failed to ensure the tug was clear before calling for taxi.",
+  "narrative": "We received pushback clearance off gate X to push long and stop abeam gate Y. Pushback commenced and tug crew cleared us to start engines. Engine start was completed before pushback was complete. Once pushback was complete, brakes were set and the tug crew was cleared to disconnect. Tug crew announced they were departing to the right, FO side. While completing the after start checklist checklist I announced the tug crew was departing to the FO (First Officer) side. With the after start checklist complete we delayed calling Ramp Tower for taxi due to a 767 in front of us that had yet to begin taxi. This was the same aircraft that required our long pushback. Once the 767 started rolling we asked and received taxi clearance. I announced clear left, the FO responded clear right and we began to taxi. After approximately 15-20 ft. and 2-3 GS (Ground Speed), we made physical contact with the pushback tug. I immediately stopped the aircraft, then set the parking brake. I had the immediate realization that we made contact with the tug. Tug crew announced that the aircraft nose tires made contact with the tug. Tug crew announced they were OK. A breakdown in HF/CRM (Human Factors/Crew Resource Management). I failed to ensure the tug crew was clear of the aircraft before calling for taxi. I perceived the FOs \"clear right\" as the tug crew was clear. In retrospect, I now know I never heard the FO announce specifically the tug crew was clear nor did I observe the tug crew clearing off to the right. In my mental checklist, I checked off that the tug crew was moving away from the aircraft and the FOs clear right call confirmed the tug crew was indeed clear. I accept full responsibility the the dangerous situation I created. I own the parking brake. I further apologize for all the additional work and time others will be required to provide to correct my mistake. Suggestion: Strict adherence to the [company procedures]. Do not taxi or call for taxi clearance until maintenance is verified to be clear of aircraft.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "While completing the after start checklist checklist I announced the tug crew was departing to the FO (First Officer) side.",
+        "start": 346,
+        "end": 469
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "I failed to ensure the tug crew was clear of the aircraft before calling for taxi.",
+        "start": 1215,
+        "end": 1297
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I perceived the FOs \"clear right\" as the tug crew was clear.",
+        "start": 1298,
+        "end": 1358
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "traffic_conflict",
+      "evidence": {
+        "quote": "After approximately 15-20 ft. and 2-3 GS (Ground Speed), we made physical contact with the pushback tug.",
+        "start": 807,
+        "end": 911
+      },
+      "item_label": "위협",
+      "label_ko": "교통 근접",
+      "layer": null,
+      "agent": null,
+      "desc": "다른 항공기나 지상 이동체와의 간격이 좁아진 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "I had the immediate realization that we made contact with the tug.",
+        "start": 976,
+        "end": 1042
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I immediately stopped the aircraft, then set the parking brake.",
+        "start": 912,
+        "end": 975
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "detector",
+      "value": "person.ground_personnel",
+      "evidence": {
+        "quote": "Tug crew announced that the aircraft nose tires made contact with the tug.",
+        "start": 1043,
+        "end": 1117
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지상 요원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Ground Personnel",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "Tug crew announced that the aircraft nose tires made contact with the tug.",
+        "start": 1043,
+        "end": 1117
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "Tug crew announced they were OK.",
+        "start": 1118,
+        "end": 1150
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "승무원 교차 확인이 작동과 뚫림 양쪽에 나온다. 견인차가 떠난다고 알리기는 했으나, 기장이 부기장의 우측 이상 없음 보고를 견인조가 비켜난 것으로 잘못 받아들였다고 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew",
+        "Ground Personnel"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Returned To Gate"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Returned To Gate"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Taxi"
+    ],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "A300"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

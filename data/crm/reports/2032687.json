@@ -1,0 +1,246 @@
+{
+  "report_id": "crm-2032687",
+  "acn": "2032687",
+  "set": "crm",
+  "synopsis": "ERJ175 flight crew reported lack of CRM to update FMS resulted in an unstable approach to a non standard go around. The flight crew experienced loss of situational awareness during the go around, a GPWS alert, flap over speed, and aircraft misconfiguration.",
+  "narrative": "Flight was vectored to base for a RNAV approach while flying with full automation. The vectors brought us inside the fix that the FMS had been extended off of. I failed to direct the PM to advance the FMS to a fix in front of us or to activate vectors. This caused the aircraft not to capture the final approach course so I had to manually turn the aircraft back toward the final approach course. By the time we got back on course, we were significantly high and the FMS still didn’t capture the course. I directed the PM to go gear down, flap 3, then flap full. I then mistimed my attempt to get on glide slope by dropping the nose too quickly after disengaging the autopilot, overspending the flaps. Unable to regain glide slope, I elected to discontinue prior to 1000 ft. As I did so, I directed the PM to go flap 4 and cycle the FMS forward. I believe my direction to sequence the FMS at this point was a key error since it distracted from getting the flaps retracted quickly. When the PM struggled to sequence the FMS, I opted to hit TO/GA and do a Go Around instead of discontinue. I was hand flying and did not pull the nose up quickly enough so the aircraft rapidly accelerated to the point we almost overspend the flaps again. I overrode the auto throttle to slow the aircraft and we immediately got an EGPWS warning, surprising us both. After a split second of shock, I climbed rapidly to honor the warning. We then stabilized, caught our breath and were vectored back around for a landing. Cause: 1) Failure to properly sequence the FMS on base leg. 2) Poor timing of instructions on discontinue/ go around. 3) Not realizing how quickly you accelerate to flap 4 limits on a flap full go around. 4) Not expecting a EGPWS warning as a result of overriding the auto throttle in that regime of flight. Suggestions: This starts with properly identifying that a base turn is inside the waypoint the final approach course has been extended from and proper direction from the PF. Second, I would brief the additional threats in a flap full go around due to the lower speeds required and how quickly the aircraft can accelerate if nose attitude control is delayed (hand flying). Flight was delayed due to late FA (Flight Attendant). I am an FO on reserve with approx 117 hours, It was a one leg flight in which I was PF. Preflight, taxi, climb out and cruise were standard. We began being vectored on downwind. PF had me configure normally and at around base PF had me clean up the approach from a waypoint behind us. I suggested that we would not capture lateral guidance this way but PF said we would. We were cleared for the approach and the aircraft did not capture lateral or vertical guidance so I informed ATC we were correcting back on course. We were VMC at this point. PF disconnected the autopilot and followed the white lateral guidance. We were on course laterally but we were high. In addition to being high, we needed lateral and vertical guidance to continue the approach so we reached the conclusion that we needed to go missed. No approach call outs were performed because the course was never alive and path was never alive. No missed approach altitude was set due to the same reason. We were switched over to tower. We decided to go missed after the FAF and PF had me tell tower. I did not hear the missed approach call out so I said \"missed approach flap 4\" and PF said \"positive rate gear up\". I suggested he press TOGA. I noticed that we were descending and the flight director guidance was in its standard pitch up attitude for a go around so I suggested we pitch up. PF did not pitch up so I took the controls and pitched up then handed controls back after we were established on a climb. We over-sped on the Missed approach due to the pitch down attitude. The \"climb sequence after takeoff checklist\" call out was not made but the PF asked me to clean up the flaps. The plane was no longer over speeding and I called Autopilot on Autothrottle on because I noticed that those were not on and it would increase situational awareness if those were on. I switched over to approach and they asked if we were climbing. I said we were, they started vectoring us. At this point the AP and AT were on and I continued monitoring the trajectory of the airplane. We were vectored on downwind. On base, PF had me clean it up from a waypoint behind us I suggested vectors to final. We were configuring normally. While on base I confirmed and activated vectors to final but we had no guidance in front of us. We may have gone through final again, I do not recall precisely. I re-loaded the approach and confirmed and activated vectors to final again. It seemed like we captured lateral and vertical guidance. PF disconnected AP and continued the approach. PF said he could not see the runway, we were not fully established on course yet. I pointed out the runway. By 1000 ft. we were stabilized and clear to land so we continued and landed and taxied normally. Cause: Lack of lateral and vertical guidance on the first approach, in addition to being high, caused us to go missed. No standard approach call outs were made since lateral and vertical guidance were not captured and no missed approach altitude was set. The SOP was not followed on the missed approach causing us not to pitch up and clean up the flaps on that phase of flight. Suggestions: Both pilots anticipating when the FMS will not provide lateral and vertical guidance and understanding how this can be corrected. Both pilots attempting to follow SOP as much as possible for the missed approach even when the approach call outs are not made because the approach guidance never captured.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "Flight was delayed due to late FA (Flight Attendant).",
+        "start": 2181,
+        "end": 2234
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I suggested that we would not capture lateral guidance this way but PF said we would.",
+        "start": 2520,
+        "end": 2605
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I failed to direct the PM to advance the FMS to a fix in front of us or to activate vectors.",
+        "start": 160,
+        "end": 252
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The SOP was not followed on the missed approach causing us not to pitch up and clean up the flaps on that phase of flight.",
+        "start": 5229,
+        "end": 5351
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.executed_go_around_missed_approach",
+      "evidence": {
+        "quote": "When the PM struggled to sequence the FMS, I opted to hit TO/GA and do a Go Around instead of discontinue.",
+        "start": 981,
+        "end": 1087
+      },
+      "item_label": "대응 행동",
+      "label_ko": "복행",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Executed Go Around / Missed Approach",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "detector",
+      "value": "automation.aircraft_terrain_warning",
+      "evidence": {
+        "quote": "I overrode the auto throttle to slow the aircraft and we immediately got an EGPWS warning, surprising us both.",
+        "start": 1236,
+        "end": 1346
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지형 경고 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Terrain Warning",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "I overrode the auto throttle to slow the aircraft and we immediately got an EGPWS warning, surprising us both.",
+        "start": 1236,
+        "end": 1346
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "PF did not pitch up so I took the controls and pitched up then handed controls back after we were established on a climb.",
+        "start": 3594,
+        "end": 3715
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "By 1000 ft. we were stabilized and clear to land so we continued and landed and taxied normally.",
+        "start": 4877,
+        "end": 4973
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "승무원 교차 확인이 작동과 뚫림 양쪽에 나온다. 부기장이 유도 신호를 못 잡을 것이라고 짚었으나 조종 담당이 그대로 진행했고, 조종 담당 본인도 지시를 내리지 못했다고 서술한다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Terrain Warning",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Terrain Warning"
+      ],
+      "overlap": [
+        "Aircraft Terrain Warning"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Executed Go Around / Missed Approach",
+        "Overrode Automation",
+        "Returned To Clearance"
+      ],
+      "predicted": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "overlap": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Terrain Warning"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Executed Go Around / Missed Approach",
+      "Overrode Automation",
+      "Returned To Clearance"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "EMB ERJ 170/175 ER/LR"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "03"
+  }
+}

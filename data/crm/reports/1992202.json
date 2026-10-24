@@ -1,0 +1,310 @@
+{
+  "report_id": "crm-1992202",
+  "acn": "1992202",
+  "set": "crm",
+  "synopsis": "B737-700 Flight Crew reported the left main landing gear lights stayed illuminated despite the landing gear handle being in the up position. After consulting with Dispatch and Maintenance Control, the Flight Crew then decided to divert and safely landed at a suitable airport.",
+  "narrative": "Left main landing gear light illuminated. Both red and green lights illuminated and stayed illuminated as we ran through the QRH [for] gear disagree. Aircraft X, ZZZ to ZZZ1 diverted to ZZZ2 for landing gear problems. During the climb-out of ZZZ on the ZZZZZ ZZZZZ1 SID, we noticed the left main landing gear, red light and green light, stayed illuminated with the landing gear handle in the up position, and then in the off position. No other landing gear lights were illuminated. The First Officer was the pilot flying. I consulted the QRH Gear Disagree Checklist items. We ran the checklist to its completion to no avail as the lights stayed illuminated. As we were climbing out, we kept our air speed at approximately 250 kt. Using our training and the CRM techniques, we discussed all possible actions to rectify the situation or execute a return to ZZZ or a diversion to ZZZ2 primarily due to the maintenance, the long runways, and the weather - ZZZ1 required an alternate. We contacted Dispatch and Maintenance Control through the ARINC frequencies in order to fix the landing gear issue and formulate a plan moving forward. Maintenance Control reminded us to go through the checklist again to rectify the problem. Once again, the lights stayed illuminated. In conjunction with Dispatch, we determined a diversion to ZZZ2 was the safest course of action. We informed ATC of our situation, then [requested priority handling], and diverted to ZZZ1. We also informed all three flight attendants of the situation and our diversion plan. We use the diversion checklist in the cockpit. We also calmly made a PA to the passengers that due to a mechanical issue, we would be diverting to ZZZ1. We had XX passengers onboard. We discussed all contingencies amongst the Captain and the First Officer. Possibly a low approach so the Tower could see if our landing gear was down. Also, the potential for a landing gear collapse on landing. Fire Rescue was standing by at our request. We discussed with the flight attendants, the remote possibility of a landing gear collapse, and potential evacuation, and to review their procedures if they needed to. On the final ILS approach to Runway XX Left, I put the gear down early to leave us time to make good decisions pertaining to a possible go-around - we had plenty of fuel. Once the landing gear was down, we had three solid green lights illuminated. We confirmed it with the overhead panel landing gear lights. The left main red landing gear light extinguished. We were confident our landing gear was down and locked and this was confirmed by the Control Tower. As the Captain and the pilot flying for this portion of the flight, I made a smooth landing within the 1,000 ft. to 1,500 ft. runway markings. We did a flaps 30, autobrakes two light weight landing and exited at [Taxiway] XX. The Fire Department did not detect any issues of smoke, fire, or hot brakes. We discussed having Maintenance come out and pin the gear, but we determined there were no further mechanical issues, so we taxied to Gate XX to write up the aircraft, turn it over to Maintenance, and debrief Dispatch, Maintenance, and the Company Operations Center Chief Pilot and ZZZ2 Fire/Operations. We also talked with our flight attendants to see what their condition was emotionally and if they were up to continuing with the trip. The support was above and beyond by ATC and all of Company Operations personnel, which was very helpful.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "During the climb-out of ZZZ on the ZZZZZ ZZZZZ1 SID, we noticed the left main landing gear, red light and green light, stayed illuminated with the landing gear handle in the up position, and then in the off position.",
+        "start": 218,
+        "end": 434
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "Left main landing gear light illuminated.",
+        "start": 0,
+        "end": 41
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "Left main landing gear light illuminated.",
+        "start": 0,
+        "end": 41
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "I consulted the QRH Gear Disagree Checklist items.",
+        "start": 522,
+        "end": 572
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Using our training and the CRM techniques, we discussed all possible actions to rectify the situation or execute a return to ZZZ or a diversion to ZZZ2 primarily due to the maintenance, the long runways, and the weather - ZZZ1 required an alternate.",
+        "start": 730,
+        "end": 979
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "We contacted Dispatch and Maintenance Control through the ARINC frequencies in order to fix the landing gear issue and formulate a plan moving forward.",
+        "start": 980,
+        "end": 1131
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We discussed with the flight attendants, the remote possibility of a landing gear collapse, and potential evacuation, and to review their procedures if they needed to.",
+        "start": 1978,
+        "end": 2145
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "On the final ILS approach to Runway XX Left, I put the gear down early to leave us time to make good decisions pertaining to a possible go-around - we had plenty of fuel.",
+        "start": 2146,
+        "end": 2316
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "We were confident our landing gear was down and locked and this was confirmed by the Control Tower.",
+        "start": 2506,
+        "end": 2605
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "In conjunction with Dispatch, we determined a diversion to ZZZ2 was the safest course of action.",
+        "start": 1265,
+        "end": 1361
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "We informed ATC of our situation, then [requested priority handling], and diverted to ZZZ1.",
+        "start": 1362,
+        "end": 1453
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 9,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "so we taxied to Gate XX to write up the aircraft, turn it over to Maintenance, and debrief Dispatch, Maintenance, and the Company Operations Center Chief Pilot and ZZZ2 Fire/Operations",
+        "start": 3027,
+        "end": 3211
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "점검 목록을 두 번 수행했으나 등이 꺼지지 않았다. 원문이 방어가 작동하지 않았다고 직접 말하지는 않아 뚫린 방어로 넣지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation"
+      ],
+      "overlap": [
+        "Aircraft Other Automation"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Landed As Precaution",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Diverted",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Landed As Precaution",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb"
+    ],
+    "Make Model Name": [
+      "B737-700"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "05"
+  }
+}

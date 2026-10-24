@@ -1,0 +1,259 @@
+{
+  "report_id": "crm-2032683",
+  "acn": "2032683",
+  "set": "crm",
+  "synopsis": "Air carrier B777 flight crew reported lack of response from flying pilot on unstable approach resulted in Pilot Monitoring taking control of the aircraft for a go around and subsequent landing.",
+  "narrative": "I was the RFO (Relief Flight Officer) in the center seat. The Captain was PF (Pilot Flying) and FO (First Officer) was PM (Pilot Monitoring). We were slightly high on base during vectors. PM stated “Captain we will need boards and flaps to get down”. PF complied. We intercepted LOC and PM called it out. However, we never captured GS. As RFO I articulated “we are high, no GS” this was echoed by RFO2 stating “you’re in ALT”. The PM was also aware and told the Captain “if we are not going to be stable at 1k, we will need to go around.” PF said “ok” and with AP (Autopilot) already off, decreased pitch slightly as an attempted capture GS. At that point no action was taken for several seconds except that slight descent and we were well above GS unable to make a safe landing (4 white PAPI and well above GS). The PM directed a go around around moments later at 1300ft. TOGA was not pushed and no words were spoken by PF. But the aircraft pitched up as Captain flying said something quietly. At this point the PM noticed the PF seemed to be low SA (Situational Awareness) after making callouts for the Captain that he missed. A moment later the FO stated “I have the aircraft” and started to execute the go around. This was the right call since we had hardly climbed and there were no commands from the Captain. I began filling in additional missed call outs as well as the FO. No thrust set call was made because TOGA had not been pushed. The FO was now doing double duty essentially. I did not see the thrust ref FMA or magenta reference on n1, so I began to fixate on the throttle position and speed. We got slow and I said “we are slow, add power.” The FO turned off FDs at some point. A few seconds later RFO 2 said set climb attitude since the aircraft was now at 5NL. Next, we worked as a team to confirm heading and ALT by ATC. I noticed we were off and told FO “ 20 right for heading.” He has his hands full from the non standard go around, but immediately corrected the heading deviation. The Captain wanted to fly but we agreed the FO keep the aircraft and make the landing. At some point TOGA was pushed. The Captain believes he hit it at some point he admitted in debrief. I don’t know when, but I believe this is what caused the 5NL attitude because of when we expected the go around and what we had set in the MCP. That is why I believe the FO had to turn off the FDs. Cause: Breakdown in crew communication (captain to FO) Solution: Brief go around procedures. Captain and FO (First Officer) had the last rest. The other RFO and I swapped out with the flying crew to go change in the supernumerary at approximately top of descent, after having briefed the change over. We had loaded the ZZZZZ arrival and ILS YYR. The other RFO and I returned to the flying crew half way down the arrival. The FO mentioned a runway change back to XXL. On vectors to final and descending through approximate 8- 10000, the FO verbalized to the CA (Captain) that we were high and suggest speed brakes to help descend. The CA was noticeably flustered, nervous, and seemed to shake slightly. We were at about 4,000 ft. on a base leg for about a 7-8 NM final. The CA disconnected the AP (Autopilot) and continued a descent to join final and cross the final approach fix a few hundred feet high. The vertical FMA went to ALT and the CA leveled at 1,800 ft. We were at 3 white and a red on the PAPI, but leveling at 1800 ft. resulted in the G/S indicator rapidly indicating we were again high. I announced that “we are in ALT mode and not descending”. The CA again initiated a descent. The FO at that time announced “if we are not stable by 1,000 ft., we are going around.” At 1,300 ft. and still high/unstable, the FO announced “let’s go around.” The CA mostly leveled the airplane, but I did not notice the TO/GA button pushed and 10-15 seconds into the GA (Go Around), we were not climbing significantly. The FO was coaching the CA through GA call outs to get the aircraft flight path under control, getting flaps to 20 and calling positive rate. Without significant response by the CA, the FO declared, “I have the airplane” and took the controls. The FO had his hands full with a slow airplane from being level at 1,300 ft. The other RFO called “Push the throttle up!” The CA may have pushed the TOGA button after the FO took the controls, causing more confusion. At the same time I noticed our attitude 5 deg nose low and banked slightly left. I called “Set a climb attitude!” And the FO immediately pitched to resume a climb. The Tower assigned a climb to 4,000 ft. Our heading on departed drifted left 15-20 degree, the other RFO called this out for a correction, and the FO corrected. After stabilizing at 4,000 ft., I called for getting the AP on and in proper FMA’s, which the FO did. Approach gave us vectors for the approach. On downwind, the CA said “Okay, I’ll take the airplane back.” The FO stated “I think I should take this landing.” The CA did not argue the point. The FO made an uneventful landing and the CA taxied back to the gate. Cause: The captain had mentioned he had not slept well on the flight and had not eaten much on the flight. It’s possible that or some other medical issue could have played a factor in this crew member’s breakdown in performance. He didn’t seem the same as he was on departure. Solution: Good CRM can bring things back under control when things get undesirable in the flight deck. Sim training for go around at 1,000 ft. would be a huge help to the pilot group. We are most likely to GA at or above 1,000 ft. and those becoming a handful quickly.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "The captain had mentioned he had not slept well on the flight and had not eaten much on the flight.",
+        "start": 5056,
+        "end": 5155
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "The other RFO and I swapped out with the flying crew to go change in the supernumerary at approximately top of descent, after having briefed the change over.",
+        "start": 2530,
+        "end": 2687
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "PM stated “Captain we will need boards and flaps to get down”.",
+        "start": 188,
+        "end": 250
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The PM was also aware and told the Captain “if we are not going to be stable at 1k, we will need to go around.”",
+        "start": 427,
+        "end": 538
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "At this point the PM noticed the PF seemed to be low SA (Situational Awareness) after making callouts for the Captain that he missed.",
+        "start": 995,
+        "end": 1128
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "TOGA was not pushed and no words were spoken by PF.",
+        "start": 873,
+        "end": 924
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "A moment later the FO stated “I have the aircraft” and started to execute the go around.",
+        "start": 1129,
+        "end": 1217
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "fc.executed_go_around_missed_approach",
+      "evidence": {
+        "quote": "A moment later the FO stated “I have the aircraft” and started to execute the go around.",
+        "start": 1129,
+        "end": 1217
+      },
+      "item_label": "대응 행동",
+      "label_ko": "복행",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Executed Go Around / Missed Approach",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "response",
+      "value": "fc.regained_aircraft_control",
+      "evidence": {
+        "quote": "And the FO immediately pitched to resume a climb.",
+        "start": 4477,
+        "end": 4526
+      },
+      "item_label": "대응 행동",
+      "label_ko": "기체 제어 회복",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Regained Aircraft Control",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 9,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "The FO made an uneventful landing and the CA taxied back to the gate.",
+        "start": 4979,
+        "end": 5048
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "절차·체크리스트 준수가 작동과 뚫림 양쪽에 나온다. 복행 기준은 미리 선언됐으나 조종 담당이 복행 조작을 하지 않아 감시 담당이 조종을 인수했다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Executed Go Around / Missed Approach",
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [
+        "Executed Go Around / Missed Approach",
+        "Regained Aircraft Control"
+      ],
+      "overlap": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Executed Go Around / Missed Approach",
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Final Approach"
+    ],
+    "Make Model Name": [
+      "B777-200"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "03"
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "report_id": "crm-2074348",
+  "acn": "2074348",
+  "set": "crm",
+  "synopsis": "Air carrier flight crew reported failure of the autoflight system during departure climb resulted in a diversion. Maintenance inspection revealed a failed generator control unit.",
+  "narrative": "Our planned flight was ZZZZ to ZZZ. Pre-flight through before takeoff checklist was all normal with no status or EICAS messages appearing. After rotation, at approximately 2,000 ft. we lost the autopilot, autothrottles, flight directors, LNAV/VNAV functionality, and the center CDU. The EICAS screen was littered with messages, and ELEC AC BUS 1 was at the top of the list. The FO (pilot flying) hand flew the departure with the map zoomed in to verify we were tracking the legs correctly. The CA (pilot monitoring) began, as able, to start navigating the ELEC AC BUS 1 checklist. Per the QRH, a reset of the GEN CONT switch was ineffective. As we had just departed ZZZZ in marginal weather, we elected to continue for the time being to sort out the situation. Once we re-selected HDG SEL and FLCH the autopilot and flight directors began to function again, like the QRH states. In addition to the ELEC AC BUS 1 checklist, we ran the FUEL PUMP 3 FWD, FUEL PUMP 2 AFT, ENG 1/2/3/4 EEC MODE, and EQUIP COOLING checklists. Some time during those checklists, the FO/PF noticed the cabin altitude was climbing and we saw the OUTFLOW VLV L message at the bottom of the list. We elected to stop the current checklist and run that one to prevent the cabin altitude from going any higher. During that checklist, the CABIN ALTITUDE EICAS appeared, but went away within 5-10 seconds as we had just finished manually closing the inoperative outflow valve. We finished the rest of the checklists and continued our climb to FL250. The CA/PM had tried a few times to relay to ZZZZ ATC that we were having issues and would like to momentarily stop climbing and/or hold or get vectors, but they weren't receptive (e.g. \"I'm not talking to you\" or \"negative, climb 2700 meters\"). Once we entered ZZZZ1 airspace the CA/PM [advised ATC] for an electrical failure. The CA/PM had sent a few messages to dispatch by this time via ACARS on the left CDU. Both relief FOs were unable to help with ACARS tasks because of the center CDU failure. After discussing options with dispatch, we elected to jettison fuel and divert to ZZZZ1. While dumping fuel, we received an IAS DISAGREE due to being in icing conditions and the CA probes not having heat from the AC BUS 1 failure. After changing the Air Data source selector per the QRH, both the CA and FO instruments were working correctly and agreeing again. Once finished with the fuel jettison (approx. 1hr), we continued to ZZZZ1 and were given vectors to join final instead of a STAR. As we were slowing down we noticed we had no flap maneuvering speeds displayed on either PFD, and the third seat FO obtained the maneuvering speeds from the applicable chapter of the QRH as well as target N1 for different phases of flight to assist the FO/PF since the autothrottles and Reference N1 were also inop. ATC wanted us to slow down quite a bit for sequencing into ZZZZ1 so we started configuring to be at Flaps 10 to meet their requested speed. The deceleration rate was normal, but as we continued to slow we briefly got a stick shaker activation somewhere between 5000 and 6000 feet followed a few moments later by a FLAPS PRIMARY EICAS message. It seemed like the leading edge flaps hadn't properly extended but the warning was delayed causing us to believe we had more flaps/lift available than we did. After the recovery, we had a few delay vectors then joined the ILS XXR approach and landed. On landing, the airplane rolled slightly to one side and the FO/PF commented that it didn't seem like the autobrakes were functioning properly. The FO disconnected the autobrakes and we taxied to the stand. There was no accumulator pressure for the brakes, so both the CA and FO manually held the brakes until the ground crew advised us we had chocks in place. After arriving in ZZZZ1, maintenance worked on the plane and replaced the #1 engine GCU (Generator Control Unit). This seemed to clear the issues associated with AC BUS 1. We went back to the hotel for rest and flew the plane from ZZZZ1 to ZZZ the next day with no issues. The second relief pilot (fourth seat) wasn't equipped with a radio tuning panel, so anything he had to say or suggest while the situation was developing had to be spoken very loudly/yelled for anyone to hear what he was saying. This made it extremely difficult for him to be a functioning member of the crew during the event. Some of the failures and subsequent checklists we ran were hard to deduce if they were related to the AC Bus 1 failure or not, as the QRH didn't list everything that wasn't going to be available due to the bus failure (flap maneuvering speeds on the PFD, for example). On departure, climbing through about 2000 ft., autopilot, auto-throttle and slight director failed. I was in the 4th seat and looked up and noticed the #1 generator was off and the ISLN light was illuminated. I announced that we’d lost AC bus 1. We then had several EICAS messages, and the center Control Display Panel (CDU) was failed, which made it much more difficult for the third pilot to assist, and forced the captain to do all communication, and ACARS. The Captain let ZZZZ [Center] know that we were having avionics issues and we were given a vector to keep us clear of traffic and the Captain requested a level off, and began to run the AC bus loss checklist. The checklist did not result in recovering the bus, and the Captain announced that he thought we should return to ZZZZ. The weather was not good in ZZZZ on departure, and we were very heavy. Part of the AC bus checklist had said to avoid icing conditions, and I knew that we’d likely be airborne for quite a while running additional checklists and dumping fuel. I suggested that we divert to ZZZZ1. We verified weather in ZZZZ1 and elected to divert. Once we were on our way to ZZZZ1, we [advised ATC], requested clearance to ZZZZ1 and let ATC know that we needed to dump fuel. Then we proceeded to a hold and did a recall review and began running additional checklists (outflow valve, EECs, fuel pumps, equipment cooling). At some point we were able to recover the autopilot. After about an hour in holding, we proceeded to ZZZZ1. En route, we got IAS disagree, completed the immediate action items, verified that the captains airspeed had failed, and switched to center Air Data Computer. On arrival, as we started to slow, we realized that we didn’t have any maneuvering speed indicators on either FD. We used the QRH to find all the speeds for each flap configuration. As we started slowing and configuring, we got a stick shaker, with no airspeed low warning, the PF recovered and the captain asked for vectors to delay arrival while we got settled. After the recovery, we got a Flaps Primary message and realized that our flaps were extending much slower than normal. We ran the checklist for flap’s primary and came back around for the ILS. On landing, PF announced that he didn’t think the auto brakes were working and began manual braking. Maintenance in ZZZZ1 found a failed generator control unit. This bus loss was a very involved malfunction that resulted in several additional issues that were not mentioned anywhere in the checklist. System knowledge and CRM aided in a successful outcome, but simulator training involving bus losses would go a long way in helping crews to prepare for what I would consider one of the most involved malfunctions I’ve seen in my career.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "Pre-flight through before takeoff checklist was all normal with no status or EICAS messages appearing.",
+        "start": 36,
+        "end": 138
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "After rotation, at approximately 2,000 ft. we lost the autopilot, autothrottles, flight directors, LNAV/VNAV functionality, and the center CDU.",
+        "start": 139,
+        "end": 282
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "The EICAS screen was littered with messages, and ELEC AC BUS 1 was at the top of the list.",
+        "start": 283,
+        "end": 373
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "The EICAS screen was littered with messages, and ELEC AC BUS 1 was at the top of the list.",
+        "start": 283,
+        "end": 373
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "I was in the 4th seat and looked up and noticed the #1 generator was off and the ISLN light was illuminated.",
+        "start": 4749,
+        "end": 4857
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I announced that we’d lost AC bus 1.",
+        "start": 4858,
+        "end": 4894
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The CA (pilot monitoring) began, as able, to start navigating the ELEC AC BUS 1 checklist.",
+        "start": 490,
+        "end": 580
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "threat",
+      "value": "procedure_doc_conflict",
+      "evidence": {
+        "quote": "This bus loss was a very involved malfunction that resulted in several additional issues that were not mentioned anywhere in the checklist.",
+        "start": 7028,
+        "end": 7167
+      },
+      "item_label": "위협",
+      "label_ko": "절차·문서 불일치",
+      "layer": null,
+      "agent": null,
+      "desc": "절차서, 교범, 차트, MEL의 내용이 서로 다르거나 현장과 맞지 않는 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "the QRH didn't list everything that wasn't going to be available due to the bus failure",
+        "start": 4510,
+        "end": 4597
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "threat",
+      "value": "atc_comm_issue",
+      "evidence": {
+        "quote": "The CA/PM had tried a few times to relay to ZZZZ ATC that we were having issues and would like to momentarily stop climbing and/or hold or get vectors, but they weren't receptive",
+        "start": 1517,
+        "end": 1695
+      },
+      "item_label": "위협",
+      "label_ko": "관제·통신 문제",
+      "layer": null,
+      "agent": null,
+      "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "but they weren't receptive",
+        "start": 1669,
+        "end": 1695
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "After discussing options with dispatch, we elected to jettison fuel and divert to ZZZZ1.",
+        "start": 2018,
+        "end": 2106
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "We verified weather in ZZZZ1 and elected to divert.",
+        "start": 5718,
+        "end": 5769
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "the third seat FO obtained the maneuvering speeds from the applicable chapter of the QRH as well as target N1 for different phases of flight to assist the FO/PF since the autothrottles and Reference N1 were also inop",
+        "start": 2608,
+        "end": 2824
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "barrier_breached",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "It seemed like the leading edge flaps hadn't properly extended but the warning was delayed causing us to believe we had more flaps/lift available than we did.",
+        "start": 3169,
+        "end": 3327
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 10,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "The FO disconnected the autobrakes and we taxied to the stand.",
+        "start": 3564,
+        "end": 3626
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 11,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "After arriving in ZZZZ1, maintenance worked on the plane and replaced the #1 engine GCU (Generator Control Unit).",
+        "start": 3781,
+        "end": 3894
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "항공기 경고 장치가 작동과 뚫림 양쪽에 나온다. 전기 버스 상실은 알렸으나 앞전 플랩 미전개 경고가 늦게 떴다고 원문이 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Aircraft Other Automation"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted"
+      ],
+      "overlap": [
+        "Diverted"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb",
+      "Initial Climb"
+    ],
+    "Make Model Name": [
+      "B747-400"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "02"
+  }
+}

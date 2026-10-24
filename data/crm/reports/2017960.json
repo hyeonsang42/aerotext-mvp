@@ -1,0 +1,263 @@
+{
+  "report_id": "crm-2017960",
+  "acn": "2017960",
+  "set": "crm",
+  "synopsis": "C750 pilot reported descending below the minimum altitude depicted on a descend via STAR because of an improperly set altitude pre-select value. Crew queried ATC and were given a heading and altitude for terrain avoidance and landed normally.",
+  "narrative": "We descended below our cleared altitude during a \"descend via\" arrival procedure due to a programming error on the setting of the altitude preselector. I was SIC and Pilot Monitoring on a flight from ZZZZ to ZZZ, ZZZ is our home airport. During cruise flight, the PIC and I discussed that we would be flying the ZZZZZ arrival and we both looked at the arrival plate together, because it's one we typically don't fly very often. Some time later in the flight, we were cleared to \"descend via\" the arrival. The PIC was the PF (pilot flying) and he set up the AFCS (Aircraft Flight Control System) parameters for the arrival. I did not have the plate up on my iPad yet since I was preparing paperwork for Customs upon our arrival. I observed the PIC checking the restrictions in the FMS against the arrival plate on his IPad. I also observed him set the bottom altitude on the Altitude Preselect, and arm the Vertical Navigation Mode. About two minutes later I brought up the arrival plate on my own iPad and I compared the plate to the FMS, and the altitude and speed restrictions matched the approach plate. I believe I checked the \"bottom altitude\" on the Altitude Preselector as I am supposed to do, but it is possible that I did not; it seems illogical that I wouldn't verify that since it is critical to be set correctly, but either way, neither the PIC nor I noticed that he had set the Altitude Preselect incorrectly. (Note: it's possible that the Preset was set correctly at this point, we don't know for sure, it could have been incorrectly changed later in the Arrival). We descended in VFR conditions on the IFR arrival, verifying altitudes and speeds against the FMS display as we proceeded, and before reaching the last fix on the arrival we prepared to configure for landing. I was SIC (pilot monitoring) working the radios, and Approach Control switched me to; when I checked in I stated \"(callsign), 7,700 descending via the Arrival\", and the controller acknowledged \"roger\". We continued descending in VFR conditions. Having flown the other ZZZ arrivals many times in the past (ZZZ is my home airport), it occurred to me during the end of the arrival that a preset altitude of 5,000 feet seemed rather low, knowing the minimum vectoring altitude is usually 7,100 feet. At this point we were close to abeam the airport on a right downwind, anticipating the visual XXL. We were descending thru approximately 6,000 feet and at this point I asked the PIC \"When were we cleared to 5,000 feet?\" and glancing at the AFCS panel the PIC replied to me 'Oh no, we are too low here, what happened, we were supposed to stop at 8,000 feet, and I said, \"well there is terrain coming up ahead, we need to turn or climb\" and the PIC agreed with me. The PIC stopped the descent and immediately called the approach controller and stated, \"(callsign) we need to turn right here for terrain clearance\". A few seconds later the controller responded \"(callsign) yeah, altitude alert, turn right 20 degrees, and climb to 7,100 feet vectors for the Visual XXL\". The PIC responded \"ok, we'll turn right and we'll climb, but we have the terrain and the airport in sight for the visual\", and the controller then cleared us for the Visual Approach to XXL. We descend and landed without incident. We descended below 8,000 which was the bottom of the 'descend via\" arrival because the altitude preselect was incorrectly set for 5,000. It's unclear if the incorrect altitude was set when the \"descend via\" was commanded by ATC, or after the fact, but either way we busted the arrival. Cause: Poor crew coordination; the PIC loaded the arrival and briefed it out loud when setting the bottom altitude, but the SIC was not ready for that step when it occurred. We did not brief the arrival together as a crew, as is our SOP. The SIC (me) reviewed the programming independent of the PIC, but we should have briefed the arrival together with one looking at the FMS and one verifying the approach plate, which is how we usually complete this task. We were very tired after an 8 day international run of flights, and were preoccupied with the task of preparing for Customs upon arrival, so we let our guard down flying in clear VFR conditions to our home airport. CRM: The PIC is also my Supervisor and has over ten years of experience flying this airplane, compared to my one year in the plane, so from time-to-time he configures the AFCS very quickly and I am playing 'catch up\" to understand what he has programmed; our SOP is to have the pilot making any change to the AFCS to verbalize that change, and the PM to confirm the change verbally, however we did not do this correctly in this particular case. Also contributing to a small degree was the approach controller not responding to my check-in radio call, when I stated we were \"7,700 feet and descending via\"....however it was very busy on the radios that day and we had already busted 8,000 feet at that point. Fortunately, it was VFR and we were visually maintaining traffic and terrain clearance at the time even though we on the IFR Arrival.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "We were very tired after an 8 day international run of flights, and were preoccupied with the task of preparing for Customs upon arrival, so we let our guard down flying in clear VFR conditions to our home airport.",
+        "start": 4026,
+        "end": 4240
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "During cruise flight, the PIC and I discussed that we would be flying the ZZZZZ arrival and we both looked at the arrival plate together, because it's one we typically don't fly very often.",
+        "start": 238,
+        "end": 427
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We did not brief the arrival together as a crew, as is our SOP.",
+        "start": 3742,
+        "end": 3805
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "our SOP is to have the pilot making any change to the AFCS to verbalize that change, and the PM to confirm the change verbally, however we did not do this correctly in this particular case",
+        "start": 4496,
+        "end": 4684
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "it occurred to me during the end of the arrival that a preset altitude of 5,000 feet seemed rather low, knowing the minimum vectoring altitude is usually 7,100 feet",
+        "start": 2118,
+        "end": 2282
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "We were descending thru approximately 6,000 feet and at this point I asked the PIC \"When were we cleared to 5,000 feet?\"",
+        "start": 2383,
+        "end": 2503
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "Also contributing to a small degree was the approach controller not responding to my check-in radio call",
+        "start": 4686,
+        "end": 4790
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "The PIC stopped the descent and immediately called the approach controller and stated, \"(callsign) we need to turn right here for terrain clearance\".",
+        "start": 2747,
+        "end": 2896
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "atc.issued_new_clearance",
+      "evidence": {
+        "quote": "and the controller then cleared us for the Visual Approach to XXL",
+        "start": 3175,
+        "end": 3240
+      },
+      "item_label": "대응 행동",
+      "label_ko": "새 인가 발부",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Issued New Clearance",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "We descend and landed without incident.",
+        "start": 3242,
+        "end": 3281
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "브리핑과 승무원 교차 확인이 작동과 뚫림 양쪽에 나온다. 순항 중에는 함께 도착 절차를 봤으나, 고도 설정 변경을 서로 확인하는 절차를 지키지 않았다고 신고자가 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Issued Advisory / Alert",
+        "Issued New Clearance",
+        "Requested ATC Assistance / Clarification",
+        "Returned To Clearance"
+      ],
+      "predicted": [
+        "Issued New Clearance"
+      ],
+      "overlap": [
+        "Issued New Clearance"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Requested ATC Assistance / Clarification",
+      "Returned To Clearance"
+    ],
+    "Result.Air Traffic Control": [
+      "Issued Advisory / Alert",
+      "Issued New Clearance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "Citation X (C750)"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

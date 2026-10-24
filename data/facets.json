@@ -5,68 +5,76 @@
       "count": 50
     },
     {
+      "value": "crm",
+      "count": 50
+    },
+    {
       "value": "mechanic",
       "count": 50
     }
   ],
   "threats": [
     {
-      "value": "연기·냄새·오염",
-      "count": 41
+      "value": "항공기 계통 고장",
+      "count": 49
     },
     {
-      "value": "항공기 계통 고장",
-      "count": 28
+      "value": "연기·냄새·오염",
+      "count": 42
     },
     {
       "value": "부품·정비 상태 이상",
-      "count": 27
+      "count": 33
     },
     {
       "value": "시간·업무 부하",
-      "count": 17
+      "count": 23
     },
     {
       "value": "위험물·적재",
-      "count": 10
-    },
-    {
-      "value": "절차·문서 불일치",
-      "count": 7
-    },
-    {
-      "value": "공항·지상 환경",
-      "count": 5
-    },
-    {
-      "value": "교통 근접",
-      "count": 3
+      "count": 12
     },
     {
       "value": "기상",
-      "count": 1
+      "count": 12
+    },
+    {
+      "value": "절차·문서 불일치",
+      "count": 10
+    },
+    {
+      "value": "공항·지상 환경",
+      "count": 9
+    },
+    {
+      "value": "관제·통신 문제",
+      "count": 8
+    },
+    {
+      "value": "교통 근접",
+      "count": 7
     }
   ],
   "detectors": [
     {
+      "value": "운항 승무원",
+      "count": 62
+    },
+    {
       "value": "객실 승무원",
-      "count": 35
+      "count": 41
     },
     {
       "value": "정비사",
       "count": 34
     },
     {
-      "value": "운항 승무원",
-      "count": 33
-    },
-    {
       "value": "항공기 경고·표시 장치",
-      "count": 14
+      "count": 27
     },
     {
       "value": "지상 요원",
-      "count": 9
+      "count": 10
     },
     {
       "value": "승객",
@@ -74,73 +82,93 @@
     },
     {
       "value": "그 밖의 사람",
+      "count": 7
+    },
+    {
+      "value": "지형 경고 장치",
+      "count": 6
+    },
+    {
+      "value": "관제 자동화 장비",
       "count": 5
     },
     {
       "value": "관제사",
-      "count": 2
+      "count": 4
+    },
+    {
+      "value": "무인기 운용자",
+      "count": 1
+    },
+    {
+      "value": "공중충돌경고 회피 지시",
+      "count": 1
+    },
+    {
+      "value": "관측 좌석 탑승자",
+      "count": 1
     }
   ],
   "worked": [
     {
-      "value": "객실 승무원 보고",
-      "count": 30
-    },
-    {
       "value": "승무원 교차 확인",
-      "count": 29
-    },
-    {
-      "value": "지상 요원·정비사 보고",
-      "count": 29
-    },
-    {
-      "value": "운항 관리 협의",
-      "count": 27
-    },
-    {
-      "value": "절차·체크리스트 준수",
-      "count": 24
-    },
-    {
-      "value": "비상 절차 수행",
-      "count": 20
+      "count": 71
     },
     {
       "value": "승무원 수동 개입",
-      "count": 20
+      "count": 60
     },
     {
-      "value": "정비 조치·수리",
-      "count": 19
+      "value": "절차·체크리스트 준수",
+      "count": 45
     },
     {
-      "value": "운항 중단 판단",
-      "count": 16
+      "value": "운항 관리 협의",
+      "count": 39
+    },
+    {
+      "value": "객실 승무원 보고",
+      "count": 36
     },
     {
       "value": "항공기 경고 장치",
-      "count": 15
+      "count": 34
+    },
+    {
+      "value": "브리핑·사전 계획",
+      "count": 34
+    },
+    {
+      "value": "지상 요원·정비사 보고",
+      "count": 33
+    },
+    {
+      "value": "비상 절차 수행",
+      "count": 29
+    },
+    {
+      "value": "정비 조치·수리",
+      "count": 23
+    },
+    {
+      "value": "관제 감시·지시",
+      "count": 20
+    },
+    {
+      "value": "운항 중단 판단",
+      "count": 19
+    },
+    {
+      "value": "출발 전 점검",
+      "count": 14
     },
     {
       "value": "정비 정기 점검",
       "count": 13
     },
     {
-      "value": "브리핑·사전 계획",
-      "count": 12
-    },
-    {
       "value": "정비 문서·MEL 확인",
-      "count": 10
-    },
-    {
-      "value": "출발 전 점검",
-      "count": 7
-    },
-    {
-      "value": "관제 감시·지시",
-      "count": 5
+      "count": 12
     },
     {
       "value": "자동화 방호 기능",
@@ -149,43 +177,55 @@
   ],
   "breached": [
     {
-      "value": "정비 문서·MEL 확인",
-      "count": 24
+      "value": "승무원 교차 확인",
+      "count": 38
     },
     {
-      "value": "승무원 교차 확인",
-      "count": 17
+      "value": "정비 문서·MEL 확인",
+      "count": 34
+    },
+    {
+      "value": "절차·체크리스트 준수",
+      "count": 25
     },
     {
       "value": "정비 조치·수리",
-      "count": 15
+      "count": 18
+    },
+    {
+      "value": "브리핑·사전 계획",
+      "count": 17
     },
     {
       "value": "정비 정기 점검",
       "count": 14
     },
     {
-      "value": "절차·체크리스트 준수",
-      "count": 8
-    },
-    {
-      "value": "브리핑·사전 계획",
-      "count": 7
+      "value": "관제 감시·지시",
+      "count": 11
     },
     {
       "value": "항공기 경고 장치",
-      "count": 4
+      "count": 7
     },
     {
       "value": "지상 요원·정비사 보고",
-      "count": 3
-    },
-    {
-      "value": "운항 관리 협의",
-      "count": 3
+      "count": 5
     },
     {
       "value": "출발 전 점검",
+      "count": 5
+    },
+    {
+      "value": "운항 관리 협의",
+      "count": 4
+    },
+    {
+      "value": "객실 승무원 보고",
+      "count": 3
+    },
+    {
+      "value": "비상 절차 수행",
       "count": 2
     },
     {
@@ -193,72 +233,84 @@
       "count": 1
     },
     {
-      "value": "관제 감시·지시",
-      "count": 1
-    },
-    {
-      "value": "객실 승무원 보고",
+      "value": "자동화 방호 기능",
       "count": 1
     }
   ],
   "responses": [
     {
       "value": "관제 지원·확인 요청",
-      "count": 20
+      "count": 30
     },
     {
       "value": "목적지 변경",
-      "count": 10
+      "count": 19
     },
     {
       "value": "출발 공항으로 회항",
-      "count": 6
-    },
-    {
-      "value": "게이트로 복귀",
-      "count": 6
+      "count": 12
     },
     {
       "value": "지원 제공",
-      "count": 5
+      "count": 7
     },
     {
-      "value": "장비 문제를 극복함",
-      "count": 2
+      "value": "게이트로 복귀",
+      "count": 7
     },
     {
       "value": "예방 차원의 착륙",
-      "count": 1
-    },
-    {
-      "value": "비상 상태로 착륙",
-      "count": 1
-    },
-    {
-      "value": "회피 기동",
-      "count": 1
+      "count": 6
     },
     {
       "value": "복행",
+      "count": 6
+    },
+    {
+      "value": "장비 문제를 극복함",
+      "count": 4
+    },
+    {
+      "value": "회피 기동",
+      "count": 3
+    },
+    {
+      "value": "새 인가 발부",
+      "count": 3
+    },
+    {
+      "value": "비상 상태로 착륙",
+      "count": 2
+    },
+    {
+      "value": "비행 중 엔진 정지",
+      "count": 2
+    },
+    {
+      "value": "기체 제어 회복",
       "count": 1
     }
   ],
   "outcomes": [
     {
       "value": "정비 조치",
-      "count": 32
+      "count": 47
+    },
+    {
+      "value": "별도 조치 없음",
+      "count": 24
     },
     {
       "value": "부상·직무 불능",
-      "count": 14
-    },
-    {
-      "value": "탈출",
-      "count": 6
+      "count": 17
     },
     {
       "value": "운항 취소·지연",
-      "count": 5
+      "count": 8
+    },
+    {
+      "value": "탈출",
+      "count": 7
     },
     {
       "value": "인수 거부",

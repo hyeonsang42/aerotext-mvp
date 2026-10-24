@@ -1,0 +1,350 @@
+{
+  "report_id": "crm-2018142",
+  "acn": "2018142",
+  "set": "crm",
+  "synopsis": "B737-800 flight crew reported a tail strike occurred during takeoff in gusty wind conditions. Flight crew diverted and post flight inspection found minor damage.",
+  "narrative": "The day was a long duty day, scheduled for 10 hours. It was a 3-leg day, starting in ZZZ with a short flight to ZZZ, continuing to ZZZ1, and eventually ending at ZZZ2. On our arrival into ZZZ1, the ATIS showed a 10-knot tail wind, to which the Captain and I felt was in our best interest to request a more suitable runway, which would give us the least risk of landing in ZZZ1. This was our mentality the entire trip. Take it slow, make good decisions using our risk analysis model, and CRM. The winds in ZZZ1 were swirling around that day, as we landed on XXR versus XYL. Upon arrival at the gate, I did my walkaround and noticed a screw in the left main inboard tire. I notified the Captain, and he contacted Maintenance. It was determined that we would need a tire change. This, of course, caused our delay for departure to ZZZ2. The winds were still gusty, but nothing out of limitations, so we taxied to XYR for departure. The original ATIS, at time of pushback, was showing variable at 5 to 6 knots. However, just prior to lining up, the winds were now a gusty crosswind from the left. I was Pilot Monitoring (PM), and we were cleared for takeoff. The Pilot Flying (PF) applied the correct crosswind correction on the takeoff roll, and I made the appropriate takeoff callouts. At Vr, the PF rotated at a normal rate, to approximately 10 degrees. Immediately after, the aircraft pitched up more aggressively, before the main wheels were off the runway. The mains then lifted, and we both heard a thump. I believed the tail had struck. We continued the cleanup sequence, and we were handed to Departure. It was a busy time, as we were given a climb via, which had the low altitude hold-down, but then we were immediately given a vector from the Departure and altitude changes off the departure for traffic. Once the workload began to decrease, we were able to discuss the takeoff, as well as take a call from the Flight Attendants, who said they heard the sound of metal, as well as the feeling of hitting a speed bump. At this point the Captain transferred controls and contacted Maintenance in ZZZ1 to confirm how to locate on the document page of the FMC for the pitch, to determine tail strike. We were still unable to find the Pitch selection from ZZZ1 Maintenance. We leveled off at an intermediate altitude and ran the QRH and monitored pressurization. The Captain and I discussed the need to patch in with Dispatch and Maintenance via ARINC for a diversion plan. He was patched through and discussed a plan of action and options for diversion to either ZZZ1 or ZZZ3. We both agreed after looking at equal distances from either airport, that ZZZ3 was the better option with the winds showing three-knots and a long runway. This would also allow us to land under max landing weight. The diversion was confirmed with Dispatch and received via ACARS. The Captain notified the Passengers as to the plan as well as the Flight Attendants. The new route was put in, and the diversion checklist was completed. All normal checklists were complied with as well. Flight controls were then transferred to the Captain, and the briefings for ZZZ3 were completed, as well as the PM coordinating with ATC for lower altitudes to ensure fuel burn to be under max landing weight for landing. The longest runway was requested (XY), and a smooth min breaking touchdown was accomplished. We taxied to Gate XXX, to be met by Maintenance, Operations Agent, and Assistant Chief Pilot. Maintenance notified us that there was a tail strike, but the cartridge was in the green band, and the shoe was scraped and would only need to be repainted for the aircraft to be returned to service. Aircraft pushed following short delay for tire-swap (screw imbedded in tire found by First Officer (FO) during walkaround). Captain was Pilot Flying (PF). Weather was VMC, winds were left crosswind with gusts to 24. Once cleared, normal takeoff roll with slight left yoke deflection to counter crosswind. PF rotated the aircraft at Vr at normal rate of pitch change. During liftoff Captain/FO felt vibration at near simultaneous main gear lifting from runway surface. Continued clean up and initial climb out per SID. Following 10,000 ft. announcement by Flight Attendants (FA), two dings from Cabin Crew were made and Captain responded. FA's stated that they had heard a metallic scrape during takeoff. Captain and FO suspected possible tail strike during takeoff based on flight deck observations and FA input. In order to further confirm suspected strike, flight deck Crew attempted to access pitch angle during takeoff data in order to crosscheck aircraft data. As no appropriate data was located within ACARS or ACMS, Captain contacted ZZZ1 Maintenance on station frequency to attempt to verify onboard data for takeoff pitch for further verification. Captain was informed by Maintenance that this data was not available after aircraft becomes airborne. Finding that no other means were available to confirm the tail strike, flight deck Crew coordinated an intermediate level off and commenced the QRH Checklist for tail strike during takeoff. The flight deck Crew observed the cabin differential in the mid-range level and was functioning properly with normal rates. The FO was passed control of aircraft and continued to communicate with ATC. Captain contacted Dispatch through ARINC to discuss return or diversion. Dispatch remained on patch while flight crew finalized assessments and weighed risks of identified options. The Flight Crew commenced discussion of return to ZZZ1 or diversion. The flight deck Crew prioritized landing with lowest possible airframe stress. All available information to execute this course of action was considered. Although not out of limits, the winds at ZZZ1 were less favorable than ZZZ3. ZZZ3 was reporting calm winds, had multiple long runways, and the need to burn down fuel below MLGW were present with either option. ZZZ3 location was also equally suitable as it offered an extensive maintenance presence, and robust Passenger re- accommodations, as well as additional flight deck and In-flight Crew Personnel. After thoroughly considering the best course of action, the two locations were nearly equal in distance, time and fuel burn and the aircraft was still above its MLGW. Per the QRH, Captain made decision to divert to ZZZ3 as the nearest suitable airport (checklist complete). The Diversion Checklist was then continued. Diversion was coordinated with Dispatch, and data/plan was received from Dispatch via ACARS. Captain confirmed with Dispatch that the landing would not be overweight. As the FO coordinated the diversion with ATC and subsequent routing and lower altitudes to assist fuel burn to ZZZ3, the Captain informed the Flight Attendants of the aircraft status and decision to divert. The Passengers were then addressed via PA and notified of diversion. Diversion checklist was complete. As the aircraft continued to descend, the flight deck Crew reevaluated pressurization and Captain determined the pressurization would remain in the AUTO schedule to ensure the most advanced scheduling was available to protect the aircraft and Passengers during high Air Crew task loading in rising terrain environment. The Captain's intent was to not exacerbate a possible existent condition (tail strike) with the potential of a manual control error of too rapidly depressurizing the cabin while above 10,000 ft. MSL. This error would have likely yielded Passenger discomfort and possible injury. FO returned controls to Captain. Captain completed arrival, approach, and landing (runway exit) briefings. Descent and Approach Checklists were completed. To reduce structural loads on touchdown, the Captain made a Flaps 30 landing, at minimal descent rate, using minimal required brake pressure and long rollout, at less than MLGW on Runway XX. Taxied to gate. Immediate coordination with Station Personnel that were standing by began upon shutdown (Asst Chief Pilot, Maintenance, Operations Agent, Customer Service Agent, In- flight supervisor). Captain conducted a face-to-face brief with Maintenance and an inspection commenced. Maintenance inspected aircraft and informed Captain that a tail strike had indeed occurred but there was no significant damage although bare metal was visible on a portion of the shoe. The cartridge was also deemed serviceable as the green band was visible. An appropriate logbook entry was made by the Captain, signed off by Maintenance and OK to continue. The aircraft then continued immediately to ZZZ2. The Captain departed aboard subject aircraft as a DH Passenger to ZZZ2 where he then contacted Dispatch per FOM chapter. To avoid future incidents of tail strike Air Crew should be vigilant in ensuring proper rotation rate is achieved regardless of winds or other dynamics that would affect pitch rate during takeoff.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "The day was a long duty day, scheduled for 10 hours.",
+        "start": 0,
+        "end": 52
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Upon arrival at the gate, I did my walkaround and noticed a screw in the left main inboard tire.",
+        "start": 573,
+        "end": 669
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "Upon arrival at the gate, I did my walkaround and noticed a screw in the left main inboard tire.",
+        "start": 573,
+        "end": 669
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "I notified the Captain, and he contacted Maintenance. It was determined that we would need a tire change.",
+        "start": 670,
+        "end": 775
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "However, just prior to lining up, the winds were now a gusty crosswind from the left.",
+        "start": 1006,
+        "end": 1091
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 5,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "FA's stated that they had heard a metallic scrape during takeoff.",
+        "start": 4309,
+        "end": 4374
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "FA's stated that they had heard a metallic scrape during takeoff.",
+        "start": 4309,
+        "end": 4374
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Captain was informed by Maintenance that this data was not available after aircraft becomes airborne.",
+        "start": 4828,
+        "end": 4929
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Finding that no other means were available to confirm the tail strike, flight deck Crew coordinated an intermediate level off and commenced the QRH Checklist for tail strike during takeoff.",
+        "start": 4930,
+        "end": 5119
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "Captain contacted Dispatch through ARINC to discuss return or diversion.",
+        "start": 5321,
+        "end": 5393
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Dispatch remained on patch while flight crew finalized assessments and weighed risks of identified options.",
+        "start": 5394,
+        "end": 5501
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "Captain completed arrival, approach, and landing (runway exit) briefings.",
+        "start": 7555,
+        "end": 7628
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "Per the QRH, Captain made decision to divert to ZZZ3 as the nearest suitable airport (checklist complete).",
+        "start": 6296,
+        "end": 6402
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 10,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "To reduce structural loads on touchdown, the Captain made a Flaps 30 landing, at minimal descent rate, using minimal required brake pressure and long rollout, at less than MLGW on Runway XX.",
+        "start": 7677,
+        "end": 7867
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 11,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "Maintenance inspected aircraft and informed Captain that a tail strike had indeed occurred but there was no significant damage although bare metal was visible on a portion of the shoe.",
+        "start": 8155,
+        "end": 8339
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "기체에서 이륙 당시 피치 자료를 얻을 수 없다고 정비가 알려 와, 자료 확인 경로가 없었던 대목을 뚫린 방어로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted"
+      ],
+      "predicted": [
+        "Diverted"
+      ],
+      "overlap": [
+        "Diverted"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Diverted"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Takeoff / Launch"
+    ],
+    "Make Model Name": [
+      "B737-800"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

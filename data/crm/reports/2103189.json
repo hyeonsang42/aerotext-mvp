@@ -1,0 +1,208 @@
+{
+  "report_id": "crm-2103189",
+  "acn": "2103189",
+  "set": "crm",
+  "synopsis": "Flight Instructor and student reported a low altitude terrain alert while practicing instrument procedures in mountainous terrain. The instructor turned away from the terrain, then safely completed the flight.",
+  "narrative": "We were flying back from ZZZ preparing to do the Gila crossing arrival. We were at 4,500 there was no traffic around so I decided to demo tracking and intercept a radial from the PXR VOR with Autopilot since she had struggled slightly with that earlier. To avoid the bravo shelf at 3,000 & to set up for the arrival, I gave the instruction to descend and maintain 2500 (I know it’s 2000 inbound on the arrival but wanted some extra alt for the quick intercept), track and intercept the 220R from PXR inbound. I should have said outbound. We were only going to track the VOR momentarily to show how Autopilot will pick it up if you fly HDG mode and put NAV VOR in backup. The VOR intercepted and Autopilot turned us inbound at which point city lights started to disappear. I disconnected Autopilot, we got the TAWS message and I essentially chandelled away from the mountain. The CFII student tried to take some responsibility for the situational awareness of the event, but I was teaching and take full responsibility. I was focused on avoiding the bravo shelf and explaining Autopilot but I should have caught the potential terrain hazard. I also wanted to mention that I am thankful that my training gave me the tools to get us out of the situation I put us into and we got home safely. I apologized profusely to the student, told her I was submitting this report and advised her to submit a report as well if she felt it necessary to give her perspective. I will not be demoing anything at low altitudes at night from this point on. My instructor and I were coming back to GYR from doing approaches at ZZZ from the ZZZ VOR to back Goodyear. Along the way back, my instructor asked me if I wanted to do a DME ARC around the PHX VOR to practice. We were flying Northeast of the Estrella Mountains in the south practice area. Before we set up for the ARC. My instructor expressed concerns about the Bravo airspace shelves to make sure we stayed below them. This put us below the tops of the mountains. Once we were able to clear the area of traffic and then we set up for the ARC. Once we intercepted the radial off the PXR VOR I was then given instruction to turn right to start the ARC. This is when the CAS message alerted us to terrain and my instructor noticed that city lights were disappearing and ahead of us was getting dark. The terrain was approaching. She then promptly took the controls and turned to the right while at the same time I promptly told her to climb while we were in the turn to avoid the terrain. Therefore, we performed a 180 degree max climbing turn away from the terrain. I remained calm, however I could see my instructor appeared to be shaken up by the occurrence. So, I immediately started speaking in a calming manner utilizing CRM, to aid in calming her nerves and mine. I let her know we are okay, the plane is okay, and that she did a great job in guiding us away from the terrain. This seemed to help her regain her bearings and gain her focus back so she can continue to instruct and/or fly the plane. We used positive exchange of controls about 5NM before I flew us back into Goodyear to land Runway 21. On the ground, after we tied the plane up. We talked about it, and I asked her again if she was okay. My instructor was very apologetic about the event and said she didn't intend to put us in a CFIT situation. She stated she was hyper focused to not bust the bravo airspace.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "I was focused on avoiding the bravo shelf and explaining Autopilot but I should have caught the potential terrain hazard.",
+        "start": 1019,
+        "end": 1140
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "automation.aircraft_terrain_warning",
+      "evidence": {
+        "quote": "I disconnected Autopilot, we got the TAWS message and I essentially chandelled away from the mountain.",
+        "start": 772,
+        "end": 874
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지형 경고 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Terrain Warning",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "my instructor noticed that city lights were disappearing and ahead of us was getting dark.",
+        "start": 2244,
+        "end": 2334
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "This is when the CAS message alerted us to terrain and my instructor noticed that city lights were disappearing and ahead of us was getting dark.",
+        "start": 2189,
+        "end": 2334
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "She then promptly took the controls and turned to the right while at the same time I promptly told her to climb while we were in the turn to avoid the terrain.",
+        "start": 2364,
+        "end": 2523
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "She then promptly took the controls and turned to the right while at the same time I promptly told her to climb while we were in the turn to avoid the terrain.",
+        "start": 2364,
+        "end": 2523
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.took_evasive_action",
+      "evidence": {
+        "quote": "Therefore, we performed a 180 degree max climbing turn away from the terrain.",
+        "start": 2524,
+        "end": 2601
+      },
+      "item_label": "대응 행동",
+      "label_ko": "회피 기동",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Took Evasive Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "지형 접근은 기준표 위협 목록에 맞는 값이 없어 threat 를 넣지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Terrain Warning",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Terrain Warning",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Aircraft Terrain Warning",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Took Evasive Action"
+      ],
+      "predicted": [
+        "Took Evasive Action"
+      ],
+      "overlap": [
+        "Took Evasive Action"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Terrain Warning"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Took Evasive Action"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "Small Aircraft, Low Wing, 1 Eng, Fixed Gear"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "01"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "report_id": "crm-1986757",
+  "acn": "1986757",
+  "set": "crm",
+  "synopsis": "ERJ-175 First Officer reported extending final flaps below 1000 ft. on approach into LAX after a distraction related to turbulence.",
+  "narrative": "On ILS [Runway] 24R into LAX right at 1000 ft., we put flap 5 in instead of before 1000 ft. We were stabilized on the localizer and glideslopes. I was following a heavy for [Runway] 24R. I configured early up into the final approach fix. After the final approach fix, it got a little turbulent so my mind shifted to the possibility of flying above the glide slope for wake turbulence. Due to this, I was distracted. Right at 1000 ft. the Captain put flap 5 in. I'm not sure if it was right before or right after. I asked if we should go around; he said we were fine. Being unsure, I probably should have just called for the go around. I decided to write this safety report in recognition of possible pilot error Suggestions include more focused CRM. We both missed it early.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "After the final approach fix, it got a little turbulent so my mind shifted to the possibility of flying above the glide slope for wake turbulence.",
+        "start": 238,
+        "end": 384
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "On ILS [Runway] 24R into LAX right at 1000 ft., we put flap 5 in instead of before 1000 ft.",
+        "start": 0,
+        "end": 91
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "We both missed it early.",
+        "start": 750,
+        "end": 774
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I asked if we should go around; he said we were fine.",
+        "start": 513,
+        "end": 566
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "짧은 보고다. 결과 상태에 해당하는 서술이 없어 outcome 을 넣지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Final Approach"
+    ],
+    "Make Model Name": [
+      "EMB ERJ 170/175 ER/LR"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "05"
+  }
+}

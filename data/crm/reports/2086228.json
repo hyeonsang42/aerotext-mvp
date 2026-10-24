@@ -1,0 +1,297 @@
+{
+  "report_id": "crm-2086228",
+  "acn": "2086228",
+  "set": "crm",
+  "synopsis": "Part 107 UAS Remote Pilot in Command reported the UAS experienced a lost link during the flight and crashed moments later.",
+  "narrative": "On Day 0 between XA:15 and XB:25, a mishap occurred with the aircraft. Shortly after takeoff, while transitioning from forward flight to hover, the aircraft experienced a violent roll to the right and nosedived into the ground on the edge of a highway. Temperature 41 degrees F, Humidity: 88%, Dew Point: 37.4, Wind Speed: about 1mph from the east (Between 55 and 79 degrees) Gust to 6mph, Pressure/Altimeter: 30.2, KP Index. Generic weather observations: Overcast, 10-mile visibility, no reported lightning, no other conditions that would have prevented aircraft operations from occurring. Flight crew consisted of two pilots that were trained in Month 0. The flight crew were both rested and had been performing in both capacities as Visual Observer (VO) and Pilot with other aircraft for two hours prior to the flight. Crew resource management was being utilized during the entirety of the operation and prior flights with other aircraft. The crew had flown together on several occasions. The Pilot at the time had over 150 hours of operating UAS and less than five (5) hours of flight time with the type. The second pilot and VO has over 13 hours operating UAS and has less than five (5) hours on the type. The flight area is an open field in Class G Airspace. There are varying heights of fir trees and deciduous trees in the area of operation up to 120 feet tall within one mile of the flight area. There are power lines on the eastern border of the property and norther portion of the property (height of 30-40 feet) at 730 feet from the launch area. At the time of launch, there were no other aircraft in the area. There were no other aircraft being operated by the flight team or anyone else at the time of launch. This aircraft is a new purchase and unique (Fixed Wing). This is a newer production aircraft. A first run production of this model/brand of aircraft. At the time of flight, the aircraft was not broadcasting a Remote ID (RID) because there is a discrepancy between Defense Innovation Unit (DIU) standards and the FAA remote ID standard. At the time of purchase, the DIU would not allow remote ID to be built into the aircraft. However, the aircraft was going to be sent back in and fitted with a standard remote ID module. The aircraft had less than 20 flights on it. Since obtaining the aircraft in Month 0, and after initial training, there have been less than 15 flights on the aircraft. We cannot be sure since we do not have access to the flight logs and were relying on the electronic flight logs that were going to be transferred when the aircraft goes in for the RID upgrade. However, we were in the beginning stages of being able to transfer flight logs into a record management system, unfortunately, because the aircraft was never able to connect to the Ground Control Station (GCS) after the mishap, the flight log has to be pulled from the vendor at the factory. During Month 1 and part of Month 2, the aircraft was grounded due to erratic flight characteristics that were noted on the last flight in Month 1. A ticket was initiated with the vendor regarding this and other feature upgrades and on Day 0 an update was attempted. During that session, there was trouble downloading flight logs to the vendor and other parameters of software were not finalized. Another session was scheduled to push the updates through. We were told to wait until an update was completed which was going to take a couple of weeks. Specifically, there were some firmware and software updates that had to be completed to the aircraft but were still in development with the vendor. There were a couple of instances where the aircraft was losing connectivity during flight while orbiting in close proximity of the GCS (Loitering). An example included commands from the GCS to the aircraft were unable to be completed. This included turning on and off the FAA proximity lights (three mile visibility lights), setting the orbit and having the aircraft execute a Return To Home (RTH) with no input from the GCS. Other actions of concern included some landing irregularities and behavior of the aircraft and the three (3) axis gimbal kept getting stuck when in facing in the looking down and back positions. All of this was relayed during sessions with the vendor. This was the first flight since the last firmware and software update. This flight was to be a training flight. As such, there was no rush or any influences to get the aircraft in the air quickly. All Check Lists were utilized and followed in the aircraft assembly, start up on the GCS, and inserting of the battery to connect the aircraft to the GCS. All safety checks were completed with specificity of making sure the battery lock screw were properly placed. Both external batteries were attached to the GCS and connected to the GCS with the supplied cables in the two ports on the bottom of the GCS. The controller battery was fully charged and showing fully charged. The aircraft was showing almost fully charged. The preflight also included completing a preflight mission checklist, a Flight Risk Assessment Tool checklist and an additional multi rotor checklist. The only error that populated on the GCS was the ADSB server was not connecting. The flight plan for the mission was discussed and communicated between the pilot and VO. The flight plan was to ascend to a transition altitude and establish an orbit (Loiter) above the take-off area. After about 5-10 minutes, the aircraft would be brought back in for a landing and the pilot and VO were to switch places. The launch area was a 50x50 foot solid surface next to the open field. There were no obstructions within the 50-foot area. The pilot and VO were in complete control of the launch and landing area. After all checklists were complete, after the pilot and VO were comfortable with the flight plan, the take-off procedures were initiated. After the aircraft was between 20-40 feet above the ground, an RSSI was checked (signal of video connectivity), the satellites were checked for connectivity and 18 satellites were showing, a 20 and 20 was completed (Roll Left, Roll Right, Yaw Left, Yaw Right, Climb and Descend, in no specific order) to verify that all of the controls were functioning normally. The aircraft was then directed to climb to the transition altitude before transitioning from hover to forward flight. The mishap occurred within three (3) minutes of take-off. As soon as the aircraft was transitioned to forward flight, the aircraft proceeded north over the field while climbing to attain an altitude that would be good for loitering. A few seconds into the forward flight, the pilot felt a little uncomfortable after making a course correction with the aircraft and decided to transition back to hover. The switch was flipped from forward flight to hover. After a few seconds, after it appeared that the transition to hover occurred, the left control was manipulated to yaw right. Almost immediately, contact was lost between the controller and aircraft. The aircraft then executed a violent roll to the right (wing over or the bottom of the aircraft was facing West, and the Left wing was pointed to the sky and Right wing was pointed to the ground), the nose of the aircraft then pitched to the ground and rapidly descended and impacted the ground. The aircraft was about 740 feet from the GCS when it impacted the ground. Altitude was 100 to 150 feet AGL before experiencing the erratic behavior of the aircraft. The crew then split up. One stayed at the take-off area and the other ran to locate the crashed aircraft. The aircraft was found easily and was just off the roadway and not impacted by the traveling public. All of the motors were still turning and did not seem to be responding to any input. Via cell phone, the pilot communicated with the VO to turn off the aircraft. The VO stated that the GCS was not connecting to the aircraft. The VO tried holding the Left stick in the down position to stop the motors, but there was no response. The VO then tried to hold the left stick down and to the left (as identified as an alternative in the aircraft manual), with no response from the aircraft. The VO was asked to bring the GCS to the aircraft to see if a closer proximity would establish a connection. This did not work. The rotating propellers were found in the following state. The Left propeller and leg mount had detached from the aircraft completely with the insert to the aircraft missing. The Right leg was still attached to the aircraft and the motor was still spinning, but the propeller had broken almost at the midpoint of the propeller and was lying next to the motor. A propeller at the tail had detached from the body of the aircraft but connected by the power cable and was also still spinning. The battery lock had detached from the battery and the battery was still emplaced inside the fuselage of the aircraft. The payload (three axis gimbal) was destroyed and created a debris trail from the probable point of impact in the roadway (one of the metal lens dials was still in the road) and final resting place which was about three feet. With the motors still turning, the crew started to disassemble the Right leg (motor) to get it to power down; and started to remove the wing, which stopped the rear propeller from operating. There was no procedure for this in the manual, as the flight team did quickly look it up in the electronic folder that was accessible via cell phone. This was a guess, but seemed to have worked. Due to the location on the busy roadway, all of the parts were picked up and put in the back of the vehicle and driven back. A report was conducted to determine what was planned, what actually happened, what can we do better and what did we do well. All parts were then secured in the supplied aircraft case. When the mishap occurred, there was a member of the public who was watching the flight from their house. The flight path of the aircraft was adjacent to the house and the witness had a clear and unobstructed view of the flight. The witness stated that the aircraft seemed to nosedive into the ground and made a loud noise when it hit the ground. When asked if the aircraft struck anything before the mishap, the witness stated that the aircraft was well above the surrounding trees and power lines. He verified that the aircraft seemed to roll very quickly and seemed to turn into the ground. Person A investigated the mishap to obtain as much information about what happened pre, during and post mishap. Based upon the scientific method that is used in the investigation, this seemed to me the most appropriate since there is no real standard for a UAS crash this at this time. The aircraft was found upside down underneath a guardrail on one of the local highways. All of the aircraft components seem to have been located within a ten-foot diameter of the final resting place of the aircraft. The aircraft was somewhat intact (Wings still attached but damaged at the connecting point to the fuselage), and the broken off battery lock was located. The Right winglet was broken, and the right winglet was sheared off. The Left wing had a crease mid span (On the top surface of the wing), but no outward signs of it impacting anything were observed. However, the pitot tube was not mounted to the wing and was hanging off. The top of the fuselage where the payload connected had signs of impact indicating that the aircraft struck the pavement upside down. There were no signs of any impact to the aircraft prior to it striking the ground. Meaning, there were no signs of a tree strike or wire strike. Only half of the right propeller was located. Based upon what was recovered, witness statement, statement from the pilot and VO, no outward signs of the aircraft impacting a tree or wire, bird or other object; there is no evidence to support the pilot hitting something before the mishap. Another hypothesis is that weather could have brought the aircraft down. There were no significant winds or wind events that could have created turbulence to bring down the aircraft. The dew point and temperature were not within 5 degrees and there was no evidence of icing (the sun was in and out that day), there was no precipitation or lightning present. An important consideration is that the flight software includes a safety feature that will always right the aircraft if it is forced upside down due to a wind event. Additionally, with the other flight activity with other aircraft that day by the flight crew, there are no indicators that weather was a factor in this mishap. Another hypothesis is that with only half of the right propeller recovered, the violent roll of the aircraft to the right, the propeller may have failed, causing the aircraft to lose lift in the hover. With no lift, this could have caused the aircraft to roll over. A more detailed search the crash site the next day, led to the discovery of the other half of the Right propeller in the area of the final resting place of the aircraft. Based upon this discovery, there is no evidence to suspect that the propeller broke mid-flight which could have caused the roll to the right. Another hypothesis is that the Right foot was not seated and locked in all the way. If the right foot had unseated in flight, a power loss could have occurred, which could have caused the roll to the right and the aircraft to impact the ground. When the Pilot and VO went to collect the aircraft, the Right propeller motor was still spinning. In order for the propeller motor to be powered down, the Right leg had to be removed from the aircraft. The leg was still locked into the fuselage. With this information, it is not likely that the Right leg separated from the fuselage, which would have depowered the Right Motor. Another hypothesis is that there could have been something that caused the aircraft to stall, which by nature of a stall would have caused the aircraft to roll and impact the ground. However, the aircraft is programmed to never get below stall speed. Another hypothesis is that there may have been a software or firmware issue that caused the mishap. Since this was the first flight after an upgrade, this could be a possibility. Another hypothesis is that there could be a power issue with the GCS that caused a connectivity issue. There is nothing in the instruction manual that talks about the proper way to install the additional batteries. Both batteries were plugged into the USBC ports on the GCS. One of the cords was a USBC to USBC and the other was USB 2.0 to USBC. It is unknown if that could have caused interference with the software or controller.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "During Month 1 and part of Month 2, the aircraft was grounded due to erratic flight characteristics that were noted on the last flight in Month 1.",
+        "start": 2899,
+        "end": 3045
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Specifically, there were some firmware and software updates that had to be completed to the aircraft but were still in development with the vendor.",
+        "start": 3448,
+        "end": 3595
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "All Check Lists were utilized and followed in the aircraft assembly, start up on the GCS, and inserting of the battery to connect the aircraft to the GCS.",
+        "start": 4471,
+        "end": 4625
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The preflight also included completing a preflight mission checklist, a Flight Risk Assessment Tool checklist and an additional multi rotor checklist.",
+        "start": 4993,
+        "end": 5143
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "The flight plan for the mission was discussed and communicated between the pilot and VO.",
+        "start": 5225,
+        "end": 5313
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Crew resource management was being utilized during the entirety of the operation and prior flights with other aircraft.",
+        "start": 822,
+        "end": 941
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.uas_crew",
+      "evidence": {
+        "quote": "A few seconds into the forward flight, the pilot felt a little uncomfortable after making a course correction with the aircraft and decided to transition back to hover.",
+        "start": 6597,
+        "end": 6765
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "무인기 운용자",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "UAS Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "The switch was flipped from forward flight to hover.",
+        "start": 6766,
+        "end": 6818
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Almost immediately, contact was lost between the controller and aircraft.",
+        "start": 6944,
+        "end": 7017
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 6,
+      "item": "threat",
+      "value": "procedure_doc_conflict",
+      "evidence": {
+        "quote": "There was no procedure for this in the manual, as the flight team did quickly look it up in the electronic folder that was accessible via cell phone.",
+        "start": 9324,
+        "end": 9473
+      },
+      "item_label": "위협",
+      "label_ko": "절차·문서 불일치",
+      "layer": null,
+      "agent": null,
+      "desc": "절차서, 교범, 차트, MEL의 내용이 서로 다르거나 현장과 맞지 않는 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "There is nothing in the instruction manual that talks about the proper way to install the additional batteries.",
+        "start": 14336,
+        "end": 14447
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The crew then split up. One stayed at the take-off area and the other ran to locate the crashed aircraft.",
+        "start": 7479,
+        "end": 7584
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "With the motors still turning, the crew started to disassemble the Right leg (motor) to get it to power down; and started to remove the wing, which stopped the rear propeller from operating.",
+        "start": 9133,
+        "end": 9323
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "무인기 추락 보고다. 결과 상태에 맞는 기준표 값이 없어 outcome 을 넣지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "UAS Crew"
+      ],
+      "predicted": [
+        "UAS Crew"
+      ],
+      "overlap": [
+        "UAS Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "UAS Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "Small UAS (At or above 0.55 lbs and less than 55 lbs)"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "01"
+  }
+}

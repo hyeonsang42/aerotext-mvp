@@ -1,0 +1,243 @@
+{
+  "report_id": "crm-2012197",
+  "acn": "2012197",
+  "set": "crm",
+  "synopsis": "B737 flight crew reported receiving a late visual approach clearance from ATC resulting in the aircraft being high for a stabilized approach, then also receiving a EGPWS obstacle alert warning when descending to the ATC assigned altitude. The flight crew climbed back to the correct altitude and continued the approach to landing.",
+  "narrative": "ZZZ Controller clears Flight XXX into obstacle. Flight XXX ZZZ1 to ZZZ. Cleared direct ZZZZZ (fix on ILS XXR, listed at 2800 ft.) descend to 4000 ft. I descend to 4000 ft, 7 miles from ZZZZZ with flaps 1 already extended. I slow from 240 KIAS to 180 KIAS (based on my math 10 kts. per mile). The Captain perceived that we were high. I was not concerned because I was following my 3:1 descent plan. At 3 miles from ZZZZZ I leveled off at 4000 ft. As I slow to 180 KIAS, I finally see the runway. Because we stopped the descent at 4000, we are high. I ask the Captain to ask for Approach Clearance, which they do. The Controller clears us for the approach, approximately 1 mile from ZZZZZ. This was too late of a clearance and without our prompt the Controller forgot to clear us. The Captain suggests asking for s turns, I think I am too high to fix this so I ask for a right 360. Captain relays this to the Controller. The Controller clears us to make a right 360 and descend to 2000 ft. This is too low of a clearance. During the right 360, about 2400 we get an \"Obstacle\" aural alert. We climbed to 2800. We again ask for clearance and are cleared for the approach. We meet all stable approach gates and land normally. We had to prompt the Controller 3 times. I should have had the situational awareness that we would be high, I was so focused on my descent plan I did not take into account that the Controller might forget to clear us and by the time I asked the Captain to ask the Controller to clear us we were too high. The Captain exhibited excellent SA, he was aware that we were about to be high and helped point out the runway to me both times. The first error was the Controller did not clear us for the approach in time. The second error was that the Controller cleared us into an unsafe altitude that caused an obstacle aural alert. The error I made was not recognizing the impending high situation by trying to time the descent with no margin for error. The Captain exhibited strong SA the whole time and excellent CRM, he helped me respond to the obstacle quickly. On arrival to from the North on the arrival ZZZ the Approach Controller gave us direct to ZZZZZ which is the FAF on the ILS XXR and maintain 4000. As we were approaching ZZZZZ we were gear down and flaps 15 and it appeared that we were starting to become high as the GS altitude at ZZZZZ is 2770. We were still at 4000 and the Controller forgot to give us a clearance. As we were receiving our visual approach clearance we were now too high to make a straight in from ZZZZZ at 4000. We requested a 360 degree turn to lose altitude. The Controller approved a right 360 and maintained 2000. As we were halfway through the 360 descending through 2500, we received an \"Obstacle\" warning and immediately began correcting until the warning stopped at 2800. We rejoined the localizer and were cleared the visual and landed meeting all the stabilized approach criteria.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "atc_comm_issue",
+      "evidence": {
+        "quote": "The first error was the Controller did not clear us for the approach in time.",
+        "start": 1655,
+        "end": 1732
+      },
+      "item_label": "위협",
+      "label_ko": "관제·통신 문제",
+      "layer": null,
+      "agent": null,
+      "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "I should have had the situational awareness that we would be high, I was so focused on my descent plan I did not take into account that the Controller might forget to clear us and by the time I asked the Captain to ask the Controller to clear us we were too high.",
+        "start": 1262,
+        "end": 1525
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The Captain exhibited excellent SA, he was aware that we were about to be high and helped point out the runway to me both times.",
+        "start": 1526,
+        "end": 1654
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "The second error was that the Controller cleared us into an unsafe altitude that caused an obstacle aural alert.",
+        "start": 1733,
+        "end": 1845
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "detector",
+      "value": "automation.aircraft_terrain_warning",
+      "evidence": {
+        "quote": "As we were halfway through the 360 descending through 2500, we received an \"Obstacle\" warning and immediately began correcting until the warning stopped at 2800.",
+        "start": 2669,
+        "end": 2830
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지형 경고 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Terrain Warning",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "As we were halfway through the 360 descending through 2500, we received an \"Obstacle\" warning and immediately began correcting until the warning stopped at 2800.",
+        "start": 2669,
+        "end": 2830
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "We climbed to 2800.",
+        "start": 1087,
+        "end": 1106
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "We again ask for clearance and are cleared for the approach.",
+        "start": 1107,
+        "end": 1167
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "We rejoined the localizer and were cleared the visual and landed meeting all the stabilized approach criteria.",
+        "start": 2831,
+        "end": 2941
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "관제 감시·지시를 뚫린 방어로 넣었다. 신고자가 관제가 접근 인가를 늦게 줬고 안전하지 않은 고도로 인가했다고 직접 서술한다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Terrain Warning",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Terrain Warning"
+      ],
+      "overlap": [
+        "Aircraft Terrain Warning"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Issued New Clearance",
+        "Took Evasive Action"
+      ],
+      "predicted": [
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Terrain Warning"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Took Evasive Action"
+    ],
+    "Result.Air Traffic Control": [
+      "Issued New Clearance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Final Approach"
+    ],
+    "Make Model Name": [
+      "B737 Next Generation Undifferentiated"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

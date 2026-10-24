@@ -1,0 +1,222 @@
+{
+  "report_id": "crm-2072182",
+  "acn": "2072182",
+  "set": "crm",
+  "synopsis": "Fractional jet flight crew reported receiving a low altitude alert from ATC on approach to ASE after misunderstanding a clearance.",
+  "narrative": "We were shooting the LOC DME E 15 approach into ASE. We broke out of the clouds and observed the airport in sight. I advised the PM to advise ATC that we had the field in sight and want to continue visually. I didn't fully monitor the communication between the PM and ATC, as I was focused on my primary tasks. Through PM response, (miscommunication,) I thought we had clearance to continue visually, but evidently we didn't. We were advised of a low altitude alert while VMC. We then communicated more effectively with ATC and continued to a safe landing. Poor crew communication, as well as our poor communication with ATC regarding visual conditions and our desire to continue visually. Not rightly dividing attention to tasks such as communication while focused on flying duties. On the transition from IMC to VMC conditions, be very clear in communication with fellow crew members and ATC about having the airport in sight. Be more deliberate when requesting to continue visually and be certain to have ATC approval before leaving the instrument approach vertical profile visually. Don't assume anything. We can't be so wrapped up in staying ahead of the aircraft in challenging situations that we open ourselves up to deviate from established procedures. Brief the manner in which we plan on communicating with ATC when transitioning from instrument to visual conditions. During our LOC DME-E approach to ASE, we transitioned from IMC to VMC with plenty of distance from the runway. Both pilots had the runway in sight, so I (PM) notified the Approach Controller. I thought I was clear to proceed visually and misled the Pilot Flying (PF) to transition to a visual approach. An altitude alert called the attention of the Tower Controller, and they informed us about it. We requested to finish the approach visually. After our landing, the Tower Controller gave us a phone number so we could talk about the event. Expectation bias led me to proceed visually after transitioning to VMC conditions without CRM confirmation. After clarifying with ATC and requesting to finish the approach visually, we completed the flight safely and uneventfully. Be more assertive with our CRM and procedures during approach transitions, specially from IMC to VMC.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "atc_comm_issue",
+      "evidence": {
+        "quote": "Through PM response, (miscommunication,) I thought we had clearance to continue visually, but evidently we didn't.",
+        "start": 311,
+        "end": 425
+      },
+      "item_label": "위협",
+      "label_ko": "관제·통신 문제",
+      "layer": null,
+      "agent": null,
+      "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I didn't fully monitor the communication between the PM and ATC, as I was focused on my primary tasks.",
+        "start": 208,
+        "end": 310
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "Expectation bias led me to proceed visually after transitioning to VMC conditions without CRM confirmation.",
+        "start": 1919,
+        "end": 2026
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "automation.air_traffic_control",
+      "evidence": {
+        "quote": "An altitude alert called the attention of the Tower Controller, and they informed us about it.",
+        "start": 1681,
+        "end": 1775
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관제 자동화 장비",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Air Traffic Control",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "We were advised of a low altitude alert while VMC.",
+        "start": 426,
+        "end": 476
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "We then communicated more effectively with ATC and continued to a safe landing.",
+        "start": 477,
+        "end": 556
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "We requested to finish the approach visually.",
+        "start": 1776,
+        "end": 1821
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "After clarifying with ATC and requesting to finish the approach visually, we completed the flight safely and uneventfully.",
+        "start": 2027,
+        "end": 2149
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Air Traffic Control"
+      ],
+      "overlap": [
+        "Air Traffic Control"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Became Reoriented",
+        "Returned To Clearance"
+      ],
+      "predicted": [
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Became Reoriented",
+      "Returned To Clearance"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "Small Transport, Low Wing, 2 Turbojet Eng"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "02"
+  }
+}

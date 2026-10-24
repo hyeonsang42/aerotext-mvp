@@ -47,9 +47,7 @@ export default function Home() {
             {
               n: `${s.match_rate}%`,
               k: "기관이 적어 둔 답과 일치",
-              d: g
-                ? `읽지 않고 찍으면 ${s.baseline_rate}%다. 한 번도 열어 보지 않은 자료에서도 ${g.holdout.match_rate}%`
-                : `읽지 않고 찍으면 ${s.baseline_rate}%다. ${s.gain}점 높다`,
+              d: `세트별로는 ${Object.values(s.by_set || {}).map((v) => `${v.match_rate}%`).join(" · ")}. 기준선과 함께 봐야 한다`,
             },
             {
               n: `${items}개`,
@@ -203,9 +201,11 @@ export default function Home() {
             </p>
             <div className="mt-4 space-y-2">
               {[
-                ["읽고 뽑았을 때", `${s.match_rate}%`, `${s.matched}/${s.scored}건 일치`],
-                ["읽지 않고 찍었을 때", `${s.baseline_rate}%`, `${asrsKo("detector", s.baseline_value)} 하나만 전부 찍기`],
-                ["그 차이", `+${s.gain}%p`, "읽어서 얻은 몫"],
+                ...Object.entries(s.by_set || {}).map(([k, v]) => [
+                  setKo(k), `${v.match_rate}%`,
+                  `찍으면 ${v.baseline_rate}% · 차이 ${v.gain > 0 ? "+" : ""}${v.gain}%p`,
+                ]),
+                ["합산", `${s.match_rate}%`, `찍으면 ${s.baseline_rate}% · 차이 +${s.gain}%p`],
                 ["건당 평균 추출", `${s.avg_predicted}개`, `정밀도 ${s.avg_precision}%`],
                 ...(g ? [["안 열어 본 자료에서", `${g.holdout.match_rate}%`, `${g.drop}%p만 하락`]] : []),
               ].map(([k, v, sub]) => (
@@ -219,7 +219,9 @@ export default function Home() {
               ))}
             </div>
             <p className="mt-3 text-xs leading-relaxed text-slate-500">
-              {s.note} 결측 {s.missing}건({s.missing_rate}%)은 제외했습니다. 불일치 {s.mismatches.length}건.
+              기준선은 채점 집합마다 다시 계산합니다. 세트를 합치면 세트마다 제일 흔한 답이 달라
+              기준선이 내려가므로 합산 차이는 세트별 차이보다 커 보입니다.
+              결측 {s.missing}건({s.missing_rate}%)은 제외했습니다. 불일치 {s.mismatches.length}건.
             </p>
           </div>
 

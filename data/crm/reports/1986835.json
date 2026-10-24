@@ -1,0 +1,240 @@
+{
+  "report_id": "crm-1986835",
+  "acn": "1986835",
+  "set": "crm",
+  "synopsis": "Air Carrier Flight Attendant reported a passenger passed out and vomited around the surrounding seating area during pre-flight. After an extensive discussion ensued regarding the Hazmat cleanup responsibility without a safe resolution, the aircraft departed in an unsuitable condition.",
+  "narrative": "During the safety demo a PAX passed out and started aggressively throwing up all over themselves, the seat, seat back pocket, tray table, floor, aisle, purses, backpacks, and other belongings of surrounding pax. The bodily fluids got on the passenger sitting in front of them. We immediately stopped the demo. We grabbed gloves and protective gear from the kit. Once PAX finished vomiting, PAX regained consciousness. We notified the CA (Captain) immediately because we were still at the gate. We also called for medical assistance. We were told to disarm doors and wait for ground medical crew. The passenger in distress went into the front Lav to attempt to clean themself. Medical personnel arrived and escorted the PAX off the plane. The PAX travel companion decided to get off as well. However, there was no ground personnel anywhere in sight. We told the travel companion to be patient and a ground crew would be right up to escort them to the PAX. Since the ground crew was not around (and the FWD L1 door was open) the flight attendants started to clean up the vomit. Even with 2 kits there were not enough materials to soak up the vomit, a bio hazardous material. The CA called again for ground crew to come and clean. Eventually a person came up with ONLY paper towels and one white trash bag. The flight attendants requested sanitizing products, new seat belts, vacuum, and red disposable hazmat bag because of the vomit and it being considered a bio hazardous fluid. Vomit can carry hazardous pathogens that can rapidly contaminate surfaces and the air. We had already filled four white trash bags with the vomit from just the aisle. The two FWD flight attendants have been taking trainings on bio hazardous bodily fluids for over 8~Years and we know that if vomit is not cleaned up properly then there are risks for the potential spread of diseases such as Salmonella, Norovirus, Hepatitis A & B, Typhoid, and Varicella. This was very concerning to us because the GM (general manager) had no idea how to handle this situation. The GM kept telling us that \"we don't do that\" whenever we asked for things to be cleaned and sanitized. It was a very serious safety issue and we felt we weren't being heard on what was needed to clean up this extreme amount of vomit. This was a safety issue for us as a crew and also the passengers. Safety is our #1 priority. In the notes it states that the Captain did not want to deplane. This is incorrect. The ground crew didn't want to deplane, so we moved the affected first X rows of passengers to the back of the plane. The ground person initially dropped off the cleaning supplies (paper towels/wipes) to the FWD galley and stood there expecting the flight attendants to clean the vomit. The flight attendants cleaned up most of it already, but we still needed industrial use sanitizer, spray, deodorizer spray for the smell, and a wet vacuum. During this time there was never a gate agent assigned to our plane. The [ground crew] person left the aircraft and we sat there not having any information, no cleaning supplies or ground cleaners. The CA called ops again for ground crew to come back and finish the clean up. At this point it had been 75 minutes and we started a pour service. The GM for ground crew company came on board and was confused about what he needed to do and continued to ask the FAs. The lead explained the medical situation and what the pilots and flight attendants had requested. He argued profusely with the flight attendants and stated that \"we don't do that\". He then said the ground crew doesn't clean the aircraft on turns, just on RON. We told him that's not the situation and we just need the plane cleaned from this medical. The GM asked us repeatedly what exactly we needed, but never brought it to us and kept saying, \"we don't do that.\" Our crew was frustrated for the lack of training the company had received for hazmat and first aid. It seemed like they had no idea what precautions to take or the necessary supplies needed to clean up bodily fluid. It seemed like they wanted us to handle it all, but without any access to supplies. The GM was recording videos of the affected area with his phone after he supposedly cleaned the area. During flight several passengers said they didn't want to delay the flight any longer, but there was still a big mess of vomit on the side of the seats and especially the seat in XX. The GM seemed satisfied that the area had been cleaned. However, the seatbelt needed to be replaced and the GM said he doesn't do that either. We told him we needed one and asked who does that? We explained that we cleaned the bathroom to help out since no one had come to our aircraft to assist. He continued to argue with us in-front of passengers claiming they don't clean the bathrooms. At this point it's embarrassing because the GM is verbally attacking us in front of pax. We were only trying to communicate that the vomit needed to be cleaned and cleaned correctly with disinfecting products. Because the GM was being loud with flight attendants in the FWD galley, passengers started to get out their phones and record. We were embarrassed and frustrated because our training tells us how to handle first aid and hazmat situations differently. The CA heard the GM and came out of the flight deck to speak with the GM. He took him onto the ramp and they exchanged words. We never got the cleaning supplies we needed after multiple attempts of telling the ground crew what we needed to clean up the vomit. The surrounding passengers complained about the smell and left over chunks on the floor. When GM came back, he asked the lead what exactly he needed to do. She explained for the second time what we needed and he left to go get it (We then found out that he went to call our supervisor). The pour service was completed by the time they came back with the necessary cleaning supplies. The GM himself cleaned whatever vomit was remaining using a microfiber towel, which only potential spread contaminates. It wasn't doing the job and again we requested a wet vacuum. The GM eventually went to get the vacuum after the CA walked out to speak with him for a second time. The GM made several unnecessary comments to the flight attendants (in front of passengers) about the seat. MX was called and they showed up to replace the seatbelt. We requested cups, trash bags, paper towels and water for passengers since we used it all for cleaning up the vomit and pour service. After reviewing the delay notes, it states that \"the pilot refused to board until mess area was cleaned again.\" This is incorrect. As stated above, we were fully boarded and the passengers never deplaned. We only moved the first 5 rows to the back of the plane so we could clean up the affected area. The crew resource management was poorly executed by the ground company side of the operation. There needs to be consistency between flight attendants and ground crew on cleaning up bodily fluids on the aircraft so we are both on the same page. This is very serious to me since it is a bio hazard and I don't feel confident in the proper cleanliness of the aircraft after an incident of a bio hazard has occurred. We take tests every year to stay informed of the severity of health concerns and the way this incident was handled was very unsettling. The GM of the airport didn't even know his job or seemed concerned about cleaning up the mess. It could be blood, stool, urine, vomit, or drool that needs to follow OSHA standards on making sure we are not spreading potential diseases. A ground crew worker should not approach an aircraft with a roll of paper towels and a white trash bag when they are informed that a seat needs to be cleaned or a bathroom needs to be cleaned because of bodily fluids.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "During the safety demo a PAX passed out and started aggressively throwing up all over themselves, the seat, seat back pocket, tray table, floor, aisle, purses, backpacks, and other belongings of surrounding pax.",
+        "start": 0,
+        "end": 211
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "We grabbed gloves and protective gear from the kit.",
+        "start": 310,
+        "end": 361
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "We notified the CA (Captain) immediately because we were still at the gate.",
+        "start": 418,
+        "end": 493
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "We also called for medical assistance.",
+        "start": 494,
+        "end": 532
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "outcome",
+      "value": "general.physical_injury_incapacitation",
+      "evidence": {
+        "quote": "Medical personnel arrived and escorted the PAX off the plane.",
+        "start": 676,
+        "end": 737
+      },
+      "item_label": "결과 상태",
+      "label_ko": "부상·직무 불능",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Physical Injury / Incapacitation",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "Eventually a person came up with ONLY paper towels and one white trash bag.",
+        "start": 1228,
+        "end": 1303
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "The GM kept telling us that \"we don't do that\" whenever we asked for things to be cleaned and sanitized.",
+        "start": 2040,
+        "end": 2144
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "During flight several passengers said they didn't want to delay the flight any longer, but there was still a big mess of vomit on the side of the seats and especially the seat in XX.",
+        "start": 4227,
+        "end": 4409
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.flight_cancelled_delayed",
+      "evidence": {
+        "quote": "At this point it had been 75 minutes and we started a pour service.",
+        "start": 3172,
+        "end": 3239
+      },
+      "item_label": "결과 상태",
+      "label_ko": "운항 취소·지연",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Cancelled / Delayed",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "생물학적 오염물 처리 상황이다. 기준표 위협 목록에 해당 값이 없어 지연 압박만 위협으로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Attendant",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Flight Attendant"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "Flight Cancelled / Delayed",
+        "Physical Injury / Incapacitation"
+      ],
+      "overlap": [
+        "Flight Cancelled / Delayed"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Attendant",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate"
+    ],
+    "Flight Phase": [
+      "Parked"
+    ],
+    "Make Model Name": [
+      "Medium Transport, Low Wing, 2 Turbojet Eng"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "05"
+  }
+}

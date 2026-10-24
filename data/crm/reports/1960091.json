@@ -1,0 +1,327 @@
+{
+  "report_id": "crm-1960091",
+  "acn": "1960091",
+  "set": "crm",
+  "synopsis": "B757 First Officer reported master Caution light with multiple EICAS messages, and both ADI, EICAS and HSI screens blanked off and on. Immediately afterwards, noticed that the secondary EICAS and FO HSI displays remained blank. The Flight Crew started the APU, but no systems were recovered. The flight crew requested priority handling and performed an air turn back and precautionary landing at departure airport.",
+  "narrative": "Prior to flight, we noticed a write up in the Log History portion of the flight package about the R GEN falling offline and a R BUS Tie Fail during climb out the previous day, which necessitated a return to the airport. Maintenance noted no anomalies with the IDG or any electrical system components, wrote that Tech Operations Checked Good on the ground, and released the aircraft for flight, which essentially dumped the problem in our laps. After takeoff in beautiful day VMC conditions, I was hand-flying during the climb with the Captain performing PM (Pilot Monitoring) duties (of note, we just happened to have a 756 qualified FO (First Officer) riding on our jump seat, who had his company iPad in his bag). Passing 12,000 ft., several things happened simultaneously: We heard multiple clicks (like electrical contactors opening/closing), we had a Master Caution Light with multiple EICAS messages, and our ADI, EICAS and HSI screens blanked off and on. Immediately afterwards, we noticed that the secondary EICAS and FO HSI displays remained blank. Not unexpectedly, all FD guidance and FMA modes disappeared. Later on, we were briefly able to regain use of the FD and AP on the Captain's side, but only for about 15 seconds before everything clicked off again. I continued flying the aircraft and handled ATC communications as we began to diagnose what the problem was. We noticed that we had a R AC BUS OFF EICAS message with subsequent secondary messages associated with losing components from the R AC BUS. The Captain and Jump Seater did a phenomenal job of running all checklists and keeping everyone in the loop. After running the AC BUS OFF - R, UTIL BUS OFF - L AND R, and BUS ISOLATED checklists, we were able to regain our normal systems, minus the R BUS TIE which remained isolated. After a good discussion/mini-debrief about what we had just resolved and what the next course of action should be, we elected to continue our flight and continue a climb to our initial cruise altitude of FL 310. Maybe three minutes after we had experienced our first AC Bus failure, we experienced the exact same thing again. Priority handling was requested, checklists were once again accomplished, and a decision was made to return back to ZZZ. We started the APU, but if failed to pick up any load on the right side or otherwise have any effect on improving our situation. The return to ZZZ was uneventful, and the Overweight Landing checklist was completed for an uneventful overweight landing performed by the Captain. The Captain and Jump Seater did a phenomenal job, and made this event easier than it could otherwise have been. CRM was off the charts, and all inputs considered prior to any final decisions. Even though I was hand flying climbs, descents, turns, etc., I was able to remain in the loop throughout. ZZZ ATC was superb: Patient, flexible, accommodating. Checklist design It is VERY deceiving, after one attempt to reset, to stop after the note that says to Attempt only one reset. It would be helpful for folks in the heat of the moment to have Step XX as a reminder in there. I love and appreciate all the hard work our Maintainers do to keep the fleet flying. I despise the CULTURE that drives Maintenance to avoid taking delays. More complex problems, especially those requiring an air return, need to be explored a bit more than just seeing who can find the yellow sticker book the quickest so as to avoid taking a delay. As a matter of fact, once we returned to the gate, I watched Maintenance Operations check the problem inside of two minutes and they could not see any problem with the electrical system. Heck, they probably were within their rights to sign it off AGAIN and dump this problem into the next crew's lap. It was not until we told Maintenance we were not going to take the aircraft again that they expressed an interest at looking deeper into the problem. Even then, it was mentioned that they could just defer it and press on. I was speechless. Put the safety of our passengers and crew in jeopardy so that no one takes a delay. Is this really our culture??? I understand there are Maintenance items that are deferrable and that have little impact on operations - this was not one of those. Someone should have taken a harder look into this before we got to the airplane because this was not just a burned out taxi light.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Prior to flight, we noticed a write up in the Log History portion of the flight package about the R GEN falling offline and a R BUS Tie Fail during climb out the previous day, which necessitated a return to the airport.",
+        "start": 0,
+        "end": 219
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "we noticed a write up in the Log History portion of the flight package about the R GEN falling offline and a R BUS Tie Fail during climb out the previous day",
+        "start": 17,
+        "end": 174
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "Maintenance noted no anomalies with the IDG or any electrical system components, wrote that Tech Operations Checked Good on the ground, and released the aircraft for flight, which essentially dumped the problem in our laps.",
+        "start": 220,
+        "end": 443
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "we had a Master Caution Light with multiple EICAS messages, and our ADI, EICAS and HSI screens blanked off and on",
+        "start": 847,
+        "end": 960
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "we had a Master Caution Light with multiple EICAS messages, and our ADI, EICAS and HSI screens blanked off and on",
+        "start": 847,
+        "end": 960
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "After running the AC BUS OFF - R, UTIL BUS OFF - L AND R, and BUS ISOLATED checklists, we were able to regain our normal systems, minus the R BUS TIE which remained isolated.",
+        "start": 1629,
+        "end": 1803
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The Captain and Jump Seater did a phenomenal job of running all checklists and keeping everyone in the loop.",
+        "start": 1520,
+        "end": 1628
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "We started the APU, but if failed to pick up any load on the right side or otherwise have any effect on improving our situation.",
+        "start": 2251,
+        "end": 2379
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "It is VERY deceiving, after one attempt to reset, to stop after the note that says to Attempt only one reset.",
+        "start": 2897,
+        "end": 3006
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "Priority handling was requested, checklists were once again accomplished, and a decision was made to return back to ZZZ.",
+        "start": 2130,
+        "end": 2250
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "Priority handling was requested, checklists were once again accomplished, and a decision was made to return back to ZZZ.",
+        "start": 2130,
+        "end": 2250
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "It was not until we told Maintenance we were not going to take the aircraft again that they expressed an interest at looking deeper into the problem.",
+        "start": 3753,
+        "end": 3902
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "once we returned to the gate, I watched Maintenance Operations check the problem inside of two minutes and they could not see any problem with the electrical system",
+        "start": 3473,
+        "end": 3637
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "정비 문서 확인이 작동과 뚫림 양쪽에 나온다. 전날 기록은 승무원이 읽어서 알았으나, 점검 목록의 재설정 제한 문구가 오해를 일으킨다고 원문이 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation"
+      ],
+      "overlap": [
+        "Aircraft Other Automation"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Landed in Emergency Condition",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification",
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Requested ATC Assistance / Clarification",
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Requested ATC Assistance / Clarification",
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification",
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb"
+    ],
+    "Make Model Name": [
+      "B757 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "06"
+  }
+}

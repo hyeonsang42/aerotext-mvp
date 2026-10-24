@@ -1,0 +1,310 @@
+{
+  "report_id": "crm-2055150",
+  "acn": "2055150",
+  "set": "crm",
+  "synopsis": "Air carrier flight crew reported #1 engine compressor stalled during initial departure climb. Air crew requested and was provided priority handling to the departure airport where a safe overweight landing completed.",
+  "narrative": "On departure from ZZZ we leveled of at 10,000 ft. awaiting a higher altitude. Soon after the level off we heard a loud bang that sounded similar to bird strike or something large being dropped in the galley. At about the same time ATC cleared us to a higher altitude. I set the altitude in the Mode Control Panel and the First Officer (FO) pulled for open climb, as soon as the power started to increase we heard and felt a rapid bang. We both realized it was a compressor stall and quickly received an ECAM warning. I immediately set 10,000 ft. back in the MCP and the FO decreased power and leveled back at 10,000 feet. As soon as the FO decreased power the compressor stall ceased, and the ECAM vanished. I [requested priority] with ATC, and then handed the radios over to the FO. I ran the applicable checklist, completed the brief with the Flight Attendants (F/As), notified Dispatch, and made a PA to the passengers. First Officer had done an excellent job flying the aircraft and communicating with ATC while I doing the above. We requested landing data at ZZZ briefed up the plan and returned uneventfully to ZZZ. Climbing through 11,000 ft. MSL, auto thrust engaged and autopilot off, heard a loud noise from left side of airplane and felt plane shake, no ECAMs. Then all seemed normal again for about 30 seconds and Captain (CA) spoke with Flight Attendant (FA) on interphone. Next a series of several seeming louder bangs; coming from left, plane shaking again, and ECAM alert message. Pilot Flying (PF) reduced thrust to idle on engine #1, ECAM alert was no longer displayed, engine#1 indications normal while at idle thrust. Increased thrust on engine#2 and applied right rudder. CA and First Officer (FO) discussed and agreed that return to ZZZ best/safest action. Pilot Monitoring (PM) [requested priority] to ATC and informed of return to ZZZ. PF hand-flew descent to 10,000 ft. MSL on ATC heading and then engaged autopilot #2. PM spoke with FA, made PA to passengers, and ACARS with Dispatch to inform and get ZZZ landing data. CA encouraged jumpseater to say any observations/concerns. We reprogrammed the FMGC, briefed ILS approach to XXR (longest runway), and did descent checklist. PF followed ATC vectors to final, configured normally and did landing checklist, kept autopilot engaged to 500 ft. AGL. Routine (overweight) landing and had ZZZ fire crew inspect airplane exterior before heading to gate then taxied in with both engines operating. Engine#1 did shutdown normally. Realized after the fact that we had forgotten to do the overweight landing checklist. Overall seemed that our CRM-teamwork-communication was excellent during the event. Only 22 minutes elapsed from take-off to touchdown.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Soon after the level off we heard a loud bang that sounded similar to bird strike or something large being dropped in the galley.",
+        "start": 78,
+        "end": 207
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Soon after the level off we heard a loud bang that sounded similar to bird strike or something large being dropped in the galley.",
+        "start": 78,
+        "end": 207
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "We both realized it was a compressor stall and quickly received an ECAM warning.",
+        "start": 436,
+        "end": 516
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "We both realized it was a compressor stall and quickly received an ECAM warning.",
+        "start": 436,
+        "end": 516
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I immediately set 10,000 ft. back in the MCP and the FO decreased power and leveled back at 10,000 feet.",
+        "start": 517,
+        "end": 621
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "I ran the applicable checklist, completed the brief with the Flight Attendants (F/As), notified Dispatch, and made a PA to the passengers.",
+        "start": 784,
+        "end": 922
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "CA encouraged jumpseater to say any observations/concerns.",
+        "start": 2046,
+        "end": 2104
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We reprogrammed the FMGC, briefed ILS approach to XXR (longest runway), and did descent checklist.",
+        "start": 2105,
+        "end": 2203
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "CA and First Officer (FO) discussed and agreed that return to ZZZ best/safest action.",
+        "start": 1693,
+        "end": 1778
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "Pilot Monitoring (PM) [requested priority] to ATC and informed of return to ZZZ.",
+        "start": 1779,
+        "end": 1859
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Realized after the fact that we had forgotten to do the overweight landing checklist.",
+        "start": 2500,
+        "end": 2585
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "Routine (overweight) landing and had ZZZ fire crew inspect airplane exterior before heading to gate then taxied in with both engines operating.",
+        "start": 2324,
+        "end": 2467
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "절차·체크리스트 준수가 작동과 뚫림 양쪽에 나온다. 해당 점검 목록은 수행했으나 중량 초과 착륙 점검 목록을 빠뜨렸다고 원문이 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Landed in Emergency Condition",
+        "Overcame Equipment Problem",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification",
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Requested ATC Assistance / Clarification",
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Requested ATC Assistance / Clarification",
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Landed in Emergency Condition",
+      "Overcame Equipment Problem",
+      "Requested ATC Assistance / Clarification",
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb"
+    ],
+    "Make Model Name": [
+      "A320"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "03"
+  }
+}

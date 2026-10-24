@@ -1,0 +1,2092 @@
+[
+  {
+    "acn": "2118055",
+    "report_id": "crm-2118055",
+    "set": "crm",
+    "synopsis": "PA-44 First Officer reported an engine failure during cruise flight. The pilots secured the engine and continued the flight to an airport where maintenance was available.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "출발 전 점검",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "브리핑·사전 계획"
+    ],
+    "breached": [],
+    "responses": [
+      "장비 문제를 극복함"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 5,
+    "n_breached": 0,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 834
+  },
+  {
+    "acn": "2115209",
+    "report_id": "crm-2115209",
+    "set": "crm",
+    "synopsis": "Air carrier Flight Attendant reported high cabin air temperatures during single-pack flight operation resulting in several passengers experiencing discomfort and physiological reactions.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "객실 승무원 보고",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 9,
+    "detector_status": "결측",
+    "narrative_len": 9017
+  },
+  {
+    "acn": "2110047",
+    "report_id": "crm-2110047",
+    "set": "crm",
+    "synopsis": "B737 Flight Attendant reported the 2R door handle moved out of position slightly several times after takeoff so they continuously pushed handle back into position. Flight returned to departure airport where it was found that the outside door handle was not latched.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "객실 승무원",
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "지상 요원·정비사 보고",
+      "출발 전 점검",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "항공기 경고 장치",
+      "객실 승무원 보고"
+    ],
+    "breached": [
+      "출발 전 점검"
+    ],
+    "responses": [
+      "출발 공항으로 회항"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 6,
+    "n_breached": 1,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 4915
+  },
+  {
+    "acn": "2103189",
+    "report_id": "crm-2103189",
+    "set": "crm",
+    "synopsis": "Flight Instructor and student reported a low altitude terrain alert while practicing instrument procedures in mountainous terrain. The instructor turned away from the terrain, then safely completed the flight.",
+    "threats": [],
+    "detectors": [
+      "지형 경고 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "항공기 경고 장치",
+      "승무원 수동 개입",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "브리핑·사전 계획"
+    ],
+    "responses": [
+      "회피 기동"
+    ],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 3418
+  },
+  {
+    "acn": "2091514",
+    "report_id": "crm-2091514",
+    "set": "crm",
+    "synopsis": "CE-560 XLS crew reported a hydraulic system malfunction at cruise altitude. The crew diverted to an alternate airport and landed safely without damage or injury.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "탈출",
+      "정비 조치"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "비상 절차 수행",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "비상 절차 수행"
+    ],
+    "responses": [
+      "목적지 변경",
+      "비상 상태로 착륙"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "복구"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 2424
+  },
+  {
+    "acn": "2086306",
+    "report_id": "crm-2086306",
+    "set": "crm",
+    "synopsis": "B787 flight crew reported brake released prior to sending DG acknowledgment message. The acknowledgement message was sent during pushback and the flight departed safely.",
+    "threats": [
+      "항공기 계통 고장",
+      "위험물·적재"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능"
+    ],
+    "worked": [
+      "정비 조치·수리",
+      "승무원 수동 개입",
+      "승무원 교차 확인",
+      "운항 관리 협의",
+      "승무원 교차 확인",
+      "브리핑·사전 계획"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "브리핑·사전 계획"
+    ],
+    "responses": [
+      "목적지 변경",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 6,
+    "n_breached": 2,
+    "n_items": 15,
+    "detector_status": "일치",
+    "narrative_len": 9540
+  },
+  {
+    "acn": "2086228",
+    "report_id": "crm-2086228",
+    "set": "crm",
+    "synopsis": "Part 107 UAS Remote Pilot in Command reported the UAS experienced a lost link during the flight and crashed moments later.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "항공기 계통 고장",
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "무인기 운용자"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "절차·체크리스트 준수",
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "승무원 교차 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구",
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 7,
+    "n_breached": 2,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 14664
+  },
+  {
+    "acn": "2082252",
+    "report_id": "crm-2082252",
+    "set": "crm",
+    "synopsis": "A-320 First Officer reported a bird strike while rotating for takeoff and one engine displayed high vibrations and a buzzing sound. The aircraft safely returned to the departure field for an overweight landing. Post flight inspection revealed damage to both engines.",
+    "threats": [
+      "공항·지상 환경",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "운항 중단 판단",
+      "절차·체크리스트 준수"
+    ],
+    "breached": [],
+    "responses": [
+      "출발 공항으로 회항"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": "운항 중단 판단",
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 2037
+  },
+  {
+    "acn": "2076920",
+    "report_id": "crm-2076920",
+    "set": "crm",
+    "synopsis": "CE-680 corporate crew reported discovering main tire damage during post flight. The crew was informed they had struck runway edge lights during takeoff roll.",
+    "threats": [
+      "공항·지상 환경",
+      "부품·정비 상태 이상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [],
+    "worked": [
+      "출발 전 점검",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 7,
+    "detector_status": "불일치",
+    "narrative_len": 5209
+  },
+  {
+    "acn": "2076233",
+    "report_id": "crm-2076233",
+    "set": "crm",
+    "synopsis": "Air carrier flight crew reported a flight entertainment monitor began to emit smoke during cruise then eventually stopped. Flight crew completed a diversion and safe landing.",
+    "threats": [
+      "연기·냄새·오염"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "객실 승무원 보고",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "객실 승무원 보고",
+      "승무원 교차 확인"
+    ],
+    "responses": [
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 5,
+    "n_breached": 2,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 11090
+  },
+  {
+    "acn": "2074348",
+    "report_id": "crm-2074348",
+    "set": "crm",
+    "synopsis": "Air carrier flight crew reported failure of the autoflight system during departure climb resulted in a diversion. Maintenance inspection revealed a failed generator control unit.",
+    "threats": [
+      "항공기 계통 고장",
+      "절차·문서 불일치",
+      "관제·통신 문제"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "출발 전 점검",
+      "항공기 경고 장치",
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "승무원 교차 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "관제 감시·지시",
+      "항공기 경고 장치"
+    ],
+    "responses": [
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 7,
+    "n_breached": 3,
+    "n_items": 17,
+    "detector_status": "일치",
+    "narrative_len": 7403
+  },
+  {
+    "acn": "2072182",
+    "report_id": "crm-2072182",
+    "set": "crm",
+    "synopsis": "Fractional jet flight crew reported receiving a low altitude alert from ATC on approach to ASE after misunderstanding a clearance.",
+    "threats": [
+      "관제·통신 문제"
+    ],
+    "detectors": [
+      "관제 자동화 장비"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "관제 감시·지시",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "브리핑·사전 계획"
+    ],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 2251
+  },
+  {
+    "acn": "2070493",
+    "report_id": "crm-2070493",
+    "set": "crm",
+    "synopsis": "BE300 Pilot reported failure to report airport in sight in descent, resulted in ATC issuing a low altitude alert and a CFTT event.",
+    "threats": [
+      "기상"
+    ],
+    "detectors": [
+      "관제 자동화 장비"
+    ],
+    "outcomes": [],
+    "worked": [
+      "관제 감시·지시"
+    ],
+    "breached": [],
+    "responses": [
+      "새 인가 발부"
+    ],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 0,
+    "n_items": 4,
+    "detector_status": "일치",
+    "narrative_len": 1392
+  },
+  {
+    "acn": "2068996",
+    "report_id": "crm-2068996",
+    "set": "crm",
+    "synopsis": "EMB 545 flight crew lost communication with ATC. Flight crew monitored guard and re- established communication.",
+    "threats": [
+      "관제·통신 문제"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "관제 감시·지시"
+    ],
+    "breached": [
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "새 인가 발부"
+    ],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 2894
+  },
+  {
+    "acn": "2065120",
+    "report_id": "crm-2065120",
+    "set": "crm",
+    "synopsis": "ZSU Controller reported flight crew failed to follow control instructions resulted in entry into a higher MVA and a CFTT event.",
+    "threats": [
+      "기상",
+      "관제·통신 문제"
+    ],
+    "detectors": [
+      "관제사"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "관제 감시·지시"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "절차·체크리스트 준수"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 1886
+  },
+  {
+    "acn": "2064294",
+    "report_id": "crm-2064294",
+    "set": "crm",
+    "synopsis": "Air carrier flight crew reported GPWS alert on approach in addition to CRM failure. Flight crew landed uneventfully.",
+    "threats": [
+      "시간·업무 부하",
+      "관제·통신 문제"
+    ],
+    "detectors": [
+      "지형 경고 장치"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "항공기 경고 장치",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "회피 기동"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 3,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 6833
+  },
+  {
+    "acn": "2063332",
+    "report_id": "crm-2063332",
+    "set": "crm",
+    "synopsis": "Air taxi flight crew reported that during short final approach an aircraft entered the runway for takeoff without making any radio calls requiring the flight crew to go around.",
+    "threats": [
+      "관제·통신 문제",
+      "교통 근접"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "승무원 수동 개입"
+    ],
+    "breached": [],
+    "responses": [
+      "복행"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 0,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 2036
+  },
+  {
+    "acn": "2060625",
+    "report_id": "crm-2060625",
+    "set": "crm",
+    "synopsis": "Air carrier flight crew reported radio systems malfunctioned after a liquid spill on center console. Diverted and landed uneventfully.",
+    "threats": [
+      "항공기 계통 고장",
+      "절차·문서 불일치"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "관제 감시·지시",
+      "운항 관리 협의",
+      "승무원 교차 확인",
+      "브리핑·사전 계획",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [
+      "지원 제공",
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 12,
+    "detector_status": "일치",
+    "narrative_len": 2654
+  },
+  {
+    "acn": "2059639",
+    "report_id": "crm-2059639",
+    "set": "crm",
+    "synopsis": "A-320 crew reported a near miss while taxiing to the gate. Captain stopped to allow other aircraft to pass and the flight continued to the ramp after traffic passed.",
+    "threats": [
+      "관제·통신 문제",
+      "교통 근접"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "관제 감시·지시"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "불일치",
+    "narrative_len": 3798
+  },
+  {
+    "acn": "2055150",
+    "report_id": "crm-2055150",
+    "set": "crm",
+    "synopsis": "Air carrier flight crew reported #1 engine compressor stalled during initial departure climb. Air crew requested and was provided priority handling to the departure airport where a safe overweight landing completed.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "브리핑·사전 계획"
+    ],
+    "breached": [
+      "절차·체크리스트 준수"
+    ],
+    "responses": [
+      "출발 공항으로 회항",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 12,
+    "detector_status": "일치",
+    "narrative_len": 2720
+  },
+  {
+    "acn": "2050753",
+    "report_id": "crm-2050753",
+    "set": "crm",
+    "synopsis": "Air taxi Captain reported fixes on the approach were not loaded and they descended below published altitudes resulting in a Low Altitude Alert from ATC.",
+    "threats": [
+      "기상"
+    ],
+    "detectors": [
+      "관제 자동화 장비"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "절차·체크리스트 준수",
+      "관제 감시·지시",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 3748
+  },
+  {
+    "acn": "2032687",
+    "report_id": "crm-2032687",
+    "set": "crm",
+    "synopsis": "ERJ175 flight crew reported lack of CRM to update FMS resulted in an unstable approach to a non standard go around. The flight crew experienced loss of situational awareness during the go around, a GPWS alert, flap over speed, and aircraft misconfiguration.",
+    "threats": [
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "지형 경고 장치"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "항공기 경고 장치",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "승무원 교차 확인",
+      "절차·체크리스트 준수"
+    ],
+    "responses": [
+      "복행"
+    ],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 5667
+  },
+  {
+    "acn": "2032683",
+    "report_id": "crm-2032683",
+    "set": "crm",
+    "synopsis": "Air carrier B777 flight crew reported lack of response from flying pilot on unstable approach resulted in Pilot Monitoring taking control of the aircraft for a go around and subsequent landing.",
+    "threats": [
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "절차·체크리스트 준수"
+    ],
+    "responses": [
+      "복행",
+      "기체 제어 회복"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 5594
+  },
+  {
+    "acn": "2032403",
+    "report_id": "crm-2032403",
+    "set": "crm",
+    "synopsis": "Air carrier First Officer reported an altitude deviation during a visual approach to DRO airport resulting in a CFTT event. The crew disconnected the autopilot, initiated a climb and continued with the approach and landing.",
+    "threats": [],
+    "detectors": [
+      "지형 경고 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 4,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 1532
+  },
+  {
+    "acn": "2028427",
+    "report_id": "crm-2028427",
+    "set": "crm",
+    "synopsis": "A300 flight crew reported a controlled flight toward terrain event while being vectored for a visual approach in smoky/hazy conditions. ATC issued a low altitude alert to crew who climbed back to the cleared altitude and subsequently made an uneventful landing.",
+    "threats": [
+      "기상"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "관제 자동화 장비"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "관제 감시·지시",
+      "승무원 교차 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 4,
+    "n_breached": 2,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 4203
+  },
+  {
+    "acn": "2020758",
+    "report_id": "crm-2020758",
+    "set": "crm",
+    "synopsis": "Air carrier First Officer reported they descended 500 feet below glideslope and had a track heading deviation during approach. Reportedly, the FO did not enter the missed approach altitude at the right time and there was confusion over who had control of the aircraft during the event.",
+    "threats": [],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 2,
+    "n_breached": 2,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 2353
+  },
+  {
+    "acn": "2018142",
+    "report_id": "crm-2018142",
+    "set": "crm",
+    "synopsis": "B737-800 flight crew reported a tail strike occurred during takeoff in gusty wind conditions. Flight crew diverted and post flight inspection found minor damage.",
+    "threats": [
+      "시간·업무 부하",
+      "기상"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "출발 전 점검",
+      "정비 조치·수리",
+      "객실 승무원 보고",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "승무원 교차 확인",
+      "브리핑·사전 계획",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [
+      "목적지 변경"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 8,
+    "n_breached": 1,
+    "n_items": 15,
+    "detector_status": "일치",
+    "narrative_len": 8879
+  },
+  {
+    "acn": "2017960",
+    "report_id": "crm-2017960",
+    "set": "crm",
+    "synopsis": "C750 pilot reported descending below the minimum altitude depicted on a descend via STAR because of an improperly set altitude pre-select value. Crew queried ATC and were given a heading and altitude for terrain avoidance and landed normally.",
+    "threats": [
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "새 인가 발부"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 3,
+    "n_items": 10,
+    "detector_status": "일치",
+    "narrative_len": 5082
+  },
+  {
+    "acn": "2012197",
+    "report_id": "crm-2012197",
+    "set": "crm",
+    "synopsis": "B737 flight crew reported receiving a late visual approach clearance from ATC resulting in the aircraft being high for a stabilized approach, then also receiving a EGPWS obstacle alert warning when descending to the ATC assigned altitude. The flight crew climbed back to the correct altitude and continued the approach to landing.",
+    "threats": [
+      "관제·통신 문제"
+    ],
+    "detectors": [
+      "지형 경고 장치"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "항공기 경고 장치",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "브리핑·사전 계획",
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 2941
+  },
+  {
+    "acn": "2008256",
+    "report_id": "crm-2008256",
+    "set": "crm",
+    "synopsis": "Air carrier Captain reported a ground conflict with the pushback tug shortly after initiating taxi. The Captain reported he failed to ensure the tug was clear before calling for taxi.",
+    "threats": [
+      "교통 근접"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "지상 요원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 2028
+  },
+  {
+    "acn": "1999892",
+    "report_id": "crm-1999892",
+    "set": "crm",
+    "synopsis": "C172 Flight Instructor with student reported low voltage indications during cruise. The flight crew diverted and made a precautionary landing.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "승무원 교차 확인",
+      "관제 감시·지시",
+      "절차·체크리스트 준수"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "승무원 교차 확인"
+    ],
+    "responses": [
+      "목적지 변경",
+      "지원 제공",
+      "예방 차원의 착륙"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 4,
+    "n_breached": 2,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 4194
+  },
+  {
+    "acn": "1999556",
+    "report_id": "crm-1999556",
+    "set": "crm",
+    "synopsis": "B787 flight crew reported misdiagnosing a hydraulic system failure as flap and slat systems failure. The flight crew continued to destination airport and made a precautionary landing.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "브리핑·사전 계획",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "자동화 방호 기능"
+    ],
+    "responses": [
+      "관제 지원·확인 요청",
+      "예방 차원의 착륙"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "해소"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 6,
+    "n_breached": 1,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 7656
+  },
+  {
+    "acn": "1997702",
+    "report_id": "crm-1997702",
+    "set": "crm",
+    "synopsis": "B767 flight crew reported loss of C hydraulic system during cruise. The flight crew continued to destination airport and made a precautionary landing.",
+    "threats": [
+      "항공기 계통 고장",
+      "교통 근접"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "공중충돌경고 회피 지시"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "관제 감시·지시"
+    ],
+    "breached": [
+      "항공기 경고 장치",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [
+      "관제 지원·확인 요청",
+      "예방 차원의 착륙"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 7,
+    "n_breached": 2,
+    "n_items": 16,
+    "detector_status": "일치",
+    "narrative_len": 11259
+  },
+  {
+    "acn": "1992202",
+    "report_id": "crm-1992202",
+    "set": "crm",
+    "synopsis": "B737-700 Flight Crew reported the left main landing gear lights stayed illuminated despite the landing gear handle being in the up position. After consulting with Dispatch and Maintenance Control, the Flight Crew then decided to divert and safely landed at a suitable airport.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "운항 관리 협의",
+      "브리핑·사전 계획",
+      "승무원 수동 개입",
+      "관제 감시·지시"
+    ],
+    "breached": [],
+    "responses": [
+      "목적지 변경",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 7,
+    "n_breached": 0,
+    "n_items": 12,
+    "detector_status": "일치",
+    "narrative_len": 3452
+  },
+  {
+    "acn": "1989977",
+    "report_id": "crm-1989977",
+    "set": "crm",
+    "synopsis": "A319 Flight Crew reported a HYD G ENG 1 PUMP LO PR message annunciated during climb out, followed by multiple other associated warnings. The Flight Crew completed a diversion and landing.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치",
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "비상 절차 수행",
+      "브리핑·사전 계획",
+      "운항 관리 협의",
+      "지상 요원·정비사 보고"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [
+      "목적지 변경",
+      "예방 차원의 착륙"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 9,
+    "n_breached": 2,
+    "n_items": 17,
+    "detector_status": "일치",
+    "narrative_len": 12450
+  },
+  {
+    "acn": "1987914",
+    "report_id": "crm-1987914",
+    "set": "crm",
+    "synopsis": "Air Carrier Captain reported the Marshaller did not use their headset to communicate and used non standard hand movements resulting in confusion and a delay parking the aircraft.",
+    "threats": [
+      "공항·지상 환경"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "운항 취소·지연"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "운항 관리 협의"
+    ],
+    "breached": [
+      "지상 요원·정비사 보고"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "운항 관리 협의",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 7,
+    "detector_status": "일치",
+    "narrative_len": 5389
+  },
+  {
+    "acn": "1987625",
+    "report_id": "crm-1987625",
+    "set": "crm",
+    "synopsis": "B767 Flight Crew reported #1 Engine failure at landing gear retraction after take-off. The Flight Crew performed an inflight shut down of the engine and returned to land at departure airport.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "그 밖의 사람"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "관제 감시·지시",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "비행 중 엔진 정지",
+      "출발 공항으로 회항"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 12,
+    "detector_status": "일치",
+    "narrative_len": 5722
+  },
+  {
+    "acn": "1986835",
+    "report_id": "crm-1986835",
+    "set": "crm",
+    "synopsis": "Air Carrier Flight Attendant reported a passenger passed out and vomited around the surrounding seating area during pre-flight. After an extensive discussion ensued regarding the Hazmat cleanup responsibility without a safe resolution, the aircraft departed in an unsuitable condition.",
+    "threats": [
+      "시간·업무 부하"
+    ],
+    "detectors": [
+      "객실 승무원"
+    ],
+    "outcomes": [
+      "부상·직무 불능",
+      "운항 취소·지연"
+    ],
+    "worked": [
+      "승무원 수동 개입",
+      "객실 승무원 보고",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "지상 요원·정비사 보고",
+      "운항 관리 협의"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지",
+      "해소"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 7790
+  },
+  {
+    "acn": "1986757",
+    "report_id": "crm-1986757",
+    "set": "crm",
+    "synopsis": "ERJ-175 First Officer reported extending final flaps below 1000 ft. on approach into LAX after a distraction related to turbulence.",
+    "threats": [
+      "기상"
+    ],
+    "detectors": [],
+    "outcomes": [],
+    "worked": [
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "탐지"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": null,
+    "n_worked": 1,
+    "n_breached": 2,
+    "n_items": 4,
+    "detector_status": "불일치",
+    "narrative_len": 774
+  },
+  {
+    "acn": "1982755",
+    "report_id": "crm-1982755",
+    "set": "crm",
+    "synopsis": "B737 Flight Crew reported the Number 1 Engine Oil Bypass Light illuminated during the climb out. After conferring with Dispatch and Maintenance, the decision was first made that the engine did not need to be shut down. However, as the flight continued to the destination and the Oil Bypass Light would not extinguish, the engine was then shut down.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "운항 관리 협의",
+      "승무원 교차 확인",
+      "브리핑·사전 계획",
+      "비상 절차 수행"
+    ],
+    "breached": [
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [
+      "비행 중 엔진 정지",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 6,
+    "n_breached": 3,
+    "n_items": 14,
+    "detector_status": "일치",
+    "narrative_len": 10060
+  },
+  {
+    "acn": "1979603",
+    "report_id": "crm-1979603",
+    "set": "crm",
+    "synopsis": "Air Carrier First Officer reported a Captain that displayed poor decision making skills, a lack of understanding of basic tasks, and inadequate CRM during multiple legs of a trip.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "위험물·적재",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "관제사"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "정비 조치·수리",
+      "승무원 교차 확인",
+      "관제 감시·지시",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "브리핑·사전 계획"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 4,
+    "n_breached": 3,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 7414
+  },
+  {
+    "acn": "1971073",
+    "report_id": "crm-1971073",
+    "set": "crm",
+    "synopsis": "PA-28 Safety Pilot reported engine power loss during cruise flight. Power was restored after safety pilot directed the student to switch fuel tanks.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "그 밖의 사람"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 수동 개입",
+      "비상 절차 수행",
+      "승무원 교차 확인"
+    ],
+    "breached": [
+      "출발 전 점검",
+      "절차·체크리스트 준수"
+    ],
+    "responses": [
+      "관제 지원·확인 요청",
+      "장비 문제를 극복함"
+    ],
+    "layers_worked": [
+      "복구",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 3,
+    "n_breached": 2,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 3533
+  },
+  {
+    "acn": "1966915",
+    "report_id": "crm-1966915",
+    "set": "crm",
+    "synopsis": "EMB-170 Flight Crew reported a wind shear event during final approach in turbulent conditions. The Flight Crew executed a successful wind shear recovery procedure which caused momentary airspeed and altitude deviations.",
+    "threats": [
+      "기상"
+    ],
+    "detectors": [
+      "운항 승무원",
+      "지형 경고 장치"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "항공기 경고 장치",
+      "승무원 수동 개입",
+      "관제 감시·지시"
+    ],
+    "breached": [
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "복행"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 4,
+    "n_breached": 4,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 10647
+  },
+  {
+    "acn": "1966482",
+    "report_id": "crm-1966482",
+    "set": "crm",
+    "synopsis": "Air carrier flight crew reported a loss of control and runway excursion during landing. There was a strong crosswind reported according to the pilots. The Captain made a go- around from the safe area off the runway. The second landing on a different runway was successful.",
+    "threats": [
+      "기상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "브리핑·사전 계획"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [
+      "복행"
+    ],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 8,
+    "detector_status": "일치",
+    "narrative_len": 2619
+  },
+  {
+    "acn": "1966378",
+    "report_id": "crm-1966378",
+    "set": "crm",
+    "synopsis": "Honda Jet PIC reported a loss of directional control during landing rollout when attempting to correct a center line drift after taking controls from the SIC. Ultimately the aircraft stopped on runway with only a left blown tire.",
+    "threats": [
+      "기상"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "절차·체크리스트 준수",
+      "승무원 수동 개입",
+      "비상 절차 수행",
+      "정비 조치·수리"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "정비 조치·수리",
+    "n_worked": 5,
+    "n_breached": 1,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 5648
+  },
+  {
+    "acn": "1964588",
+    "report_id": "crm-1964588",
+    "set": "crm",
+    "synopsis": "B777 Flight Crew reported confusion with the departure and after takeoff procedures due to a deferred engine bleed system. The cabin altitude reached a higher than desired level until the air conditioning packs were turned back on. The weather, nonstandard verbalization during takeoff, and the jumpseater may have also been additional factors.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "기상"
+    ],
+    "detectors": [
+      "관측 좌석 탑승자"
+    ],
+    "outcomes": [],
+    "worked": [
+      "브리핑·사전 계획",
+      "승무원 교차 확인",
+      "정비 문서·MEL 확인",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "절차·체크리스트 준수",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 4,
+    "n_breached": 2,
+    "n_items": 9,
+    "detector_status": "일치",
+    "narrative_len": 7388
+  },
+  {
+    "acn": "1963777",
+    "report_id": "crm-1963777",
+    "set": "crm",
+    "synopsis": "EMB-145 Captain reported a gate return after being unable to taxi the aircraft over a ridge of frozen slush on the ramp. Use of a super tug to tow the aircraft over the frozen slush was ineffective.",
+    "threats": [
+      "기상",
+      "공항·지상 환경"
+    ],
+    "detectors": [
+      "운항 승무원"
+    ],
+    "outcomes": [
+      "운항 취소·지연"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "승무원 수동 개입",
+      "운항 관리 협의",
+      "운항 중단 판단"
+    ],
+    "breached": [
+      "정비 문서·MEL 확인",
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "게이트로 복귀"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "해소"
+    ],
+    "layers_breached": [
+      "예방",
+      "탐지"
+    ],
+    "last_line": "운항 중단 판단",
+    "n_worked": 4,
+    "n_breached": 2,
+    "n_items": 11,
+    "detector_status": "일치",
+    "narrative_len": 3539
+  },
+  {
+    "acn": "1960091",
+    "report_id": "crm-1960091",
+    "set": "crm",
+    "synopsis": "B757 First Officer reported master Caution light with multiple EICAS messages, and both ADI, EICAS and HSI screens blanked off and on. Immediately afterwards, noticed that the secondary EICAS and FO HSI displays remained blank. The Flight Crew started the APU, but no systems were recovered. The flight crew requested priority handling and performed an air turn back and precautionary landing at departure airport.",
+    "threats": [
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "정비 조치"
+    ],
+    "worked": [
+      "정비 문서·MEL 확인",
+      "항공기 경고 장치",
+      "절차·체크리스트 준수",
+      "승무원 교차 확인",
+      "운항 중단 판단"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "비상 절차 수행",
+      "정비 문서·MEL 확인"
+    ],
+    "responses": [
+      "출발 공항으로 회항",
+      "관제 지원·확인 요청"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "layers_breached": [
+      "복구",
+      "예방"
+    ],
+    "last_line": "운항 중단 판단",
+    "n_worked": 5,
+    "n_breached": 3,
+    "n_items": 13,
+    "detector_status": "일치",
+    "narrative_len": 4369
+  },
+  {
+    "acn": "1958425",
+    "report_id": "crm-1958425",
+    "set": "crm",
+    "synopsis": "Piper Arrow Pilot with Instructor reported an alternator failure during flight. After determining only battery power was available, the decision was made to return to the departure airport where light gun signals were required due to loss of comms.",
+    "threats": [
+      "부품·정비 상태 이상",
+      "항공기 계통 고장"
+    ],
+    "detectors": [
+      "항공기 경고·표시 장치"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "출발 전 점검",
+      "항공기 경고 장치",
+      "승무원 수동 개입",
+      "승무원 교차 확인",
+      "비상 절차 수행",
+      "관제 감시·지시"
+    ],
+    "breached": [
+      "정비 조치·수리",
+      "출발 전 점검",
+      "승무원 교차 확인",
+      "절차·체크리스트 준수",
+      "관제 감시·지시"
+    ],
+    "responses": [
+      "출발 공항으로 회항",
+      "예방 차원의 착륙"
+    ],
+    "layers_worked": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "복구",
+      "예방",
+      "탐지"
+    ],
+    "last_line": "비상 절차 수행",
+    "n_worked": 6,
+    "n_breached": 5,
+    "n_items": 17,
+    "detector_status": "일치",
+    "narrative_len": 4218
+  },
+  {
+    "acn": "1934551",
+    "report_id": "crm-1934551",
+    "set": "crm",
+    "synopsis": "B737-700 Captain reported receiving a 'TOO LOW' altitude alert from ATC. The Captain then realized the wrong altitude was set in the FMC. The Captain states CRM should have caught the error.",
+    "threats": [],
+    "detectors": [
+      "관제 자동화 장비"
+    ],
+    "outcomes": [
+      "별도 조치 없음"
+    ],
+    "worked": [
+      "브리핑·사전 계획",
+      "관제 감시·지시",
+      "승무원 수동 개입"
+    ],
+    "breached": [
+      "승무원 교차 확인"
+    ],
+    "responses": [],
+    "layers_worked": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "layers_breached": [
+      "탐지"
+    ],
+    "last_line": "승무원 수동 개입",
+    "n_worked": 3,
+    "n_breached": 1,
+    "n_items": 6,
+    "detector_status": "일치",
+    "narrative_len": 1743
+  }
+]

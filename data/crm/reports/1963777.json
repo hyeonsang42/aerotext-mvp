@@ -1,0 +1,288 @@
+{
+  "report_id": "crm-1963777",
+  "acn": "1963777",
+  "set": "crm",
+  "synopsis": "EMB-145 Captain reported a gate return after being unable to taxi the aircraft over a ridge of frozen slush on the ramp. Use of a super tug to tow the aircraft over the frozen slush was ineffective.",
+  "narrative": "On Date, on Aircraft X, ZZZ to ZZZ1, we boarded the plane and a Passenger broke an Overhead Bin with his bag that required maintenance and a delay. After the maintenance issue was resolved we received a reroute from ATC that had us landing overweight from the previous fuel load which required deplaning two passengers. After those situations were resolved we proceeded to push back from Gate XX and Ramp instructed us to taxi to XY which required us to taxi over slush that spanned the entire length of the ramp. Other aircraft were taxiing over the snow fine and there were no NOTAMs for the ramp conditions. Ramp was currently clearing other aircraft to taxi over the slush before we crossed and even after we got stuck they continued to clear aircraft over the slush. When taxiing in from the previous flight the slush was fine to taxi through however when departing for the flight to ZZZ1 the temperature dropped which I believe caused the snow to freeze again forming a ridge. We briefed and executed a two engine taxi our for the slippery conditions. It was dark and we could not find any area of the ramp that did not have this line of slush on it. I determined that a perpendicular course over the slush would have been the shortest and safest course to cross over. I chose a spot that had tire marks in it which made me believe that other aircraft succeeded in crossing there. I believe these tire marks had froze creating the ridge that caused the main gear to get stuck. When taxiing over the slush felt harder than previously and the main gear then got stuck on the ridge. I alerted the Ramp that and the Crew that we were stuck and would needed a tug to get us free. Knowing this would be a long process and we had initially started both engines for a two engine taxi we decided to shut down engine 1 to conserve fuel. The super tug was unable to free us from the ice because it was slipping on the ice as well. I made sure to have Passengers seated and secured during this event. After three attempts from Ground Personnel to free the aircraft I decided along with Dispatch that we needed to return to the gate for a long tarmac delay. I had the Flight Attendant service the Passengers to keep them comfortable and I kept the Passengers informed of the situation every step they of the way. When finally freed we were tugged to the gate and the Gate Agent told me that there was another flight leaving for ZZZ1 that the Passengers could attempt to get on. Dispatch messaged me previously that there may be a plane swap for us so I told the Gate Agent that if he thinks that is a good decision to send Passengers to the other flight then he should do it now since I didn't know what the future of our flight was. Maintenance still had our log book and gear pins installed in the aircraft and they had left the area so I couldn't determine how long we would be delayed further. After the event and deplaning we shutdown and secured the aircraft. There was a NOTAM issued for the ramp after this event but not prior. We as a Crew and the Ramp Personnel demonstrated excellent CRM to ensure the safety of the Crew, Ground Personnel, and the Passengers so that no further incident occurred. My suggestion is that the ramp should have been NOTAMed for ice conditions. I learned that I should not have accepted the taxi clearance and should have asked for an alternate route however seeing other aircraft taxi over it fine cause me to think that the slush was safe to cross. In the future I plan to be more diligent in this regard.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "When taxiing in from the previous flight the slush was fine to taxi through however when departing for the flight to ZZZ1 the temperature dropped which I believe caused the snow to freeze again forming a ridge.",
+        "start": 772,
+        "end": 982
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "Ramp instructed us to taxi to XY which required us to taxi over slush that spanned the entire length of the ramp",
+        "start": 400,
+        "end": 512
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Other aircraft were taxiing over the snow fine and there were no NOTAMs for the ramp conditions.",
+        "start": 514,
+        "end": 610
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "Ramp was currently clearing other aircraft to taxi over the slush before we crossed and even after we got stuck they continued to clear aircraft over the slush.",
+        "start": 611,
+        "end": 771
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We briefed and executed a two engine taxi our for the slippery conditions.",
+        "start": 983,
+        "end": 1057
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "When taxiing over the slush felt harder than previously and the main gear then got stuck on the ridge.",
+        "start": 1483,
+        "end": 1585
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "Knowing this would be a long process and we had initially started both engines for a two engine taxi we decided to shut down engine 1 to conserve fuel.",
+        "start": 1681,
+        "end": 1832
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "After three attempts from Ground Personnel to free the aircraft I decided along with Dispatch that we needed to return to the gate for a long tarmac delay.",
+        "start": 1995,
+        "end": 2150
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "I decided along with Dispatch that we needed to return to the gate for a long tarmac delay",
+        "start": 2059,
+        "end": 2149
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.returned_to_gate",
+      "evidence": {
+        "quote": "When finally freed we were tugged to the gate and the Gate Agent told me that there was another flight leaving for ZZZ1 that the Passengers could attempt to get on.",
+        "start": 2306,
+        "end": 2470
+      },
+      "item_label": "대응 행동",
+      "label_ko": "게이트로 복귀",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Gate",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.flight_cancelled_delayed",
+      "evidence": {
+        "quote": "There was a NOTAM issued for the ramp after this event but not prior.",
+        "start": 2959,
+        "end": 3028
+      },
+      "item_label": "결과 상태",
+      "label_ko": "운항 취소·지연",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Cancelled / Delayed",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "사건 전에는 램프 상태에 대한 항공고시보가 없었고 사건 후에 발행됐다고 원문이 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew",
+        "Ground Personnel"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification",
+        "Returned To Gate"
+      ],
+      "predicted": [
+        "Returned To Gate"
+      ],
+      "overlap": [
+        "Returned To Gate"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Flight Cancelled / Delayed"
+      ],
+      "overlap": [
+        "Flight Cancelled / Delayed"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew",
+      "Ground Personnel"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Requested ATC Assistance / Clarification",
+      "Returned To Gate"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "Taxi"
+    ],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "EMB ERJ 145 ER/LR"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "06"
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "report_id": "crm-1989977",
+  "acn": "1989977",
+  "set": "crm",
+  "synopsis": "A319 Flight Crew reported a HYD G ENG 1 PUMP LO PR message annunciated during climb out, followed by multiple other associated warnings. The Flight Crew completed a diversion and landing.",
+  "narrative": "At about 10-12 minutes after takeoff climbing at approximately 15,000 MSL near ZZZZZ, Aircraft X annunciated a HYD G ENG 1 PUMP LO PR, a short flash first, then a solid ECAM message. We responded to the systems failure per SOP. Conducting the ECAM actions through the end of the status page review. Before I could accomplish the QRH follow-up and climbing toward 20,000 feet. MSL, a Flight Attendant (FA) called to report a loud grinding noise in the back of the aircraft. I told FA that it was probably associated with the hydraulic system failure and that I would call back. At that moment, the continuous repetitive chime sounded.The autopilot disconnected, we were presented with a red AUTO FLT AP OFF, RED HYD G+Y SYS LO PR, and a RED LAND ASAP on the upper ECAM. An Amber HYD Y RSVR OVHT, an Amber HYD Y SYS LO PR, and an Amber F/CTL ALTN LAW also appeared. I directed the First Officer (FO) to [request priority handling] and to get us a landing on the longest runway at ZZZ and discarded pursuit of the follow-up for the system failure to work the more severe problem now presented to us by the ECAM. The ECAM directed Power Transfer Unit (PTU) OFF and AFFECTED PUMPS OFF. It then directed: \"If Yellow SYS Lost by ENG 2 PUMP LO PR:YELLOW ELEC PUMP ON.\" Not knowing for sure whether the system hydraulic failure was caused by a leak or by the engine 2 pump, I decided not to activate the electric pump at this time. The airplane was flying and controllable. FO was descending us toward ZZZ. My goal was to work the ECAM top to bottom and slow down the situation. I accomplished windows 1 through 4 for the ECAM and sent an ACARS message for the divert to ZZZ, including \"G + Y HYD SYS FAIL\" in the text. I then made an all-call to the FAs and advised them that we would be making a precautionary landing at ZZZ in about XX minutes because two of our three hydraulic pumps had failed. I told them that the aircraft was controllable and asked if there were any additional symptoms in the back such as grinding or noise. They said that the grinding had gone away. I also asked them if they had any questions and advised that I would make a PA. My PA to the passengers advised that a failure of redundant systems would require us to divert and land at ZZZ. Apologizing for the inconvenience, I told them that we would be landing in approximately XX minutes, to follow Flight Attendant instructions, and that safety equipment would be present on both sides of the aircraft after we landed. FO was doing superbly. They were simultaneously hand-flying the aircraft, working with ZZZ Center, and setting up the FMS for the approach at ZZZ. They kept the speed under control, coordinated the approach to ZZZ Runway XXR, and, because the aircraft was in alternate law, decided not to use speed brakes in the descent--all excellent judgment calls. I turned my attention to the landing distance problem. FO was entering data into the performance approach page, and I asked them to leave the configuration in flaps full so that I could use that number for the land approach. 126 is what was the annunciated Vapp. The ECAM procedure calls for a flaps 3 approach. Using a G + Y hydraulic failure, the land app yielded a Vapp speed of 151 kts. and 9,517 feet on ZZZ Runway XXR which is 11,500 feet long. In the descent in the vicinity of 10,000 feet MSL, FO reminded me that I had not turned on the Yellow Electric HYD pump (previous judgment). I reviewed the verbiage about ENG PUMP LO PR, looked at the hydraulic page again, and turned the Yellow Electric Pump ON. This restored the Yellow Hydraulic System. The aircraft returned to normal with Blue and Yellow Systems providing power to the flight controls. Not wanting to backtrack through ECAM procedures or delay landing any further, I decided to keep the Vapp speed and landing distance that I had calculated for the dual (green + yellow) hydraulic system failure rather than recalculate for what was now a single (green) hydraulic system failure. The status page required landing gear gravity extension and annunciated that landing gear retract and nose wheel steering would be inoperative. I contacted ZZZ operations to advise them that we would need to be towed from the runway and that they would need to come up with a plan for deplaning the passengers, either by air stairs on the runway or a tow to the gate. We descended to 4,000 MSL. As I reviewed the landing gear gravity extension procedure in the QRH, FO sensed that I needed additional time and requested the ZZZ Approach to vector us across the localizer, which was helpful. We then turned in to intercept the final course. I resumed communications duties. We ran the descent checklist, ensured that the performance approach page was set for the flaps 3 approach, ensured that the GPWS flaps 3 button was depressed, and configured to flaps 3 per the QRH checklist. FO called for the gear, and I performed the landing gear gravity extension procedure. The procedure was uneventful. We completed the before landing checklist and agreed that the go-around would be a gear down, flaps 3, go-around straight out to 3,000 MSL. I reconfirmed with Tower and fire command that we would be stopping the aircraft on the runway, would be unable to taxi, and need to be towed to the gate. FO flew the approach flawlessly, landing on ZZZ XXR at XA:59 PM on center line and well within the touchdown zone, bringing the aircraft to a stop on the runway just short of taxiway intersection in about 7,500 feet of rollout. Note, lack of nose wheel steering caused slight nose wheel castering as the aircraft slowed through about 5-10 kts, but FO handled it nicely. I asked FO to set the parking brake and start the APU, called the flight attendants to let them know that we would remain where we were on the runway, and made a PA to the passengers reminding them of the safety equipment around the aircraft and to follow FA instructions. I also let them know that we would remain on the runway because the aircraft was unable to taxi. FO noted later that the parking brake is difficult to set when the landing gear crank handle is pulled up. We stowed the handle. I then asked the fire command to approach both left and right sides of the aircraft to check for heat and/or fluid leaks. They then asked us to shut the engines down so that they could approach the aircraft. Fire command chalked the nose wheel. With APU running, we complied with the engine shutdown. They discovered significant fluid leaking from the right main wheel well and asked us to depressurize the hydraulic system. I secured the yellow electric hydraulic pump. My decision not to engage the yellow electric pump as part of the G + Y ECAM procedure was a result of the \"fog of war.\" In retrospect, I should have turned on the yellow electric pump sooner, but good CRM and effective trapping of threats and errors got us to the right end state before landing. My decision not to recalculate landing distance and Vapp was based on knowing that the numbers we had were conservative. We had plenty of runway. I did not want to make another orbit and delay landing any further. This was a sound decision. The call from the flight attendants and my technique of completing the entire ECAM action procedure (down to the status page) prevented me from getting to the QRH follow-up on the initial green system failure. In retrospect, I would still answer the call from the FAs because they provide a window to airplane status that could be vital information to the flight deck crew. But had I accomplished the QRH follow-up for the green system failure prior to reviewing the status page, it would have advised that because the PTU had activated to power the green hydraulic system from the operating yellow hydraulic system, it might overheat. It directs to ignore the overheating yellow system and the associated dual failure procedures and to turn off the PTU and keep the yellow engine pump on. This would have prevented the perceived dual system G+Y failure. Airbus should change the ECAM procedure and incorporate the follow ups into the ECAM page so that the crew can get to them sooner. The PTU overheated the yellow hydraulic system after approximately x minutes. As rapidly as the yellow system failure occurred, I recommend making the very simple and very short QRH follow up procedures part of the ECAM procedure to prevent the second failure. Alternatively, recommend making it standard to review the status page in window 4 after completing QRH follow-ups rather than an option. Getting to the follow up procedure sooner (after window 3) in our case might have prevented the second (yellow system) failure from occurring. I was Pilot flying (PF) on Aircraft X, ZZZ1-ZZZ2. Climbing on the ZZZZZ1 out of ZZZ1 at approximately 15,000 feet approaching ZZZZZ we received a brief master caution that initially went away but very quickly came back. The master caution was HYD G ENG 1 PUMP LO PR. The Captain (CA) assigned me to continue flying and work the radios. We ran through all ECAM actions, systems, and status page. Continuing our climb above 20,000 feet we received a call from the Flight Attendants (FAs). After the brief call the CA reported they were hearing a grinding noise. As the CA told me that we received a master warning and 5 new ECAM messages. A red AUTO FLT AP OFF, red HYD G+Y SYS LO PR, amber HYD Y RSVR OVHT, amber HYD Y SYS LO PR, and an amber F/CTL ALTN LAW, as well as a red LAND ASAP in the upper right window. The CA immediately told me to continue flying, [request priority handling], and divert us to ZZZ on their longest runway. We ran through the ECAM actions again and the CA decided that they were going to hold off on turning on the Y ELEC PUMP. The plane was flying just fine and since we were in ALTN LAW and the status page said maneuver with care I elected to not use speed brakes and initially let us down slow and smooth. ATC offered us XXR at ZZZ which was perfect and I started setting up the FMS for the approach. The CA was running all of our required performance and landing distance data as well as coordinating with Dispatch, the FAs, and ops in ZZZ as we entered the low teens I brought back to their attention that we were still holding off on the Y ELEC PUMP. They reevaluated the ECAM and system page and decided that we would turn on the pump. We got the yellow system back and returned to normal law. I continued hand flying, deciding that one, the plane was flying great to that point, and two, if this was a more extensive leak rather than just a pump failure I'd have the aircraft in my hand in the event we lost the yellow system again. At this point ZZZ Approach had us ready to turn on final. I had them give us another vector to give us time. The CA elected not to restart the entire ECAM procedure and non-normal calculations given where we were lower to the ground and closer to the airport. Worst case scenario with the dual failure calculated we still had plenty of runway and that was the more conservative option and I agreed. As directed by the status page the CA gravity extended the gear and landed flaps 3 per our original calculations. The approach and landing were without surprises and we landed on XXR and stopped on center line. I set the parking brake with a little difficulty due to the manual extension handle being deployed. Crash Fire Rescue (CFR) responded and checked the aircraft. We started the APU and shut down both engines so the team could get a closer look. They reported a hydraulic leak in the right main well and asked us to turn off all hydraulic pumps still running. The CA made sure the plane was chalked and we made sure all pumps were off. Having the option to either do the follow up procedures after the ECAM page or after the completion of all ECAM procedures through the status page led to us being delayed in getting to the follow up that could have mitigated the second failure we had. Then once we had the second failure that leads us away from the follow up to the first failure which could have helped or provided insight. If the follow up procedure could somehow be integrated into the status page for a given ECAM action. Or making it standard to review all follow ups prior to reviewing the status page. This might be an isolated instance but getting to the follow up sooner might have mitigated the second failure down the road that we experienced that muddied the waters.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "At about 10-12 minutes after takeoff climbing at approximately 15,000 MSL near ZZZZZ, Aircraft X annunciated a HYD G ENG 1 PUMP LO PR, a short flash first, then a solid ECAM message.",
+        "start": 0,
+        "end": 182
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "Aircraft X annunciated a HYD G ENG 1 PUMP LO PR, a short flash first, then a solid ECAM message",
+        "start": 86,
+        "end": 181
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "Aircraft X annunciated a HYD G ENG 1 PUMP LO PR, a short flash first, then a solid ECAM message",
+        "start": 86,
+        "end": 181
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "We responded to the systems failure per SOP.",
+        "start": 183,
+        "end": 227
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.flight_attendant",
+      "evidence": {
+        "quote": "a Flight Attendant (FA) called to report a loud grinding noise in the back of the aircraft",
+        "start": 381,
+        "end": 471
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "객실 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Attendant",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "cabin_report",
+      "evidence": {
+        "quote": "a Flight Attendant (FA) called to report a loud grinding noise in the back of the aircraft",
+        "start": 381,
+        "end": 471
+      },
+      "item_label": "방어",
+      "label_ko": "객실 승무원 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "객실 승무원이 이상을 알아채 운항 승무원에게 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "The call from the flight attendants and my technique of completing the entire ECAM action procedure (down to the status page) prevented me from getting to the QRH follow-up on the initial green system failure.",
+        "start": 7166,
+        "end": 7375
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Having the option to either do the follow up procedures after the ECAM page or after the completion of all ECAM procedures through the status page led to us being delayed in getting to the follow up that could have mitigated the second failure we had.",
+        "start": 11705,
+        "end": 11956
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "In the descent in the vicinity of 10,000 feet MSL, FO reminded me that I had not turned on the Yellow Electric HYD pump (previous judgment).",
+        "start": 3295,
+        "end": 3435
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I reviewed the verbiage about ENG PUMP LO PR, looked at the hydraulic page again, and turned the Yellow Electric Pump ON.",
+        "start": 3436,
+        "end": 3557
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "FO called for the gear, and I performed the landing gear gravity extension procedure.",
+        "start": 4877,
+        "end": 4962
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We completed the before landing checklist and agreed that the go-around would be a gear down, flaps 3, go-around straight out to 3,000 MSL.",
+        "start": 4993,
+        "end": 5132
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "I contacted ZZZ operations to advise them that we would need to be towed from the runway and that they would need to come up with a plan for deplaning the passengers, either by air stairs on the runway or a tow to the gate.",
+        "start": 4140,
+        "end": 4363
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 10,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "The CA immediately told me to continue flying, [request priority handling], and divert us to ZZZ on their longest runway.",
+        "start": 9505,
+        "end": 9626
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 10,
+      "item": "response",
+      "value": "fc.landed_as_precaution",
+      "evidence": {
+        "quote": "FO flew the approach flawlessly, landing on ZZZ XXR at XA:59 PM on center line and well within the touchdown zone, bringing the aircraft to a stop on the runway just short of taxiway intersection in about 7,500 feet of rollout.",
+        "start": 5288,
+        "end": 5515
+      },
+      "item_label": "대응 행동",
+      "label_ko": "예방 차원의 착륙",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Landed As Precaution",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 11,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "They discovered significant fluid leaking from the right main wheel well and asked us to depressurize the hydraulic system.",
+        "start": 6458,
+        "end": 6581
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 12,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "They reported a hydraulic leak in the right main well and asked us to turn off all hydraulic pumps still running.",
+        "start": 11515,
+        "end": 11628
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "절차 수행 순서 때문에 후속 절차에 늦게 도달해 두 번째 계통 고장을 막지 못했다고 원문이 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Attendant"
+      ],
+      "overlap": [
+        "Aircraft Other Automation"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Landed in Emergency Condition",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Landed As Precaution"
+      ],
+      "overlap": [
+        "Diverted"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb"
+    ],
+    "Make Model Name": [
+      "A319"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "05"
+  }
+}

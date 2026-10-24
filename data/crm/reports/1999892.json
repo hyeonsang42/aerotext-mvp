@@ -1,0 +1,323 @@
+{
+  "report_id": "crm-1999892",
+  "acn": "1999892",
+  "set": "crm",
+  "synopsis": "C172 Flight Instructor with student reported low voltage indications during cruise. The flight crew diverted and made a precautionary landing.",
+  "narrative": "At approximately XA:30 in level cruise flight at 10,000 ft. on an IFR flight, we heard an aural alert and my student noted a Low Volts annunciator on the aircraft's PFD. The Low Volts annunciator extinguished within a few seconds, but both myself and my student noticed the M BUS Amps erratically varying from +24/-10 over the course of a few minutes. Since our destination of ZZZ1 was still roughly an hour away, I instructed my student to request a diversion to ZZZ (which we were abeam at the time). We did not [request priority handling]. The student stated to ATC that we just lost our alternator and we would like to divert to ZZZ. ATC started to vector us, provided a revised clearance, and asked how long it would take for us to get down? Assuming the controller meant to our new assigned altitude of 7,000 ft., I replied about 3 minutes. Leaving the autopilot engaged, I set a descent rate of 1,000 FPM and began to run through the Low Volts Annunciator Checklist. We cycled the Alternator off, noted that the ALT FLD circuit breaker was still pushed in, and then turned the Alternator switch back on. Engine indications appeared relatively normal for a few minutes while we continued our descent, although the M BUS Volts read closer to 25 Volts. Approach Control provided a few more heading and altitude changes, and cleared us for the ILS XXR as we had some difficulty visually identifying the airport due to the sun reflecting off a shallow haze layer. As we turned onto the LOC, the M BUS Amps dipped again, and we received another Low Volt Annunciator. We were within a couple minutes of landing and had not yet begun to draw off the standby battery. Since landing with main battery power seemed assured, we did not execute the Reduce Electrical Load Checklist. Around this same time, I heard Approach Control mention something to another aircraft about them following an aircraft. I was too focused on monitoring the electrical system, so did not fully grasp that ATC had [requested priority handling] on our behalf, although I do not recall ATC making any direct mention of this or ask for souls/fuel remaining. We continued along the ILS, and were given a change to Tower frequency for landing clearance. As we approached the runway, ATC's prior statement about the priority aircraft became clear to me because there were fire trucks waiting along the runway for our arrival. We had a normal landing on Runway XXR, taxied clear of the runway and to the FBO under our own power and without further incident. In retrospect, I believe the diversion decision was the prudent and safe call to make. However, as this was the first time I've had to deal with an anomaly of this sort in flight, the execution of tasks wasn't totally perfect and there are a few things I would do differently in the future. The timing of requesting the diversion may have been slightly premature as we had not yet run the appropriate troubleshooting checklists. However, given our proximity to the airport at the time and the lack of Towered airports along our remaining flight path, requesting the diversion when we did seemed to make the most sense. Had we run through the checklists first, we would have been further away from our best diversion option. Rather than asking the student to request the diversion, I should have tasked them with running the checklists while I coordinated with ATC. This would have helped me to maintain better situational awareness about ATC's decision to [request priority handling] on our behalf. I could have also more clearly communicated the nature of our diversion, and helped ATC to coordinate the response from the ground personnel more effectively. I believe the decision to leave the autopilot engaged was correct as this reduced the workload of hand-flying the aircraft as we worked to resolve the issue, and increased our ability to exercise CRM (Crew Resource Management). Had we reduced the Electrical Load per the aircraft checklist, we would not have had autopilot functionality. If we had a longer distance to travel in a future diversion, this would not be something I could rely upon and would need to adhere to the aircraft's checklist more closely.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "At approximately XA:30 in level cruise flight at 10,000 ft. on an IFR flight, we heard an aural alert and my student noted a Low Volts annunciator on the aircraft's PFD.",
+        "start": 0,
+        "end": 169
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "we heard an aural alert and my student noted a Low Volts annunciator on the aircraft's PFD",
+        "start": 78,
+        "end": 168
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "we heard an aural alert and my student noted a Low Volts annunciator on the aircraft's PFD",
+        "start": 78,
+        "end": 168
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "both myself and my student noticed the M BUS Amps erratically varying from +24/-10 over the course of a few minutes",
+        "start": 235,
+        "end": 350
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "both myself and my student noticed the M BUS Amps erratically varying from +24/-10 over the course of a few minutes",
+        "start": 235,
+        "end": 350
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "I instructed my student to request a diversion to ZZZ (which we were abeam at the time).",
+        "start": 414,
+        "end": 502
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "ATC started to vector us, provided a revised clearance, and asked how long it would take for us to get down?",
+        "start": 638,
+        "end": 746
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "atc.provided_assistance",
+      "evidence": {
+        "quote": "ATC started to vector us, provided a revised clearance, and asked how long it would take for us to get down?",
+        "start": 638,
+        "end": 746
+      },
+      "item_label": "대응 행동",
+      "label_ko": "지원 제공",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Provided Assistance",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Leaving the autopilot engaged, I set a descent rate of 1,000 FPM and began to run through the Low Volts Annunciator Checklist.",
+        "start": 847,
+        "end": 973
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Since landing with main battery power seemed assured, we did not execute the Reduce Electrical Load Checklist.",
+        "start": 1666,
+        "end": 1776
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I was too focused on monitoring the electrical system, so did not fully grasp that ATC had [requested priority handling] on our behalf",
+        "start": 1897,
+        "end": 2031
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "fc.landed_as_precaution",
+      "evidence": {
+        "quote": "We had a normal landing on Runway XXR, taxied clear of the runway and to the FBO under our own power and without further incident.",
+        "start": 2394,
+        "end": 2524
+      },
+      "item_label": "대응 행동",
+      "label_ko": "예방 차원의 착륙",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Landed As Precaution",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "taxied clear of the runway and to the FBO under our own power and without further incident",
+        "start": 2433,
+        "end": 2523
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "절차·체크리스트 준수와 승무원 교차 확인이 작동과 뚫림 양쪽에 나온다. 전기 부하 경감 점검 목록을 수행하지 않았다고 원문이 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation"
+      ],
+      "predicted": [
+        "Aircraft Other Automation",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Aircraft Other Automation"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Landed As Precaution",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Landed As Precaution",
+        "Provided Assistance"
+      ],
+      "overlap": [
+        "Diverted",
+        "Landed As Precaution",
+        "Provided Assistance"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Landed As Precaution",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "Skyhawk 172/Cutlass 172"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

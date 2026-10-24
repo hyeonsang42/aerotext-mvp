@@ -1,0 +1,274 @@
+{
+  "report_id": "crm-2064294",
+  "acn": "2064294",
+  "set": "crm",
+  "synopsis": "Air carrier flight crew reported GPWS alert on approach in addition to CRM failure. Flight crew landed uneventfully.",
+  "narrative": "We were approaching Runway 3 during a visual approach at night, and the aircraft triggered a \"Terrain, Pull Up\" warning turning base to final outside of SIPME on the charted ILS 3 Approach. Upon warning, I commanded \"Perform the Escape Maneuver\". Pilot flying initially didn't comply with instructions, instead remarking, \"I see the ground. We are clear of it.\" I again, more forcefully instructed him to perform the escape maneuver and he finally input full throttles and started to pitch up. By that time we were clear of conflict and the warning annunciations had ceased. We made a turn to final approach, and I commanded \"Go-Around.\" Because visually, I determined we were too high. Pilot flying instead responded with \"We're only a dot high,\" and instead, I believe, to the best of my recollection, he started to descend. When I saw that we were intercepting the glidepath, and the aircraft was stabilized, we continued the approach and landed the plane uneventfully. We had three primary issues, being weather, ATC communications, and lack of CRM. We had conducted a very thorough briefing while we were on the ground before departure, where we initially discussed the RNAV Yankee 21 into CHO. However, enroute, we were assigned the visual 3. While setting up for the visual, we descended down to 3000 feet. The pilot flying felt that he was more comfortable with flying out past WULDU and then intercepting the ILS, but ATC instructed us to turn base when we were adjacent to SIPME. I determined that we would be too high at SIPME unless we descended down to 2,600 feet. Since we were visual, I felt reasonably assured of being clear of the terrain. However, the Terrain Pull Up warning annunciation triggered. In my mind, I immediately planned us performing the escape maneuver, then going missed and getting revectored further out and at a safer approach angle. However, when my instructions weren't complied with, initially, we never gained the altitude we needed to make a missed approach obvious, which lead to the second CRM collapse of pilot flying not immediately obeying a go around command. The third compounding factor was ATC communications. As we started to climb from the escape maneuver, I communicated with CHO tower that we got a terrain pull up warning and we were conducting a climb, to which tower responded, \"Do you mean to be talking to ATC because you are talking to tower.\" They were completely ineffective, and while I was dealing with that, I saw that we were too high, to which I called Go Around, which wasn't complied with, which further compounded the sequence of events. We landed uneventfully after the fact, to which I then communicated with tower about what had occurred, and that their vectors had put us into a terrain warning pull up situation, and they passed that along to ATC at my instruction. The situation deteriorated very quickly, and lack of guidance from ATC was also a factor. If I had received clear vectors and climb to altitude when I communicated to tower that we were initiating the escape maneuver, then that might have mitigated the indecision on the FO's (First Officer) part to initiate the missed approach when I instructed him to. In the ensuing sequence of events, it never occurred to me to say, \"My Controls\" since I was pre- occupied with analyzing the situation and determining the best course of action. The entire time, the flight path and attitude of the aircraft was stable and I didn't determine there to be an immediate need to take over the controls. I'm conflicted about this because I had my recurrency with this FO and I feel like we worked well together, but under this very situational, high stress situation he did not follow CRM, and instead overrode my decision making. Finally, if GPWZ / Terrain warnings are a reoccurring issue, then we need to communicate with TRACON to let them know that at night, we probably need to be vectored for the ILS instead of the visual. From the briefing plates, nothing would occur to me that the GPWZ / Terrain warnings would be as problematic as we encountered them. Finally, on a slightly related matter, our departure was delayed due to crew scheduling continued fascination with swapping me into aircraft that are not ready to fly. In this case, our plane that we were originally scheduled to swap into was changed, and we were given a tail that still needed to have it's service checks done. This took our dispatcher by surprise as he wasn't told about this change either. This delayed our push into CHO, which might have contributed since we were placed deeper into the night hours with un- forcasted weather occurring at CHO. Positioning for the CHO rwy 03 visual backed up by the ILS, ATC cleared us to 3,000 ft. Abeam the airport, approach cleared us for the visual rwy 03. The plan was to fly abeam WULDU and join the approach there. Midway between SIPME and WULDU, ATC asked us to turn to an early base leg, which we did. Once on base I was planning to intercept the approach at 3,000 ft. however, the PM suggested we descend to 2,600 otherwise he felt we would be too high to join the approach. On the base leg I noticed the red lights on the towers below our flight path, however they were well below and I didn’t consider them a threat. We were visual with good forward visibility and I focused on the impending intercept. As we passed the towers, and to my surprise, we received the ‘terrain, terrain, pull up’ from the EGPWS. I was initially surprised we received the message considering the conditions. At prompting of pilot monitoring I applied power and put the aircraft into a climb. Clear of the conflict, the PM called a go-around, however given we were visual and only slightly high, I felt the call was premature. In hindsight I should’ve initiated a go- around and sought vectors to come around for another approach. We were high but managed to intercept the final approach course and complete the approach and landing without incident. After the flight we discussed what occurred and agreed a go around would’ve been the best course of action. We also felt that after receiving the clearance for the approach, the fact ATC then intervened with the call to turn base early increased the workload. I should note, before departing, based on the latest weather, we briefed the RWY 21 RNAV approach. Enroute after receiving the ATIS, rwy 21 was the active and we changed plan accordingly. Debriefing afterwards there was a few points we drew from the experience. In this instance, a go-around after the event would’ve been the best course of action. It also became apparent the startle factor when events occur that are totally unexpected can cloud judgement and the time it takes to take in what occurred, and respond. Also, adherence to proper CRM would’ve lead to a more cohesive outcome.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "operational_pressure",
+      "evidence": {
+        "quote": "we were given a tail that still needed to have it's service checks done",
+        "start": 4345,
+        "end": 4416
+      },
+      "item_label": "위협",
+      "label_ko": "시간·업무 부하",
+      "layer": null,
+      "agent": null,
+      "desc": "정시 운항 압박, 인원 부족, 과중한 업무량이 서술된 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We had conducted a very thorough briefing while we were on the ground before departure, where we initially discussed the RNAV Yankee 21 into CHO.",
+        "start": 1054,
+        "end": 1199
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "atc_comm_issue",
+      "evidence": {
+        "quote": "We also felt that after receiving the clearance for the approach, the fact ATC then intervened with the call to turn base early increased the workload.",
+        "start": 6091,
+        "end": 6242
+      },
+      "item_label": "위협",
+      "label_ko": "관제·통신 문제",
+      "layer": null,
+      "agent": null,
+      "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "automation.aircraft_terrain_warning",
+      "evidence": {
+        "quote": "As we passed the towers, and to my surprise, we received the ‘terrain, terrain, pull up’ from the EGPWS.",
+        "start": 5358,
+        "end": 5462
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "지형 경고 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Terrain Warning",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "As we passed the towers, and to my surprise, we received the ‘terrain, terrain, pull up’ from the EGPWS.",
+        "start": 5358,
+        "end": 5462
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "under this very situational, high stress situation he did not follow CRM, and instead overrode my decision making",
+        "start": 3641,
+        "end": 3754
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "I saw that we were too high, to which I called Go Around, which wasn't complied with, which further compounded the sequence of events",
+        "start": 2474,
+        "end": 2607
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "They were completely ineffective",
+        "start": 2405,
+        "end": 2437
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "At prompting of pilot monitoring I applied power and put the aircraft into a climb.",
+        "start": 5541,
+        "end": 5624
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "response",
+      "value": "fc.took_evasive_action",
+      "evidence": {
+        "quote": "I again, more forcefully instructed him to perform the escape maneuver and he finally input full throttles and started to pitch up.",
+        "start": 362,
+        "end": 493
+      },
+      "item_label": "대응 행동",
+      "label_ko": "회피 기동",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Took Evasive Action",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "We were high but managed to intercept the final approach course and complete the approach and landing without incident.",
+        "start": 5863,
+        "end": 5982
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "지형 경고 장치는 작동했으나 그 뒤 승무원 교차 확인과 절차 준수가 뚫렸다. 조종 담당이 탈출 기동과 복행 지시에 즉시 따르지 않았다고 두 신고자가 모두 서술한다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Terrain Warning",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Aircraft Terrain Warning"
+      ],
+      "overlap": [
+        "Aircraft Terrain Warning"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "FLC complied w / Automation / Advisory"
+      ],
+      "predicted": [
+        "Took Evasive Action"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Aircraft Terrain Warning"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "FLC complied w / Automation / Advisory"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "Commercial Fixed Wing"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "02"
+  }
+}

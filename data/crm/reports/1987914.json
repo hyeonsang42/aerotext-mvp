@@ -1,0 +1,203 @@
+{
+  "report_id": "crm-1987914",
+  "acn": "1987914",
+  "set": "crm",
+  "synopsis": "Air Carrier Captain reported the Marshaller did not use their headset to communicate and used non standard hand movements resulting in confusion and a delay parking the aircraft.",
+  "narrative": "I was performing Captain duties along with my crew, the First Officer (FO) and Flight Attendant. Additionally, we had a pilot in the jump seat. The flight was successful and without incident prior to reaching the gate. Upon pulling short of the gate, the ground crew slowly got into position to direct us in. The Marshaller was just standing in position with no action. After a few minutes without marshalling signals and shrugs from the wing walkers as if they were gesturing \"what's going on\" I slightly increased power while holding brakes as an audible we are ready to come into the gate. At this time the Marshaller began gesturing what the FO, jump seater and I ascertained to be come forward. As it seems to be standard practice, particularly at ZZZ, the marshalling was non-standard to any FAA, ICAO or military signals any of us where aware of. First Officer commented that it looks like the Marshaller was using a skiing motion with the Marshaller's hands next to his hips. The jump seater also commented something similar to the effect of how horrible and unacceptable this was. I continued to taxi at the slowest and safest rate possible aligning myself on the centerline despite the Marshallers nonstandard directions. Within a few seconds the Marshaller gave us what we interpreted a turn to our left that resembled a \"dabbing\" motion followed quickly with a no notice stop motion. I stopped as quickly as possible considering the passengers and situation. However, this was a distance past where the nose wheel is indicated on the ramp for the CRJ to stop, but in no means a location that would cause damage to the aircraft or harm to the passengers. The Marshaller clearly at this time said \"For [expletive] sakes\" and made an aggressive throwing his hands down motion. I set the parking brake and First Officer released the passengers with the seat belt sign. After a moment, the Marhsaller indicated the chocks were in and at that time I released the jump seater and called for the shutdown check. Within seconds, the Marshaller came into the cockpit where he began to berate us for not following his instructions, in-front of the full cabin of shocked passengers, the flight attendant and the jump seater. I stated in my most professional way that I cannot stop the aircraft that quickly and he needed to use correct signals. He continued to want to escalate the situation, but I let him know if we needed to be pushed back, then we will. I then made an announcement to the passengers apologizing, and asked them to return to their seats, fasten their seat belts and stow their bags. Immediately after he left the cockpit the First Officer and myself ran appropriate checklists and while waiting for the pushback discussed how inappropriate this was and that we should make a report. We decided in the moments we had until pushback to make a quick call to Operations about the issue and they informed us they would be letting the Ramp Lead know. While being reconnected to the tug, the standard phraseology and hand gestures were used to capture the aircraft just prior to us pushing back. The Marshaller in question then through the headsets said \"I can hear you guys\" to which a reply was made, \"It's no secret mate, I don't mind if you hear, we'll be filing a report and speaking with your supervisor\". The Marshaller kept muttering through the headsets about us not following the Marshaller's instructions and that he can hear us talking, etc. To which I replied with \"Okay, just stop, you need to push us back so we can get these passengers off the airplane and stop arguing, we will talk about it later\". This whole interaction cost passengers approximately X minutes of delay on deboarding the aircraft. Looking back at the incident we should have communicated with Operations earlier about the lack of initially moving into the gate and the non-standard marshalling signals we were receiving. Issues: SAFETY. ZZZ marshalling is atrocious. It is nonstandard and I recommend a complete retraining of all ground personal on proper techniques found within the AIM. While this issue is not isolated to ZZZ, it is the most egregious place concerning this matter. It is becoming dangerous. Marshallers at ZZZ continually marshal with hands in front of body rather than overhead and clearly seen. At night it is lucky if marshallers and wing walkers have 1 lit wand. It has become far too common for the ground crews to expect to not conduct aircraft movement with operable headsets. This is extremely dangerous when at night, in the weather and multiple pushback instructions are given. Professionalism. It looks bad for Company A and Company B when this type of incident occurs. There is a time and place for crews and ramp personnel or others to have conversations and a way to have them, this did not happen. Suggestions. Conduct training on proper ground ops signals. Obtain and use operable headsets. If ZZZ can budget to get radar like ZZZ1. Lessons learned/ to pass on - Stop aircraft and coordinate with Operations with any issues immediately. I feel as a crew, the First Officer and Flight Attendant and myself acted in a safe and professional manner. We communicated and apologized to the passengers. We debriefed and wrote these reports and we continued with our duties for the day isolating the incident to not distract from safety or CRM on future flights.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "As it seems to be standard practice, particularly at ZZZ, the marshalling was non-standard to any FAA, ICAO or military signals any of us where aware of.",
+        "start": 700,
+        "end": 853
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "the marshalling was non-standard to any FAA, ICAO or military signals any of us where aware of",
+        "start": 758,
+        "end": 852
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "First Officer commented that it looks like the Marshaller was using a skiing motion with the Marshaller's hands next to his hips.",
+        "start": 854,
+        "end": 983
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "First Officer commented that it looks like the Marshaller was using a skiing motion with the Marshaller's hands next to his hips.",
+        "start": 854,
+        "end": 983
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I continued to taxi at the slowest and safest rate possible aligning myself on the centerline despite the Marshallers nonstandard directions.",
+        "start": 1090,
+        "end": 1231
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "We decided in the moments we had until pushback to make a quick call to Operations about the issue and they informed us they would be letting the Ramp Lead know.",
+        "start": 2803,
+        "end": 2964
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.flight_cancelled_delayed",
+      "evidence": {
+        "quote": "This whole interaction cost passengers approximately X minutes of delay on deboarding the aircraft.",
+        "start": 3630,
+        "end": 3729
+      },
+      "item_label": "결과 상태",
+      "label_ko": "운항 취소·지연",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Cancelled / Delayed",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "지상 유도 신호가 표준과 달랐다고 원문이 직접 밝혀 지상 요원 보고를 뚫린 방어로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "Flight Cancelled / Delayed"
+      ],
+      "overlap": [
+        "Flight Cancelled / Delayed"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "Aircraft In Service At Gate"
+    ],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "Commercial Fixed Wing"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "05"
+  }
+}

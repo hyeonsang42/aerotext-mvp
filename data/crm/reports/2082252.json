@@ -1,0 +1,228 @@
+{
+  "report_id": "crm-2082252",
+  "acn": "2082252",
+  "set": "crm",
+  "synopsis": "A-320 First Officer reported a bird strike while rotating for takeoff and one engine displayed high vibrations and a buzzing sound. The aircraft safely returned to the departure field for an overweight landing. Post flight inspection revealed damage to both engines.",
+  "narrative": "On takeoff from ZZZ Runway XXC we hit birds above V1 in the process of rotation. I was flying and saw the birds come out of the lower right to left. I did not hear any impact or notice anything abnormal upon their impact. After we completed our rotation I heard a buzzing sound with associated vibrations. I notified the Captain that we had hit birds as he didn’t know what was causing the strange sound and vibrations. We noticed high vibrations on the #1 engine N1 (~5.5). The Captain notified Tower we needed to return to ZZZ due to a bird strike. We decided this would be the safest course of action. There were no ECAM (Electronic Centralized Aircraft Monitor) actions but we knew the airplane was damaged due to the higher than normal vibrations on the #1 engine and loud buzzing sound. The aircraft was climbing normally and producing normal thrust. I flew the airplane as the Captain ran the overweight landing checklist, notified the passengers, the flight attendants, Dispatch and ZZZ ops of our air return. The Captain then sent and received our flaps-full overweight landing aero data information. We then completed the approach checklist. As we were working through the above items we flew a right traffic pattern and visual approach to the longest Runway XYL from which we performed a smooth landing. After landing we selected the brake fans on and taxied using normal procedures to the gate. Mechanics came up to the flight deck and told us that both engines had received damage. We thought the #2 engine had not been damaged due to seemingly normal vibrations. The Captain wrote up the discrepancies for the bird strikes and overweight landing. There is really no way to avoid a bird strike at rotation. The best way to prevent future bird strikes would be to implement measures that keep birds away from the airport at ZZZ. I have also seen coyotes on the runways/taxiways at ZZZ. As far as this event goes I am happy with our performance implementing CRM and decision making resulting in the safe outcome of the flight.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "The best way to prevent future bird strikes would be to implement measures that keep birds away from the airport at ZZZ.",
+        "start": 1720,
+        "end": 1840
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "We noticed high vibrations on the #1 engine N1 (~5.5).",
+        "start": 420,
+        "end": 474
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "After we completed our rotation I heard a buzzing sound with associated vibrations.",
+        "start": 222,
+        "end": 305
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I notified the Captain that we had hit birds as he didn’t know what was causing the strange sound and vibrations.",
+        "start": 306,
+        "end": 419
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "stop_operation",
+      "evidence": {
+        "quote": "The Captain notified Tower we needed to return to ZZZ due to a bird strike.",
+        "start": 475,
+        "end": 550
+      },
+      "item_label": "방어",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "게이트 복귀, 운항 취소, 인수 거부, 작업 거부처럼 운항을 멈추는 판단",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "The Captain notified Tower we needed to return to ZZZ due to a bird strike.",
+        "start": 475,
+        "end": 550
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "I flew the airplane as the Captain ran the overweight landing checklist, notified the passengers, the flight attendants, Dispatch and ZZZ ops of our air return.",
+        "start": 857,
+        "end": 1017
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "Mechanics came up to the flight deck and told us that both engines had received damage.",
+        "start": 1407,
+        "end": 1494
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "조류 충돌 자체는 기준표 위협 목록에 없어, 원문이 공항의 조류 관리 문제를 서술한 대목을 공항·지상 환경으로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Takeoff / Launch"
+    ],
+    "Make Model Name": [
+      "A320"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "01"
+  }
+}

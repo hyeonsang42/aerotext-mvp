@@ -5,10 +5,10 @@
       "label_ko": "정비 문서·MEL 확인",
       "layer": "예방",
       "agent": "절차",
-      "worked": 10,
-      "breached": 24,
-      "total": 34,
-      "breach_rate": 71
+      "worked": 12,
+      "breached": 34,
+      "total": 46,
+      "breach_rate": 74
     },
     {
       "code": "scheduled_inspection",
@@ -21,241 +21,245 @@
       "breach_rate": 52
     },
     {
+      "code": "automation_protection",
+      "label_ko": "자동화 방호 기능",
+      "layer": "해소",
+      "agent": "자동화",
+      "worked": 1,
+      "breached": 1,
+      "total": 2,
+      "breach_rate": 50
+    },
+    {
       "code": "maintenance_action",
       "label_ko": "정비 조치·수리",
       "layer": "복구",
       "agent": "사람",
-      "worked": 19,
-      "breached": 15,
-      "total": 34,
+      "worked": 23,
+      "breached": 18,
+      "total": 41,
       "breach_rate": 44
-    },
-    {
-      "code": "crew_crosscheck",
-      "label_ko": "승무원 교차 확인",
-      "layer": "탐지",
-      "agent": "사람",
-      "worked": 29,
-      "breached": 17,
-      "total": 46,
-      "breach_rate": 37
-    },
-    {
-      "code": "briefing_planning",
-      "label_ko": "브리핑·사전 계획",
-      "layer": "예방",
-      "agent": "사람",
-      "worked": 12,
-      "breached": 7,
-      "total": 19,
-      "breach_rate": 37
     },
     {
       "code": "procedure_checklist",
       "label_ko": "절차·체크리스트 준수",
       "layer": "예방",
       "agent": "절차",
-      "worked": 24,
-      "breached": 8,
-      "total": 32,
-      "breach_rate": 25
-    },
-    {
-      "code": "preflight_check",
-      "label_ko": "출발 전 점검",
-      "layer": "예방",
-      "agent": "사람",
-      "worked": 7,
-      "breached": 2,
-      "total": 9,
-      "breach_rate": 22
-    },
-    {
-      "code": "aircraft_alert",
-      "label_ko": "항공기 경고 장치",
-      "layer": "탐지",
-      "agent": "자동화",
-      "worked": 15,
-      "breached": 4,
-      "total": 19,
-      "breach_rate": 21
+      "worked": 45,
+      "breached": 25,
+      "total": 70,
+      "breach_rate": 36
     },
     {
       "code": "atc_monitoring",
       "label_ko": "관제 감시·지시",
       "layer": "탐지",
       "agent": "사람",
-      "worked": 5,
-      "breached": 1,
-      "total": 6,
-      "breach_rate": 17
+      "worked": 20,
+      "breached": 11,
+      "total": 31,
+      "breach_rate": 35
     },
     {
-      "code": "company_consult",
-      "label_ko": "운항 관리 협의",
-      "layer": "해소",
+      "code": "crew_crosscheck",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
       "agent": "사람",
-      "worked": 27,
-      "breached": 3,
-      "total": 30,
-      "breach_rate": 10
+      "worked": 71,
+      "breached": 38,
+      "total": 109,
+      "breach_rate": 35
+    },
+    {
+      "code": "briefing_planning",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "worked": 34,
+      "breached": 17,
+      "total": 51,
+      "breach_rate": 33
+    },
+    {
+      "code": "preflight_check",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "worked": 14,
+      "breached": 5,
+      "total": 19,
+      "breach_rate": 26
+    },
+    {
+      "code": "aircraft_alert",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "worked": 34,
+      "breached": 7,
+      "total": 41,
+      "breach_rate": 17
     },
     {
       "code": "ground_report",
       "label_ko": "지상 요원·정비사 보고",
       "layer": "탐지",
       "agent": "사람",
-      "worked": 29,
-      "breached": 3,
-      "total": 32,
-      "breach_rate": 9
+      "worked": 33,
+      "breached": 5,
+      "total": 38,
+      "breach_rate": 13
     },
     {
-      "code": "manual_intervention",
-      "label_ko": "승무원 수동 개입",
+      "code": "company_consult",
+      "label_ko": "운항 관리 협의",
       "layer": "해소",
       "agent": "사람",
-      "worked": 20,
-      "breached": 1,
-      "total": 21,
-      "breach_rate": 5
+      "worked": 39,
+      "breached": 4,
+      "total": 43,
+      "breach_rate": 9
     },
     {
       "code": "cabin_report",
       "label_ko": "객실 승무원 보고",
       "layer": "탐지",
       "agent": "사람",
-      "worked": 30,
-      "breached": 1,
-      "total": 31,
-      "breach_rate": 3
-    },
-    {
-      "code": "stop_operation",
-      "label_ko": "운항 중단 판단",
-      "layer": "복구",
-      "agent": "사람",
-      "worked": 16,
-      "breached": 0,
-      "total": 16,
-      "breach_rate": 0
+      "worked": 36,
+      "breached": 3,
+      "total": 39,
+      "breach_rate": 8
     },
     {
       "code": "emergency_procedure",
       "label_ko": "비상 절차 수행",
       "layer": "복구",
       "agent": "절차",
-      "worked": 20,
-      "breached": 0,
-      "total": 20,
-      "breach_rate": 0
+      "worked": 29,
+      "breached": 2,
+      "total": 31,
+      "breach_rate": 6
     },
     {
-      "code": "automation_protection",
-      "label_ko": "자동화 방호 기능",
+      "code": "manual_intervention",
+      "label_ko": "승무원 수동 개입",
       "layer": "해소",
-      "agent": "자동화",
-      "worked": 1,
+      "agent": "사람",
+      "worked": 60,
+      "breached": 1,
+      "total": 61,
+      "breach_rate": 2
+    },
+    {
+      "code": "stop_operation",
+      "label_ko": "운항 중단 판단",
+      "layer": "복구",
+      "agent": "사람",
+      "worked": 19,
       "breached": 0,
-      "total": 1,
+      "total": 19,
       "breach_rate": 0
     }
   ],
   "layers": [
     {
       "layer": "예방",
-      "worked": 66,
-      "breached": 55,
-      "total": 121,
+      "worked": 118,
+      "breached": 95,
+      "total": 213,
       "breach_rate": 45,
       "barriers": [
         "정비 문서·MEL 확인",
         "정비 정기 점검",
-        "브리핑·사전 계획",
         "절차·체크리스트 준수",
+        "브리핑·사전 계획",
         "출발 전 점검"
       ]
     },
     {
       "layer": "탐지",
-      "worked": 108,
-      "breached": 26,
-      "total": 134,
-      "breach_rate": 19,
+      "worked": 194,
+      "breached": 64,
+      "total": 258,
+      "breach_rate": 25,
       "barriers": [
+        "관제 감시·지시",
         "승무원 교차 확인",
         "항공기 경고 장치",
-        "관제 감시·지시",
         "지상 요원·정비사 보고",
         "객실 승무원 보고"
       ]
     },
     {
       "layer": "해소",
-      "worked": 48,
-      "breached": 4,
-      "total": 52,
-      "breach_rate": 8,
+      "worked": 100,
+      "breached": 6,
+      "total": 106,
+      "breach_rate": 6,
       "barriers": [
+        "자동화 방호 기능",
         "운항 관리 협의",
-        "승무원 수동 개입",
-        "자동화 방호 기능"
+        "승무원 수동 개입"
       ]
     },
     {
       "layer": "복구",
-      "worked": 55,
-      "breached": 15,
-      "total": 70,
-      "breach_rate": 21,
+      "worked": 71,
+      "breached": 20,
+      "total": 91,
+      "breach_rate": 22,
       "barriers": [
         "정비 조치·수리",
-        "운항 중단 판단",
-        "비상 절차 수행"
+        "비상 절차 수행",
+        "운항 중단 판단"
       ]
     }
   ],
   "threats": [
     {
-      "label_ko": "연기·냄새·오염",
-      "count": 41
+      "label_ko": "항공기 계통 고장",
+      "count": 49
     },
     {
-      "label_ko": "항공기 계통 고장",
-      "count": 28
+      "label_ko": "연기·냄새·오염",
+      "count": 42
     },
     {
       "label_ko": "부품·정비 상태 이상",
-      "count": 27
+      "count": 33
     },
     {
       "label_ko": "시간·업무 부하",
-      "count": 17
+      "count": 23
     },
     {
       "label_ko": "위험물·적재",
-      "count": 10
-    },
-    {
-      "label_ko": "절차·문서 불일치",
-      "count": 7
-    },
-    {
-      "label_ko": "공항·지상 환경",
-      "count": 5
-    },
-    {
-      "label_ko": "교통 근접",
-      "count": 3
+      "count": 12
     },
     {
       "label_ko": "기상",
-      "count": 1
+      "count": 12
+    },
+    {
+      "label_ko": "절차·문서 불일치",
+      "count": 10
+    },
+    {
+      "label_ko": "공항·지상 환경",
+      "count": 9
+    },
+    {
+      "label_ko": "관제·통신 문제",
+      "count": 8
+    },
+    {
+      "label_ko": "교통 근접",
+      "count": 7
     }
   ],
-  "worked_total": 277,
-  "breached_total": 100,
-  "breached_reports": 66,
-  "reports": 100,
+  "worked_total": 483,
+  "breached_total": 185,
+  "breached_reports": 111,
+  "reports": 150,
   "note": "뚫린 방어와 발생 순서는 대조할 코딩 필드가 없어 자동 채점되지 않는다. 이중 주석(DR-05)으로 검증한다."
 }

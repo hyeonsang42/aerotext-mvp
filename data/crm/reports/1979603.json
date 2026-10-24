@@ -1,0 +1,307 @@
+{
+  "report_id": "crm-1979603",
+  "acn": "1979603",
+  "set": "crm",
+  "synopsis": "Air Carrier First Officer reported a Captain that displayed poor decision making skills, a lack of understanding of basic tasks, and inadequate CRM during multiple legs of a trip.",
+  "narrative": "I was a SIC on a series of flights that departed ZZZ, with legs in ZZZ1, ZZZ2 and ZZZ3 with a return to ZZZ. I was flying with a CA (Captain) I had yet to fly with out of the ZZZ base. I arrived early as usual, and proceeded to do a walk around, and then started on duties to prepare the aircraft for the flight. The CA arrived on time, and began a series of his duties. The CA noticed the Radar Altimeter was not working, and alerted [maintenance] to the issue. [Maintenance] was able to get the RA working, and we departed ZZZ for ZZZ1. Upon passing through 10,000 ft', I asked the CA if he would like me to turn the APU on. He replied \"No, we will turn it on during short final.\" I thought I misheard him. During short final, while the CA was flying, he reached up and turned on the APU, without announcing or asking me to do so. I told him I could do that, and he said it was fine. The landing was unremarkable. We departed ZZZ1 for ZZZ2. Winds were gusty but nothing out of limits. During descent through landing checks, the CA failed to use a checklist and instead called out items from memory. I asked about it and didn't get a response. I was unsure if he understood me, as it seems as though communication was difficult. The CA has a very heavy accent, and I had difficulty understanding a few things he said and had to ask him to repeat himself. Once again, the CA turns the APU on during short final, although this time I was flying. Landing was normal. We taxi to parking and shut down. The next stop is ZZZ3. The CA looks at the winds, which were gusting to 31 at 150, with landings being conducted to RWY XX; and tells me they are almost at max crosswind. I disagree, but he shows me the METAR and once again says 35 knots is the max crosswind limitation. I did not explain how the calculation worked, and decided not to since we would be legal even under his interpretation of max crosswind. During preflight on the leg back to ZZZ, I had done a weight and balance and asked the CA if he wanted to use it. I am not sure if he heard me as he began doing his own, and input it into the FMS. I did not discover until after landing, when the CA sent me his movement report to show times, that he did not include 6 passengers on the weight and balance calculations. On all legs, the CA turned on the APU during short final. I was SIC; operating from ZZZ to ZZZ4. I was the PM (Pilot Monitoring) ; the CA was the pilot flying. The flight was uneventful until arrival into ZZZ4. The CA had set the inbound course on both sides of the MCP (Mode Control Panel) and tuned both VHF NAV radios to the frequency for the localizer on RWY XY in preparation for the approach into ZZZ4. ATC had assigned a heading of 110 as we approached the airport. We ran an approach checklist around 7,000 ft and concluded the checklist. The CA had then tuned VHF #1 to tower, ahead of the approach as I was talking to approach and preparing for landing. Weather was VFR, winds were unremarkable. The aircraft we were on had HSI switches, and once closer both were set to VOR/ILS to prepare for the approach. ATC told us to remain at 3,000 ft until established and cleared us for the ILS into RWY XY. Upon being cleared, the CA armed the approach on the MCP. However; during a scan I noticed our course deflection bars were wildly different. I immediately announced this. Mine was saying we needed to turn right, the CA side was saying to turn slightly left. The route in the FMC had the ILS for runway XY. My VHF nav frequency was tuned correctly, but upon looking down the CAs was no longer correct. Without speculating too much, the only thing I could come up with is that this may have been inadvertently off tuned after the approach checklist, when the CA tuned the VHF radio to tower as the pilot flying, because the knobs for the VHF 1 radio and VHF nav radio are the exact same, and one is right above the other. When correcting the mistake the wrong frequency may have been input. It was about the time that I announced a second time the HSIs were different that ATC called and said \"[callsign], what are you doing?\" And told us to make an immediate turn to 170 as it looked as though the aircraft was heading towards runway XZ, which was closed. The CA was attempting to tell [maintenance] something was wrong with the plane after I read back the instructions. I was telling the CA we needed to turn to 170 immediately, as he continued flying the wrong heading. The CA kept trying to press heading mode on the MCP, but it would not work as we were captured on the wrong glideslope and localizer. The CA then lost his FD (Flight Director) guidance. I told him nothing he was telling [maintenance] was important as he continued flying on the wrong heading. I raised my voice when my concerns weren't heard and said we needed to turn to 170 IMMEDIATELY and to disengage the autopilot and turn, and I would work on the inside. The A/P ended up disengaging on its own, due to a radar altimeter that was inop (this explanation according to maintenance; the radar altimeter was MEL'd, but there are no VHF nav restrictions on said MEL, only RNAV and RNP restrictions.) The CA then decided to engage my A/P (B side) and selected heading mode as I had tuned his VHF nav to the correct frequency. He still had no FD guidance, and I did not believe that, in VFR conditions and being that close to the runway, that running the QRH and transferring instrument switches to guidance on my side was appropriate. Once we were on the heading assigned, ATC asked if we had the airport in sight. The field was seen and we were cleared for the visual into runway XY. The CA used heading to turn us towards the runway. Once we were lined up, the CA disengaged the autopilot, and began descending. My guidance for the ILS was still working, but the CA had no FD guidance on his side. I announced we were getting too low approaching buildings on the south east side of the airport. The CA said \"visual visual.\" I once again announced we were too low and likely to receive a terrain warning from the GPWS as we descended below 1,000 ft (980 ft when the CA pulled up) outside of the FAF (at 1,600 ft) with full scale glideslope deflection on my side. I announced the glideslope was well above us as I had guidance. The CA pulled aft on the yoke and advanced the power levers into a climb getting the aircraft into a flight profile where the PAPI was showing two white and two red when I looked up again. The landing was unremarkable. The flight back into ZZZ was my leg. During the landing roll almost immediately upon touchdown, tower started calling while I was still getting the aircraft under control (100+ knots.) I key the mic and tell them to standby. The CA keys the mic and reads instructions back, to a high speed taxiway we ended up not making as I was unable to slow the aircraft in time. After exiting, the CA begins to taxi, and turns off every light on his panel and the engine instruments, making it to where they were unreadable. Poor CRM, poor decision making by the CA, unsafe actions during flight and taxi, lack of understanding of crosswind calculations; lack of prioritizing immediate actions during flight with a pilot error that needed to be fixed. I did everything in my power to attempt to tell the CA the deviations during all legs of flights. I have decided I will attempt to avoid flying with this CA in the future.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "The CA noticed the Radar Altimeter was not working, and alerted [maintenance] to the issue.",
+        "start": 371,
+        "end": 462
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "The CA noticed the Radar Altimeter was not working, and alerted [maintenance] to the issue.",
+        "start": 371,
+        "end": 462
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "[Maintenance] was able to get the RA working, and we departed ZZZ for ZZZ1.",
+        "start": 463,
+        "end": 538
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "During descent through landing checks, the CA failed to use a checklist and instead called out items from memory.",
+        "start": 987,
+        "end": 1100
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "hazmat_loading",
+      "evidence": {
+        "quote": "I did not discover until after landing, when the CA sent me his movement report to show times, that he did not include 6 passengers on the weight and balance calculations.",
+        "start": 2104,
+        "end": 2275
+      },
+      "item_label": "위협",
+      "label_ko": "위험물·적재",
+      "layer": null,
+      "agent": null,
+      "desc": "위험물 신고 누락, 적재 오류, 중량·균형 문제",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "During preflight on the leg back to ZZZ, I had done a weight and balance and asked the CA if he wanted to use it. I am not sure if he heard me as he began doing his own, and input it into the FMS.",
+        "start": 1907,
+        "end": 2103
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "However; during a scan I noticed our course deflection bars were wildly different.",
+        "start": 3244,
+        "end": 3326
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "It was about the time that I announced a second time the HSIs were different that ATC called",
+        "start": 3975,
+        "end": 4067
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "detector",
+      "value": "person.air_traffic_control",
+      "evidence": {
+        "quote": "And told us to make an immediate turn to 170 as it looked as though the aircraft was heading towards runway XZ, which was closed.",
+        "start": 4111,
+        "end": 4240
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관제사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Air Traffic Control",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "And told us to make an immediate turn to 170 as it looked as though the aircraft was heading towards runway XZ, which was closed.",
+        "start": 4111,
+        "end": 4240
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "Poor CRM, poor decision making by the CA, unsafe actions during flight and taxi, lack of understanding of crosswind calculations; lack of prioritizing immediate actions during flight with a pilot error that needed to be fixed.",
+        "start": 7016,
+        "end": 7242
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "The CA pulled aft on the yoke and advanced the power levers into a climb getting the aircraft into a flight profile where the PAPI was showing two white and two red when I looked up again.",
+        "start": 6284,
+        "end": 6472
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "The landing was unremarkable.",
+        "start": 886,
+        "end": 915
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "승무원 교차 확인이 작동과 뚫림 양쪽에 나온다. 무게 균형 계산을 서로 맞추지 못했고, 항법 주파수 불일치는 부기장이 두 번 짚어 관제 지시로 이어졌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Air Traffic Control",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Air Traffic Control",
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Air Traffic Control",
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Became Reoriented"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Became Reoriented"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [],
+    "Flight Phase": [
+      "Descent",
+      "Final Approach",
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "Large Transport, Low Wing, 2 Turbojet Eng"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "06"
+  }
+}

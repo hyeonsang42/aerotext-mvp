@@ -1,0 +1,220 @@
+{
+  "report_id": "crm-2059639",
+  "acn": "2059639",
+  "set": "crm",
+  "synopsis": "A-320 crew reported a near miss while taxiing to the gate. Captain stopped to allow other aircraft to pass and the flight continued to the ramp after traffic passed.",
+  "narrative": "Landed RWYXXR Approximately 110knots during landing rollout tower controller instructed us '[Taxiway] 1 2 Straight in to ramp.' This was non-standard early, during cockpit change of control from FO landing to Captain taxiing. Note-'straight in to ramp via 2' is also non- standard taxi instruction in ZZZ- it results in time compression during aircraft configuration changes and greatly increases required visual traffic clearing. I was also put on alert that in ZZZ's busy environment the tower controller was also doing double duty as acting ground controller. Again non-standard this 'cluttered' the cockpit radio environment. I verbalized this as a 'threat' to my First Officer. On inbound on TWY 2 approximately 300 ft. prior to ramp spot 1 - FO went radio 2 to contact ramp/confirm clearance straight in. I verbalized I was monitoring TWR and joining him on radio ramp. Approaching TWY 3 FO called out traffic to the right. I noted 787 under tow turning into ramp spot 2 and acknowledged and verbalized no factor as we were inbound to 1. FO said 'the other aircraft' the same time I saw approaching CRJ approaching at a fast taxi sped on TWY 3 left-to-right. I stopped our aircraft short of TWY 3. CRJ continued w/out perceptibly slowing. I contacted tower controller to query about the conflict and tower controller said 'I've called you 4 times w/no response' and instructed us to continue to ramp. If he called we never heard him. I asked the controller to please mark the tapes for my report. Further communication was impossible as he was actively controlling arrival landing traffic. We continued to the ramp. Dispite monitoring TWR frequency we never heard his instruction to hold short of taxiway 3 for traffic. My First Officer and I were also very busy ensuring compliance with 'non-normal'; taxi directions and engine 2 shutdown option/timing, electing to not shut down yet to avoid distraction. I consider this a 'near miss' as the CRJ was taxiing fast and had we not seen it in time we would have been in an unsafe situation. I asked the tower controller to please mark the tapes for review if warranted. Our crew CRM and communications prevented a near-miss in this instance. It should have never become this close. Upon arrival at ZZZ [Runway] XXR the crew was instructed by tower to taxi 1 - 2 - 4 to the ramp, which is not the normal entry point for ramp when arriving from the west, and stay on tower frequency. As the crew was taxiing on 2 and approaching taxiway 3, the FO turned down the volume on VHF 1 in order to contact Ramp on VHF 2 since the aircraft was approaching the ramp entry point on taxiway 4. The ramp frequency was very busy and the FO waited for an opening to make his radio call. In the meantime, the FO noticed a regional jet taxiing quickly south on taxiway 3 that would cross the aircraft's current taxi path during their transition from taxiway 2 to 4. The FO pointed out the taxiing regional jet to the CA who said that he saw the aircraft coming out of the ramp, but the FO realized the CA was looking at another aircraft and pointed at the taxiing regional jet and once again announced the approaching aircraft. The CA applied the brakes and began slowing the aircraft to a stop and allow the regional jet to pass. The FO then turned down the volume of VHF 2 and the constant ramp radio traffic and heard ZZZ tower 1 attempting to reach the crew. The controller asked the crew to give-way to the regional jet and exclaimed that he had been trying to reach the crew. The FO replied with an apology and the tower controller instructed the crew to taxi to the ramp. The FO replied with the clearance while the CA continued the taxi. The FO contacted ramp on VHF 2 and requested entry to the ramp. Entry was granted and the crew taxied to their gate.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "atc_comm_issue",
+      "evidence": {
+        "quote": "I was also put on alert that in ZZZ's busy environment the tower controller was also doing double duty as acting ground controller.",
+        "start": 431,
+        "end": 562
+      },
+      "item_label": "위협",
+      "label_ko": "관제·통신 문제",
+      "layer": null,
+      "agent": null,
+      "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "I verbalized this as a 'threat' to my First Officer.",
+        "start": 630,
+        "end": 682
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "traffic_conflict",
+      "evidence": {
+        "quote": "I noted 787 under tow turning into ramp spot 2 and acknowledged and verbalized no factor as we were inbound to 1.",
+        "start": 930,
+        "end": 1043
+      },
+      "item_label": "위협",
+      "label_ko": "교통 근접",
+      "layer": null,
+      "agent": null,
+      "desc": "다른 항공기나 지상 이동체와의 간격이 좁아진 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Approaching TWY 3 FO called out traffic to the right.",
+        "start": 876,
+        "end": 929
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The FO pointed out the taxiing regional jet to the CA who said that he saw the aircraft coming out of the ramp, but the FO realized the CA was looking at another aircraft and pointed at the taxiing regional jet and once again announced the approaching aircraft.",
+        "start": 2902,
+        "end": 3163
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I stopped our aircraft short of TWY 3.",
+        "start": 1165,
+        "end": 1203
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "Dispite monitoring TWR frequency we never heard his instruction to hold short of taxiway 3 for traffic.",
+        "start": 1622,
+        "end": 1725
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "Entry was granted and the crew taxied to their gate.",
+        "start": 3746,
+        "end": 3798
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "관제 지시를 듣지 못했다고 원문이 밝힌다. 기장이 처음 다른 기체를 보고 있었는데 부기장이 두 번 짚어 바로잡았다.",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Issued New Clearance",
+        "Took Evasive Action"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Took Evasive Action"
+    ],
+    "Result.Air Traffic Control": [
+      "Issued New Clearance"
+    ],
+    "When Detected": [
+      "Taxi"
+    ],
+    "Flight Phase": [
+      "Taxi"
+    ],
+    "Make Model Name": [
+      "A320",
+      "Regional Jet CL65, Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "03"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "report_id": "crm-2063332",
+  "acn": "2063332",
+  "set": "crm",
+  "synopsis": "Air taxi flight crew reported that during short final approach an aircraft entered the runway for takeoff without making any radio calls requiring the flight crew to go around.",
+  "narrative": "On short final we noticed departing traffic was across the hold short line and was proceeding to the runway. We went around, announced our situation on frequency XXX.XX, then proceeded to a normal traffic pattern and uneventful landing. Suggestions: Continue to listen on backup freq. inbound as soon as practical and exercise CRM delegating radio work as necessary and practical. In our case at this uncontrolled field the departing aircraft was either on the wrong frequency (their words) or not using their radios. Would also exercise extreme vigilance at this critical phase of flight at all airports but even more so at uncontrolled fields. Was flying to CEU and got transferred to CTAF for the airport by ATC. The PM (Pilot Monitoring) was making the necessary calls on CTAF to advise traffic we were inbound. We entered the pattern on a left down wind for runway 25 and when entering we saw another plane short and final landing not making any calls on the radio. We made several calls on downwind, base, base to final and final. Upon inbound I saw a smaller GA plane taxing towards 25 and never heard any radio calls. At about 400 feet AGL I started to level out because I was unsure what the other planes intentions were as he started to creep up to and past the hold short line of 25. Once I saw he was about to take the runway I executed a go around and the PM made the announcement over CTAF. Upon entering left crosswind the other pilot got on frequency and said, “Jet coming into land, I’m so sorry I thought I was on the right frequency. I have been making calls on the wrong frequency by a decimal.” He continued to profusely apologize and then took off and left the area. We came back into to land with no other problems. Suggestions: I feel we did everything procedurally correct from making calls at 20/10/5 miles away and on downwind, base, base to final and finals calls. Upon talking to the FBO this plane was doing touch/stop and goes and wasn’t saying anything on frequency for a bit of time before we got there.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "atc_comm_issue",
+      "evidence": {
+        "quote": "In our case at this uncontrolled field the departing aircraft was either on the wrong frequency (their words) or not using their radios.",
+        "start": 381,
+        "end": 517
+      },
+      "item_label": "위협",
+      "label_ko": "관제·통신 문제",
+      "layer": null,
+      "agent": null,
+      "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The PM (Pilot Monitoring) was making the necessary calls on CTAF to advise traffic we were inbound.",
+        "start": 716,
+        "end": 815
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "We made several calls on downwind, base, base to final and final.",
+        "start": 971,
+        "end": 1036
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "traffic_conflict",
+      "evidence": {
+        "quote": "On short final we noticed departing traffic was across the hold short line and was proceeding to the runway.",
+        "start": 0,
+        "end": 108
+      },
+      "item_label": "위협",
+      "label_ko": "교통 근접",
+      "layer": null,
+      "agent": null,
+      "desc": "다른 항공기나 지상 이동체와의 간격이 좁아진 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Upon inbound I saw a smaller GA plane taxing towards 25 and never heard any radio calls.",
+        "start": 1037,
+        "end": 1125
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "Once I saw he was about to take the runway I executed a go around and the PM made the announcement over CTAF.",
+        "start": 1295,
+        "end": 1404
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.executed_go_around_missed_approach",
+      "evidence": {
+        "quote": "Once I saw he was about to take the runway I executed a go around and the PM made the announcement over CTAF.",
+        "start": 1295,
+        "end": 1404
+      },
+      "item_label": "대응 행동",
+      "label_ko": "복행",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Executed Go Around / Missed Approach",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "We came back into to land with no other problems.",
+        "start": 1689,
+        "end": 1738
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "predicted": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "overlap": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "Flight Cancelled / Delayed"
+      ],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed"
+    ],
+    "Result.Flight Crew": [
+      "Executed Go Around / Missed Approach"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach",
+      "Takeoff / Launch"
+    ],
+    "Make Model Name": [
+      "Light Transport",
+      "Small Aircraft"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "03"
+  }
+}

@@ -2,18 +2,19 @@
   "unit": "처리한 전체 집합 (2개 세트 이상 합산)",
   "sets": [
     "cabin_fumes",
+    "crm",
     "mechanic"
   ],
-  "total": 100,
-  "scored": 98,
-  "missing": 2,
+  "total": 150,
+  "scored": 147,
+  "missing": 3,
   "missing_rate": 2,
-  "match_rate": 86,
-  "matched": 84,
+  "match_rate": 88,
+  "matched": 130,
   "baseline_value": "Flight Crew",
-  "baseline_rate": 41,
-  "avg_predicted": 1.39,
-  "avg_precision": 78,
+  "baseline_rate": 53,
+  "avg_predicted": 1.37,
+  "avg_precision": 80,
   "mismatches": [
     {
       "set": "cabin_fumes",
@@ -47,6 +48,34 @@
         "Aircraft Other Automation",
         "Flight Attendant"
       ]
+    },
+    {
+      "set": "crm",
+      "acn": "2076920",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ]
+    },
+    {
+      "set": "crm",
+      "acn": "2059639",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ]
+    },
+    {
+      "set": "crm",
+      "acn": "1986757",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": []
     },
     {
       "set": "mechanic",
@@ -159,5 +188,43 @@
     }
   ],
   "note": "일치율은 최빈값 기준선과 건당 평균 추출 개수 없이 단독으로 쓰지 않는다. 기준선은 고정값이 아니라 이 채점 집합에서 계산한 값이다.",
-  "gain": 45
+  "gain": 35,
+  "by_set": {
+    "cabin_fumes": {
+      "total": 50,
+      "scored": 48,
+      "missing": 2,
+      "match_rate": 94,
+      "matched": 45,
+      "baseline_value": "Flight Crew",
+      "baseline_rate": 69,
+      "gain": 25,
+      "avg_predicted": 1.78,
+      "avg_precision": 79
+    },
+    "crm": {
+      "total": 50,
+      "scored": 49,
+      "missing": 1,
+      "match_rate": 94,
+      "matched": 46,
+      "baseline_value": "Flight Crew",
+      "baseline_rate": 78,
+      "gain": 16,
+      "avg_predicted": 1.32,
+      "avg_precision": 83
+    },
+    "mechanic": {
+      "total": 50,
+      "scored": 50,
+      "missing": 0,
+      "match_rate": 78,
+      "matched": 39,
+      "baseline_value": "Maintenance",
+      "baseline_rate": 78,
+      "gain": 0,
+      "avg_predicted": 1.0,
+      "avg_precision": 77
+    }
+  }
 }

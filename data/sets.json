@@ -10,6 +10,16 @@
     "breached_reports": 22
   },
   {
+    "set": "crm",
+    "records": 50,
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "items": 519,
+    "breached_reports": 45
+  },
+  {
     "set": "mechanic",
     "records": 50,
     "rubric_version": "v1.1",

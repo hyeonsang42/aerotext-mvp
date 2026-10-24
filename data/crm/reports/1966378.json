@@ -1,0 +1,245 @@
+{
+  "report_id": "crm-1966378",
+  "acn": "1966378",
+  "set": "crm",
+  "synopsis": "Honda Jet PIC reported a loss of directional control during landing rollout when attempting to correct a center line drift after taking controls from the SIC. Ultimately the aircraft stopped on runway with only a left blown tire.",
+  "narrative": "With Second in Command (SIC) flying the leg, the take-off from ZZZ1 and transit to ZZZ was normal and uneventful. During cruise with entry of landing data, crew discusses the landing. PIC suggested using Speed Brakes and braking to achieve the predicted landing performance of 3000 ft, in preparation for operational short field landings. A target stop point of taxiway x was suggested. It was emphasized by the PIC that this would not be a maximum effort landing. The intention was to achieve a 3000 ft landing, no more and no less. The approach was loaded and briefed. Descent and approach procedures were completed with RNAV XX vectors loaded as backup to the anticipated visual approach. ATC provided good vectors and altitude step down. With field reported in sight and cleared for a visual the SIC descended toward 1000 ft with approach armed. On base leg at about 4 miles, SIC slowed to less than 200 KIAS and began configuring. Landing checks were completed, and aircraft was on Vref (on top of donut) at approximately 800 ft. Airspeed, glide path and center line control were all good. Clear of obstacles, SIC announced and went below glide slope referencing PAPI and runway. SIC maintained speed and runway center line well. SIC maintained a slight crab to the right, countering the right crosswind. SIC went to IDLE at approximately 50 ft. (no system callout by this model of aircraft). As the SIC entered a flare, they de-crabbed the aircraft as expected. Touchdown was smooth, with good deceleration, just slightly right of center line (left main mount just left of center line) approximately 1000 ft. from the threshold. PIC announced and deployed the speed brake for the SIC. The aircraft initially tracked straight, just right of center line. SIC applied braking after approximately 3 seconds. The aircraft developed a strong drift to the right. PIC waited for correction, and then announced and took controls as the aircraft approached the side of the runway. SIC released and announced \"you have controls\". PIC applied initial and increasing control and brake input to arrest the drift. However, the aircraft response to PIC input was delayed, leading to more control and brake input. A swerve then developed to the left. PIC released some brake and attempted control with rudder/nose wheel steering. Pilot Induced Oscillation (PIO) developed with trajectory toward the left side of the runway. The PIC then applied maximum braking. The aircraft began to skid to the right. The aircraft came to a stop on the edge of the runway, past the intersection of y and the runway. PIC set the parking brake, and responded to a Tower query about condition of the aircraft and crew. PIC advised Tower of intentions, shut down both engines and performed an immediate inspection of the aircraft. The left main was blown, but still on the rim. The right main and nose were still inflated with no visible flat spots. PIC did an aircraft walk around looking for more damage, and found none. PIC called the Chief Pilot and gave a brief synopsis of what had happened and the condition of the aircraft. With company concurrence and PIC observation, the aircraft was towed by Company B past the hold short line on Taxiway Y. The Safety Officer and a maintainer arrived and inspected the aircraft. Both Main Mounts were changed. The PIC and SIC taxied the aircraft to the FBO for further inspection. The crew was assessed by the Safety Officer and the Director of Training and released by the company for further flight. The aircraft was released safe for flight by company maintenance. The original crew flew the airplane back to ZZZ2 without further incident. All systems including brakes were found to be nominal on taxi, takeoff and landing. Landing rollout was nominal. Potential causal factors to this incident, as seen by the PIC: PIC recommended achieving landing performance predicted by the system and by pre-flight performance calculations. Those numbers are more for a short field landing, and may have prompted the SIC to use excessive brake and apply brake sooner than was necessary. The PIC and SIC had a good repour. The PIC had witnessed several very good landings from the SIC, and caught somewhat off guard by the deviation from centerline. The PIC waited too long to take control of the situation, leading to the need for more aggressive inputs. The Honda Jet is known to be susceptible to Pilot Induced Oscillations (PIO) during landing rollout. This was known to the PIC but the extent of which was not realized. PIC should have approached this landing by the SIC more conservatively due to the low hours that both pilots had in model. Were there other factors in this incident? Nothing significant. The crew was well rested and healthy. All events were well planned and briefed. PIC and SIC were strong on knowledge/procedures. The crew had good communication / CRM throughout their rotation together. Weather and runway condition was a minor factor, in that right crosswind may have contributed to the initial deviation from centerline. PIC takeaway: Approach the landing of the Honda Jet more conservatively. A 5000 ft. runway should be the shortest attempted without much more experience, or improvements made to the aircraft's systems reducing the PIO tendency. Brake application during landing rollout must be very careful in terms of how quickly and how much is applied. Directional control must be paramount over landing distance, and brakes released and centerline regained in the event of directional trouble. The PIC will certainly take this incident in account on future landings, and approach them with more caution.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "Weather and runway condition was a minor factor, in that right crosswind may have contributed to the initial deviation from centerline.",
+        "start": 4922,
+        "end": 5057
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "During cruise with entry of landing data, crew discusses the landing.",
+        "start": 114,
+        "end": 183
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Landing checks were completed, and aircraft was on Vref (on top of donut) at approximately 800 ft.",
+        "start": 936,
+        "end": 1034
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "The aircraft developed a strong drift to the right.",
+        "start": 1810,
+        "end": 1861
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "PIC waited for correction, and then announced and took controls as the aircraft approached the side of the runway.",
+        "start": 1862,
+        "end": 1976
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The PIC waited too long to take control of the situation, leading to the need for more aggressive inputs.",
+        "start": 4257,
+        "end": 4362
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "PIC set the parking brake, and responded to a Tower query about condition of the aircraft and crew.",
+        "start": 2590,
+        "end": 2689
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "maintenance_action",
+      "evidence": {
+        "quote": "The Safety Officer and a maintainer arrived and inspected the aircraft. Both Main Mounts were changed.",
+        "start": 3223,
+        "end": 3325
+      },
+      "item_label": "방어",
+      "label_ko": "정비 조치·수리",
+      "layer": "복구",
+      "agent": "사람",
+      "desc": "정비사가 결함을 찾아 고치거나 부품을 교체하는 것. 조치했으나 원인을 못 찾았거나 상태가 나빠졌다고 원문이 밝히면 뚫린 방어로 본다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "The aircraft was released safe for flight by company maintenance.",
+        "start": 3518,
+        "end": 3583
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "기장이 조종 인수를 너무 늦게 했다고 직접 밝혀 승무원 교차 확인을 뚫린 방어로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem",
+        "Regained Aircraft Control"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem",
+      "Regained Aircraft Control"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Landing"
+    ],
+    "Make Model Name": [
+      "Honda Jet"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "06"
+  }
+}

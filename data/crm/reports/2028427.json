@@ -1,0 +1,261 @@
+{
+  "report_id": "crm-2028427",
+  "acn": "2028427",
+  "set": "crm",
+  "synopsis": "A300 flight crew reported a controlled flight toward terrain event while being vectored for a visual approach in smoky/hazy conditions. ATC issued a low altitude alert to crew who climbed back to the cleared altitude and subsequently made an uneventful landing.",
+  "narrative": "Weather was a broken ceiling with tops at 5500 and bottoms at 4500. We were VFR below 4500 feet. Air quality was condition yellow. On a 3000 feet downwind we were turned to a heading of 050 (80 degree cut), cleared to descend to 2500, and asked if we had the runway in sight. I was PM, repeated the directions, and said we were “looking.” PF started his turn, set 2500, and in the turn looked for the field. We were about 9 miles from the field, so wasn’t easy to find at that altitude. There was a slight haze from the fires. Visual details were slightly monochromatic. As we rolled out on the 050 heading I felt even lower... vertical angle to the field was off when I called “field in sight.” I then realized we were at 2000 feet and descending. We were still a mile from ZZZZZ [fix], which is at 2600 feet. My first thought was, “we are cleared the visual” it’s ok ... then did the math and realized we were uncomfortably low. About that time we received the aircraft “One Thousand” cockpit call, tower said they had a low alert warning and I told the PF to climb back to 2500 feet. We hit ZZZZZ on altitude, fully configured, and returned to our approach. We were a little high and fast for most of the approach... wanting to be on the high side after that event. Landed safely, took a longer than normal debrief and again talked about it over dinner. Lessons Learned: Below Average on PM duties. PF was an excellent stick. On departure, he was on and on, very tight control of all axes. I let my guard down on the arrival, when it should’ve been higher. With the airport elevation at 950 feet I should have done the math sooner. I also didn’t see what mode the PF selected on the descent from 3000 to 2500. I thought it was LVL/CH, but might have captured Vertical Speed and that’s why it went below 2500. And in hind-sight he might have put in 2000 feet... but even so, it went below 2000 while PF was still in autopilot. Fatigue was not a factor, but complacency was. I did not realize we went right through 2500 ft in the turn. Normally, as PF, I set my wicket at the IAF. As PM I should have been more involved with that target, but I wasn’t. Cause: Lack of altitude awareness. It was set, but both sets of eyes were looking for the field and not realizing we descended below our set altitude. Suggestions: Stick to the basics: Altitude, Heading, and Airspeed. I hate forgetting something I've learned, applied and taught for 30 years. PF for a single leg from ZZZ1 to ZZZ. Takeoff, departure and cruise were uneventful. Vectored letdown to a downwind then dogleg/base heading 050 for RWY XX at 3000 feet. On a heading of 050, tower states field at 2 o’clock, call the field in sight. We report field in sight. I hear descend 2000 and cleared visual approach Runway XX. I select 2000 , LVL/CH and arm approach while slowing to configure. The FAF (ZZZZZ [Fix]) is at 2600 ft. which I had briefed however, it did not enter my mind that I had dialed an altitude below the FAF. As we started to approach ZZZZZ the CA states we are low and we’re only cleared to 2500 ft. I instinctively dialed 2500 ft. into the FCP (Flight Control Panel) thinking we would level off there. We must have been below as the altitude never captured which allowed the descent to continue. Approaching ZZZZZ, I became somewhat channelized on finding the runway due to haze when the autopilot kicks off while still descending. We near simultaneously receive the 1000 ft. cockpit call and tower reports a low altitude alert. At that time the CA directs a climb back to 2500 ft. which we execute and then request and receive confirmation from the tower that we are on glide path. The approach is eventually stabilized and landing uneventful. Cause: PF error in visual approach procedures. CRM breakdown in communication. Channelized attention and poor cross-check. Suggestions: When proceeding into a visual field, I will foot stomp the FAF altitude as a no lower than altitude. Visualize and brief PF/PM responsibilities for the arrival and approach. Reset my personal procedures to instrument basics regardless of weather conditions. Finally, ensure all aircraft states are fully verbalized and acknowledged with clarity.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "There was a slight haze from the fires.",
+        "start": 487,
+        "end": 526
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "The FAF (ZZZZZ [Fix]) is at 2600 ft. which I had briefed however, it did not enter my mind that I had dialed an altitude below the FAF.",
+        "start": 2848,
+        "end": 2983
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "It was set, but both sets of eyes were looking for the field and not realizing we descended below our set altitude.",
+        "start": 2188,
+        "end": 2303
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "automation.aircraft_other_automation",
+      "evidence": {
+        "quote": "We near simultaneously receive the 1000 ft. cockpit call and tower reports a low altitude alert.",
+        "start": 3409,
+        "end": 3505
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "항공기 경고·표시 장치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Aircraft Other Automation",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "automation.air_traffic_control",
+      "evidence": {
+        "quote": "tower said they had a low alert warning",
+        "start": 1001,
+        "end": 1040
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관제 자동화 장비",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Air Traffic Control",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "aircraft_alert",
+      "evidence": {
+        "quote": "We near simultaneously receive the 1000 ft. cockpit call and tower reports a low altitude alert.",
+        "start": 3409,
+        "end": 3505
+      },
+      "item_label": "방어",
+      "label_ko": "항공기 경고 장치",
+      "layer": "탐지",
+      "agent": "자동화",
+      "desc": "EICAS, 지형 경고, 공중충돌경고 등 기체 경고 장치의 작동",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "tower said they had a low alert warning",
+        "start": 1001,
+        "end": 1040
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "At that time the CA directs a climb back to 2500 ft. which we execute and then request and receive confirmation from the tower that we are on glide path.",
+        "start": 3506,
+        "end": 3659
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "We hit ZZZZZ on altitude, fully configured, and returned to our approach.",
+        "start": 1087,
+        "end": 1160
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "The approach is eventually stabilized and landing uneventful.",
+        "start": 3660,
+        "end": 3721
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "승무원 교차 확인이 작동과 뚫림 양쪽에 나온다. 설정 고도 아래로 내려가는 것을 둘 다 못 봤고, 경고 이후에는 기장이 바로 상승을 지시했다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Air Traffic Control",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Air Traffic Control",
+        "Aircraft Other Automation"
+      ],
+      "overlap": [
+        "Air Traffic Control"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Became Reoriented",
+        "Issued Advisory / Alert",
+        "Returned To Clearance"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [
+      "Air Traffic Control"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Became Reoriented",
+      "Returned To Clearance"
+    ],
+    "Result.Air Traffic Control": [
+      "Issued Advisory / Alert"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Initial Approach"
+    ],
+    "Make Model Name": [
+      "A300"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "04"
+  }
+}

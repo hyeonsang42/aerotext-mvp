@@ -2,6 +2,76 @@ import { url } from "@/lib/path";
 import { getScoring, getRules, getGeneralization } from "@/lib/data";
 import { setKo, setListKo, asrsKo, asrsListKo } from "@/lib/labels";
 
+/* 세트별 성적. 합산만 적으면 두 가지가 묻힌다.
+   하나는 어떤 세트가 기준선과 같다는 것, 또 하나는 세트를 합치면
+   세트마다 최빈값이 달라 단일값 기준선 자체가 내려간다는 것이다. */
+function BySet({ s }) {
+  if (!s.by_set) return null;
+  const rows = Object.entries(s.by_set);
+  const flat = rows.filter(([, v]) => v.gain <= 0);
+  return (
+    <section className="card p-5">
+      <h2 className="font-semibold">세트별로 따로 재면</h2>
+      <p className="mt-1 max-w-3xl text-[13px] leading-relaxed text-slate-600">
+        아래 합산 숫자만 보면 묻히는 것이 있어 세트마다 따로 적습니다.
+        기준선은 그 세트 안에서 다시 계산한 값입니다.
+      </p>
+      <div className="mt-4 overflow-x-auto">
+        <table className="w-full min-w-[34rem] text-left text-[13px]">
+          <thead className="border-b border-slate-200 text-xs text-slate-500">
+            <tr>
+              <th className="py-2 pr-4 font-medium">세트</th>
+              <th className="py-2 pr-4 text-right font-medium">채점</th>
+              <th className="py-2 pr-4 text-right font-medium">읽고 뽑았을 때</th>
+              <th className="py-2 pr-4 text-right font-medium">읽지 않고 찍었을 때</th>
+              <th className="py-2 text-right font-medium">그 차이</th>
+            </tr>
+          </thead>
+          <tbody className="tabular-nums">
+            {rows.map(([name, v]) => (
+              <tr key={name} className="border-b border-slate-100">
+                <td className="py-2 pr-4">
+                  {setKo(name)}
+                  <span className="ml-2 text-[11px] text-slate-400">{asrsKo("detector", v.baseline_value)}</span>
+                </td>
+                <td className="py-2 pr-4 text-right">{v.scored}건</td>
+                <td className="py-2 pr-4 text-right font-medium">{v.match_rate}%</td>
+                <td className="py-2 pr-4 text-right text-slate-500">{v.baseline_rate}%</td>
+                <td className={`py-2 text-right font-semibold ${v.gain > 0 ? "text-slate-800" : "text-rose-700"}`}>
+                  {v.gain > 0 ? "+" : ""}{v.gain}%p
+                </td>
+              </tr>
+            ))}
+            <tr className="font-medium">
+              <td className="py-2 pr-4">
+                합산
+                <span className="ml-2 text-[11px] text-slate-400">{asrsKo("detector", s.baseline_value)}</span>
+              </td>
+              <td className="py-2 pr-4 text-right">{s.scored}건</td>
+              <td className="py-2 pr-4 text-right">{s.match_rate}%</td>
+              <td className="py-2 pr-4 text-right text-slate-500">{s.baseline_rate}%</td>
+              <td className="py-2 text-right">+{s.gain}%p</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      {flat.length > 0 && (
+        <p className="mt-3 rounded-md border border-rose-200 bg-rose-50 px-4 py-3 text-[13px] leading-relaxed text-rose-900">
+          <b>{flat.map(([k]) => setKo(k)).join(", ")}</b> 세트는 기준선과 차이가 없습니다.
+          그 세트만 보면 신고서를 읽지 않고 제일 흔한 답만 찍는 것과 결과가 같다는 뜻입니다.
+          여기서는 변별력이 없다고 적는 것이 맞습니다.
+        </p>
+      )}
+      <p className="mt-3 text-xs leading-relaxed text-slate-500">
+        합산 기준선({s.baseline_rate}%)이 세트별 기준선보다 낮은 것은 성능이 아니라 셈법 때문입니다.
+        세트마다 제일 흔한 답이 다르므로(연기는 운항 승무원, 정비는 정비사) 합치면
+        한 값만 찍어서 맞출 수 있는 비율이 떨어집니다. 그래서 합산 차이는 실제보다 커 보입니다.
+        세트별 숫자를 함께 봐야 합니다.
+      </p>
+    </section>
+  );
+}
+
 function Metric({ label, value, sub, strong }) {
   return (
     <div className="rounded-md border hair px-3 py-2.5">
@@ -34,13 +104,16 @@ export default function ScoringPage() {
         {/* 기준선을 모르면 일치율 숫자가 좋은지 나쁜지 알 수 없다. 먼저 푼다 */}
         <div className="mt-3 max-w-3xl rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-[13px] leading-relaxed text-amber-900">
           <b>기준선</b>이란, 내용을 읽지 않고 <b>제일 많이 나오는 답 하나만 전부 찍었을 때</b>의 정답률입니다.
-          여기서는 {s.baseline_rate}%입니다. 이 시스템은 {s.match_rate}%이므로 {s.gain}점 높습니다.
           기준선 없이 일치율만 보면 그 숫자가 좋은지 나쁜지 알 수 없습니다. 그래서 늘 같이 적습니다.
+          <b> 기준선은 채점 집합마다 다시 계산합니다.</b> 그래서 세트를 합친 기준선과
+          세트별 기준선이 다르고, 아래 표를 세트별로 먼저 적었습니다.
         </div>
       </section>
 
+      <BySet s={s} />
+
       <section className="card p-5">
-        <h2 className="font-semibold">대화형 배치 <span className="font-normal text-[13px] text-slate-500">(현재 방식. 언어모델에게 기준표를 주고 한 묶음씩 읽히는 방법)</span></h2>
+        <h2 className="font-semibold">합산 (대화형 배치) <span className="font-normal text-[13px] text-slate-500">(현재 방식. 언어모델에게 기준표를 주고 한 묶음씩 읽히는 방법)</span></h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <Metric strong label="일치율 (읽고 뽑았을 때)" value={`${s.match_rate}%`} sub={`${s.matched}/${s.scored}건 일치`} />
           <Metric label="기준선 (읽지 않고 찍었을 때)" value={`${s.baseline_rate}%`}

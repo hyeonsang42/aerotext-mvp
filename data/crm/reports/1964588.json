@@ -1,0 +1,239 @@
+{
+  "report_id": "crm-1964588",
+  "acn": "1964588",
+  "set": "crm",
+  "synopsis": "B777 Flight Crew reported confusion with the departure and after takeoff procedures due to a deferred engine bleed system. The cabin altitude reached a higher than desired level until the air conditioning packs were turned back on. The weather, nonstandard verbalization during takeoff, and the jumpseater may have also been additional factors.",
+  "narrative": "Pressurization, packs, non-normals, task saturation. I was jumpseating for personal travel. This event started with a late flight plan. The Captain reported a long call to Dispatch in order to reconcile the release with the deferred items and pilot actions, and came to the aircraft with a list of threats to brief - foremost the weather and the deferred bleed procedure. He made the decision that the departure time would be pushed until everything was properly briefed to mitigate the threats and everyone was on the same page. As I was in the observer’s seat I was taking care of printouts, the Maintenance Release being relevant to this report. The right engine bleed was deferred and required pilot actions to configure prior to takeoff and after takeoff, as well as a packs off takeoff. There was discussion on the configuration, but all three of us read the pilot actions and came to agreement. During the pre-departure brief I caught two errors, including incorrect departure altitude set at 3,000 ft. instead of 23,000 ft., and preliminary takeoff data conditions. The Captain also noted the SID altitude on his takeoff brief. Taxi out went well with good CRM. Approaching the runway, the Captain called for the aircraft to be configured per the Maintenance Release. The FO (First Officer) started the configuration and asked if I concurred with what I saw in reference to the Maintenance Release pilot actions. I said that it appeared that the APU bleed valve was configured improperly, per what I was reading in the flight manual and Maintenance Release and that was corrected. The FO then pulled up the packs off non-normal checklist to configure for that. I noted the caution at the top noting that this was a highly unusual procedure and care should be taken. The FO completed page one, and then asked the Captain if he could override the checklist. I asked to see page two which had not been pulled up, but the checklist was overridden. Due to the low level windshear reported, the Captain called for a Vr max takeoff, and led a brief review of the callouts and conditions. On the takeoff roll we experienced a rapid performance increase, and the calls of 100, V1, Vr were made. At 147 kt., Vr max, the FO called rotate, and then appeared to have said something I couldn’t hear. The Captain had started his rotation but looked over to query the FO. Due to a slow rotation and then an almost immediate 30-kt. performance increase from the gusty winds coming over the ridge, the aircraft came close to a flap overspeed reaching 194 kt. The Captain smartly and smoothly increased the pitch to arrest the speed increase, stopping at 20 degrees nose up. Departure was contacted and we began a turn to the east. On the ground there had been a decision to not start reconfiguring until after the flaps were up, which on this departure could not start until 3,000 ft. This altitude was reached very quickly due to the TOGA takeoff, subsequent delayed rotation and pitch attitude, with a VVI (Vertical Velocity Indicator) around 5,000 - 7,000 ft. per minute as I recall. At 3,000 ft. the Captain started calling for flaps in sequence, and at 4,000 ft. the FO started reconfiguring the bleed valves per the Maintenance Release. I could feel the cabin pressure altitude rise and passing 6,000 ft., commented that the packs were still off. They were selected on at 7,000 ft. and I felt the pressure bump at 9,000 ft. Passing 25,000 ft., I initiated a conversation to talk about the positive crew communication and also asked the FO to pull up the packs off non-normal so that I could see page two. The FO pulled that up and on page two was a caution saying to select the packs on prior to 3,000 ft. to prevent a depressurized climb. Not stated was that delayed selection risked automatic mask deployment. The FO stated that he recalled turning them on at 4,000 ft., and noted that they were definitely on prior to 10,000 ft. When he closed out of the checklist he noted that it popped up in EICAS as an uncompleted non-normal, something that had not happened the first time as the checklist was overridden prior to completion. The crew was attempting to take their time and ensure that all procedures were practiced safely, but the omission of page two of the checklist likely set up the situation where packs were not selected on after wheels up, and at the latest promptly upon reaching acceleration altitude. This almost led to an undesired aircraft state and an additional startle and surprise event at the cabin pressurization alert altitude and subsequent mask deployment. This situation was compounded by the weather threat and the Vr max takeoff, combined with a non-standard verbalization after Vr. Complex departure/jumpseater. Aircraft X was an unusual segment in many aspects for me at the very least because we departed using Runway XXR, which I had never done in my roughly seven years in base. To start the operation there was a gate change and a late flight plan, which of course is something I have seen many times. Workload management was an immediate concern for us. I remember during a debrief complimenting Person A on his demeanor when we first met. He was relaxed and in absolutely no rush, which set the tone for me. The threat level was high especially during taxi and climb-out due to a complex MEL, weather, unique departure, and terrain considerations. We specifically briefed the threats and emphasized Threat and Error Management with regard to accomplishing MEL tasks after our turn to the east so as to focus on the departure turn and agreed we would finish required procedures after turning eastbound on the departure. As a crew we trapped an error, switch position with regard to MEL, prior to takeoff and to our knowledge accomplished all required tasks during the takeoff and climb phases. Additionally I was reminded recently that we had a jumpseat rider Person B, a nice guy, and after chatting with Person A, we agreed he was a bit zealous as a jumpseater. The night before we flew he sent us each an email letting us know he would like to ride the jumpseat and use the bunk. He made himself known at the gate, followed me down to the airplane and sat in the observer seat chatting while I was trying to set up and catch up. I had to let him know this is what I was trying to focus on before the chat ceased. He was eager to help us which was great, so eager in fact, he was referencing the Maintenance Release/MEL. In addition, if I am not mistaken, he was referencing a 777 flight manual on his iPad - he informed us he was a 320 Captain - as we taxied out. After the departure, he commented about cabin pressure rising before the packs were turned back on normal post takeoff per procedure. Later in the climb, he asked me if I could pull up the supplementary checklist for the bleeds off takeoff which we had referenced. This led me to believe he thought we did something incorrectly. We were not aware of nor was there any indication we did anything incorrectly. At the time I thought this was peculiar but had no issue doing it. He seemed to be verifying we complied with the procedure. As the trip progressed, Person A and I recounted our experience with Person B on the jumpseat and thought at times he was a bit wound up and hence distracting. Again, a very nice guy but would be reluctant to want to have him ride on the jumpseat again.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "The right engine bleed was deferred and required pilot actions to configure prior to takeoff and after takeoff, as well as a packs off takeoff.",
+        "start": 649,
+        "end": 792
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "He made the decision that the departure time would be pushed until everything was properly briefed to mitigate the threats and everyone was on the same page.",
+        "start": 372,
+        "end": 529
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "During the pre-departure brief I caught two errors, including incorrect departure altitude set at 3,000 ft. instead of 23,000 ft., and preliminary takeoff data conditions.",
+        "start": 902,
+        "end": 1073
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "There was discussion on the configuration, but all three of us read the pilot actions and came to agreement.",
+        "start": 793,
+        "end": 901
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "I asked to see page two which had not been pulled up, but the checklist was overridden.",
+        "start": 1864,
+        "end": 1951
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "Due to the low level windshear reported, the Captain called for a Vr max takeoff, and led a brief review of the callouts and conditions.",
+        "start": 1952,
+        "end": 2088
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 7,
+      "item": "detector",
+      "value": "person.observer",
+      "evidence": {
+        "quote": "I could feel the cabin pressure altitude rise and passing 6,000 ft., commented that the packs were still off.",
+        "start": 3233,
+        "end": 3342
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관측 좌석 탑승자",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Observer",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 8,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "They were selected on at 7,000 ft. and I felt the pressure bump at 9,000 ft.",
+        "start": 3343,
+        "end": 3419
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 9,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "Not stated was that delayed selection risked automatic mask deployment.",
+        "start": 3736,
+        "end": 3807
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "정비 문서 확인이 작동과 뚫림 양쪽에 나온다. 세 사람이 정비 지시를 함께 읽어 설정 오류를 잡았으나, 점검 목록 두 번째 쪽을 건너뛰어 공조 장치를 늦게 켰다. 결과 상태에 맞는 기준표 값이 없어 outcome 을 넣지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Aircraft Other Automation",
+        "Flight Crew",
+        "Observer"
+      ],
+      "predicted": [
+        "Observer"
+      ],
+      "overlap": [
+        "Observer"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew",
+      "Observer"
+    ],
+    "Detector.Automation": [
+      "Aircraft Other Automation"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb",
+      "Takeoff / Launch"
+    ],
+    "Make Model Name": [
+      "B777-200"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "06"
+  }
+}

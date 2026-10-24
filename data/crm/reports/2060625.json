@@ -1,0 +1,295 @@
+{
+  "report_id": "crm-2060625",
+  "acn": "2060625",
+  "set": "crm",
+  "synopsis": "Air carrier flight crew reported radio systems malfunctioned after a liquid spill on center console. Diverted and landed uneventfully.",
+  "narrative": "Around 1 hour into flight at FL300 a small amount of water was accidentally spilled on center console. We attempted to clean up the spill but both dispays went blank where the frequency is displayed. We were unable to switch frequencies and our ACARS was inop with the VHF-3 screen also blank and constant switching from Data to Voice trying to connect. Radio 1 was tuned to ATC and Radio 2 to Guard. ZZZ Center was very helpful and set up a hold for us to work the issue. ZZZ was able to contact the Company and rely our plan to divert to ZZZ which they concurred. ZZZ was VFR and we were below max weight. Due to the nature of the problem we switched PM (Pilot Monitoring) and PF (Pilot Fying) duties and I landed the aircraft. We checked the Flight Manual and there was no procedure and we reviewed the FOM diversion section. We discussed multiple scenarios and CRM was very helpful to come up with our best solution. We ran through the briefing with the FAs and the passengers were briefed on our diversion. We used Guard for the ATC handoffs through descent which worked out perfectly. Hats off to ATC. Approach and landing was uneventful and ZZZ Maintence did their best to try and fix the jet. About 1 hour enroute, a water bottle was accidentally tipped over and spilled on the center console. We acted quickly to clean up the spill with paper towels, but both displays blanked out where the frequency would normally be displayed. We were unable to change radio frequencies, and our ACARs was also not working. Radio 1 was tuned to our current ATC frequency (ZZZ Center) and radio 2 tuned to 121.5, guard frequency. Because ACARS wasn’t working, we had no Company communications. ZZZ Center was extremely helpful, and [gave priority handling] for us. We set up a holding pattern to work through the issue. ZZZ was able to contact the Company and relay their recommendation to divert to ZZZ. We had also come to the same conclusion. ZZZ weather was VFR. We were below maximum landing weight. Due to the nature of the problem, we switched PF (Pilot Flying) and PM (Pilot Monitoring) roles. The FO (First Officer) flew the approach and landing, and I performed the PM role. There was no guidance for our radio situation. We discussed multiple options and scenarios and reviewed the FOM diversion section. CRM was extremely helpful in presenting options and discussing aspects of the situation. We informed the FAs briefed the passengers of our diversion plans. We used guard frequency to talk to ATC throughout our descent and landing. The approach and landing was uneventful. The passengers deplaned and the aircraft was turned over to maintenance.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Around 1 hour into flight at FL300 a small amount of water was accidentally spilled on center console.",
+        "start": 0,
+        "end": 102
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "We attempted to clean up the spill but both dispays went blank where the frequency is displayed.",
+        "start": 103,
+        "end": 199
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "procedure_doc_conflict",
+      "evidence": {
+        "quote": "There was no guidance for our radio situation.",
+        "start": 2179,
+        "end": 2225
+      },
+      "item_label": "위협",
+      "label_ko": "절차·문서 불일치",
+      "layer": null,
+      "agent": null,
+      "desc": "절차서, 교범, 차트, MEL의 내용이 서로 다르거나 현장과 맞지 않는 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "maintenance_doc",
+      "evidence": {
+        "quote": "We checked the Flight Manual and there was no procedure and we reviewed the FOM diversion section.",
+        "start": 730,
+        "end": 828
+      },
+      "item_label": "방어",
+      "label_ko": "정비 문서·MEL 확인",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정비 기록, 교범, MEL을 확인해 운항 가능 여부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "ZZZ Center was very helpful and set up a hold for us to work the issue.",
+        "start": 401,
+        "end": 472
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "response",
+      "value": "atc.provided_assistance",
+      "evidence": {
+        "quote": "ZZZ Center was extremely helpful, and [gave priority handling] for us.",
+        "start": 1688,
+        "end": 1758
+      },
+      "item_label": "대응 행동",
+      "label_ko": "지원 제공",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Provided Assistance",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "company_consult",
+      "evidence": {
+        "quote": "ZZZ was able to contact the Company and rely our plan to divert to ZZZ which they concurred.",
+        "start": 473,
+        "end": 565
+      },
+      "item_label": "방어",
+      "label_ko": "운항 관리 협의",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "수석 조종사, 정비 통제, 운항 관리와 연락해 운항 가부를 판단하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "We discussed multiple scenarios and CRM was very helpful to come up with our best solution.",
+        "start": 829,
+        "end": 920
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "We ran through the briefing with the FAs and the passengers were briefed on our diversion.",
+        "start": 921,
+        "end": 1011
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "Due to the nature of the problem we switched PM (Pilot Monitoring) and PF (Pilot Fying) duties and I landed the aircraft.",
+        "start": 608,
+        "end": 729
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 6,
+      "item": "response",
+      "value": "fc.diverted",
+      "evidence": {
+        "quote": "ZZZ was able to contact the Company and relay their recommendation to divert to ZZZ.",
+        "start": 1814,
+        "end": 1898
+      },
+      "item_label": "대응 행동",
+      "label_ko": "목적지 변경",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Diverted",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "The passengers deplaned and the aircraft was turned over to maintenance.",
+        "start": 2582,
+        "end": 2654
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "교범에 해당 절차가 없었다고 원문이 직접 밝혀 정비 문서 확인을 뚫린 방어로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Diverted",
+        "Landed in Emergency Condition",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Diverted",
+        "Provided Assistance"
+      ],
+      "overlap": [
+        "Diverted"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Diverted",
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "A319"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "03"
+  }
+}

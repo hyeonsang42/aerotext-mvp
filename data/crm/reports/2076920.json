@@ -1,0 +1,197 @@
+{
+  "report_id": "crm-2076920",
+  "acn": "2076920",
+  "set": "crm",
+  "synopsis": "CE-680 corporate crew reported discovering main tire damage during post flight. The crew was informed they had struck runway edge lights during takeoff roll.",
+  "narrative": "Day 0, I was acting as a co-pilot on a corporate flight originating from ZZZ to ZZZ1 when this occurred. Taxi instructions were to taxi from FBO to Runway XL via [Taxiway] 1, 2 and hold short of XL on [Taxiway] 2. Upon reaching Runway XL, we were instructed to cross XL on [Taxiway] 2 and hold short of Runway XR, which we complied with. Upon receiving our take-off clearance, the PIC taxied the aircraft onto Runway XR from [Taxiway] 2. As the aircraft taxied onto the runway, I confirmed we were on the correct runway via our heading, then went heads down to complete the line-up check list items. I do remember not seeing any lead in lights from intersection [Taxiway] 2 onto Runway XR or being able to distinguish the center line as the PIC taxied. As the PIC lined up, I completed the line- up checklist at which time the PIC immediately initiated a rolling take-off. As the aircraft accelerated down the runway, I was still heads down therefore I transitioned immediately to making the required callouts, as we became airborne. As we accelerated down the runway, I do not remember feeling any bumps indicating that we struck anything on the takeoff roll. We continued the flight and landed safely at ZZZ1. On the morning of Day 1, I arrived at the airport to restock and clean the airplane. I noticed a few cuts and gouges in the right main tires and some minor damage to the front bottom leading edge of the right- side gear door. I called the PIC to inform him of the damage. The PIC made a call to the ZZZ operations to inquire if they had any reports of FOD on the runway. The PIC called me back and informed me he was told that the radar track of our aircraft indicated it had lined up to the left of the right side runway edge lights and then struck four runway edge lights on Runway XR on take-off. On that same day, I contacted the ZZZ Airport Program Administrator to discuss the information as it was relayed to me by the PIC. The Airport Program Administrator also advised me of the same information. The Airport Program Administrator advised that as a matter of their policy, we would be receiving a bill for the repaired damage of the runway edge lights and that they made all of the proper notifications to include their local FAA FSDO. In hopes of preventing this from ever happening to anyone in our flight department, I immediately started to evaluate the events leading up to the line-up and subsequent take-off at ZZZ. I concluded for all future line up and subsequent take off clearances, all line-up items of the checklist must be concluded prior to taxiing the aircraft onto the runway thereby enhancing CRM and avoid any distractions to either pilot thus ensuring proper alignment of the aircraft on the correct runway. We will also emphasize keeping the aircraft on the lead-in line to properly line-up on the runway center line as the PIC stated he did not follow it onto the runway, rather he chose to make a 90 degree turn to line up the aircraft. Particularly when the runway does not have lead in lights. Upon further investigation and trying to understand how the PIC could have missed seeing the runway centerline, I looked at this particular runway intersection on Google Maps satellite view. What I noticed was a lot of black marks on the runway at that specific location obscuring the runway centerline. This intersection also coincidently joins Runway XR right at the aim point markings, which explains the obscurement of the centerline by tire marks. It should be noted that this incident happened after dark, with weather conditions being reported as wind 330/10 gusting 19, scattered at 6000, 18/-3 and altimeter of 30.01. I was the Captain flying a Citation 680 when this incident occurred, flying from ZZZ to ZZZ1. We were instructed to taxi from FBO to Runway XL via taxiway 1 and 2 and hold short of XL on [Taxiway] 2. We were then instructed to cross XL on [Taxiway] 2 and hold short Runway XR on [Taxiway] 2. After receiving a take off clearance, I taxied the aircraft onto the runway and verified the heading with the DG and compass and thought was the centerline of Runway XR and applied full thrust/take off power. I estimate 2000-3000 feet down the runway I felt something as if we rolled over several of the embedded markers on runway at a high speed. The next day the Chief Pilot went out to the aircraft to clean up the interior and noticed some cuts and gouges on the right main tires. I call operations at ZZZ to inquire if their was any debris found on the runway and was informed that according to their ground radar, we lined up on the right side of runway and struck four runway edge lights. From what I felt inside the aircraft, if I thought we struck something, I would have aborted the take off since we were below V1 and safely stopped the aircraft on the remaining runway. After looking back at this incident, I believe we should have completed all pre take off items on checklist before taxing out onto runway, that way both pilots can be in agreement as to line up. Need to follow the lead-in taxi line to the center of runway and look for centerline stripping or markers when departing from a intersection and verify runway edge lighting.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "airport_ground",
+      "evidence": {
+        "quote": "I do remember not seeing any lead in lights from intersection [Taxiway] 2 onto Runway XR or being able to distinguish the center line as the PIC taxied.",
+        "start": 600,
+        "end": 752
+      },
+      "item_label": "위협",
+      "label_ko": "공항·지상 환경",
+      "layer": null,
+      "agent": null,
+      "desc": "활주로·유도로 상태, 표지, 조명, 지상 장비 배치",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "as the PIC stated he did not follow it onto the runway, rather he chose to make a 90 degree turn to line up the aircraft",
+        "start": 2859,
+        "end": 2979
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "As the aircraft accelerated down the runway, I was still heads down therefore I transitioned immediately to making the required callouts, as we became airborne.",
+        "start": 873,
+        "end": 1033
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "threat",
+      "value": "part_maintenance_defect",
+      "evidence": {
+        "quote": "I estimate 2000-3000 feet down the runway I felt something as if we rolled over several of the embedded markers on runway at a high speed.",
+        "start": 4168,
+        "end": 4306
+      },
+      "item_label": "위협",
+      "label_ko": "부품·정비 상태 이상",
+      "layer": null,
+      "agent": null,
+      "desc": "부품 미장착, 잘못된 부품, 정비 작업의 결함",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "I noticed a few cuts and gouges in the right main tires and some minor damage to the front bottom leading edge of the right- side gear door.",
+        "start": 1297,
+        "end": 1437
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "On the morning of Day 1, I arrived at the airport to restock and clean the airplane.",
+        "start": 1212,
+        "end": 1296
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "ground_report",
+      "evidence": {
+        "quote": "I call operations at ZZZ to inquire if their was any debris found on the runway and was informed that according to their ground radar, we lined up on the right side of runway and struck four runway edge lights.",
+        "start": 4444,
+        "end": 4654
+      },
+      "item_label": "방어",
+      "label_ko": "지상 요원·정비사 보고",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "지상 요원이나 정비사가 이상을 발견해 알리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    }
+  ],
+  "notes": "이륙 중에는 아무도 알아채지 못하고 다음 날 타이어 손상으로 발견됐다. 뚫린 방어는 원문이 직접 서술한 두 가지만 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "불일치",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "불일치",
+      "truth": [
+        "None Reported / Taken"
+      ],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "None Reported / Taken"
+    ],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Takeoff / Launch"
+    ],
+    "Make Model Name": [
+      "Cessna Citation Sovereign (C680)"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "02"
+  }
+}

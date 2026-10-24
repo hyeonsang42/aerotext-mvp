@@ -1,0 +1,312 @@
+{
+  "report_id": "crm-1987625",
+  "acn": "1987625",
+  "set": "crm",
+  "synopsis": "B767 Flight Crew reported #1 Engine failure at landing gear retraction after take-off. The Flight Crew performed an inflight shut down of the engine and returned to land at departure airport.",
+  "narrative": "On initial take-off, just after movement of the gear handle for retraction around V2+10 speed, a loud bang/grinding noise was heard accompanied by an electrical power transfer as the aircraft yawed left and engine failure indications of the left engine were observed. Aircraft control was maintained by the Captain by tracking runway center line with good rudder and rudder trim application. Based on fire trailing the aircraft, severe damage indications and rising EGT, the left engine was secured by applying the engine fire QRC and remaining checklist. Excellent CRM throughout the aircraft occurred to handle the inflight situation and land the aircraft by visual approach to ZZZ XXL, 14 minutes later. There was a communication breakdown once on the ground where we did not have direct communication with the Fire Crew on the frequency. Tower directed us to a delay of applying Airport Rescue and Firefighting (ARFF) specifically to our overheated brakes. Once communication was established, they were able to cool the brakes over the next hour in order to return to the gate under tow and egress the aircraft normally. Just after take-off from Runway XXL with a positive rate call, the gear was retracted, when a loud bang was heard. No yaw, so the first thought was maybe a blown tire. The Relief Pilot immediately called out engine failure. The aircraft that was holding in position reported they saw fire coming from our number 1 engine. Memory items were executed instinctively by the Captain, the Pilot flying (PF). I helped bug them to the center line, along with memory items, then reported to ATC the nature of the situation and [requested priority handling] with intent to immediate return. No fire indications on the fire handle, but EGT was rising fast. With the other aircraft and ATC confirmation of fire. The crew's decision was to execute the fire portion of the checklist too. The crew decision was to make an overweight landing to Runway XXL. It was the longest of all runways available. We continued with flaps 20 uneventful landing and met by Airport Rescue and Firefighting (ARFF). Flight time was 14 minutes. After the aircraft came to a stop, the brakes were all in the warning area, and the fire department sprayed all the gear to cool. After approximately 1 hour and brakes back within limits, maintenance cleared the aircraft to be towed back to the gate. I felt the entire crew, pilots and Flight Attendants (FAs), did an outstanding job, and maintained professionalism throughout. I can not speak to how and why the event occurred, I can only speak to what happened and how we responded to it. We received a mechanically sound and fit aircraft to fly to ZZZZ the night of Day 0. After addressing several cabin-related maintenance issues during the late boarding phase, we were finally able to get the aircraft closed up and ready for departure. Push back, taxi out was non-eventful. Approaching the hold short for Runway XXL we were cleared to line up and wait. Subsequently, before entering the runway, we were then cleared for take-off Runway XXL. We verified the runway, cleared left and right, noted the fuel on board, took the runway, while still rolling proceeded with the take-off profile. Momentarily checked the engines at 1.1 Engine Pressure Ratio (EPR) (or slightly higher), other performance indicators all looked good, called for auto throttles, set take-off thrust, and began our take-off roll. While rolling down the runway, after the 100 kts. call and prior to V1, I thought I heard something that sounded like something had fallen to the floor. A momentary glance at the engine gauges then eyes back outside. V1, rotate, positive rate, gear up (gear up), boom! As if the engine failure was connected to the gear handle itself. I stated engine failure. Another pilot echoed me (not certain who), then we commenced with the engine failure procedures. I imagine the engine failed climbing through approximately 200 ft. AGL. We proceeded to climb out tracking the runway centerline, [requested priority handling] with the Tower and began coordination with ZZZ Tower for an air turn back and to have Crash Fire Rescue (CFR) on scene for our arrival. Also had them notify the company of what had just happened. A series of right turns to position us for Runway XXL approach (longest runway of runways available. For future note, no instrument approach to XXL, and therefore no instrument runway approach lights. Heavy, overweight, single-engine, (and not absolutely certain of status of left main landing gear) night, VFR, clear and a million we stayed with XXL. I continued to fly the plane, the First Officer (FO) and Relief Pilot ran the QRC/QRH. Vectors from departure. Leveled off at 2500 ft. for the remainder of the event. Communicated/coordinated with Flight Attendants (FA) in the cabin. Explained to the passengers what happened and we were returning to ZZZ. Completed checklist and performance items. Positioned aircraft for landing Runway XXL, flaps 20. Finally picked up the VASI and flew them down to touchdown. Long rollout to a stop then began to coordinate with the crash-fire-rescue to address our hot brakes. More coordination/communication with the FA crew and passengers. We kept them seated (seatbelt sign on) throughout the entire brake cooling event. Approximately 83 minutes from stopping on the runway, addressing/fighting the hot brakes scenario, to getting to the gate to deplane our passengers. Everything worked rather smoothly from start to finish. Good job from all the services and organizations involved in our recovery. Good job from the entire flight crew (pilots and Flight Attendants). No further damage or injury to aircraft nor personnel.",
+  "narrative_count": 3,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "On initial take-off, just after movement of the gear handle for retraction around V2+10 speed, a loud bang/grinding noise was heard accompanied by an electrical power transfer as the aircraft yawed left and engine failure indications of the left engine were observed.",
+        "start": 0,
+        "end": 267
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "The Relief Pilot immediately called out engine failure.",
+        "start": 1293,
+        "end": 1348
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "The Relief Pilot immediately called out engine failure.",
+        "start": 1293,
+        "end": 1348
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.other_person",
+      "evidence": {
+        "quote": "The aircraft that was holding in position reported they saw fire coming from our number 1 engine.",
+        "start": 1349,
+        "end": 1446
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "그 밖의 사람",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Other Person",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "With the other aircraft and ATC confirmation of fire.",
+        "start": 1771,
+        "end": 1824
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "Aircraft control was maintained by the Captain by tracking runway center line with good rudder and rudder trim application.",
+        "start": 268,
+        "end": 391
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "Memory items were executed instinctively by the Captain, the Pilot flying (PF).",
+        "start": 1447,
+        "end": 1526
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "Based on fire trailing the aircraft, severe damage indications and rising EGT, the left engine was secured by applying the engine fire QRC and remaining checklist.",
+        "start": 392,
+        "end": 555
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "response",
+      "value": "fc.inflight_shutdown",
+      "evidence": {
+        "quote": "the left engine was secured by applying the engine fire QRC and remaining checklist",
+        "start": 471,
+        "end": 554
+      },
+      "item_label": "대응 행동",
+      "label_ko": "비행 중 엔진 정지",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Inflight Shutdown",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.returned_to_departure_airport",
+      "evidence": {
+        "quote": "I helped bug them to the center line, along with memory items, then reported to ATC the nature of the situation and [requested priority handling] with intent to immediate return.",
+        "start": 1527,
+        "end": 1705
+      },
+      "item_label": "대응 행동",
+      "label_ko": "출발 공항으로 회항",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Returned To Departure Airport",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "There was a communication breakdown once on the ground where we did not have direct communication with the Fire Crew on the frequency.",
+        "start": 707,
+        "end": 841
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.maintenance_action",
+      "evidence": {
+        "quote": "After approximately 1 hour and brakes back within limits, maintenance cleared the aircraft to be towed back to the gate.",
+        "start": 2266,
+        "end": 2386
+      },
+      "item_label": "결과 상태",
+      "label_ko": "정비 조치",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance Action",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "관제 감시·지시가 작동과 뚫림 양쪽에 나온다. 공중에서는 다른 항공기와 관제가 화재를 확인해 주었으나, 착륙 후 소방대와 직접 교신이 되지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew",
+        "Observer"
+      ],
+      "predicted": [
+        "Flight Crew",
+        "Other Person"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Inflight Shutdown",
+        "Landed in Emergency Condition",
+        "Provided Assistance",
+        "Requested ATC Assistance / Clarification",
+        "Returned To Departure Airport"
+      ],
+      "predicted": [
+        "Inflight Shutdown",
+        "Returned To Departure Airport"
+      ],
+      "overlap": [
+        "Inflight Shutdown",
+        "Returned To Departure Airport"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "일치",
+      "truth": [
+        "Flight Cancelled / Delayed",
+        "Maintenance Action"
+      ],
+      "predicted": [
+        "Maintenance Action"
+      ],
+      "overlap": [
+        "Maintenance Action"
+      ],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew",
+      "Observer"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [
+      "Flight Cancelled / Delayed",
+      "Maintenance Action"
+    ],
+    "Result.Flight Crew": [
+      "Inflight Shutdown",
+      "Landed in Emergency Condition",
+      "Requested ATC Assistance / Clarification",
+      "Returned To Departure Airport"
+    ],
+    "Result.Air Traffic Control": [
+      "Provided Assistance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Takeoff / Launch"
+    ],
+    "Make Model Name": [
+      "B767 Undifferentiated or Other Model"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "05"
+  }
+}

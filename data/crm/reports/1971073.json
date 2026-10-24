@@ -1,0 +1,275 @@
+{
+  "report_id": "crm-1971073",
+  "acn": "1971073",
+  "set": "crm",
+  "synopsis": "PA-28 Safety Pilot reported engine power loss during cruise flight. Power was restored after safety pilot directed the student to switch fuel tanks.",
+  "narrative": "This report details the priority call, on Day 0 from Aircraft X with ZZZ Approach Control. On this day, I agreed to be a safety pilot for a student at the flight school, while they flew \"Under the Hood\". This was my first time acting as a safety pilot for this student. They were issued a Piper PA28-181. Our plan was to fly to ZZZ, ZZZ1, which was approximately 51 miles from our location. From the beginning, I must confess, I have only had 1 familiarization flight, and 2 additional flights in this type of aircraft, however, I was very proficient with its avionics. One of the things I noticed right off the bat, before taking off, was that the student did not have a checklist for this aircraft, and so I pulled out the POH to at least verify the speeds of the aircraft, while they proceeded to \"download\" a checklist on their iPad. After fueling, we took off real close to XA00z. Immediately I noticed that they were was not using their airspeed indicator to climb via Vx or Vy, but simply establish a 500 FPM climb. I also noticed they did not use the turn coordinator to make standard rate turns, and after questioning them about it, I come to understand that they did not understand the basic fundamentals of the turn coordinator. We proceeded to ZZZ, flew the ILS for Runway XR and completed 1 full stop landing, and then proceeded to fly the approach 2 more times, with 1 touch and go, and 1 missed approach, with the intention of proceeding back to ZZZ2. On the way back, we established with ZZZ Center that we would like the RNAV GPS YYR approach into ZZZ2, beginning at ZZZZZ; and were \"Cleared Direct, ZZZZZ\" by the Controller. Approximately 5 NM approaching ZZZZZ, at approximately 2000 MSL / AGL the engine begins to \"sputter\" and lose power. It appeared the student began to panic, and did not follow any checklist, or execute the simple ABCD's (Pitch for best glide, identify best place to land, complete checklist, or declare an emergency). I assumed control of the aircraft, pitched for best glide speed, and steered the aircraft to line up with the highway which was the closest, \"safe\" place to land. After checking the throttle mixture settings, and looking at the instruments I could see from my seat, I decided to call for [priority handling]. I could not see the fuel indicators, as they were on the far side of the instrument panel; and the panel did not have adequate lighting for me to see it from my position, anyway. After calling, and declaring my intentions to head for the highway, a voice came over the radio and said \"check the fuel system.\" At this point, I asked the student if they had switched the tanks. They did not respond to this question, so I then instructed them to \"switch the tank.\" They reached down, and I heard the tanks switch, and within a couple of seconds, the engine came back to life; and I immediately pitched for Vy, and the aircraft began to climb. Upon returning to 2000 ft. MSL, I informed the Controller that we regained engine power, and we were headed direct to ZZZ2. The Controller asked if we were in need of any emergency services, and I replied that we did not. We proceeded direct to ZZZ2, following normal traffic procedures, and landed on [Runway] YYR at ZZZ2, safely, and without incident. Following this incident, I reviewed the incident with an instructor, and the owner of the flight school, and agreed to a ground safety class regarding fuel system management, and CRM with an emphasis on making better PIC decisions when flying with people I don't know.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "preflight_check",
+      "evidence": {
+        "quote": "One of the things I noticed right off the bat, before taking off, was that the student did not have a checklist for this aircraft, and so I pulled out the POH to at least verify the speeds of the aircraft, while they proceeded to \"download\" a checklist on their iPad.",
+        "start": 570,
+        "end": 837
+      },
+      "item_label": "방어",
+      "label_ko": "출발 전 점검",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "운항 승무원이나 정비사가 출발 전에 기체를 점검하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "threat",
+      "value": "aircraft_system_failure",
+      "evidence": {
+        "quote": "Approximately 5 NM approaching ZZZZZ, at approximately 2000 MSL / AGL the engine begins to \"sputter\" and lose power.",
+        "start": 1643,
+        "end": 1759
+      },
+      "item_label": "위협",
+      "label_ko": "항공기 계통 고장",
+      "layer": null,
+      "agent": null,
+      "desc": "항공기 계통이나 장비가 정상 작동하지 않은 상태",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "Approximately 5 NM approaching ZZZZZ, at approximately 2000 MSL / AGL the engine begins to \"sputter\" and lose power.",
+        "start": 1643,
+        "end": 1759
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "procedure_checklist",
+      "evidence": {
+        "quote": "It appeared the student began to panic, and did not follow any checklist, or execute the simple ABCD's (Pitch for best glide, identify best place to land, complete checklist, or declare an emergency).",
+        "start": 1760,
+        "end": 1960
+      },
+      "item_label": "방어",
+      "label_ko": "절차·체크리스트 준수",
+      "layer": "예방",
+      "agent": "절차",
+      "desc": "정해진 절차나 체크리스트를 그대로 수행하는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "I assumed control of the aircraft, pitched for best glide speed, and steered the aircraft to line up with the highway which was the closest, \"safe\" place to land.",
+        "start": 1961,
+        "end": 2123
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "emergency_procedure",
+      "evidence": {
+        "quote": "After checking the throttle mixture settings, and looking at the instruments I could see from my seat, I decided to call for [priority handling].",
+        "start": 2124,
+        "end": 2269
+      },
+      "item_label": "방어",
+      "label_ko": "비상 절차 수행",
+      "layer": "복구",
+      "agent": "절차",
+      "desc": "비상 선언, 비상 절차, 탈출 절차의 수행",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.requested_atc_assistance_clarification",
+      "evidence": {
+        "quote": "After checking the throttle mixture settings, and looking at the instruments I could see from my seat, I decided to call for [priority handling].",
+        "start": 2124,
+        "end": 2269
+      },
+      "item_label": "대응 행동",
+      "label_ko": "관제 지원·확인 요청",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Requested ATC Assistance / Clarification",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "detector",
+      "value": "person.other_person",
+      "evidence": {
+        "quote": "After calling, and declaring my intentions to head for the highway, a voice came over the radio and said \"check the fuel system.\"",
+        "start": 2449,
+        "end": 2578
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "그 밖의 사람",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Other Person",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 7,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "At this point, I asked the student if they had switched the tanks.",
+        "start": 2579,
+        "end": 2645
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 8,
+      "item": "response",
+      "value": "fc.overcame_equipment_problem",
+      "evidence": {
+        "quote": "They reached down, and I heard the tanks switch, and within a couple of seconds, the engine came back to life; and I immediately pitched for Vy, and the aircraft began to climb.",
+        "start": 2733,
+        "end": 2910
+      },
+      "item_label": "대응 행동",
+      "label_ko": "장비 문제를 극복함",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Overcame Equipment Problem",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 9,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "We proceeded direct to ZZZ2, following normal traffic procedures, and landed on [Runway] YYR at ZZZ2, safely, and without incident.",
+        "start": 3133,
+        "end": 3264
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "학생이 기종 점검 목록을 갖고 있지 않았다고 원문이 밝혀 출발 전 점검을 뚫린 방어로 넣었다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew",
+        "Other Person"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Overcame Equipment Problem"
+      ],
+      "predicted": [
+        "Overcame Equipment Problem",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "overlap": [
+        "Overcame Equipment Problem"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Overcame Equipment Problem"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Cruise"
+    ],
+    "Make Model Name": [
+      "PA-28 Cherokee/Archer/Dakota/Pillan/Warrior"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "06"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "report_id": "crm-2070493",
+  "acn": "2070493",
+  "set": "crm",
+  "synopsis": "BE300 Pilot reported failure to report airport in sight in descent, resulted in ATC issuing a low altitude alert and a CFTT event.",
+  "narrative": "I became aware of a pilot deviation on Day 1. The flight date was Day 0. Because I did not receive a basher warning (\"possible pilot deviation\") I was very surprised when contacted. Also, because it had been so long since the flight occurred I did not recollect everything that occurred during the phase of flight. I did receive a recording to analyze, and help remember what happened during the flight. During descent we were cleared to a fix on an approach to maintain 16,000. During the descent we were given Pireps of icing around the area. Being below 18,000 we were in VMC conditions and advised that we were in the clear and should remain below the clouds for the remainder of the flight. A few moments later we received a low altitude alert, and advised we had the field in sight and would like to cancel IFR. We were then cleared for the visual approach and to squawk VFR Frequency change approved. Situational awareness, Crew resource management, advising ATC as soon as the field is in sight. To prevent this deviation in the future, changing operational procedures for the Pilot Flying to cancel IFR. Maintaining better situational awareness, and utilizing better crew resource management. Since receiving the notification I have reviewed numerous videos about the new compliance actions and would advise everyone to take some time to watch the information about pilot deviations.",
+  "narrative_count": 1,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "During the descent we were given Pireps of icing around the area.",
+        "start": 479,
+        "end": 544
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "detector",
+      "value": "automation.air_traffic_control",
+      "evidence": {
+        "quote": "A few moments later we received a low altitude alert, and advised we had the field in sight and would like to cancel IFR.",
+        "start": 696,
+        "end": 817
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관제 자동화 장비",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Air Traffic Control",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "A few moments later we received a low altitude alert, and advised we had the field in sight and would like to cancel IFR.",
+        "start": 696,
+        "end": 817
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "response",
+      "value": "atc.issued_new_clearance",
+      "evidence": {
+        "quote": "We were then cleared for the visual approach and to squawk VFR Frequency change approved.",
+        "start": 818,
+        "end": 907
+      },
+      "item_label": "대응 행동",
+      "label_ko": "새 인가 발부",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Issued New Clearance",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "신고자가 사건 하루 뒤에 통보를 받고 쓴 보고라 당시 조치에 대한 서술이 적다. 뚫린 방어는 원문이 사후 개선 사항으로만 적어 넣지 않았다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Air Traffic Control"
+      ],
+      "predicted": [
+        "Air Traffic Control"
+      ],
+      "overlap": [
+        "Air Traffic Control"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "불일치",
+      "truth": [
+        "Issued Advisory / Alert"
+      ],
+      "predicted": [
+        "Issued New Clearance"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control"
+    ],
+    "Detector.Automation": [
+      "Air Traffic Control"
+    ],
+    "Result.General": [],
+    "Result.Flight Crew": [],
+    "Result.Air Traffic Control": [
+      "Issued Advisory / Alert"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Descent"
+    ],
+    "Make Model Name": [
+      "Super King Air 300"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "02"
+  }
+}

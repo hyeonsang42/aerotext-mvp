@@ -1,0 +1,227 @@
+{
+  "report_id": "crm-2068996",
+  "acn": "2068996",
+  "set": "crm",
+  "synopsis": "EMB 545 flight crew lost communication with ATC. Flight crew monitored guard and re- established communication.",
+  "narrative": "Departing out of ZZZ on the ZZZZZ departure with ZZZZZ1 transition, the crew of Aircraft X were issued an initial climb to 8000 ft. After checking in with ZZZ Departure/Approach the crew were given a secondary climb to 12000 ft. and continued the assigned departure procedure. Due to the clear skies and unlimited visibility the crew were clearly able to see the mountains in the distance. After a few moments, as the aircraft tracked closer to the terrain, both pilots communicated to each other whether or not ATC was planning to issue a further climb to altitude. The Pilot Monitoring attempted to contact ATC, with no response. As a result the PM (Pilot Monitoring) turned the volume up on Guard as a backup. Shortly after, ATC reached out via Guard, and assigned a northbound vector, an altitude climb, and a new frequency. A frequency transfer from the previous controller was never issued or received prior to the Guard communication. Continued diligence of the crew to notice a lack of communication, to assign a climb to a higher altitude, with the flight path toward the mountains, caused the crew to reach out to ATC for clarification. Without a response the crew reestablished communication with ATC through the Guard frequency. Once communication was established, a vector, a climb, and a frequency change were issued, with no further event. While there are always numerous causes to any event, an overall cause for the stated even would be a breakdown of communication between the aircraft and the Air Traffic Control. Without receiving a handoff from the previous controller, the crew never knew to switch to a new assigned frequency. After the aircraft tracked out of communication range, continued communication between the previous controller and the aircraft became impossible. The crew of Aircraft X reacted quickly once realizing communication with ATC had ceased, by re establishing communication through Guard. Once reestablished the crew immediately executed the ATC instructions as provided, leading to no further necessary action and ending the event in question. A breakdown in communication can happen in multiple ways. Everything from radio volume, inter-cockpit communication, and even other radio transmissions can play a role. While CRM within the cockpit is a great resource, it can sometimes distract from exterior aircraft communications. A sterile cockpit during critical phases of flight can mitigate this possibility. Also, even though Guard may be a distraction during normal operations, having it tuned, and at an appropriate volume allows for a backup in the event of a communication failure with the controlling frequency. Finally, reaching out the ATC quickly once communication reliability is questioned, allows for earlier recognition of any failures, allowing the crew to proceed accordingly. [Report narrative contained no additional information.]",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "atc_comm_issue",
+      "evidence": {
+        "quote": "A frequency transfer from the previous controller was never issued or received prior to the Guard communication.",
+        "start": 829,
+        "end": 941
+      },
+      "item_label": "위협",
+      "label_ko": "관제·통신 문제",
+      "layer": null,
+      "agent": null,
+      "desc": "관제 지시의 혼선, 주파수 이탈, 교신 두절",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 1,
+      "item": "barrier_breached",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "Without receiving a handoff from the previous controller, the crew never knew to switch to a new assigned frequency.",
+        "start": 1533,
+        "end": 1649
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "After a few moments, as the aircraft tracked closer to the terrain, both pilots communicated to each other whether or not ATC was planning to issue a further climb to altitude.",
+        "start": 390,
+        "end": 566
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "The Pilot Monitoring attempted to contact ATC, with no response.",
+        "start": 567,
+        "end": 631
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 4,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "As a result the PM (Pilot Monitoring) turned the volume up on Guard as a backup.",
+        "start": 632,
+        "end": 712
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "atc_monitoring",
+      "evidence": {
+        "quote": "Shortly after, ATC reached out via Guard, and assigned a northbound vector, an altitude climb, and a new frequency.",
+        "start": 713,
+        "end": 828
+      },
+      "item_label": "방어",
+      "label_ko": "관제 감시·지시",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "관제사가 상황을 발견해 알리거나 지시를 내리는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "atc.issued_new_clearance",
+      "evidence": {
+        "quote": "Shortly after, ATC reached out via Guard, and assigned a northbound vector, an altitude climb, and a new frequency.",
+        "start": 713,
+        "end": 828
+      },
+      "item_label": "대응 행동",
+      "label_ko": "새 인가 발부",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Issued New Clearance",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "Once reestablished the crew immediately executed the ATC instructions as provided, leading to no further necessary action and ending the event in question.",
+        "start": 1934,
+        "end": 2089
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "관제 감시·지시가 작동과 뚫림 양쪽에 나온다. 주파수 인계가 이뤄지지 않았고, 비상 주파수로는 연결됐다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Air Traffic Control",
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Issued New Clearance",
+        "Requested ATC Assistance / Clarification"
+      ],
+      "predicted": [
+        "Issued New Clearance"
+      ],
+      "overlap": [
+        "Issued New Clearance"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Air Traffic Control",
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Requested ATC Assistance / Clarification"
+    ],
+    "Result.Air Traffic Control": [
+      "Issued New Clearance"
+    ],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Climb"
+    ],
+    "Make Model Name": [
+      "Embraer Legacy 450/500"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "02"
+  }
+}

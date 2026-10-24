@@ -1,0 +1,224 @@
+{
+  "report_id": "crm-1966482",
+  "acn": "1966482",
+  "set": "crm",
+  "synopsis": "Air carrier flight crew reported a loss of control and runway excursion during landing. There was a strong crosswind reported according to the pilots. The Captain made a go- around from the safe area off the runway. The second landing on a different runway was successful.",
+  "narrative": "I am a new First Officer (FO) and acted as Pilot Monitoring (PM) for the entire flight. The incident occurred upon touchdown Runway XL at ZZZ. Captain was in control of the aircraft and this approach to Runway XL was stabilized. The aircraft was crabbed left considerably into the wind and holding runway center line. It was my expectation that the Pilot Flying would apply right rudder and left aileron control moments before touchdown in order to align the aircraft with the runway center line. However, we landed with a side load and this is when loss of directional control began. Because we landed crabbed left we began traveling further left of center line. I called for right rudder and aileron into the wind. At this point we rapidly departed the left side of Runway XL into the safety area where pilot flying applied full power and began the go around from the safety area. In the go-around we remained in a VFR traffic pattern with gear down (gear was never cycled) and flaps 15 degrees. At this point my concentration was orientating and navigating us to the more favorable Runway YY. The Captain remained Pilot Flying throughout the event. We safely navigated to and landed on Runway YY. Before departing ZZZ1 the Captain expressed their intentions to use XL at ZZZ. I informed them the winds favor YY. The Captain seemed to agree, however, later after listening to the ATIS at ZZZ they decided XL. Again I asked them to take a look at the crosswinds and Runway YY as an option. The Captain kept their decision for XL. The winds were strong 270 at 19 gusts 28 in ATIS but not exceeding the max crosswind for the Aircraft X. I had never flown with the Captain but I knew they had been with the company since 2015 and seemed confident in their ability to safely land in the crosswind so I said no more regarding this runway choice. It is my suggestion we review crosswind landing techniques and how crew resource management could have helped us in this situation. Landing on Runway XL with gusty winds from 290/14G25 at some point during flare the airplane takes to the left abruptly I applied full right rudder in order to keep the airplane center line but then another push to the left occurs at that moment I decided to go- around, when I started the go-around the airplane keeps the tendency to the left, making the main gear touch the grass, for that reason I did not put the gear up and keep it down, I did the right downwind for Runway YY and landed. On the post flight I checked with the Mechanic if any damage occurred but everything looks normal, except for a small amount of grass in the left tire.",
+  "narrative_count": 2,
+  "sequence": [
+    {
+      "order": 1,
+      "item": "threat",
+      "value": "weather",
+      "evidence": {
+        "quote": "The winds were strong 270 at 19 gusts 28 in ATIS but not exceeding the max crosswind for the Aircraft X.",
+        "start": 1531,
+        "end": 1635
+      },
+      "item_label": "위협",
+      "label_ko": "기상",
+      "layer": null,
+      "agent": null,
+      "desc": "난류, 착빙, 저시정, 뇌우 등 기상 조건",
+      "asrs_value": null,
+      "scoring": "대조 없음"
+    },
+    {
+      "order": 2,
+      "item": "barrier_worked",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "Before departing ZZZ1 the Captain expressed their intentions to use XL at ZZZ. I informed them the winds favor YY.",
+        "start": 1200,
+        "end": 1314
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 3,
+      "item": "barrier_breached",
+      "value": "crew_crosscheck",
+      "evidence": {
+        "quote": "I had never flown with the Captain but I knew they had been with the company since 2015 and seemed confident in their ability to safely land in the crosswind so I said no more regarding this runway choice.",
+        "start": 1636,
+        "end": 1841
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 교차 확인",
+      "layer": "탐지",
+      "agent": "사람",
+      "desc": "다른 승무원이 확인해 잘못을 잡아내는 것",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 4,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "However, we landed with a side load and this is when loss of directional control began.",
+        "start": 497,
+        "end": 584
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
+      "item": "barrier_worked",
+      "value": "manual_intervention",
+      "evidence": {
+        "quote": "At this point we rapidly departed the left side of Runway XL into the safety area where pilot flying applied full power and began the go around from the safety area.",
+        "start": 717,
+        "end": 882
+      },
+      "item_label": "방어",
+      "label_ko": "승무원 수동 개입",
+      "layer": "해소",
+      "agent": "사람",
+      "desc": "승무원이 직접 조작해 상황을 해소하는 것. 조종사의 조작뿐 아니라 객실 승무원이 전원을 끄거나 물품을 격리하는 조치도 포함한다",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 5,
+      "item": "response",
+      "value": "fc.executed_go_around_missed_approach",
+      "evidence": {
+        "quote": "At this point we rapidly departed the left side of Runway XL into the safety area where pilot flying applied full power and began the go around from the safety area.",
+        "start": 717,
+        "end": 882
+      },
+      "item_label": "대응 행동",
+      "label_ko": "복행",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Executed Go Around / Missed Approach",
+      "scoring": "참고 대조"
+    },
+    {
+      "order": 6,
+      "item": "barrier_worked",
+      "value": "briefing_planning",
+      "evidence": {
+        "quote": "At this point my concentration was orientating and navigating us to the more favorable Runway YY.",
+        "start": 998,
+        "end": 1095
+      },
+      "item_label": "방어",
+      "label_ko": "브리핑·사전 계획",
+      "layer": "예방",
+      "agent": "사람",
+      "desc": "비행 전 브리핑, 상황 공유, 사전 계획 수립",
+      "asrs_value": null,
+      "scoring": "이중 주석"
+    },
+    {
+      "order": 7,
+      "item": "outcome",
+      "value": "general.none_reported_taken",
+      "evidence": {
+        "quote": "On the post flight I checked with the Mechanic if any damage occurred but everything looks normal, except for a small amount of grass in the left tire.",
+        "start": 2468,
+        "end": 2619
+      },
+      "item_label": "결과 상태",
+      "label_ko": "별도 조치 없음",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "None Reported / Taken",
+      "scoring": "참고 대조"
+    }
+  ],
+  "notes": "승무원 교차 확인이 작동과 뚫림 양쪽에 나온다. 부기장이 활주로 선택에 두 번 이의를 냈으나 그 뒤로는 더 말하지 않았다고 직접 밝힌다.",
+  "checks": {
+    "detector": {
+      "status": "일치",
+      "truth": [
+        "Flight Crew"
+      ],
+      "predicted": [
+        "Flight Crew"
+      ],
+      "overlap": [
+        "Flight Crew"
+      ],
+      "fields": [
+        "Detector.Person",
+        "Detector.Automation"
+      ],
+      "scoring": "자동 채점"
+    },
+    "response": {
+      "status": "일치",
+      "truth": [
+        "Executed Go Around / Missed Approach",
+        "Regained Aircraft Control"
+      ],
+      "predicted": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "overlap": [
+        "Executed Go Around / Missed Approach"
+      ],
+      "fields": [
+        "Result.Flight Crew",
+        "Result.Air Traffic Control"
+      ],
+      "scoring": "참고 대조"
+    },
+    "outcome": {
+      "status": "결측",
+      "truth": [],
+      "predicted": [
+        "None Reported / Taken"
+      ],
+      "overlap": [],
+      "fields": [
+        "Result.General"
+      ],
+      "scoring": "참고 대조"
+    }
+  },
+  "coded": {
+    "Detector.Person": [
+      "Flight Crew"
+    ],
+    "Detector.Automation": [],
+    "Result.General": [],
+    "Result.Flight Crew": [
+      "Executed Go Around / Missed Approach",
+      "Regained Aircraft Control"
+    ],
+    "Result.Air Traffic Control": [],
+    "When Detected": [
+      "In-flight"
+    ],
+    "Flight Phase": [
+      "Landing"
+    ],
+    "Make Model Name": [
+      "Medium Transport, High Wing, 2 Turboprop Eng"
+    ]
+  },
+  "meta": {
+    "rubric_version": "v1.1",
+    "prompt_version": "v1",
+    "model": "claude-opus-5",
+    "extracted_at": "2026-10-24",
+    "batch": "06"
+  }
+}
