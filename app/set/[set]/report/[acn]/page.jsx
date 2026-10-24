@@ -1,7 +1,7 @@
 import { url } from "@/lib/path";
 import { setKo } from "@/lib/sets";
 import { asrsListKo } from "@/lib/labels";
-import { getAllReportParams, getIndex, getReport } from "@/lib/data";
+import { getAllReportParams, getIndex, getReport, getEvidenceKo } from "@/lib/data";
 import ReportView from "@/app/ReportView";
 
 export function generateStaticParams() {
@@ -81,7 +81,7 @@ export default function ReportPage({ params }) {
         </div>
       </header>
 
-      <ReportView report={report} />
+      <ReportView report={report} evidenceKo={getEvidenceKo()[report.report_id] || {}} />
 
       <section className="card p-5">
         <h2 className="font-semibold">기관 코딩 필드 대조</h2>
