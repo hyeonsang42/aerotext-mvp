@@ -24,7 +24,8 @@ function BySet({ s }) {
               <th className="py-2 pr-4 text-right font-medium">채점</th>
               <th className="py-2 pr-4 text-right font-medium">읽고 뽑았을 때</th>
               <th className="py-2 pr-4 text-right font-medium">읽지 않고 찍었을 때</th>
-              <th className="py-2 text-right font-medium">그 차이</th>
+              <th className="py-2 pr-4 text-right font-medium">그 차이</th>
+              <th className="py-2 text-right font-medium">찍기로는 못 맞히는 보고</th>
             </tr>
           </thead>
           <tbody className="tabular-nums">
@@ -37,8 +38,16 @@ function BySet({ s }) {
                 <td className="py-2 pr-4 text-right">{v.scored}건</td>
                 <td className="py-2 pr-4 text-right font-medium">{v.match_rate}%</td>
                 <td className="py-2 pr-4 text-right text-slate-500">{v.baseline_rate}%</td>
-                <td className={`py-2 text-right font-semibold ${v.gain > 0 ? "text-slate-800" : "text-rose-700"}`}>
+                <td className={`py-2 pr-4 text-right font-semibold ${v.gain > 0 ? "text-slate-800" : "text-rose-700"}`}>
                   {v.gain > 0 ? "+" : ""}{v.gain}%p
+                </td>
+                <td className="py-2 text-right">
+                  {v.hard ? (
+                    <>
+                      <span className="font-semibold">{v.hard.match_rate}%</span>
+                      <span className="ml-1.5 text-[11px] text-slate-400">{v.hard.n}건 중</span>
+                    </>
+                  ) : "-"}
                 </td>
               </tr>
             ))}
@@ -50,19 +59,31 @@ function BySet({ s }) {
               <td className="py-2 pr-4 text-right">{s.scored}건</td>
               <td className="py-2 pr-4 text-right">{s.match_rate}%</td>
               <td className="py-2 pr-4 text-right text-slate-500">{s.baseline_rate}%</td>
-              <td className="py-2 text-right">+{s.gain}%p</td>
+              <td className="py-2 pr-4 text-right">+{s.gain}%p</td>
+              <td className="py-2 text-right">
+                {s.hard ? (
+                  <>
+                    <span className="font-semibold">{s.hard.match_rate}%</span>
+                    <span className="ml-1.5 text-[11px] text-slate-400">{s.hard.n}건 중</span>
+                  </>
+                ) : "-"}
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
       {flat.length > 0 && (
-        <p className="mt-3 rounded-md border border-rose-200 bg-rose-50 px-4 py-3 text-[13px] leading-relaxed text-rose-900">
-          <b>{flat.map(([k]) => setKo(k)).join(", ")}</b> 세트는 기준선과 차이가 없습니다.
-          그 세트만 보면 신고서를 읽지 않고 제일 흔한 답만 찍는 것과 결과가 같다는 뜻입니다.
-          여기서는 변별력이 없다고 적는 것이 맞습니다.
+        <p className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-[13px] leading-relaxed text-amber-900">
+          <b>{flat.map(([k]) => setKo(k)).join(", ")}</b> 세트는 전체 일치율이 기준선과 거의 같습니다.
+          다만 이것이 못 읽는다는 뜻은 아닙니다. 그 세트는 기관 답이 한 값에 몰려 있어
+          전체 일치율이 그 값에 포화됩니다. 오른쪽 칸이 실제 변별력입니다.
         </p>
       )}
-      <p className="mt-3 text-xs leading-relaxed text-slate-500">
+      <p className="mt-3 text-[13px] leading-relaxed text-slate-600">
+        <b>오른쪽 끝 칸</b>은 기관 답에 그 세트의 제일 흔한 값이 아예 들어 있지 않은 보고만 모은 것입니다.
+        그 보고들에서는 흔한 답만 찍는 방법이 <b>한 건도 못 맞힙니다</b>. 그래서 읽어서 얻은 몫이 그대로 드러납니다.
+      </p>
+      <p className="mt-2 text-xs leading-relaxed text-slate-500">
         합산 기준선({s.baseline_rate}%)이 세트별 기준선보다 낮은 것은 성능이 아니라 셈법 때문입니다.
         세트마다 제일 흔한 답이 다르므로(연기는 운항 승무원, 정비는 정비사) 합치면
         한 값만 찍어서 맞출 수 있는 비율이 떨어집니다. 그래서 합산 차이는 실제보다 커 보입니다.

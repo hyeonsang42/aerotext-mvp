@@ -42,6 +42,23 @@
     },
     {
       "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "While in cruise at FL400 we first received a LO HYD LEVEL annunciator followed by a LO HYD FLOW R within a few minutes.",
+        "start": 0,
+        "end": 119
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
       "item": "barrier_worked",
       "value": "aircraft_alert",
       "evidence": {
@@ -203,10 +220,12 @@
         "Flight Crew"
       ],
       "predicted": [
-        "Aircraft Other Automation"
+        "Aircraft Other Automation",
+        "Flight Crew"
       ],
       "overlap": [
-        "Aircraft Other Automation"
+        "Aircraft Other Automation",
+        "Flight Crew"
       ],
       "fields": [
         "Detector.Person",
@@ -275,7 +294,7 @@
     ]
   },
   "meta": {
-    "rubric_version": "v1.1",
+    "rubric_version": "v1.2",
     "prompt_version": "v1",
     "model": "claude-opus-5",
     "extracted_at": "2026-10-24",

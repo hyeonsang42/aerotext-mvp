@@ -76,6 +76,23 @@
     },
     {
       "order": 2,
+      "item": "detector",
+      "value": "person.air_traffic_control",
+      "evidence": {
+        "quote": "An altitude alert called the attention of the Tower Controller, and they informed us about it.",
+        "start": 1681,
+        "end": 1775
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "관제사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Air Traffic Control",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 2,
       "item": "barrier_worked",
       "value": "atc_monitoring",
       "evidence": {
@@ -213,7 +230,7 @@
     ]
   },
   "meta": {
-    "rubric_version": "v1.1",
+    "rubric_version": "v1.2",
     "prompt_version": "v1",
     "model": "claude-opus-5",
     "extracted_at": "2026-10-24",

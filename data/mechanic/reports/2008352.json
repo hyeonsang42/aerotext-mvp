@@ -41,6 +41,23 @@
       "scoring": "자동 채점"
     },
     {
+      "order": 1,
+      "item": "detector",
+      "value": "person.maintenance",
+      "evidence": {
+        "quote": "We found that there was a #2 thrust reverser fault.",
+        "start": 630,
+        "end": 681
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "정비사",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Maintenance",
+      "scoring": "자동 채점"
+    },
+    {
       "order": 2,
       "item": "barrier_worked",
       "value": "aircraft_alert",
@@ -163,14 +180,17 @@
   "notes": "수습 정비사 둘이 처음 해 보는 이월 절차를 게이트 재촉 속에서 수행했다. 정비 통제에 전화로 확인까지 했는데도 바깥쪽 잠금 볼트 단계를 빠뜨렸다. 확인 절차가 있었으나 확인하는 쪽도 그 단계를 짚지 못했다.",
   "checks": {
     "detector": {
-      "status": "불일치",
+      "status": "일치",
       "truth": [
         "Maintenance"
       ],
       "predicted": [
-        "Aircraft Other Automation"
+        "Aircraft Other Automation",
+        "Maintenance"
       ],
-      "overlap": [],
+      "overlap": [
+        "Maintenance"
+      ],
       "fields": [
         "Detector.Person",
         "Detector.Automation"
@@ -220,7 +240,7 @@
     ]
   },
   "meta": {
-    "rubric_version": "v1.1",
+    "rubric_version": "v1.2",
     "prompt_version": "v1",
     "model": "claude-opus-5",
     "extracted_at": "2026-09-28",

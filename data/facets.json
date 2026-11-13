@@ -58,7 +58,7 @@
   "detectors": [
     {
       "value": "운항 승무원",
-      "count": 62
+      "count": 75
     },
     {
       "value": "객실 승무원",
@@ -66,15 +66,19 @@
     },
     {
       "value": "정비사",
-      "count": 34
+      "count": 36
     },
     {
       "value": "항공기 경고·표시 장치",
-      "count": 27
+      "count": 30
     },
     {
       "value": "지상 요원",
       "count": 10
+    },
+    {
+      "value": "관제사",
+      "count": 8
     },
     {
       "value": "승객",
@@ -91,10 +95,6 @@
     {
       "value": "관제 자동화 장비",
       "count": 5
-    },
-    {
-      "value": "관제사",
-      "count": 4
     },
     {
       "value": "무인기 운용자",

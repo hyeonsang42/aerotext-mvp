@@ -1,7 +1,7 @@
 {
   "_설명": "근거 원문 구절의 한국어 옮김. 키는 보고 id, 그 아래 키는 영어 구절 원문 그대로다. 원문을 바꾸지 않고 뜻만 덧붙이기 위해 따로 둔 파일이다. 현재 데모용 1건만 채워져 있고, 없는 구절은 화면에 아무것도 표시하지 않는다. 다음 배치에서 나머지를 채운다.",
   "_version": "v1",
-  "_updated": "2026-10-24",
+  "_updated": "2026-11-13",
   "cabin_fumes-2084653": {
     "While descending well into the arrival, we received a “SMOKE FWD LAV” warning message.": "접근 구간으로 한참 내려가던 중에 전방 화장실 연기 경고 메시지를 받았다.",
     "we received a “SMOKE FWD LAV” warning message": "전방 화장실 연기 경고 메시지를 받았다",
@@ -61,7 +61,8 @@
     "dispatch/Maintenance Control coordinated well to prepare for the landing in ZZZ": "운항 관리실과 정비 통제실이 ZZZ 착륙 준비를 잘 맞춰 주었다.",
     "On arrival Maintenance Control stated they received a message from our aircraft that the ENG1 IDG (Integrated Drive Generator) had failed. We had not seen that message": "도착하자 정비 통제실은 우리 기체에서 1번 엔진 발전기(IDG) 고장 메시지를 받았다고 말했다. 우리는 그 메시지를 보지 못했다.",
     "Fire trucks pulled the infrared sensors and noted no heat anomalies": "소방대가 적외선 감지기를 꺼내 확인했고 이상 발열은 없다고 알려 주었다.",
-    "It was concluded that the ENG1 IDG had or was failing, so we did an engine run to confirm and deactivate the IDG.": "1번 엔진 발전기(IDG)가 고장 났거나 고장 나고 있었다는 결론이 나와, 엔진 시운전으로 확인한 뒤 그 발전기를 차단했다."
+    "It was concluded that the ENG1 IDG had or was failing, so we did an engine run to confirm and deactivate the IDG.": "1번 엔진 발전기(IDG)가 고장 났거나 고장 나고 있었다는 결론이 나와, 엔진 시운전으로 확인한 뒤 그 발전기를 차단했다.",
+    "On arrival Maintenance Control stated they received a message from our aircraft that the ENG1 IDG (Integrated Drive Generator) had failed.": "도착하자 정비 통제실은 우리 기체에서 1번 엔진 발전기 고장 메시지를 받았다고 말했다."
   },
   "cabin_fumes-2019880": {
     "my lead FA (Flight Attendant) called and notified me that they were experiencing a fume event in the cabin": "선임 객실 승무원이 전화해 객실에 유해 가스가 퍼지고 있다고 알려 주었다.",
@@ -848,7 +849,8 @@
     "A jet was cleared for takeoff on the runway we were approaching even with the green light gun.": "녹색 신호등을 받았는데도 우리가 접근하던 그 활주로에 다른 제트기가 이륙 허가를 받았다.",
     "It helped slightly and we were able to contact ZZZ Tower and tell them we were having electrical malfunction and heading towards the airport.": "조금 나아져서 ZZZ 관제탑에 연락해 전기 계통 고장이 났고 공항으로 향하고 있다고 알릴 수 있었다.",
     "On the second pass to XXR, my instructor elected to land, no flaps.": "XXR에 두 번째로 접근할 때 교관이 플랩 없이 착륙하기로 했다.",
-    "We taxied with flashing green light gun and parked without further incident.": "녹색 점멸 신호등을 받으며 지상 이동해 더는 사고 없이 주기했다."
+    "We taxied with flashing green light gun and parked without further incident.": "녹색 점멸 신호등을 받으며 지상 이동해 더는 사고 없이 주기했다.",
+    "Eventually, the G5 AI powered down, we confirmed the alternator was not charging and the aircraft was running on battery only.": "결국 자세 지시 계기가 꺼졌고, 우리는 발전기가 충전하지 않고 있으며 기체가 배터리 전원만으로 돌아가고 있다는 것을 확인했다."
   },
   "crm-1960091": {
     "Prior to flight, we noticed a write up in the Log History portion of the flight package about the R GEN falling offline and a R BUS Tie Fail during climb out the previous day, which necessitated a return to the airport.": "비행 전에 우리는 비행 서류의 일지 기록에서, 전날 상승 중에 오른쪽 발전기가 계통에서 떨어지고 오른쪽 버스 연결 고장이 나서 공항으로 되돌아가야 했다는 기재 사항을 발견했다.",
@@ -861,7 +863,8 @@
     "It is VERY deceiving, after one attempt to reset, to stop after the note that says to Attempt only one reset.": "재설정을 한 번만 시도하라는 문구 뒤에서 멈추게 되는 구성은 아주 오해를 일으키기 쉽다.",
     "Priority handling was requested, checklists were once again accomplished, and a decision was made to return back to ZZZ.": "우선 처리를 요청하고 점검 목록을 다시 수행한 뒤, ZZZ로 되돌아가기로 결정했다.",
     "It was not until we told Maintenance we were not going to take the aircraft again that they expressed an interest at looking deeper into the problem.": "우리가 이 기체를 다시 받지 않겠다고 말하고 나서야 정비가 문제를 더 깊이 들여다볼 의향을 보였다.",
-    "once we returned to the gate, I watched Maintenance Operations check the problem inside of two minutes and they could not see any problem with the electrical system": "탑승구로 돌아온 뒤, 정비 쪽이 2분도 안 되는 사이에 문제를 확인하고 전기 계통에 아무 이상을 찾지 못하는 것을 내가 지켜봤다."
+    "once we returned to the gate, I watched Maintenance Operations check the problem inside of two minutes and they could not see any problem with the electrical system": "탑승구로 돌아온 뒤, 정비 쪽이 2분도 안 되는 사이에 문제를 확인하고 전기 계통에 아무 이상을 찾지 못하는 것을 내가 지켜봤다.",
+    "We noticed that we had a R AC BUS OFF EICAS message with subsequent secondary messages associated with losing components from the R AC BUS.": "우리는 오른쪽 교류 버스 차단 경고 메시지와 함께, 그 버스에서 부품들이 떨어져 나가며 뒤따라 뜬 하위 메시지들을 확인했다."
   },
   "crm-1963777": {
     "When taxiing in from the previous flight the slush was fine to taxi through however when departing for the flight to ZZZ1 the temperature dropped which I believe caused the snow to freeze again forming a ridge.": "앞 비행으로 들어올 때는 녹은 눈을 지나가는 데 문제가 없었는데, ZZZ1행 비행으로 나갈 때는 기온이 떨어졌고 그래서 눈이 다시 얼어 둔덕이 생긴 것이라고 생각한다.",
@@ -957,7 +960,8 @@
     "We followed the checklist, shut down the engine, advised Dispatch we were shutting down the engine, and about to [request priority handling].": "우리는 점검 목록을 따라 엔진을 정지시키고, 운항 관리실에 엔진을 정지한다고 알리고 우선 처리를 요청하려 한다고 알렸다.",
     "After shutting down the Number 1 Engine, [requested priority handling] with ATC.": "1번 엔진을 정지한 뒤 관제에 우선 처리를 요청했다.",
     "The checklist however only mentions it one time during Step 9 of FM well prior to final landing, where much time might be spent with a growing imbalance of fuel.": "그런데 점검 목록에는 그 내용이 최종 착륙보다 훨씬 앞인 9단계에 한 번만 적혀 있고, 그 사이에 연료 불균형이 계속 커질 수 있는 시간이 많다.",
-    "We landed and fire / rescue confirmed there was no smoke / no evidence of abnormalities / no hot brakes before we taxied into the gate.": "착륙했고 소방구조대가 연기도, 이상 징후도, 과열된 제동 장치도 없다고 확인해 준 뒤에 탑승구로 들어갔다."
+    "We landed and fire / rescue confirmed there was no smoke / no evidence of abnormalities / no hot brakes before we taxied into the gate.": "착륙했고 소방구조대가 연기도, 이상 징후도, 과열된 제동 장치도 없다고 확인해 준 뒤에 탑승구로 들어갔다.",
+    "Checklist was accomplished in order, condition and light was confirmed.": "점검 목록을 순서대로 수행했고, 상태와 경고등을 확인했다."
   },
   "crm-1986757": {
     "After the final approach fix, it got a little turbulent so my mind shifted to the possibility of flying above the glide slope for wake turbulence.": "최종 접근 지점을 지난 뒤 조금 흔들려서, 후류 난기류를 피하려 활공각보다 높게 날 가능성으로 생각이 옮겨 갔다.",
@@ -1087,7 +1091,8 @@
     "As we were halfway through the 360 descending through 2500, we received an \"Obstacle\" warning and immediately began correcting until the warning stopped at 2800.": "360도 선회를 절반쯤 돌며 2,500피트를 지날 때 장애물 경고를 받았고, 곧바로 수정에 들어가 2,800피트에서 경고가 멈췄다.",
     "We climbed to 2800.": "우리는 2,800피트로 올라갔다.",
     "We again ask for clearance and are cleared for the approach.": "우리는 다시 인가를 요청해 접근 인가를 받았다.",
-    "We rejoined the localizer and were cleared the visual and landed meeting all the stabilized approach criteria.": "우리는 방위각 신호에 다시 올라타 시계 접근 인가를 받고, 안정 접근 기준을 모두 충족해 착륙했다."
+    "We rejoined the localizer and were cleared the visual and landed meeting all the stabilized approach criteria.": "우리는 방위각 신호에 다시 올라타 시계 접근 인가를 받고, 안정 접근 기준을 모두 충족해 착륙했다.",
+    "As we were approaching ZZZZZ we were gear down and flaps 15 and it appeared that we were starting to become high as the GS altitude at ZZZZZ is 2770.": "ZZZZZ 지점에 접근하면서 착륙장치를 내리고 플랩 15를 쓴 상태였는데, 그 지점의 활공각 고도가 2,770피트여서 우리가 높아지기 시작한 것으로 보였다."
   },
   "crm-2017960": {
     "We were very tired after an 8 day international run of flights, and were preoccupied with the task of preparing for Customs upon arrival, so we let our guard down flying in clear VFR conditions to our home airport.": "8일간의 국제선 일정을 마친 뒤라 아주 피곤했고, 도착 후 통관 준비에 정신이 쏠려 있었다. 그래서 맑은 시계 상태로 모기지 공항으로 가는 비행에서 경계를 놓았다.",
@@ -1132,7 +1137,8 @@
     "tower said they had a low alert warning": "관제탑이 저고도 경보가 떴다고 말했다.",
     "At that time the CA directs a climb back to 2500 ft. which we execute and then request and receive confirmation from the tower that we are on glide path.": "그때 기장이 2,500피트로 다시 올라가라고 지시해 그대로 했고, 그다음 관제탑에 요청해 우리가 활공 경로에 올라와 있다는 확인을 받았다.",
     "We hit ZZZZZ on altitude, fully configured, and returned to our approach.": "우리는 ZZZZZ를 규정 고도로 통과했고, 착륙 형태를 다 갖춘 상태로 접근으로 돌아갔다.",
-    "The approach is eventually stabilized and landing uneventful.": "접근은 결국 안정됐고 착륙은 별일 없었다."
+    "The approach is eventually stabilized and landing uneventful.": "접근은 결국 안정됐고 착륙은 별일 없었다.",
+    "I then realized we were at 2000 feet and descending.": "그때 나는 우리가 2,000피트에 있고 계속 내려가고 있다는 것을 알아챘다."
   },
   "crm-2032403": {
     "a possible miscommunication on what altitude we should be at when we decided to extend the approach to provide more maneuvering room": "선회 여유를 더 벌려고 접근을 늘리기로 했을 때 우리가 어느 고도에 있어야 하는지에 대해 소통이 어긋났을 가능성이 있다.",
@@ -1228,7 +1234,8 @@
     "They were completely ineffective": "관제는 전혀 도움이 되지 않았다.",
     "At prompting of pilot monitoring I applied power and put the aircraft into a climb.": "조종 감시 담당의 지시를 받아 나는 출력을 올리고 기체를 상승으로 넣었다.",
     "I again, more forcefully instructed him to perform the escape maneuver and he finally input full throttles and started to pitch up.": "나는 다시, 더 강하게 탈출 기동을 수행하라고 지시했고 그가 마침내 스로틀을 최대로 밀고 기수를 들기 시작했다.",
-    "We were high but managed to intercept the final approach course and complete the approach and landing without incident.": "우리는 높았지만 최종 접근 항로를 잡아내 접근과 착륙을 아무 일 없이 마쳤다."
+    "We were high but managed to intercept the final approach course and complete the approach and landing without incident.": "우리는 높았지만 최종 접근 항로를 잡아내 접근과 착륙을 아무 일 없이 마쳤다.",
+    "Upon warning, I commanded \"Perform the Escape Maneuver\".": "경고가 울리자 나는 탈출 기동을 수행하라고 지시했다."
   },
   "crm-2065120": {
     "Aircraft X was vectored behind a previous arrival to TJSJ airport and was given vectors around weather north the intermediate fix TNNER intersection because there was some heavy WX over the fix.": "항공기 X는 TJSJ 공항으로 가는 앞 도착편 뒤로 유도됐고, 중간 지점인 TNNER 교차점 위에 강한 기상이 있어서 그 지점 북쪽으로 기상을 피해 가는 유도를 받았다.",

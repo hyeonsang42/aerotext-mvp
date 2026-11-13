@@ -167,7 +167,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "탈출",
@@ -197,7 +198,7 @@
     "last_line": "비상 절차 수행",
     "n_worked": 4,
     "n_breached": 1,
-    "n_items": 11,
+    "n_items": 12,
     "detector_status": "일치",
     "narrative_len": 2424
   },
@@ -470,7 +471,8 @@
       "관제·통신 문제"
     ],
     "detectors": [
-      "관제 자동화 장비"
+      "관제 자동화 장비",
+      "관제사"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -496,7 +498,7 @@
     "last_line": null,
     "n_worked": 2,
     "n_breached": 2,
-    "n_items": 8,
+    "n_items": 9,
     "detector_status": "일치",
     "narrative_len": 2251
   },
@@ -509,7 +511,8 @@
       "기상"
     ],
     "detectors": [
-      "관제 자동화 장비"
+      "관제 자동화 장비",
+      "관제사"
     ],
     "outcomes": [],
     "worked": [
@@ -526,7 +529,7 @@
     "last_line": null,
     "n_worked": 1,
     "n_breached": 0,
-    "n_items": 4,
+    "n_items": 5,
     "detector_status": "일치",
     "narrative_len": 1392
   },
@@ -616,7 +619,8 @@
       "관제·통신 문제"
     ],
     "detectors": [
-      "지형 경고 장치"
+      "지형 경고 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -646,7 +650,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 3,
     "n_breached": 3,
-    "n_items": 11,
+    "n_items": 12,
     "detector_status": "일치",
     "narrative_len": 6833
   },
@@ -823,7 +827,8 @@
       "기상"
     ],
     "detectors": [
-      "관제 자동화 장비"
+      "관제 자동화 장비",
+      "관제사"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -850,7 +855,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 3,
     "n_breached": 2,
-    "n_items": 8,
+    "n_items": 9,
     "detector_status": "일치",
     "narrative_len": 3748
   },
@@ -863,7 +868,8 @@
       "시간·업무 부하"
     ],
     "detectors": [
-      "지형 경고 장치"
+      "지형 경고 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -891,7 +897,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 3,
     "n_breached": 2,
-    "n_items": 9,
+    "n_items": 10,
     "detector_status": "일치",
     "narrative_len": 5667
   },
@@ -985,7 +991,8 @@
     ],
     "detectors": [
       "항공기 경고·표시 장치",
-      "관제 자동화 장비"
+      "관제 자동화 장비",
+      "운항 승무원"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -1012,7 +1019,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 4,
     "n_breached": 2,
-    "n_items": 10,
+    "n_items": 11,
     "detector_status": "일치",
     "narrative_len": 4203
   },
@@ -1152,7 +1159,8 @@
       "관제·통신 문제"
     ],
     "detectors": [
-      "지형 경고 장치"
+      "지형 경고 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -1180,7 +1188,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 3,
     "n_breached": 2,
-    "n_items": 9,
+    "n_items": 10,
     "detector_status": "일치",
     "narrative_len": 2941
   },
@@ -1326,6 +1334,7 @@
     ],
     "detectors": [
       "항공기 경고·표시 장치",
+      "운항 승무원",
       "공중충돌경고 회피 지시"
     ],
     "outcomes": [
@@ -1360,7 +1369,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 7,
     "n_breached": 2,
-    "n_items": 16,
+    "n_items": 17,
     "detector_status": "일치",
     "narrative_len": 11259
   },
@@ -1373,7 +1382,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "정비 조치"
@@ -1401,7 +1411,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 7,
     "n_breached": 0,
-    "n_items": 12,
+    "n_items": 13,
     "detector_status": "일치",
     "narrative_len": 3452
   },
@@ -1619,7 +1629,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -1654,7 +1665,7 @@
     "last_line": "비상 절차 수행",
     "n_worked": 6,
     "n_breached": 3,
-    "n_items": 14,
+    "n_items": 15,
     "detector_status": "일치",
     "narrative_len": 10060
   },
@@ -1964,7 +1975,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "정비 조치"
@@ -1997,7 +2009,7 @@
     "last_line": "운항 중단 판단",
     "n_worked": 5,
     "n_breached": 3,
-    "n_items": 13,
+    "n_items": 14,
     "detector_status": "일치",
     "narrative_len": 4369
   },
@@ -2011,7 +2023,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -2049,7 +2062,7 @@
     "last_line": "비상 절차 수행",
     "n_worked": 6,
     "n_breached": 5,
-    "n_items": 17,
+    "n_items": 18,
     "detector_status": "일치",
     "narrative_len": 4218
   },
@@ -2060,7 +2073,8 @@
     "synopsis": "B737-700 Captain reported receiving a 'TOO LOW' altitude alert from ATC. The Captain then realized the wrong altitude was set in the FMC. The Captain states CRM should have caught the error.",
     "threats": [],
     "detectors": [
-      "관제 자동화 장비"
+      "관제 자동화 장비",
+      "관제사"
     ],
     "outcomes": [
       "별도 조치 없음"
@@ -2085,7 +2099,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 3,
     "n_breached": 1,
-    "n_items": 6,
+    "n_items": 7,
     "detector_status": "일치",
     "narrative_len": 1743
   }

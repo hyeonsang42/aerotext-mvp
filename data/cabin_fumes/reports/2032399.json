@@ -41,6 +41,23 @@
       "scoring": "자동 채점"
     },
     {
+      "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "the Captain took the controls and I read this QRH for both of us to hear and confirm the actions required",
+        "start": 271,
+        "end": 376
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
       "order": 2,
       "item": "barrier_worked",
       "value": "aircraft_alert",
@@ -202,7 +219,8 @@
         "Aircraft Other Automation"
       ],
       "predicted": [
-        "Aircraft Other Automation"
+        "Aircraft Other Automation",
+        "Flight Crew"
       ],
       "overlap": [
         "Aircraft Other Automation"
@@ -269,7 +287,7 @@
     ]
   },
   "meta": {
-    "rubric_version": "v1.1",
+    "rubric_version": "v1.2",
     "prompt_version": "v1",
     "model": "claude-opus-5",
     "extracted_at": "2026-09-28",

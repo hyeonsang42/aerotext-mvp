@@ -9,12 +9,12 @@
   "scored": 147,
   "missing": 3,
   "missing_rate": 2,
-  "match_rate": 88,
-  "matched": 130,
+  "match_rate": 89,
+  "matched": 131,
   "baseline_value": "Flight Crew",
   "baseline_rate": 53,
-  "avg_predicted": 1.37,
-  "avg_precision": 80,
+  "avg_predicted": 1.49,
+  "avg_precision": 79,
   "mismatches": [
     {
       "set": "cabin_fumes",
@@ -167,16 +167,6 @@
     },
     {
       "set": "mechanic",
-      "acn": "2008352",
-      "truth": [
-        "Maintenance"
-      ],
-      "predicted": [
-        "Aircraft Other Automation"
-      ]
-    },
-    {
-      "set": "mechanic",
       "acn": "2005229",
       "truth": [
         "Flight Crew",
@@ -188,7 +178,14 @@
     }
   ],
   "note": "일치율은 최빈값 기준선과 건당 평균 추출 개수 없이 단독으로 쓰지 않는다. 기준선은 고정값이 아니라 이 채점 집합에서 계산한 값이다.",
-  "gain": 35,
+  "gain": 36,
+  "hard": {
+    "label": "기관 답에 \"Flight Crew\" 가 없는 보고",
+    "n": 69,
+    "matched": 60,
+    "match_rate": 87,
+    "note": "이 보고들에서는 최빈값만 찍는 기준선이 0% 다"
+  },
   "by_set": {
     "cabin_fumes": {
       "total": 50,
@@ -199,8 +196,15 @@
       "baseline_value": "Flight Crew",
       "baseline_rate": 69,
       "gain": 25,
-      "avg_predicted": 1.78,
-      "avg_precision": 79
+      "avg_predicted": 1.9,
+      "avg_precision": 75,
+      "hard": {
+        "label": "기관 답에 \"Flight Crew\" 가 없는 보고",
+        "n": 15,
+        "matched": 15,
+        "match_rate": 100,
+        "note": "이 보고들에서는 최빈값만 찍는 기준선이 0% 다"
+      }
     },
     "crm": {
       "total": 50,
@@ -211,20 +215,34 @@
       "baseline_value": "Flight Crew",
       "baseline_rate": 78,
       "gain": 16,
-      "avg_predicted": 1.32,
-      "avg_precision": 83
+      "avg_predicted": 1.52,
+      "avg_precision": 83,
+      "hard": {
+        "label": "기관 답에 \"Flight Crew\" 가 없는 보고",
+        "n": 11,
+        "matched": 9,
+        "match_rate": 82,
+        "note": "이 보고들에서는 최빈값만 찍는 기준선이 0% 다"
+      }
     },
     "mechanic": {
       "total": 50,
       "scored": 50,
       "missing": 0,
-      "match_rate": 78,
-      "matched": 39,
+      "match_rate": 80,
+      "matched": 40,
       "baseline_value": "Maintenance",
       "baseline_rate": 78,
-      "gain": 0,
-      "avg_predicted": 1.0,
-      "avg_precision": 77
+      "gain": 2,
+      "avg_predicted": 1.04,
+      "avg_precision": 78,
+      "hard": {
+        "label": "기관 답에 \"Maintenance\" 가 없는 보고",
+        "n": 11,
+        "matched": 6,
+        "match_rate": 55,
+        "note": "이 보고들에서는 최빈값만 찍는 기준선이 0% 다"
+      }
     }
   }
 }

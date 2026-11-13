@@ -1574,7 +1574,8 @@
       "시간·업무 부하"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "정비사"
     ],
     "outcomes": [],
     "worked": [
@@ -1599,8 +1600,8 @@
     "last_line": "운항 관리 협의",
     "n_worked": 3,
     "n_breached": 3,
-    "n_items": 9,
-    "detector_status": "불일치",
+    "n_items": 10,
+    "detector_status": "일치",
     "narrative_len": 4305
   },
   {
@@ -1651,7 +1652,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "정비사"
     ],
     "outcomes": [],
     "worked": [
@@ -1672,7 +1674,7 @@
     "last_line": null,
     "n_worked": 2,
     "n_breached": 1,
-    "n_items": 5,
+    "n_items": 6,
     "detector_status": "일치",
     "narrative_len": 177
   }

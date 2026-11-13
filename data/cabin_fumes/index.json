@@ -1008,7 +1008,8 @@
       "연기·냄새·오염"
     ],
     "detectors": [
-      "운항 승무원"
+      "운항 승무원",
+      "항공기 경고·표시 장치"
     ],
     "outcomes": [
       "탈출"
@@ -1034,7 +1035,7 @@
     "last_line": "비상 절차 수행",
     "n_worked": 3,
     "n_breached": 1,
-    "n_items": 8,
+    "n_items": 9,
     "detector_status": "일치",
     "narrative_len": 2764
   },
@@ -1047,7 +1048,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [],
     "worked": [
@@ -1073,7 +1075,7 @@
     "last_line": "승무원 수동 개입",
     "n_worked": 7,
     "n_breached": 0,
-    "n_items": 11,
+    "n_items": 12,
     "detector_status": "일치",
     "narrative_len": 2627
   },
@@ -1164,7 +1166,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [
       "정비 조치"
@@ -1193,7 +1196,7 @@
     "last_line": "운항 관리 협의",
     "n_worked": 8,
     "n_breached": 0,
-    "n_items": 13,
+    "n_items": 14,
     "detector_status": "일치",
     "narrative_len": 11400
   },
@@ -1245,7 +1248,8 @@
       "연기·냄새·오염"
     ],
     "detectors": [
-      "운항 승무원"
+      "운항 승무원",
+      "항공기 경고·표시 장치"
     ],
     "outcomes": [
       "정비 조치"
@@ -1266,7 +1270,7 @@
     "last_line": "정비 조치·수리",
     "n_worked": 3,
     "n_breached": 0,
-    "n_items": 6,
+    "n_items": 7,
     "detector_status": "일치",
     "narrative_len": 733
   },
@@ -1360,7 +1364,8 @@
       "항공기 계통 고장"
     ],
     "detectors": [
-      "항공기 경고·표시 장치"
+      "항공기 경고·표시 장치",
+      "운항 승무원"
     ],
     "outcomes": [],
     "worked": [
@@ -1385,7 +1390,7 @@
     "last_line": "운항 관리 협의",
     "n_worked": 6,
     "n_breached": 0,
-    "n_items": 9,
+    "n_items": 10,
     "detector_status": "일치",
     "narrative_len": 1375
   },
@@ -1771,6 +1776,7 @@
     ],
     "detectors": [
       "운항 승무원",
+      "항공기 경고·표시 장치",
       "객실 승무원"
     ],
     "outcomes": [
@@ -1801,7 +1807,7 @@
     "last_line": "운항 관리 협의",
     "n_worked": 6,
     "n_breached": 1,
-    "n_items": 13,
+    "n_items": 14,
     "detector_status": "일치",
     "narrative_len": 3046
   },

@@ -42,6 +42,23 @@
     },
     {
       "order": 1,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "We noted C HYD QTY at 0.48 with refill light on and followed checklist guidance to turn off all center pumps until final approach.",
+        "start": 2458,
+        "end": 2588
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 1,
       "item": "barrier_worked",
       "value": "aircraft_alert",
       "evidence": {
@@ -290,11 +307,13 @@
       ],
       "predicted": [
         "Aircraft Other Automation",
-        "Aircraft RA"
+        "Aircraft RA",
+        "Flight Crew"
       ],
       "overlap": [
         "Aircraft Other Automation",
-        "Aircraft RA"
+        "Aircraft RA",
+        "Flight Crew"
       ],
       "fields": [
         "Detector.Person",
@@ -375,7 +394,7 @@
     ]
   },
   "meta": {
-    "rubric_version": "v1.1",
+    "rubric_version": "v1.2",
     "prompt_version": "v1",
     "model": "claude-opus-5",
     "extracted_at": "2026-10-24",

@@ -93,6 +93,23 @@
     },
     {
       "order": 3,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "I then realized we were at 2000 feet and descending.",
+        "start": 696,
+        "end": 748
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 3,
       "item": "barrier_worked",
       "value": "aircraft_alert",
       "evidence": {
@@ -187,10 +204,12 @@
       ],
       "predicted": [
         "Air Traffic Control",
-        "Aircraft Other Automation"
+        "Aircraft Other Automation",
+        "Flight Crew"
       ],
       "overlap": [
-        "Air Traffic Control"
+        "Air Traffic Control",
+        "Flight Crew"
       ],
       "fields": [
         "Detector.Person",
@@ -252,7 +271,7 @@
     ]
   },
   "meta": {
-    "rubric_version": "v1.1",
+    "rubric_version": "v1.2",
     "prompt_version": "v1",
     "model": "claude-opus-5",
     "extracted_at": "2026-10-24",

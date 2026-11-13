@@ -110,6 +110,23 @@
     },
     {
       "order": 5,
+      "item": "detector",
+      "value": "person.flight_crew",
+      "evidence": {
+        "quote": "I suggested that we would not capture lateral guidance this way but PF said we would.",
+        "start": 2520,
+        "end": 2605
+      },
+      "item_label": "탐지 주체",
+      "label_ko": "운항 승무원",
+      "layer": null,
+      "agent": null,
+      "desc": "",
+      "asrs_value": "Flight Crew",
+      "scoring": "자동 채점"
+    },
+    {
+      "order": 5,
       "item": "barrier_worked",
       "value": "aircraft_alert",
       "evidence": {
@@ -169,10 +186,12 @@
         "Flight Crew"
       ],
       "predicted": [
-        "Aircraft Terrain Warning"
+        "Aircraft Terrain Warning",
+        "Flight Crew"
       ],
       "overlap": [
-        "Aircraft Terrain Warning"
+        "Aircraft Terrain Warning",
+        "Flight Crew"
       ],
       "fields": [
         "Detector.Person",
@@ -237,7 +256,7 @@
     ]
   },
   "meta": {
-    "rubric_version": "v1.1",
+    "rubric_version": "v1.2",
     "prompt_version": "v1",
     "model": "claude-opus-5",
     "extracted_at": "2026-10-24",

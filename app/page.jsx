@@ -47,7 +47,9 @@ export default function Home() {
             {
               n: `${s.match_rate}%`,
               k: "기관이 적어 둔 답과 일치",
-              d: `세트별로는 ${Object.values(s.by_set || {}).map((v) => `${v.match_rate}%`).join(" · ")}. 기준선과 함께 봐야 한다`,
+              d: s.hard
+                ? `흔한 답만 찍어서는 한 건도 못 맞히는 보고 ${s.hard.n}건에서도 ${s.hard.match_rate}%`
+                : `세트별로는 ${Object.values(s.by_set || {}).map((v) => `${v.match_rate}%`).join(" · ")}`,
             },
             {
               n: `${items}개`,
@@ -203,9 +205,10 @@ export default function Home() {
               {[
                 ...Object.entries(s.by_set || {}).map(([k, v]) => [
                   setKo(k), `${v.match_rate}%`,
-                  `찍으면 ${v.baseline_rate}% · 차이 ${v.gain > 0 ? "+" : ""}${v.gain}%p`,
+                  `찍으면 ${v.baseline_rate}%` + (v.hard ? ` · 찍기로 0점인 ${v.hard.n}건에서 ${v.hard.match_rate}%` : ""),
                 ]),
                 ["합산", `${s.match_rate}%`, `찍으면 ${s.baseline_rate}% · 차이 +${s.gain}%p`],
+                ...(s.hard ? [["찍기로는 0점인 보고", `${s.hard.match_rate}%`, `${s.hard.n}건. 흔한 답이 정답에 없는 보고`]] : []),
                 ["건당 평균 추출", `${s.avg_predicted}개`, `정밀도 ${s.avg_precision}%`],
                 ...(g ? [["안 열어 본 자료에서", `${g.holdout.match_rate}%`, `${g.drop}%p만 하락`]] : []),
               ].map(([k, v, sub]) => (
