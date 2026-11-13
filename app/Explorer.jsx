@@ -107,7 +107,7 @@ export default function Explorer({ rows, facets, layers }) {
   const csv = () => {
     const head = ["세트", "접수번호", "요약", "위협", "탐지 주체", "작동한 방어", "뚫린 방어", "결과 상태", "대조"];
     const esc = (s) => `"${String(s).replace(/"/g, '""')}"`;
-    const body = filtered.map((r) => [r.set, r.acn, r.synopsis, r.threats.join(";"),
+    const body = filtered.map((r) => [SET_KO[r.set] || r.set, r.acn, r.synopsis, r.threats.join(";"),
       r.detectors.join(";"), r.worked.join(";"), r.breached.join(";"),
       r.outcomes.join(";"), r.detector_status].map(esc).join(","));
     const blob = new Blob(["﻿" + [head.map(esc).join(","), ...body].join("\r\n")],
@@ -138,7 +138,8 @@ export default function Explorer({ rows, facets, layers }) {
                           className={`chip rounded-full border px-2 py-0.5 text-[12px] ${
                             on ? "border-blue-600 bg-blue-600 text-white"
                                : "border-slate-300 bg-white text-slate-600 hover:border-slate-500"}`}>
-                    {o.value} <span className="tabular-nums opacity-70">{o.count}</span>
+                    {f.key === "set" ? (SET_KO[o.value] || o.value) : o.value}{" "}
+                    <span className="tabular-nums opacity-70">{o.count}</span>
                   </button>
                 );
               })}
