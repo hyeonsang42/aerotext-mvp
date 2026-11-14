@@ -48,7 +48,7 @@ export default function Home() {
               n: `${s.match_rate}%`,
               k: "기관이 적어 둔 답과 일치",
               d: s.hard
-                ? `흔한 답만 찍어서는 한 건도 못 맞히는 보고 ${s.hard.n}건에서도 ${s.hard.match_rate}%`
+                ? `최빈값 기준선이 0%인 보고 ${s.hard.n}건에서도 ${s.hard.match_rate}%`
                 : `세트별로는 ${Object.values(s.by_set || {}).map((v) => `${v.match_rate}%`).join(" · ")}`,
             },
             {
@@ -199,16 +199,16 @@ export default function Home() {
           <div className="card p-5">
             <h2 className="font-semibold">탐지 주체 대조 채점</h2>
             <p className="mt-1 text-[13px] leading-relaxed text-slate-600">
-              뽑아낸 값이 맞는지 기관이 적어 둔 답과 맞춰 본 것입니다. 채점 단위는 {s.unit}.
+              추출한 값이 맞는지 기관이 적어 둔 답과 맞춰 본 것입니다. 채점 단위는 {s.unit}.
             </p>
             <div className="mt-4 space-y-2">
               {[
                 ...Object.entries(s.by_set || {}).map(([k, v]) => [
                   setKo(k), `${v.match_rate}%`,
-                  `찍으면 ${v.baseline_rate}%` + (v.hard ? ` · 찍기로 0점인 ${v.hard.n}건에서 ${v.hard.match_rate}%` : ""),
+                  `기준선 ${v.baseline_rate}%` + (v.hard ? ` · 기준선 0%인 ${v.hard.n}건에서 ${v.hard.match_rate}%` : ""),
                 ]),
-                ["합산", `${s.match_rate}%`, `찍으면 ${s.baseline_rate}% · 차이 +${s.gain}%p`],
-                ...(s.hard ? [["찍기로는 0점인 보고", `${s.hard.match_rate}%`, `${s.hard.n}건. 흔한 답이 정답에 없는 보고`]] : []),
+                ["합산", `${s.match_rate}%`, `기준선 ${s.baseline_rate}% · 상승폭 +${s.gain}%p`],
+                ...(s.hard ? [["기준선 0%인 보고", `${s.hard.match_rate}%`, `${s.hard.n}건. 최빈값이 기관 답에 없는 보고`]] : []),
                 ["건당 평균 추출", `${s.avg_predicted}개`, `정밀도 ${s.avg_precision}%`],
                 ...(g ? [["안 열어 본 자료에서", `${g.holdout.match_rate}%`, `${g.drop}%p만 하락`]] : []),
               ].map(([k, v, sub]) => (

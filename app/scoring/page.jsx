@@ -22,10 +22,10 @@ function BySet({ s }) {
             <tr>
               <th className="py-2 pr-4 font-medium">세트</th>
               <th className="py-2 pr-4 text-right font-medium">채점</th>
-              <th className="py-2 pr-4 text-right font-medium">읽고 뽑았을 때</th>
-              <th className="py-2 pr-4 text-right font-medium">읽지 않고 찍었을 때</th>
+              <th className="py-2 pr-4 text-right font-medium">일치율</th>
+              <th className="py-2 pr-4 text-right font-medium">최빈값 기준선</th>
               <th className="py-2 pr-4 text-right font-medium">그 차이</th>
-              <th className="py-2 text-right font-medium">찍기로는 못 맞히는 보고</th>
+              <th className="py-2 text-right font-medium">기준선 0%인 보고</th>
             </tr>
           </thead>
           <tbody className="tabular-nums">
@@ -81,12 +81,12 @@ function BySet({ s }) {
       )}
       <p className="mt-3 text-[13px] leading-relaxed text-slate-600">
         <b>오른쪽 끝 칸</b>은 기관 답에 그 세트의 제일 흔한 값이 아예 들어 있지 않은 보고만 모은 것입니다.
-        그 보고들에서는 흔한 답만 찍는 방법이 <b>한 건도 못 맞힙니다</b>. 그래서 읽어서 얻은 몫이 그대로 드러납니다.
+        그 보고들에서는 <b>최빈값 기준선이 0%</b>입니다. 따라서 본문을 읽어 얻은 성능만 남습니다.
       </p>
       <p className="mt-2 text-xs leading-relaxed text-slate-500">
         합산 기준선({s.baseline_rate}%)이 세트별 기준선보다 낮은 것은 성능이 아니라 셈법 때문입니다.
         세트마다 제일 흔한 답이 다르므로(연기는 운항 승무원, 정비는 정비사) 합치면
-        한 값만 찍어서 맞출 수 있는 비율이 떨어집니다. 그래서 합산 차이는 실제보다 커 보입니다.
+        단일 값으로 맞힐 수 있는 비율이 떨어집니다. 그래서 합산 상승폭은 실제보다 커 보입니다.
         세트별 숫자를 함께 봐야 합니다.
       </p>
     </section>
@@ -117,14 +117,14 @@ export default function ScoringPage() {
       <section>
         <h1 className="text-[1.35rem] font-bold">탐지 주체 대조 채점</h1>
         <p className="mt-1 max-w-3xl text-sm leading-relaxed text-slate-600">
-          이 시스템이 뽑아낸 값이 맞는지 확인하는 화면입니다. 여섯 항목 중 <b>탐지 주체</b>,
+          이 시스템이 추출한 값이 맞는지 확인하는 화면입니다. 여섯 항목 중 <b>탐지 주체</b>,
           곧 누가 먼저 알아챘는가는 기관이 이미 답을 적어 두었습니다. 그 답과 맞춰 봅니다.
-          채점 단위는 {s.unit}입니다. 사람이냐 기계냐로만 나누면 제일 흔한 답만 찍어도 97%가 나와
+          채점 단위는 {s.unit}입니다. 사람이냐 기계냐로만 나누면 최빈값만 응답해도 97%가 나와
           변별력이 없으므로, 세부 값까지 맞아야 정답으로 칩니다.
         </p>
         {/* 기준선을 모르면 일치율 숫자가 좋은지 나쁜지 알 수 없다. 먼저 푼다 */}
         <div className="mt-3 max-w-3xl rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-[13px] leading-relaxed text-amber-900">
-          <b>기준선</b>이란, 내용을 읽지 않고 <b>제일 많이 나오는 답 하나만 전부 찍었을 때</b>의 정답률입니다.
+          <b>최빈값 기준선</b>이란, 본문을 읽지 않고 <b>가장 많이 나오는 답 하나로만 응답했을 때</b>의 정답률입니다.
           기준선 없이 일치율만 보면 그 숫자가 좋은지 나쁜지 알 수 없습니다. 그래서 늘 같이 적습니다.
           <b> 기준선은 채점 집합마다 다시 계산합니다.</b> 그래서 세트를 합친 기준선과
           세트별 기준선이 다르고, 아래 표를 세트별로 먼저 적었습니다.
@@ -136,10 +136,10 @@ export default function ScoringPage() {
       <section className="card p-5">
         <h2 className="font-semibold">합산 (대화형 배치) <span className="font-normal text-[13px] text-slate-500">(현재 방식. 언어모델에게 기준표를 주고 한 묶음씩 읽히는 방법)</span></h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <Metric strong label="일치율 (읽고 뽑았을 때)" value={`${s.match_rate}%`} sub={`${s.matched}/${s.scored}건 일치`} />
-          <Metric label="기준선 (읽지 않고 찍었을 때)" value={`${s.baseline_rate}%`}
-                  sub={`가장 흔한 답 하나(${asrsKo("detector", s.baseline_value)})만 전부 찍은 점수`} />
-          <Metric strong label="그 차이" value={`+${s.gain}%p`} sub="읽어서 얻은 몫" />
+          <Metric strong label="일치율" value={`${s.match_rate}%`} sub={`${s.matched}/${s.scored}건 일치`} />
+          <Metric label="최빈값 기준선" value={`${s.baseline_rate}%`}
+                  sub={`최빈값 하나(${asrsKo("detector", s.baseline_value)})로만 응답했을 때`} />
+          <Metric strong label="기준선 대비 상승폭" value={`+${s.gain}%p`} sub="본문을 읽어 얻은 몫" />
           <Metric label="건당 평균 추출 개수" value={`${s.avg_predicted}개`} sub={`평균 정밀도 ${s.avg_precision}%`} />
         </div>
         <p className="mt-3 text-xs leading-relaxed text-slate-500">
@@ -174,7 +174,7 @@ export default function ScoringPage() {
 
       {dev && (
         <section className="card p-5">
-          <h2 className="font-semibold">비교용 대조군: 단어 규칙만으로 뽑으면 어떻게 되는가</h2>
+          <h2 className="font-semibold">비교용 대조군: 단어 규칙만으로 추출하면 어떻게 되는가</h2>
           <p className="mt-1 text-[13px] text-slate-600">
             같은 세트, 같은 결측 제외 규칙, 같은 지표로 비교합니다.
           </p>
@@ -191,7 +191,7 @@ export default function ScoringPage() {
               </thead>
               <tbody className="tabular-nums">
                 <tr className="border-b border-slate-100">
-                  <td className="py-2 pr-4">규칙 기반 <span className="text-slate-500">(정해둔 단어 규칙으로만 뽑기)</span></td>
+                  <td className="py-2 pr-4">규칙 기반 <span className="text-slate-500">(정해둔 단어 규칙으로만 추출)</span></td>
                   <td className="py-2 pr-4 text-right">{dev.match_rate}%</td>
                   <td className="py-2 pr-4 text-right text-slate-500">{dev.baseline_rate}%</td>
                   <td className={`py-2 pr-4 text-right ${dev.gain > 0 ? "text-slate-700" : "text-rose-700"}`}>
@@ -217,7 +217,7 @@ export default function ScoringPage() {
             </table>
           </div>
           <p className="mt-3 text-xs leading-relaxed text-slate-500">
-            규칙 기반은 {dev.empty}건에서 아무것도 뽑지 못했고 그 건은 전부 불일치로 잡힙니다.
+            규칙 기반은 {dev.empty}건에서 아무것도 추출하지 못했고 그 건은 전부 불일치로 잡힙니다.
             값을 낸 {dev.answered}건만 보면 {dev.answered_rate}%입니다. 규칙을 정답에 맞춰 고치지 않았습니다.
           </p>
         </section>
@@ -237,7 +237,7 @@ export default function ScoringPage() {
           </div>
           <p className="mt-3 text-xs leading-relaxed text-rose-800">
             검증용에서 일치율 {hold.match_rate}%는 그 집합의 기준선 {hold.baseline_rate}%보다
-            {" "}{hold.baseline_rate - hold.match_rate}%p 낮습니다. 읽지 않고 찍는 것보다 못합니다.
+            {" "}{hold.baseline_rate - hold.match_rate}%p 낮습니다. 최빈값만 응답하는 것보다 낮습니다.
             그래서 단어 규칙만으로는 안 된다고 결론 내렸고, 이것이 현재 방식을 쓰는 이유입니다.
             규칙을 정답에 맞춰 고쳐서 점수를 올리지 않았습니다. 대조군이므로 그대로 둡니다.
           </p>

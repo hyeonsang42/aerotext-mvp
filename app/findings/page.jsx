@@ -52,7 +52,7 @@ export default function FindingsPage() {
             ["처리한 보고", `${b.reports}건`, `추출 항목 ${b.worked_total + b.breached_total}개`],
             ["뚫린 방어가 기록된 보고", `${b.breached_reports}건`, `${Math.round((b.breached_reports / b.reports) * 100)}%`],
             ["기관 답과 일치", `${s.match_rate}%`,
-             s.hard ? `찍기로 0점인 ${s.hard.n}건에서도 ${s.hard.match_rate}%` : `읽지 않고 찍으면 ${s.baseline_rate}%`],
+             s.hard ? `기준선 0%인 ${s.hard.n}건에서도 ${s.hard.match_rate}%` : `최빈값 기준선 ${s.baseline_rate}%`],
             g ? ["안 열어 본 자료에서", `${g.holdout.match_rate}%`, `${g.drop}%p만 하락`]
               : ["예방 층위 뚫림", `${b.layers[0].breach_rate}%`, "복구 층위는 0%"],
           ].map(([k, v, sub]) => (
