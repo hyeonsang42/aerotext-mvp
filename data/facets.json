@@ -316,5 +316,83 @@
       "value": "인수 거부",
       "count": 2
     }
+  ],
+  "caught": [
+    {
+      "value": "탐지",
+      "count": 55
+    },
+    {
+      "value": "해소",
+      "count": 42
+    },
+    {
+      "value": "복구",
+      "count": 28
+    },
+    {
+      "value": "예방",
+      "count": 21
+    }
+  ],
+  "flip": [
+    {
+      "value": "승무원 교차 확인",
+      "count": 9
+    },
+    {
+      "value": "절차·체크리스트 준수",
+      "count": 6
+    },
+    {
+      "value": "정비 문서·MEL 확인",
+      "count": 4
+    },
+    {
+      "value": "정비 정기 점검",
+      "count": 4
+    },
+    {
+      "value": "객실 승무원 보고",
+      "count": 2
+    },
+    {
+      "value": "브리핑·사전 계획",
+      "count": 2
+    },
+    {
+      "value": "항공기 경고 장치",
+      "count": 2
+    },
+    {
+      "value": "출발 전 점검",
+      "count": 1
+    },
+    {
+      "value": "비상 절차 수행",
+      "count": 1
+    },
+    {
+      "value": "관제 감시·지시",
+      "count": 1
+    },
+    {
+      "value": "운항 관리 협의",
+      "count": 1
+    }
+  ],
+  "firstkind": [
+    {
+      "value": "사람",
+      "count": 111
+    },
+    {
+      "value": "사람과 장치 동시",
+      "count": 27
+    },
+    {
+      "value": "장치",
+      "count": 9
+    }
   ]
 }

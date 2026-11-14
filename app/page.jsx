@@ -1,6 +1,6 @@
 import { url } from "@/lib/path";
 import { getSets, getScoring, getBarriers, getGeneralization,
-         getCodingOverlap, getCodingOverlapKo } from "@/lib/data";
+         getCodingOverlap, getCodingOverlapKo, getCatch } from "@/lib/data";
 import { DefenseLayers, SetIcon, BarrierBars } from "@/app/Art";
 import { Photo, PhotoCredits, SET_PHOTO } from "@/app/Photo";
 import { setKo, asrsKo } from "@/lib/labels";
@@ -17,6 +17,7 @@ export default function Home() {
   const b = getBarriers();
   const g = getGeneralization();
   const o = getCodingOverlap();
+  const c = getCatch();
   const oko = getCodingOverlapKo();
   const total = sets.reduce((a, x) => a + x.records, 0);
   const items = sets.reduce((a, x) => a + x.items, 0);
@@ -95,6 +96,13 @@ export default function Home() {
           앞단인 예방이 가장 많이 뚫리고({b.layers[0].breach_rate}%), 알아챈 뒤의 해소·복구는 거의
           뚫리지 않습니다. {b.reports}건 중 {b.breached_reports}건에 뚫린 방어가 기록돼 있습니다.
           기관 코딩 필드에는 이 구분이 없습니다.
+          {c && (
+            <>
+              {" "}그리고 예방이 뚫린 {c.prevention_breached}건 가운데{" "}
+              <b className="text-slate-700">{c.prevention_caught}건({c.prevention_caught_rate}%)</b>
+              에서 그 뒤에 다른 방어가 받아냈습니다. 이 숫자는 발생 순서를 함께 기록해야 낼 수 있습니다.
+            </>
+          )}
         </p>
       </section>
 

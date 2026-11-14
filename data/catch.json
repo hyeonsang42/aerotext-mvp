@@ -1,0 +1,108 @@
+{
+  "reports": 150,
+  "breached_reports": 111,
+  "caught": 75,
+  "caught_rate": 68,
+  "not_caught": 36,
+  "by_layer": [
+    {
+      "layer": "탐지",
+      "n": 55
+    },
+    {
+      "layer": "해소",
+      "n": 42
+    },
+    {
+      "layer": "복구",
+      "n": 28
+    },
+    {
+      "layer": "예방",
+      "n": 21
+    }
+  ],
+  "prevention_breached": 74,
+  "prevention_caught": 52,
+  "prevention_caught_rate": 70,
+  "prevention_by_layer": [
+    {
+      "layer": "탐지",
+      "n": 39
+    },
+    {
+      "layer": "해소",
+      "n": 30
+    },
+    {
+      "layer": "복구",
+      "n": 17
+    },
+    {
+      "layer": "예방",
+      "n": 13
+    }
+  ],
+  "flip_reports": 30,
+  "flip_barriers": [
+    {
+      "label_ko": "승무원 교차 확인",
+      "n": 9
+    },
+    {
+      "label_ko": "절차·체크리스트 준수",
+      "n": 6
+    },
+    {
+      "label_ko": "정비 문서·MEL 확인",
+      "n": 4
+    },
+    {
+      "label_ko": "정비 정기 점검",
+      "n": 4
+    },
+    {
+      "label_ko": "객실 승무원 보고",
+      "n": 2
+    },
+    {
+      "label_ko": "브리핑·사전 계획",
+      "n": 2
+    },
+    {
+      "label_ko": "항공기 경고 장치",
+      "n": 2
+    },
+    {
+      "label_ko": "출발 전 점검",
+      "n": 1
+    },
+    {
+      "label_ko": "비상 절차 수행",
+      "n": 1
+    },
+    {
+      "label_ko": "관제 감시·지시",
+      "n": 1
+    },
+    {
+      "label_ko": "운항 관리 협의",
+      "n": 1
+    }
+  ],
+  "first_detector": [
+    {
+      "kind": "사람",
+      "n": 111
+    },
+    {
+      "kind": "사람과 장치 동시",
+      "n": 27
+    },
+    {
+      "kind": "장치",
+      "n": 9
+    }
+  ],
+  "note": "발생 순서를 함께 기록해야 낼 수 있는 집계다. 값을 가졌는지만 보면 같은 방어가 작동했다가 뚫린 구분이 사라진다."
+}

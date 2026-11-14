@@ -31,7 +31,12 @@
     "n_breached": 0,
     "n_items": 6,
     "detector_status": "일치",
-    "narrative_len": 757
+    "narrative_len": 757,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2094216",
@@ -64,7 +69,12 @@
     "n_breached": 0,
     "n_items": 6,
     "detector_status": "일치",
-    "narrative_len": 1712
+    "narrative_len": 1712,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2093887",
@@ -100,7 +110,12 @@
     "n_breached": 2,
     "n_items": 6,
     "detector_status": "일치",
-    "narrative_len": 436
+    "narrative_len": 436,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 뒤 받아낸 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2090308",
@@ -137,7 +152,12 @@
     "n_breached": 0,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 1634
+    "narrative_len": 1634,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "장치"
   },
   {
     "acn": "2089095",
@@ -174,7 +194,12 @@
     "n_breached": 0,
     "n_items": 9,
     "detector_status": "일치",
-    "narrative_len": 2833
+    "narrative_len": 2833,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2084653",
@@ -217,7 +242,18 @@
     "n_breached": 1,
     "n_items": 11,
     "detector_status": "일치",
-    "narrative_len": 6689
+    "narrative_len": 6689,
+    "flip": [
+      "절차·체크리스트 준수"
+    ],
+    "caught_layers": [
+      "복구"
+    ],
+    "caught_by": [
+      "비상 절차 수행"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구",
+    "first_detector_kind": "장치"
   },
   {
     "acn": "2082029",
@@ -256,7 +292,16 @@
     "n_breached": 1,
     "n_items": 8,
     "detector_status": "일치",
-    "narrative_len": 551
+    "narrative_len": 551,
+    "flip": [],
+    "caught_layers": [
+      "복구"
+    ],
+    "caught_by": [
+      "운항 중단 판단"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2081885",
@@ -298,7 +343,16 @@
     "n_breached": 2,
     "n_items": 11,
     "detector_status": "일치",
-    "narrative_len": 1620
+    "narrative_len": 1620,
+    "flip": [],
+    "caught_layers": [
+      "복구"
+    ],
+    "caught_by": [
+      "정비 조치·수리"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2081062",
@@ -342,7 +396,18 @@
     "n_breached": 2,
     "n_items": 12,
     "detector_status": "일치",
-    "narrative_len": 11420
+    "narrative_len": 11420,
+    "flip": [],
+    "caught_layers": [
+      "복구",
+      "해소"
+    ],
+    "caught_by": [
+      "운항 관리 협의",
+      "운항 중단 판단"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구·해소",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2078132",
@@ -378,7 +443,12 @@
     "n_breached": 0,
     "n_items": 8,
     "detector_status": "일치",
-    "narrative_len": 6073
+    "narrative_len": 6073,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2076233",
@@ -422,7 +492,14 @@
     "n_breached": 1,
     "n_items": 12,
     "detector_status": "일치",
-    "narrative_len": 11090
+    "narrative_len": 11090,
+    "flip": [
+      "승무원 교차 확인"
+    ],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 뒤 받아낸 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2075712",
@@ -458,7 +535,12 @@
     "n_breached": 0,
     "n_items": 8,
     "detector_status": "일치",
-    "narrative_len": 4279
+    "narrative_len": 4279,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2071173",
@@ -493,7 +575,12 @@
     "n_breached": 0,
     "n_items": 7,
     "detector_status": "일치",
-    "narrative_len": 361
+    "narrative_len": 361,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2063521",
@@ -531,7 +618,12 @@
     "n_breached": 0,
     "n_items": 9,
     "detector_status": "일치",
-    "narrative_len": 692
+    "narrative_len": 692,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2059473",
@@ -568,7 +660,12 @@
     "n_breached": 0,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 2423
+    "narrative_len": 2423,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2058897",
@@ -608,7 +705,12 @@
     "n_breached": 1,
     "n_items": 9,
     "detector_status": "일치",
-    "narrative_len": 1804
+    "narrative_len": 1804,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 뒤 받아낸 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2057354",
@@ -643,7 +745,12 @@
     "n_breached": 0,
     "n_items": 8,
     "detector_status": "일치",
-    "narrative_len": 1429
+    "narrative_len": 1429,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2055989",
@@ -689,7 +796,12 @@
     "n_breached": 0,
     "n_items": 16,
     "detector_status": "일치",
-    "narrative_len": 4021
+    "narrative_len": 4021,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2055384",
@@ -734,7 +846,16 @@
     "n_breached": 1,
     "n_items": 13,
     "detector_status": "일치",
-    "narrative_len": 1648
+    "narrative_len": 1648,
+    "flip": [],
+    "caught_layers": [
+      "탐지"
+    ],
+    "caught_by": [
+      "관제 감시·지시"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 탐지",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2052803",
@@ -775,7 +896,12 @@
     "n_breached": 1,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 1700
+    "narrative_len": 1700,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 뒤 받아낸 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2047525",
@@ -815,7 +941,12 @@
     "n_breached": 0,
     "n_items": 11,
     "detector_status": "일치",
-    "narrative_len": 870
+    "narrative_len": 870,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2044984",
@@ -854,7 +985,12 @@
     "n_breached": 1,
     "n_items": 9,
     "detector_status": "일치",
-    "narrative_len": 2032
+    "narrative_len": 2032,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 뒤 받아낸 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2043691",
@@ -896,7 +1032,12 @@
     "n_breached": 1,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 1210
+    "narrative_len": 1210,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 뒤 받아낸 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2038292",
@@ -925,7 +1066,12 @@
     "n_breached": 0,
     "n_items": 5,
     "detector_status": "결측",
-    "narrative_len": 499
+    "narrative_len": 499,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2038207",
@@ -965,7 +1111,12 @@
     "n_breached": 0,
     "n_items": 11,
     "detector_status": "일치",
-    "narrative_len": 1154
+    "narrative_len": 1154,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2037917",
@@ -997,7 +1148,12 @@
     "n_breached": 0,
     "n_items": 6,
     "detector_status": "일치",
-    "narrative_len": 234
+    "narrative_len": 234,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2033140",
@@ -1037,7 +1193,16 @@
     "n_breached": 1,
     "n_items": 9,
     "detector_status": "일치",
-    "narrative_len": 2764
+    "narrative_len": 2764,
+    "flip": [],
+    "caught_layers": [
+      "복구"
+    ],
+    "caught_by": [
+      "비상 절차 수행"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2032399",
@@ -1077,7 +1242,12 @@
     "n_breached": 0,
     "n_items": 12,
     "detector_status": "일치",
-    "narrative_len": 2627
+    "narrative_len": 2627,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2031952",
@@ -1116,7 +1286,16 @@
     "n_breached": 1,
     "n_items": 8,
     "detector_status": "일치",
-    "narrative_len": 2742
+    "narrative_len": 2742,
+    "flip": [],
+    "caught_layers": [
+      "해소"
+    ],
+    "caught_by": [
+      "운항 관리 협의"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 해소",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2031865",
@@ -1155,7 +1334,12 @@
     "n_breached": 0,
     "n_items": 11,
     "detector_status": "일치",
-    "narrative_len": 758
+    "narrative_len": 758,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2031778",
@@ -1198,7 +1382,12 @@
     "n_breached": 0,
     "n_items": 14,
     "detector_status": "일치",
-    "narrative_len": 11400
+    "narrative_len": 11400,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2031624",
@@ -1237,7 +1426,12 @@
     "n_breached": 0,
     "n_items": 10,
     "detector_status": "결측",
-    "narrative_len": 1782
+    "narrative_len": 1782,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2031193",
@@ -1272,7 +1466,12 @@
     "n_breached": 0,
     "n_items": 7,
     "detector_status": "일치",
-    "narrative_len": 733
+    "narrative_len": 733,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2029352",
@@ -1315,7 +1514,12 @@
     "n_breached": 0,
     "n_items": 13,
     "detector_status": "일치",
-    "narrative_len": 3882
+    "narrative_len": 3882,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "장치"
   },
   {
     "acn": "2028783",
@@ -1353,7 +1557,12 @@
     "n_breached": 1,
     "n_items": 8,
     "detector_status": "일치",
-    "narrative_len": 1948
+    "narrative_len": 1948,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 뒤 받아낸 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2027741",
@@ -1392,7 +1601,12 @@
     "n_breached": 0,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 1375
+    "narrative_len": 1375,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2027154",
@@ -1436,7 +1650,23 @@
     "n_breached": 1,
     "n_items": 11,
     "detector_status": "불일치",
-    "narrative_len": 2399
+    "narrative_len": 2399,
+    "flip": [],
+    "caught_layers": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "caught_by": [
+      "비상 절차 수행",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수",
+      "지상 요원·정비사 보고"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구·예방·탐지·해소",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2025594",
@@ -1479,7 +1709,22 @@
     "n_breached": 1,
     "n_items": 12,
     "detector_status": "일치",
-    "narrative_len": 1809
+    "narrative_len": 1809,
+    "flip": [],
+    "caught_layers": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "caught_by": [
+      "객실 승무원 보고",
+      "승무원 교차 확인",
+      "운항 관리 협의",
+      "절차·체크리스트 준수",
+      "지상 요원·정비사 보고"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2023658",
@@ -1515,7 +1760,12 @@
     "n_breached": 0,
     "n_items": 8,
     "detector_status": "일치",
-    "narrative_len": 911
+    "narrative_len": 911,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2023593",
@@ -1552,7 +1802,12 @@
     "n_breached": 0,
     "n_items": 9,
     "detector_status": "일치",
-    "narrative_len": 973
+    "narrative_len": 973,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2022715",
@@ -1591,7 +1846,12 @@
     "n_breached": 0,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 1507
+    "narrative_len": 1507,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2021961",
@@ -1637,7 +1897,23 @@
     "n_breached": 2,
     "n_items": 13,
     "detector_status": "불일치",
-    "narrative_len": 3488
+    "narrative_len": 3488,
+    "flip": [],
+    "caught_layers": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "caught_by": [
+      "객실 승무원 보고",
+      "비상 절차 수행",
+      "승무원 교차 확인",
+      "승무원 수동 개입",
+      "절차·체크리스트 준수"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구·예방·탐지·해소",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2021299",
@@ -1677,7 +1953,16 @@
     "n_breached": 1,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 2047
+    "narrative_len": 2047,
+    "flip": [],
+    "caught_layers": [
+      "탐지"
+    ],
+    "caught_by": [
+      "지상 요원·정비사 보고"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 탐지",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2020522",
@@ -1724,7 +2009,22 @@
     "n_breached": 3,
     "n_items": 14,
     "detector_status": "일치",
-    "narrative_len": 7567
+    "narrative_len": 7567,
+    "flip": [],
+    "caught_layers": [
+      "복구",
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "caught_by": [
+      "객실 승무원 보고",
+      "운항 관리 협의",
+      "운항 중단 판단",
+      "정비 문서·MEL 확인"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구·예방·탐지·해소",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2019880",
@@ -1763,7 +2063,12 @@
     "n_breached": 0,
     "n_items": 10,
     "detector_status": "일치",
-    "narrative_len": 1328
+    "narrative_len": 1328,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2019080",
@@ -1809,7 +2114,16 @@
     "n_breached": 1,
     "n_items": 14,
     "detector_status": "일치",
-    "narrative_len": 3046
+    "narrative_len": 3046,
+    "flip": [],
+    "caught_layers": [
+      "탐지"
+    ],
+    "caught_by": [
+      "지상 요원·정비사 보고"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 탐지",
+    "first_detector_kind": "사람과 장치 동시"
   },
   {
     "acn": "2018709",
@@ -1842,7 +2156,12 @@
     "n_breached": 0,
     "n_items": 6,
     "detector_status": "일치",
-    "narrative_len": 324
+    "narrative_len": 324,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2018441",
@@ -1872,7 +2191,12 @@
     "n_breached": 0,
     "n_items": 4,
     "detector_status": "일치",
-    "narrative_len": 327
+    "narrative_len": 327,
+    "flip": [],
+    "caught_layers": [],
+    "caught_by": [],
+    "caught_label": "뚫린 방어 없음",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2017316",
@@ -1917,7 +2241,20 @@
     "n_breached": 1,
     "n_items": 13,
     "detector_status": "일치",
-    "narrative_len": 2313
+    "narrative_len": 2313,
+    "flip": [
+      "승무원 교차 확인"
+    ],
+    "caught_layers": [
+      "복구",
+      "탐지"
+    ],
+    "caught_by": [
+      "정비 조치·수리",
+      "지상 요원·정비사 보고"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 복구·탐지",
+    "first_detector_kind": "사람"
   },
   {
     "acn": "2011084",
@@ -1963,6 +2300,22 @@
     "n_breached": 1,
     "n_items": 14,
     "detector_status": "불일치",
-    "narrative_len": 3209
+    "narrative_len": 3209,
+    "flip": [
+      "객실 승무원 보고"
+    ],
+    "caught_layers": [
+      "예방",
+      "탐지",
+      "해소"
+    ],
+    "caught_by": [
+      "승무원 수동 개입",
+      "운항 관리 협의",
+      "절차·체크리스트 준수",
+      "지상 요원·정비사 보고"
+    ],
+    "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
+    "first_detector_kind": "장치"
   }
 ]

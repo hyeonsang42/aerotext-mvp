@@ -13,6 +13,11 @@ const FACETS = [
   { key: "worked", label: "작동한 방어", field: "worked" },
   { key: "breached", label: "뚫린 방어", field: "breached" },
   { key: "outcomes", label: "결과 상태", field: "outcomes" },
+  // 아래 셋은 발생 순서가 있어야 만들 수 있는 조건이다.
+  // 값을 가졌는지만 보면 같은 방어가 작동했다가 뚫린 구분이 사라진다.
+  { key: "caught", label: "뚫린 뒤 받아낸 층위", field: "caught_layers", seq: true },
+  { key: "flip", label: "작동했다가 뚫린 방어", field: "flip", seq: true },
+  { key: "firstkind", label: "맨 처음 알아챈 쪽", field: "first_detector_kind", seq: true },
 ];
 
 const LAYER_COLOR = {
