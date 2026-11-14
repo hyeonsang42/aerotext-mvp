@@ -174,7 +174,10 @@
     ],
     "Make Model Name": [
       "B737 MAX 8"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

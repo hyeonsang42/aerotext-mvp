@@ -262,7 +262,14 @@
     ],
     "Make Model Name": [
       "B737-800"
-    ]
+    ],
+    "Local Time Of Day": [
+      "0601-1200"
+    ],
+    "Light": [
+      "Night"
+    ],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

@@ -283,6 +283,11 @@
     ],
     "Make Model Name": [
       "A319"
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

@@ -113,7 +113,10 @@
     "Flight Phase": [],
     "Make Model Name": [
       "Any Unknown or Unlisted Aircraft Manufacturer"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

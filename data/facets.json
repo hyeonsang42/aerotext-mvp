@@ -394,5 +394,65 @@
       "value": "장치",
       "count": 9
     }
+  ],
+  "phase": [
+    {
+      "value": "주기 중",
+      "count": 53
+    },
+    {
+      "value": "순항",
+      "count": 19
+    },
+    {
+      "value": "초기 접근",
+      "count": 17
+    },
+    {
+      "value": "지상 이동",
+      "count": 15
+    },
+    {
+      "value": "상승",
+      "count": 14
+    },
+    {
+      "value": "하강",
+      "count": 9
+    },
+    {
+      "value": "최종 접근",
+      "count": 8
+    },
+    {
+      "value": "이륙",
+      "count": 7
+    },
+    {
+      "value": "초기 상승",
+      "count": 4
+    },
+    {
+      "value": "착륙",
+      "count": 4
+    }
+  ],
+  "tod": [
+    {
+      "value": "06~12시",
+      "count": 35
+    },
+    {
+      "value": "18~24시",
+      "count": 29
+    },
+    {
+      "value": "12~18시",
+      "count": 22
+    },
+    {
+      "value": "00~06시",
+      "count": 19
+    }
   ]
 }

@@ -231,6 +231,15 @@
     ],
     "Make Model Name": [
       "PA-44 Seminole/Turbo Seminole"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

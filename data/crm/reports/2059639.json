@@ -208,6 +208,11 @@
     "Make Model Name": [
       "A320",
       "Regional Jet CL65, Undifferentiated or Other Model"
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

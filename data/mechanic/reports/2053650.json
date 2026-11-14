@@ -136,7 +136,10 @@
     ],
     "Make Model Name": [
       "B737 MAX Series Undifferentiated"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

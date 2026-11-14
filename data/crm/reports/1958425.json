@@ -397,6 +397,15 @@
     ],
     "Make Model Name": [
       "PA-28R Cherokee Arrow All Series"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

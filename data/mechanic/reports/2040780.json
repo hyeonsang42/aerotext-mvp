@@ -115,7 +115,10 @@
     "Flight Phase": [],
     "Make Model Name": [
       "B767-300 and 300 ER"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

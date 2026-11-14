@@ -328,6 +328,13 @@
     ],
     "Make Model Name": [
       "MD-11"
+    ],
+    "Local Time Of Day": [
+      "0001-0600"
+    ],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

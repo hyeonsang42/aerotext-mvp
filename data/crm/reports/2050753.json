@@ -236,6 +236,15 @@
     ],
     "Make Model Name": [
       "PC-12"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "Marginal"
     ]
   },
   "meta": {

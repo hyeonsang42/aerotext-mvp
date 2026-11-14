@@ -263,6 +263,15 @@
     ],
     "Make Model Name": [
       "PA-28 Cherokee/Archer/Dakota/Pillan/Warrior"
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [
+      "Night"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

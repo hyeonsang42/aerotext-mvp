@@ -170,7 +170,12 @@
     ],
     "Make Model Name": [
       "B757 Undifferentiated or Other Model"
-    ]
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

@@ -148,7 +148,10 @@
     "Make Model Name": [
       "B777-200",
       "Commercial Fixed Wing"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

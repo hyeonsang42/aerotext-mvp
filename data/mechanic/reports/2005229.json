@@ -206,6 +206,15 @@
     ],
     "Make Model Name": [
       "B747-400"
+    ],
+    "Local Time Of Day": [
+      "0001-0600"
+    ],
+    "Light": [
+      "Night"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

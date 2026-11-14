@@ -291,7 +291,12 @@
     ],
     "Make Model Name": [
       "Citation V/Ultra/Encore (C560)"
-    ]
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

@@ -250,6 +250,13 @@
     ],
     "Make Model Name": [
       "B737 Next Generation Undifferentiated"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

@@ -306,7 +306,12 @@
     ],
     "Make Model Name": [
       "B747-800 Advanced"
-    ]
+    ],
+    "Local Time Of Day": [
+      "0001-0600"
+    ],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

@@ -136,7 +136,12 @@
     ],
     "Make Model Name": [
       "Regional Jet 200 ER/LR (CRJ200)"
-    ]
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

@@ -276,6 +276,15 @@
     ],
     "Make Model Name": [
       "EMB ERJ 145 ER/LR"
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [
+      "Night"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

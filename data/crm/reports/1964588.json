@@ -227,6 +227,15 @@
     ],
     "Make Model Name": [
       "B777-200"
+    ],
+    "Local Time Of Day": [
+      "0601-1200"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

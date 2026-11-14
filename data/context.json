@@ -1,0 +1,189 @@
+{
+  "reports": 150,
+  "fields": [
+    {
+      "key": "phase",
+      "label": "비행 단계",
+      "have": 139,
+      "coverage": 93,
+      "values": [
+        {
+          "value": "주기 중",
+          "n": 53,
+          "breached": 46,
+          "rate": 87,
+          "top_set": "mechanic",
+          "top_set_share": 72
+        },
+        {
+          "value": "순항",
+          "n": 19,
+          "breached": 13,
+          "rate": 68,
+          "top_set": "cabin_fumes",
+          "top_set_share": 53
+        },
+        {
+          "value": "초기 접근",
+          "n": 17,
+          "breached": 12,
+          "rate": 71,
+          "top_set": "crm",
+          "top_set_share": 71
+        },
+        {
+          "value": "지상 이동",
+          "n": 15,
+          "breached": 9,
+          "rate": 60,
+          "top_set": "cabin_fumes",
+          "top_set_share": 53
+        },
+        {
+          "value": "상승",
+          "n": 14,
+          "breached": 9,
+          "rate": 64,
+          "top_set": "crm",
+          "top_set_share": 57
+        },
+        {
+          "value": "하강",
+          "n": 9,
+          "breached": 4,
+          "rate": 44,
+          "top_set": "cabin_fumes",
+          "top_set_share": 56
+        },
+        {
+          "value": "최종 접근",
+          "n": 8,
+          "breached": 6,
+          "rate": 75,
+          "top_set": "crm",
+          "top_set_share": 75
+        },
+        {
+          "value": "이륙",
+          "n": 7,
+          "breached": 5,
+          "rate": 71,
+          "top_set": "crm",
+          "top_set_share": 86
+        },
+        {
+          "value": "초기 상승",
+          "n": 4,
+          "breached": 1,
+          "rate": 25,
+          "top_set": "cabin_fumes",
+          "top_set_share": 75
+        },
+        {
+          "value": "착륙",
+          "n": 4,
+          "breached": 4,
+          "rate": 100,
+          "top_set": "crm",
+          "top_set_share": 75
+        }
+      ]
+    },
+    {
+      "key": "tod",
+      "label": "시간대",
+      "have": 105,
+      "coverage": 70,
+      "values": [
+        {
+          "value": "06~12시",
+          "n": 35,
+          "breached": 25,
+          "rate": 71,
+          "top_set": "cabin_fumes",
+          "top_set_share": 49
+        },
+        {
+          "value": "18~24시",
+          "n": 29,
+          "breached": 22,
+          "rate": 76,
+          "top_set": "crm",
+          "top_set_share": 38
+        },
+        {
+          "value": "12~18시",
+          "n": 22,
+          "breached": 16,
+          "rate": 73,
+          "top_set": "crm",
+          "top_set_share": 64
+        },
+        {
+          "value": "00~06시",
+          "n": 19,
+          "breached": 13,
+          "rate": 68,
+          "top_set": "cabin_fumes",
+          "top_set_share": 42
+        }
+      ]
+    },
+    {
+      "key": "light",
+      "label": "조명",
+      "have": 45,
+      "coverage": 30,
+      "values": [
+        {
+          "value": "주간",
+          "n": 27,
+          "breached": 18,
+          "rate": 67,
+          "top_set": "crm",
+          "top_set_share": 63
+        },
+        {
+          "value": "야간",
+          "n": 18,
+          "breached": 17,
+          "rate": 94,
+          "top_set": "crm",
+          "top_set_share": 67
+        }
+      ]
+    },
+    {
+      "key": "fcond",
+      "label": "기상 상태",
+      "have": 46,
+      "coverage": 31,
+      "values": [
+        {
+          "value": "시계 비행 기상",
+          "n": 43,
+          "breached": 32,
+          "rate": 74,
+          "top_set": "crm",
+          "top_set_share": 72
+        },
+        {
+          "value": "경계 기상",
+          "n": 2,
+          "breached": 2,
+          "rate": 100,
+          "top_set": "crm",
+          "top_set_share": 100
+        },
+        {
+          "value": "계기 비행 기상",
+          "n": 1,
+          "breached": 1,
+          "rate": 100,
+          "top_set": "crm",
+          "top_set_share": 100
+        }
+      ]
+    }
+  ]
+}

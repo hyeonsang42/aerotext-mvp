@@ -212,6 +212,15 @@
     ],
     "Make Model Name": [
       "Medium Transport, High Wing, 2 Turboprop Eng"
+    ],
+    "Local Time Of Day": [
+      "0601-1200"
+    ],
+    "Light": [
+      "Night"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

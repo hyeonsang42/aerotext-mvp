@@ -304,7 +304,14 @@
     ],
     "Make Model Name": [
       "EMB ERJ 170/175 ER/LR"
-    ]
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [
+      "Night"
+    ],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

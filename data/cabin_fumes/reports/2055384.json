@@ -307,7 +307,12 @@
     ],
     "Make Model Name": [
       "Regional Jet 700 ER/LR (CRJ700)"
-    ]
+    ],
+    "Local Time Of Day": [
+      "0601-1200"
+    ],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

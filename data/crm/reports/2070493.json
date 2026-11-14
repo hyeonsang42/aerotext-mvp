@@ -157,6 +157,15 @@
     ],
     "Make Model Name": [
       "Super King Air 300"
+    ],
+    "Local Time Of Day": [
+      "0601-1200"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

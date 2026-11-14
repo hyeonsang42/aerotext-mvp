@@ -18,6 +18,9 @@ const FACETS = [
   { key: "caught", label: "뚫린 뒤 받아낸 층위", field: "caught_layers", seq: true },
   { key: "flip", label: "작동했다가 뚫린 방어", field: "flip", seq: true },
   { key: "firstkind", label: "맨 처음 알아챈 쪽", field: "first_detector_kind", seq: true },
+  // 아래 둘은 기관이 적어 둔 상황 정보다. 추출한 값이 아니다
+  { key: "phase", label: "비행 단계 (기관 코딩)", field: "phase" },
+  { key: "tod", label: "시간대 (기관 코딩)", field: "tod" },
 ];
 
 const LAYER_COLOR = {

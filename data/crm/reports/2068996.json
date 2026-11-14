@@ -215,6 +215,15 @@
     ],
     "Make Model Name": [
       "Embraer Legacy 450/500"
+    ],
+    "Local Time Of Day": [
+      "0601-1200"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

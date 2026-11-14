@@ -281,7 +281,14 @@
     ],
     "Make Model Name": [
       "Commercial Fixed Wing"
-    ]
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [
+      "Night"
+    ],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

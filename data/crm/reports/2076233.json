@@ -267,6 +267,13 @@
     ],
     "Make Model Name": [
       "B777 Undifferentiated or Other Model"
+    ],
+    "Local Time Of Day": [
+      "0001-0600"
+    ],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

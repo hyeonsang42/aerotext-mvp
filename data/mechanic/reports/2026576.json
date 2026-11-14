@@ -168,7 +168,10 @@
     ],
     "Make Model Name": [
       "B737-900"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

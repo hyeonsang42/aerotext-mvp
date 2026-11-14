@@ -233,6 +233,15 @@
     ],
     "Make Model Name": [
       "Honda Jet"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

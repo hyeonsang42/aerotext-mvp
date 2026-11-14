@@ -1,5 +1,84 @@
-import { getAll, getFacets, getBarriers, getCatch } from "@/lib/data";
+import { getAll, getFacets, getBarriers, getCatch, getContext } from "@/lib/data";
 import Explorer from "@/app/Explorer";
+
+
+/* 언제·어디서 뚫렸는가.
+
+   기관이 코딩 칸에 적어 둔 상황 정보다. 우리가 추출한 값이 아니다.
+   파싱 단계에서 36종을 저장해 두고도 화면에서 쓰지 않고 있었다.
+
+   읽을 때 주의할 것이 두 가지다. 칸마다 보유율이 다르고, 세트와 섞여 있다.
+   그래서 보유율과 그 값에서 가장 많은 세트를 함께 적는다. */
+function Context({ c }) {
+  if (!c) return null;
+  const MIN = 8;   // 이보다 적은 건수는 비율을 싣지 않는다
+  return (
+    <section className="card p-5">
+      <h2 className="text-base font-bold">언제·어디서 뚫렸는가 <span className="font-normal text-[13px] text-slate-500">(기관이 적어 둔 칸)</span></h2>
+      <p className="mt-1.5 max-w-3xl text-sm leading-relaxed text-slate-600">
+        기관이 코딩 칸에 적어 둔 상황 정보로 나눠 본 것입니다. 우리가 추출한 값이 아니라
+        원래 자료에 있던 값이고, 추가 처리 없이 그대로 씁니다.
+      </p>
+
+      <div className="mt-4 grid gap-5 sm:grid-cols-2">
+        {c.fields.filter((f) => f.have > 0).map((f) => {
+          const shown = f.values.filter((v) => v.n >= MIN);
+          const rest = f.values.filter((v) => v.n < MIN);
+          const max = Math.max(...shown.map((v) => v.rate), 1);
+          return (
+            <div key={f.key}>
+              <div className="flex items-baseline justify-between gap-2">
+                <h3 className="text-[13px] font-semibold text-slate-700">{f.label}</h3>
+                <span className={`text-xs ${f.coverage < 50 ? "text-rose-700" : "text-slate-400"}`}>
+                  보유 {f.have}건 ({f.coverage}%)
+                </span>
+              </div>
+              {f.coverage < 50 && (
+                <p className="mt-1 text-xs leading-relaxed text-rose-700">
+                  절반도 채워져 있지 않은 칸입니다. 전체 경향으로 읽으면 안 됩니다.
+                </p>
+              )}
+              <ul className="mt-2 space-y-1.5 text-[13px]">
+                {shown.map((v) => (
+                  <li key={v.value} className="grid grid-cols-[5.5rem_1fr_5.5rem] items-center gap-2">
+                    <span className="truncate text-slate-700">{v.value}</span>
+                    <span className="h-3 rounded-sm bg-slate-100">
+                      <span className="bar block h-full rounded-sm bg-rose-400"
+                            style={{ width: `${(v.rate / max) * 100}%` }} />
+                    </span>
+                    <span className="text-right tabular-nums text-slate-500">
+                      {v.rate}% <span className="text-[11px] text-slate-400">{v.n}건</span>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              {rest.length > 0 && (
+                <p className="mt-1.5 text-xs text-slate-400">
+                  {MIN}건 미만이라 비율을 싣지 않은 값: {rest.map((v) => `${v.value}(${v.n})`).join(", ")}
+                </p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="mt-5 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-[13px] leading-relaxed text-amber-900">
+        <b>이 표를 단독으로 읽으면 안 됩니다.</b> 상황 정보가 세트와 섞여 있습니다.
+        보기를 들면 주기 중 보고 53건 가운데 72%가 정비 작업 세트이고,
+        그 세트 자체의 뚫림 비율이 88%입니다. 그래서 <b>주기 중이라서 높은 것인지
+        정비 작업 보고라서 높은 것인지 지금 자료로는 가를 수 없습니다.</b>
+        단계 효과를 보려면 세트를 고정하고 비교해야 하는데 세트당 건수가 모자랍니다.
+      </div>
+
+      <p className="mt-3 text-xs leading-relaxed text-slate-500">
+        시간대별 뚫림은 68~76%로 네 구간이 비슷합니다. 시간대에 따른 차이는 보이지 않습니다.
+        월별 추세는 내지 않았습니다. 150건이 8개월에 걸쳐 있어 월당 20건 안팎이라
+        추세라고 부를 수 있는 양이 아닙니다.
+        왼쪽 조건에서 <b>비행 단계</b>, <b>시간대</b> 로 걸러 사례를 볼 수 있습니다.
+      </p>
+    </section>
+  );
+}
 
 /* 뚫린 뒤 무엇이 받아냈는가.
 
@@ -102,6 +181,7 @@ export default function AnalysisPage() {
   const facets = getFacets();
   const b = getBarriers();
   const c = getCatch();
+  const ctx = getContext();
   const layers = Object.fromEntries(b.barriers.map((x) => [x.label_ko, x.layer]));
 
   return (
@@ -115,6 +195,7 @@ export default function AnalysisPage() {
         </p>
       </section>
       <Catch c={c} />
+      <Context c={ctx} />
       <Explorer rows={rows} facets={facets} layers={layers} />
     </div>
   );

@@ -285,6 +285,13 @@
     ],
     "Make Model Name": [
       "Small UAS (At or above 0.55 lbs and less than 55 lbs)"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

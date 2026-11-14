@@ -193,7 +193,14 @@
     ],
     "Make Model Name": [
       "B737-700"
-    ]
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

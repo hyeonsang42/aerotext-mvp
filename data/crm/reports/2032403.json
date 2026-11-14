@@ -207,6 +207,15 @@
     ],
     "Make Model Name": [
       "Commercial Fixed Wing"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

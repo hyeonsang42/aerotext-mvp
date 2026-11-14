@@ -227,6 +227,13 @@
     ],
     "Make Model Name": [
       "Small Transport, Low Wing, 2 Turbojet Eng"
+    ],
+    "Local Time Of Day": [
+      "0601-1200"
+    ],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

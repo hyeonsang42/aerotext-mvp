@@ -135,7 +135,10 @@
     "Make Model Name": [
       "Commercial Fixed Wing",
       "Large Transport, Low Wing, 2 Turbojet Eng"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

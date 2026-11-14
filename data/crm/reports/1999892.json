@@ -311,6 +311,15 @@
     ],
     "Make Model Name": [
       "Skyhawk 172/Cutlass 172"
+    ],
+    "Local Time Of Day": [
+      "1201-1800"
+    ],
+    "Light": [
+      "Daylight"
+    ],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {

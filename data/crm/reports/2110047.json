@@ -300,7 +300,10 @@
     "Flight Phase": [],
     "Make Model Name": [
       "B737 Undifferentiated or Other Model"
-    ]
+    ],
+    "Local Time Of Day": [],
+    "Light": [],
+    "Flight Conditions": []
   },
   "meta": {
     "rubric_version": "v1.2",

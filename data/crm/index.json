@@ -40,7 +40,19 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2115209",
@@ -95,7 +107,17 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": []
   },
   {
     "acn": "2110047",
@@ -147,7 +169,11 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [],
+    "tod": [],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "2103189",
@@ -195,7 +221,19 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2091514",
@@ -250,7 +288,15 @@
       "승무원 교차 확인"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "2086306",
@@ -313,7 +359,13 @@
       "운항 관리 협의"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "지상 이동"
+    ],
+    "tod": [],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "2086228",
@@ -372,7 +424,17 @@
       "출발 전 점검"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2082252",
@@ -414,7 +476,13 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "이륙"
+    ],
+    "tod": [],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "2076920",
@@ -462,7 +530,19 @@
       "출발 전 점검"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·탐지",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "이륙"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2076233",
@@ -513,7 +593,17 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "00~06시"
+    ],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2074348",
@@ -578,7 +668,16 @@
       "운항 관리 협의"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "장치"
+    "first_detector_kind": "장치",
+    "phase": [
+      "상승",
+      "초기 상승"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "2072182",
@@ -628,7 +727,17 @@
       "승무원 교차 확인"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2070493",
@@ -664,7 +773,19 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 방어 없음",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "하강"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2068996",
@@ -715,7 +836,19 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "상승"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2065120",
@@ -761,7 +894,15 @@
       "관제 감시·지시"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "하강"
+    ],
+    "tod": [
+      "00~06시"
+    ],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "2064294",
@@ -815,7 +956,17 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": []
   },
   {
     "acn": "2063332",
@@ -857,7 +1008,20 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "초기 접근",
+      "이륙"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2060625",
@@ -916,7 +1080,15 @@
       "운항 관리 협의"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "순항"
+    ],
+    "tod": [],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2059639",
@@ -960,7 +1132,15 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "지상 이동"
+    ],
+    "tod": [],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2055150",
@@ -1011,7 +1191,17 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "상승"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2050753",
@@ -1063,7 +1253,19 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "경계 기상"
+    ]
   },
   {
     "acn": "2032687",
@@ -1116,7 +1318,19 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2032683",
@@ -1169,7 +1383,17 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "최종 접근"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [],
+    "fcond": [
+      "경계 기상"
+    ]
   },
   {
     "acn": "2032403",
@@ -1221,7 +1445,19 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2028427",
@@ -1276,7 +1512,17 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2020758",
@@ -1325,7 +1571,15 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "2018142",
@@ -1388,7 +1642,17 @@
       "절차·체크리스트 준수"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "이륙"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": []
   },
   {
     "acn": "2017960",
@@ -1444,7 +1708,17 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2012197",
@@ -1498,7 +1772,17 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "최종 접근"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "2008256",
@@ -1551,7 +1835,15 @@
       "지상 요원·정비사 보고"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "지상 이동"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "1999892",
@@ -1604,7 +1896,19 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "장치"
+    "first_detector_kind": "장치",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1999556",
@@ -1663,7 +1967,19 @@
       "운항 관리 협의"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구·예방·해소",
-    "first_detector_kind": "장치"
+    "first_detector_kind": "장치",
+    "phase": [
+      "최종 접근"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1997702",
@@ -1720,7 +2036,19 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "최종 접근"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "계기 비행 기상"
+    ]
   },
   {
     "acn": "1992202",
@@ -1767,7 +2095,19 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 방어 없음",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "상승"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1989977",
@@ -1836,7 +2176,19 @@
       "지상 요원·정비사 보고"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구·예방·탐지·해소",
-    "first_detector_kind": "장치"
+    "first_detector_kind": "장치",
+    "phase": [
+      "상승"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1987914",
@@ -1885,7 +2237,15 @@
       "운항 관리 협의"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "지상 이동"
+    ],
+    "tod": [
+      "00~06시"
+    ],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "1987625",
@@ -1937,7 +2297,19 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "이륙"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1986835",
@@ -1983,7 +2355,13 @@
     "caught_layers": [],
     "caught_by": [],
     "caught_label": "뚫린 뒤 받아낸 방어 없음",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "주기 중"
+    ],
+    "tod": [],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "1986757",
@@ -2024,7 +2402,15 @@
       "승무원 교차 확인"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지",
-    "first_detector_kind": null
+    "first_detector_kind": null,
+    "phase": [
+      "최종 접근"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [],
+    "fcond": []
   },
   {
     "acn": "1982755",
@@ -2084,7 +2470,20 @@
       "비상 절차 수행"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "상승",
+      "하강"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1979603",
@@ -2141,7 +2540,19 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "하강",
+      "최종 접근",
+      "초기 접근"
+    ],
+    "tod": [],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1971073",
@@ -2197,7 +2608,19 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구·탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "순항"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1966915",
@@ -2255,7 +2678,17 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "착륙"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": []
   },
   {
     "acn": "1966482",
@@ -2308,7 +2741,19 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 예방·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "착륙"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1966378",
@@ -2358,7 +2803,19 @@
       "정비 조치·수리"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "착륙"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1964588",
@@ -2408,7 +2865,20 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "상승",
+      "이륙"
+    ],
+    "tod": [
+      "06~12시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1963777",
@@ -2466,7 +2936,19 @@
       "운항 중단 판단"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구·예방·해소",
-    "first_detector_kind": "사람"
+    "first_detector_kind": "사람",
+    "phase": [
+      "지상 이동"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1960091",
@@ -2529,7 +3011,19 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구·예방·탐지",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "상승"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "야간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1958425",
@@ -2599,7 +3093,19 @@
       "항공기 경고 장치"
     ],
     "caught_label": "뚫린 뒤 받아냄: 복구·예방·탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "12~18시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": [
+      "시계 비행 기상"
+    ]
   },
   {
     "acn": "1934551",
@@ -2647,6 +3153,16 @@
       "승무원 수동 개입"
     ],
     "caught_label": "뚫린 뒤 받아냄: 탐지·해소",
-    "first_detector_kind": "사람과 장치 동시"
+    "first_detector_kind": "사람과 장치 동시",
+    "phase": [
+      "초기 접근"
+    ],
+    "tod": [
+      "18~24시"
+    ],
+    "light": [
+      "주간"
+    ],
+    "fcond": []
   }
 ]

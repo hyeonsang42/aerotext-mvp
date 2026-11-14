@@ -232,6 +232,13 @@
     ],
     "Make Model Name": [
       "B767 Undifferentiated or Other Model"
+    ],
+    "Local Time Of Day": [
+      "1801-2400"
+    ],
+    "Light": [],
+    "Flight Conditions": [
+      "VMC"
     ]
   },
   "meta": {
