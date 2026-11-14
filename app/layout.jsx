@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
             <p className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-3 gap-y-0.5 px-6 py-2 text-[12px] leading-relaxed">
               <span className="text-amber-200/85">참고 자료 · 사람의 재확인 필요</span>
               <span className="text-white/20" aria-hidden="true">|</span>
-              <span className="text-white/60">추출 방식 · 국제기구 기준표 대조 (학습 아님)</span>
+              <span className="text-white/60">추출 방식 · 국제기구 기준표의 정해진 값 목록과 대조</span>
               <span className="text-white/20" aria-hidden="true">|</span>
               <span className="text-white/60">모든 값 · 근거 원문 표시</span>
             </p>
